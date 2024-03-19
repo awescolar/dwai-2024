@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms 2</title>
+</head>
+<body>
+    <h2>Lista de inscritos</h2>
+    <p>Curso de Frontend Ninja</p>
+    <hr>
+    <table border="1" align="center" width="100%" cellspacing="3">
+        <thead>
+            <style cellpading="3">
+                .img{ height: 55px;
+                      width: 55px;  
+                }
+            </style>
+            <tr>
+                <td align="center" colspan="4" >
+                    <img src="html5.png"  class="img" alt="HTML5"  >
+                </td>
+            </tr>
+            <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Nascimento</th>
+                <th>Status inscrição</th>
+            </tr>
+            <tr>
+                <td>Bill Gates</td>
+                <td>bill@msn.com</td>
+                <td>28/10/1955</td>
+                <td>Deferido</td>
+            </tr>
+            <tr>
+                <td>Steve Jobs</td>
+                <td>jobs@msn.com</td>
+                <td>24/02/1955</td>
+                <td>Deferido</td>
+            </tr>
+            <tr>
+                <td>larry Pages</td>
+                <td>larry@msn.com</td>
+                <td>24/03/1973</td>
+                <td>Deferido</td>
+            </tr>
+            <tr>
+                <td>Marck Zuckerberg</td>
+                <td>mark@msn.com</td>
+                <td>14/05/1984</td>
+                <td>Indeferido</td>
+            </tr>
+        </thead>
+    </table>
+    <h2>Faça seu cadastro</h2>
+    <hr>
+    <form>
+        <table>
+            <tr>
+             <td>
+                <label for="">Nome:</label>
+             </td>   
+             <td>
+                <input type="text" placeholder="Nome">
+             </td>
+             <tr><td></td></tr>
+             <td>
+                <label for="">E-mail</label>
+             </td>
+             <td>
+                <input type="text" placeholder="E-mail">
+             </td>
+            </tr>
+            <tr>
+                <td><label for="nascimento">Data de Nascimento:</label></td>
+                <td><input type="date" placeholder="dd/mm/aaaa"></td>
+            </tr>
+            <tr><td><br></td></tr>
+            <table>
+            <tr>
+                <button>Enviar</button>
+            </tr>
+         </table>
+         </table>
+    </form>
+</body>
+</html>
