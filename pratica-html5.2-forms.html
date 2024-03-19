@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+</head>
+<body>
+    <div class="img-profile">
+        <img src="./assets/img/profile.png" alt="imagem de perfil">
+        <h2>Dados pessoais</h2>
+    </div>
+
+    <table width="100%" border="1" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Curso</th>
+            <th>Universidade</th>
+        </tr>
+    </thead>
+       <tbody>
+        <tr>
+            <td>Clayton Rennan</td>
+            <td>17</td>
+            <td>Design UI/UX</td>
+            <td>UFRN</td>
+        </tr>
+       </tbody>
+    </table>
+
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Programar</li>
+        <li>Lutar Jiu-Jitsu</li>
+        <li>Correr</li>
+    </ul>
+
+    <hr>
+
+    <form>
+        <table>
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input type="text" id="nome" name="Nome" placeholder="Nome"></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="text" id="email" name="Email" placeholder="E-mail"></td>
+            </tr>
+            <tr>
+                <td><label for="mensagem">Mensagem</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea id="mensagem" name="Mensagem" placeholder="Deixe uma mensagem" cols="20" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Envie-me uma mensagem"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
