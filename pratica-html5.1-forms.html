@@ -4,26 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lidiazaõ</title>
 </head>
 <body>
-    <h2>Lista de inscritos</h2>
-    <p>Curso de Frontend Ninja</p>
+    <h2> Lista de Inscritos</h2>
+    <p> Curso de Frontend Ninja</p>
     <hr>
     <table border="1" align="center" width="100%">
         <thead>
             <tr>
                 <td align="center" colspan="4">
-                    <img src="imagens-att/sass.webp" alt="sass">
-                    <td>
-                        <tr>
-
-                        <th> Nome</th>
-                        <th> Email</th>
-                        <th> Nascimento</th>
-                        <th> Status Inscrição</th>
+                    <img src="imagens-att/css.webp" alt="css">
+                </td>
+            </tr>
+            <tr>
+                <th> Nome</th>
+                <th> Email</th>
+                <th> Nscimento</th>
+                <th> Status de Inscrição</th>
+            </tr>
+            <tr>
+                <td> Bill Gates</td>
+                <td> bill@msn.com</td>
+                <td> 28/10/1955</td>
+                <td> Deferido</td>
+            </tr>
+            <tr>
+                <td> Steve jobs</td>
+                <td> jobs@apple.com</td>
+                <td> 24/02/1955</td>
+                <td> Deferido</td>
+            </tr>
+            <tr>
+                <td> Larry Page</td>
+                <td> larry@google.com</td>
+                <td> 24/03/1973</td>
+                <td> Deferido</td>
+            </tr>
+            <tr>
+                <td> Mark Zuckerberg</td>
+                <td> mark@facebook.com</td>
+                <td> 14/03/1973</td>
+                <td> indeferido</td>
+            </tr>
+        </thead>
+    </table>
+    <h2> Faça seu Cadastro</h2>
+    <hr>
+        <form>
+                <table>
+                    <tr>
+                        <td><label for="nome"> Nome:</label></td>
+                        <td colspan=""><input type="text" placeholder="Nome"></td>
                     </tr>
-                    </td>
-                    
+                    <tr><td><br></td></tr>
+                    <tr>
+                        <td><label for="email"> E-mail:</label></td>
+                        <td><input type="text" placeholder="E-mail"></td>
+                    </tr>
+                    <tr><td><br></td></tr>
+                    <tr>
+                        <td><label for="nascimento"> Data de <br> Nascimento:</label></td>
+                        <td><input type="date" placeholder="dd/mm/aaaa"></td>
+                    </tr>
+                    <tr><td><br></td></tr>
+                </table>
+            <button> Enviar</button>
+        </form>
 </body>
 </html>
