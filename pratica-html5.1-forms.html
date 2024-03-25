@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<style>
+    table {
+      width: 100%;
+      border: 2px solid black;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+        border: 1px solid;
+      background-color: white;
+    }
+    img{
+        width: 100%;
+    }
+    td{
+        border: 1px solid ;
+    }
+  </style>
+</head>
+<body>
+    <h1>Lista de Cadastro</h1>
+    <h4>Curso de Frontend Ninja</h4>
+    <table>
+        <thead>
+        <th colspan="4">
+        <img src="1677675601354.png" alt="Ícone de status" style="width: 100px; height: 100px;">
+        </th>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Data de Nascimento</th>
+            <th>Status do Cadastro</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Vin Diesel</td>
+            <td>vindiesel@example.com</td>
+            <td>01/012/1985</td>
+            <td>Aguardando aprovação</td>
+          </tr>
+          <tr>
+            <td>Clara</td>
+            <td>clara@example.com</td>
+            <td>30/09/2007</td>
+            <td>Cadastrado</td>
+          </tr>
+          <tr>
+            <td>Brad Pitt</td>
+            <td>bradpitt@example.com</td>
+            <td>15/05/1990</td>
+            <td>Cadastrado</td>
+          </tr>
+          <tr>
+            <td>Angelina Jolie</td>
+            <td>angelinajolie@example.com</td>
+            <td>17/06/1992</td>
+            <td>Cadastrado</td>
+          </tr>
+
+        </tbody>
+      </table>
+  <h1>Faça seu cadastro</h1>
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="data_nascimento">Data de Nascimento:</label>
+    <input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
+
+    <input type="submit" value="Cadastrar">
+  </form>
+</body>
+</html>
