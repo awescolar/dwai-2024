@@ -1,15 +1,9 @@
-div a {
-    padding-left: 10px;
-    padding-right: 10px;
-    color: red
-}
-
 div h1, h2 {
     color:  green;
     padding-bottom: 10px; 
     border-bottom: 1px solid green;
 }
 
-ul li {
-    padding-bottom: px;
+div a {
+    color:red;
 }
