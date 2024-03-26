@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seu Título Aqui</title>
+<meta name="description" content="Descrição da sua página">
+<style>
+  h3 {
+    text-align: left;
+  }
+  
+  img {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  th {
+    background-color: white;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="submit"] {
+    padding: 10px 20px;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  .dados-pessoais {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .hobbies {
+    list-style-type: disc; 
+    margin-left: 20px; 
+  }
+</style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        
+          <img src="vista-da-mulher-3d_23-2150709984.jpg" alt="Ícone de status" style="width: 300px; height: 300px;">
+        
+      </tr>
+      <div class="dados-pessoais">
+      <h3 style="margin-top: 20px;">Dados Pessoais</h3>
+      </div>
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Curso</th>
+        <th>Universidade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Adina Lourrane</td>
+        <td>17</td>
+        <td>Informática para internet</td>
+        <td>IFRN</td>
+      </tr>
+    </tbody>
+  </table>
+
+  
+
+  <h3>Hobbies</h3>
+  <ul class="hobbies">
+    <li>Programar</li>
+    <li>Jogar xadrez</li>
+    <li>Jogar basquete</li>
+  </ul>
+
+  <hr class="separador">
+
+  <h3>Contato</h3>
+  <form action="submit_form.php" method="POST">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea>
+
+    <input type="submit" value="Enviar mensagem">
+  </form>
+</body>
+</html>
+
