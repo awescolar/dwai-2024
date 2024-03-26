@@ -1,0 +1,25 @@
+h2 {
+    color: #AAAAAA
+}
+
+p {
+    background-color:#616db3;
+    color: white;
+    padding: 10px;
+}
+div a {
+    color: #616db3;
+}
+
+section div {
+    width: 300px;
+    
+    border: 1px solid #616db3;
+    
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    
+    margin: 20px
+}
