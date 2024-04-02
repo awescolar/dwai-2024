@@ -1,58 +1,45 @@
 body{
     text-align: center;
 }
-
 section{
     background: #fece31;
     padding: 100px;
 }
-
 section small{
     display: block;
 }
-
 section h1{
     color: white;
     font-size: 34px;
     font-weight: 400;
 }
-
 section em{
     width: 300px;
     display: inline-block;
 }
-
 ul{
     padding: 0;
     list-style: none;
 }
-
 ul li{
     display: inline-block;
     width: 32%;
 }
-
 ul li strong{
     font-size: 12px;
 }
-
 ul li h2{
     margin: 0;
 }
-
 ul li small{
     display: block;
 }
-
-
 ul .chrome figure{
     background: #d3152c;
 }
-
 ul .search figure{
     background: #386de5;
 }
-
 ul .maps figure{
     background: #14982d;
 }
