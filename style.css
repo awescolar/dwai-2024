@@ -23,7 +23,7 @@ ul{
 }
 ul li{
     display: inline-block;
-    width: 32%;
+    width: 33%;
 }
 ul li strong{
     font-size: 12px;
@@ -33,6 +33,10 @@ ul li h2{
 }
 ul li small{
     display: block;
+}
+
+ul li figure{
+    padding: 20px;
 }
 ul .chrome figure{
     background: #d3152c;
