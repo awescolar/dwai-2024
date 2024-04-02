@@ -1,107 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
 }
 
-
-body{
+body {
     background-color: #e7e7e7;
 }
 
-section{
-    width: 100%;
+section {
     height: 50%;
-    align-items: center;
-    justify-content: center;
     background-color: #fece31;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 48px;
 }
 
-p{
-    max-width: 400px;
+p {
     text-align: center;
     padding: 8px;
-    color: rgb(98, 98, 98);
+    color: #626262;
     font-weight: 300;
 }
 
-h1{
+section p{
+    max-width: 400px;
+}
+
+h1 {
     font-weight: 200;
-    color: white;
+    color: #fff;
     font-size: 48px;
     padding: 8px;
+    text-align: center;
 }
 
-h3{
-    font-size: 32px;
-    font-weight: 100;
-}
-
-figcaption{
-    color: black;
-}
-
-button{
-    width: 100%;
-    background-color: transparent;
-    border: none;
-    padding: 24px;
-}
-
-ul{
+ul {
     padding: 0;
     list-style: none;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
-    width: 100%;
+    margin: 8px;
 }
 
-ul li{
-    display: inline-block;
+ul li {
     width: 32%;
     background-color: #fff;
     text-align: center;
 }
 
-ul li strong{
-    font-size: 12px;
-}
-
-ul li h2{
+ul li strong, ul li h2 {
     margin: 0;
 }
 
-ul li small{
-    display: block;
-}
 
 
-ul figure{
-    align-items: center;
+ul figure {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 24px;
 }
 
-ul .chrome figure{
-    background: #F70C2A;
-}
-
-ul .search figure{
-    background: #386de5;
-}
-
-ul .maps figure{
-    background: #14982d;
-}
-
-ul li a{
+ul li a {
     height: 48px;
     display: flex;
     align-items: center;
@@ -109,33 +73,10 @@ ul li a{
     text-decoration: none;
 }
 
-strong{
-    padding: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ul .chrome figure { background: #f70c2a; }
+ul .search figure { background: #386de5; }
+ul .maps figure { background: #14982d; }
 
-ul  .chrome h2, a {
-    color: #F70C2A;
-}
-
-ul .search h2, a {
-    color: #386de5;
-}
-
-ul .maps h2, a{
-    color: #14982d;
-}
-
-ul  .chrome a{
-    color: #F70C2A;
-}
-
-ul .search a {
-    color: #386de5;
-}
-
-ul .maps a{
-    color: #14982d;
-}
+ul .chrome h2, ul .chrome a { color: #f70c2a; }
+ul .search h2, ul .search a { color: #386de5; }
+ul .maps h2, ul .maps a { color: #14982d; }
