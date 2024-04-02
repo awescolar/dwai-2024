@@ -1,0 +1,22 @@
+body{
+
+    text-align: center;
+}
+
+section{
+
+    background-color: #fece31;
+    padding: 100px;
+}
+
+section>h1{
+
+    color: white;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+section>i{
+
+    padding: 0;
+}
