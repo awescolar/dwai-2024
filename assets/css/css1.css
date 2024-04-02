@@ -56,6 +56,9 @@ ul li {
 
 ul li strong, ul li h2 {
     margin: 0;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -82,3 +85,5 @@ ul .maps figure { background: #14982d; }
 ul .chrome h2, ul .chrome a { color: #f70c2a; }
 ul .search h2, ul .search a { color: #386de5; }
 ul .maps h2, ul .maps a { color: #14982d; }
+
+
