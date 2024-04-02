@@ -49,6 +49,8 @@ div{
     height: 50%;
     padding: 24px;
     gap: 24px;
+    align-items: center;
+    justify-content: center;
 }
 
 div a{
@@ -64,7 +66,7 @@ div a{
 
 div figure img {
     width: 100%;
-    padding: 48px;
+    padding: 68px;
     background: #1c1c1c;
 }
 
@@ -80,3 +82,6 @@ button{
     padding: 24px;
 }
 
+div figure{
+    width: 100%;
+}
