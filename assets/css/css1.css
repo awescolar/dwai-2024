@@ -43,34 +43,6 @@ h3{
     font-weight: 100;
 }
 
-div{
-    display: inline-flex;
-    width: 100%;
-    height: 50%;
-    padding: 24px;
-    gap: 24px;
-    align-items: center;
-    justify-content: center;
-}
-
-div a{
-    background-color: #fff;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    text-decoration: none;
-}
-
-
-div figure img {
-    width: 100%;
-    padding: 68px;
-    background: #1c1c1c;
-}
-
-
 figcaption{
     color: black;
 }
@@ -82,6 +54,88 @@ button{
     padding: 24px;
 }
 
-div figure{
+ul{
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
     width: 100%;
+}
+
+ul li{
+    display: inline-block;
+    width: 32%;
+    background-color: #fff;
+    text-align: center;
+}
+
+ul li strong{
+    font-size: 12px;
+}
+
+ul li h2{
+    margin: 0;
+}
+
+ul li small{
+    display: block;
+}
+
+
+ul figure{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+ul .chrome figure{
+    background: #F70C2A;
+}
+
+ul .search figure{
+    background: #386de5;
+}
+
+ul .maps figure{
+    background: #14982d;
+}
+
+ul li a{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+strong{
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul  .chrome h2, a {
+    color: #F70C2A;
+}
+
+ul .search h2, a {
+    color: #386de5;
+}
+
+ul .maps h2, a{
+    color: #14982d;
+}
+
+ul  .chrome a{
+    color: #F70C2A;
+}
+
+ul .search a {
+    color: #386de5;
+}
+
+ul .maps a{
+    color: #14982d;
 }
