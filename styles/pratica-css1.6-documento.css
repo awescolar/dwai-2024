@@ -1,3 +1,136 @@
-header {
-    background-color:#fece31;
+body {
+    background-color: lightgray;
 }
+
+div {
+    background-color: #FFCD04;
+    text-align:center;
+
+    padding: 100px;
+}
+
+div figure{
+    display:inline-block;
+    width: 400px;
+}
+
+div figure figcaption{
+    
+}
+
+section {
+    text-align: center;
+}
+
+section figure {
+    background-color: white;
+    display:inline-block;
+    
+    text-align:center;
+    vertical-align:top;
+
+    width:300px;  
+
+}
+
+section figure img{
+    vertical-align:center;
+    width:200px;
+
+    padding:50px;
+}
+
+section figure p{
+    font-size: 15px;
+    padding: 20px;
+}
+
+section figure h3 {
+    font-size:40px;
+    margin: 0px;
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+  }
+
+section figure p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: thin;
+
+    color: #4f565e;
+}
+
+section figure #chrome{
+    background-color: #F70C2A;
+
+}
+section figure #search{
+    background-color: #006FEC;
+
+}
+section figure #maps{
+    background-color: #00991A;
+
+}
+
+section figure #header-chrome{
+    color: #F70C2A;
+
+}
+section figure #header-search{
+    color: #006FEC;
+
+}
+section figure #header-maps{
+    color: #00991A;
+
+}
+
+
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+figcaption {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
