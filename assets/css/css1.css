@@ -59,6 +59,7 @@ ul li strong, ul li h2 {
     padding: 8px;
     display: flex;
     justify-content: center;
+    font-weight: 400;
 }
 
 
@@ -76,6 +77,7 @@ ul li a {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    font-weight: 600;
 }
 
 ul .chrome figure { background: #f70c2a; }
