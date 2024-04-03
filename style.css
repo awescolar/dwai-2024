@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    font-family: "ubuntu";
+}
+
+section {
+    background: #fece31;
+    padding: 100px;
+}
+
+section small {
+    margin-top: 8px;
+    display: block;
+    color: rgb(32,30,30);
+}
+
+section h1 { 
+    color: white;
+    font-size: 34px;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+section em {
+    width: 300px;
+    display: inline-block;
+    color: rgb(64, 61, 61);
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+div {
+    width: 60%;
+    display: inline-block;
+}
+
+ul li {
+    width: 32%;
+    background-color: #fff;
+    text-align: center;
+}
+
+ul li h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin: 5px;
+}
+
+ul figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+ul li a {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+ul .Chrome figure { background: #f70c2a; }
+ul .Search figure { background: #386de5; }
+ul .Maps figure   { background: #14982d; } 
+
+ul .Chrome h2, ul .Chrome a { color: #f70c2a; }
+ul .Search h2, ul .Search a { color: #386de5; }
+ul .Maps h2, ul .Maps a { color: #14982d; }
