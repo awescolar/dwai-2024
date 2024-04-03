@@ -1,0 +1,96 @@
+body{
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+section{
+    background: #fece31;
+    padding: 100px;
+}
+
+section small{
+    display: block;
+    padding: 8px;
+    align:center;
+}
+
+section h1{
+    color: white;
+    font-size: 34px;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+section em{
+    width: 360px;
+    display: inline-block;
+    max-width: 300p;
+    padding: 8px;
+    color: #323232;
+    font-weight: 300;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li small{
+    text-align: center;
+    padding: 8px;
+    color: #626262;
+    font-weight: 300;
+    width: 360px;
+    display: inline;
+    max-width: 500;
+    
+}
+div{
+    width: 360px;
+    display: inline-flex;
+    max-width: 60%;
+    text-align: center;
+}
+ul li {
+    width: 32%;
+    background-color: #fff;
+    text-align: center;
+    list-style-type: none;
+}
+
+ ul li h2 {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin: 0px;
+}
+
+
+
+ul figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+ul li a {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+ul .chrome figure { background: #f70c2a; }
+ul .search figure { background: #386de5; }
+ul .maps figure { background: #14982d; }
+
+ul .chrome h2, ul .chrome a { color: #f70c2a; }
+ul .search h2, ul .search a { color: #386de5; }
+ul .maps h2, ul .maps a { color: #14982d; }
+
