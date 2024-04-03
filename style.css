@@ -52,6 +52,7 @@ ul li{
     width: 32%;
     background-color: #fff;
     text-align: center;
+    border-radius: 20px;
 }
 
 ul li strong, ul li h2{
@@ -69,6 +70,7 @@ ul figure{
     justify-content: center;
     align-items: center;
     padding: 24px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 ul li a{
