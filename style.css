@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    background-color: rgb(222, 218, 218);
+    box-sizing: border-box;
+    margin: 0;
+}
+
+section{
+    background: #fece31;
+    padding: 100px;
+    margin-bottom: 20px;
+}
+ 
+section small{
+    display: block;
+    font-family: 'Ubuntu';
+}
+
+section h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 10px 0px 10px 0px;
+}
+
+section em{
+    width: 300px;
+    display: inline-block;
+}
+
+ul{
+    background: rgb(234, 233, 233);
+    padding: 0;
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 20spx;
+    margin-right: 1%;
+    background: #fff;
+
+}
+
+ul li a{
+    display: inline-block;
+    padding: 45px 6px;
+    width: 50%;
+}
+
+ul li strong{
+    font-size: 13px;
+}
+
+ul li h2{
+    margin: 0;
+    font-weight: 200;
+}
+
+ul li small{
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Ubuntu';
+}
+
+ul .chrome figure{
+    background: #d3152c;
+}
+
+ul .search figure{
+    background: #386de5;
+}
+
+ul .maps figure{
+    background: #14982d;
+}
+
+ul li.chrome h2{
+    color: #d3152c;
+    font-family: 'Ubuntu';
+    font-weight: 200;
+}
+
+ul li.search h2{
+    color: #386de5;
+    font-family: 'Ubuntu';
+    font-weight: 200;
+}
+
+ul li.maps h2{
+    color: #14982d;
+    font-family: 'Ubuntu';
+    font-weight: 200;
+}
+
+ul li.search a{
+    color: #386de5;
+}
+
+ul li.maps a{
+    color: #14982d;
+}
