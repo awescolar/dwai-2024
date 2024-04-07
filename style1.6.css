@@ -1,0 +1,65 @@
+body{
+    font-family: ubuntu;
+    text-align: center;
+    background-color: #e7e7e7;
+}
+section{
+    background-color: #fece31;
+    padding:100px;
+}
+h1{
+    color: white;
+    font-size: 34px;
+    font-weight: 300;
+}
+section em{
+    width: 300px;
+    display: inline-block;
+}
+div{
+    display: inline-block;
+    width: 32%;
+    background-color: #FFFFFF;
+    margin: 10px 5px;
+}
+h2{
+    margin: 0;
+    font-weight: 300;
+}
+.chrome h2{
+    color: #d3152c;
+}
+.search h2{
+    color: #0173ef;
+}
+.maps h2{
+    color:#00991a;
+}
+div strong{
+    font-size: 14px;
+}
+.chrome figure{
+    background-color: #f70c2a;
+    padding: 10px;
+}
+.search figure{
+    background-color: #0173ef;
+    padding: 10px;
+}
+.maps figure{
+    background-color: #00991a;
+    padding: 10px;
+}
+.chrome a{
+    color: #d3152c;
+    font-weight: 600;
+}
+.search a{
+    color:#0173ef;
+    font-weight: 600;
+}
+.maps a{
+    color: #00991a;
+    font-weight:600;
+}
+
