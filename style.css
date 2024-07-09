@@ -1,0 +1,70 @@
+body{
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    background-color: #EEE;
+}
+
+section{
+    text-align: center;
+    padding: 100px;
+}
+
+div{
+    background-color: #fece31;
+    text-align: center;
+    padding: 40px;
+    font-size: 25px;
+
+}
+
+div h1{
+    color: white;
+    font-size: 43px;
+    font-weight: 100;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    width: 25%;
+    background-color: white;
+}
+
+div em {
+    display: inline-block;
+    width: 320px;
+    font-size: 15px;
+}
+div p {
+    font-size: 20px;
+}
+ul .google figure{
+    background-color: #d3152d;
+}
+
+ul .Search figure{
+    background-color: #386de5;
+}
+
+ul .Maps figure{
+    background-color: #14982d;
+}
+
+ul li small{
+    display: block;
+}
+
+.vermelho {
+    color: #d3152d
+}
+
+.verde{
+    color: #14982d
+}
+
+.azul{
+    color:#386de5
+}
+
