@@ -1,0 +1,52 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+section{
+    background-color: #fece31;
+    padding: 100px;
+}
+section small{
+    display: block;
+}
+section h1{
+    color: white;
+    font-size: 34px;
+    font-weight: 400;
+}
+section em{
+    width: 300px;
+    display: inline-block;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    width: 33%;
+}
+ul li strong{
+    font-size: 12px;
+}
+ul li h2{
+    margin: 0;
+}
+ul li figure{
+    padding: 20px;
+}
+ul .chrome figure{
+    background: #d3152c;
+}
+ul .search figure{
+    background: #386de5;
+}
+ul .maps figure{
+    background: #14982d;
+}
+ul small{
+    font-size: 12;
+    font-weight: 100;
+}
