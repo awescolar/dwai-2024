@@ -1,0 +1,39 @@
+body {
+    font-family: "inter", sans-serif;
+    background: rgb(255, 226, 226);
+}
+
+.card {
+    width: 350px;
+    height: 205px;
+    padding: 24px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.card .card-head {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.badge {
+    background-color: #E4ECF7;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #505780;
+    padding: 2px 8px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
+
+.badge-p {
+    background-color: #4C6FFF;
+    color: #fff;
+}
+
+p {
+    color: #425466;
+    margin-top: 24px;
+}
