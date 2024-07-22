@@ -4,9 +4,9 @@ body{
 }
 
 .card{
-    border-radius: 16px;
+    border-radius: 8px;
     width: 350px;
-    height: 205px;
+    height: 205x;
     padding: 24px;
     background: #FFFFFF;
 }
@@ -28,7 +28,7 @@ body{
     background: #e4ecf7;
     border-radius: 6px;
     font-size: 10px ;
-    font-weight:700;
+    font-weight:500;
     padding: 2px 8px;
     color: #505780;
     display: inline-block;
