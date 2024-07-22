@@ -1,0 +1,48 @@
+body{
+    font-family: "Inter", sans-serif;
+    background: #F5F5F5;
+}
+
+.card{
+    width:350px;
+    height:205px;
+    padding:24px;
+    background: #FFFF;
+    border-radius: 28px;
+}
+
+.card .card-head{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 10px;
+    background: white;
+}
+
+.card .card-label{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.badge{
+    color: #505780;
+    background: #E4ECf7;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;   
+    margin-right: 6px;
+}
+
+.badge-principal{
+    color: #FFFF;
+    background: #4C6FFF;
+}
+
+.P{
+    margin-bottom: 24px;
+    color: #425466;
+}
