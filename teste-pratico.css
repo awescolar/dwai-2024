@@ -1,0 +1,38 @@
+body{
+    font-family: "inter", sans-serif;
+    background-color: #dfdfdf;
+}
+.card{
+    width: 350px;
+    height: 205px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+}
+.card .card-head{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+.card-label{
+    margin-top: 5px;
+}
+.badge{
+    background: #e4ecf7;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #505050;
+    padding: 3px 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.badge-principal{
+    background-color: #4c6fff;
+    color: #ffffff;
+}
+p{
+    color: #425466;
+    margin-top:24px ;
+}
