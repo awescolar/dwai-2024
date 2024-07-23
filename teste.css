@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+   background: #DFDFDF;
+   font-family: "Inter", sans-serif;
+}
+
+
+h2{
+    margin-bottom: 0;
+}
+
+.minicards{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.card1{
+    background-color: #FFFFFF;
+    width:350px ;
+    border-radius: 10px;
+    margin: 0 auto ;
+    padding: 16px;
+}
+
+.badge1{
+    background: #E4ECF7;
+    width: 80px;
+    height: 30px;
+    opacity: 0px;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+
+}
+
+.badge2{
+    background: #4C6FFF;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    float: right;
+    text-align: center;
+    align-content: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.drives{
+    width: 48px ;
+    height: 48px ;
+    border-radius: 6px;
+    background-color: #E4ECF7;
+    align-content: center;
+    text-align: center;
+}
+
+.completo{
+    background-color: blue;
+    width: 70%;
+    height: 7px;
+    border-radius: 6px;
+}
+
+.incompleto{
+    background-color: #E4ECF7;
+    width: 100%;
+    height: 7px;
+    border-radius: 6px;
+}
+
+.max{
+
+
+    float:right;
+
+}
+
+.GBS{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mais{
+    float: right;
+}
+
+.images{
+    width: 100%;
+}
+
+.drive{
+    width: 24px;
+    height: 20px;
+    display: inline-block;
+}
