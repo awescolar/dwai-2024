@@ -121,6 +121,7 @@ p{
 
 progress{
     width: 100%;
+    color: #4C6FFF;
 }
 
 
@@ -133,3 +134,4 @@ progress{
     height: 100vh;
  }
   
+
