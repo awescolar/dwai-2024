@@ -43,3 +43,45 @@ p {
     color: #425466;
     margin-top: 24px;
 }
+
+.card2 {
+    background: #FFFFFF;
+    border-radius: 16px;
+    font-family: 'Inter', sans-serif;
+    width: 350px;
+    height: 189px;
+}
+
+.drive {
+    margin: 24px 278px 117px 24px;
+}
+
+.card2 .name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card2 .progresso .space {
+    color: #84859E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 36px;
+}
+
+.card2 .progresso .space .limit {
+    margin-right: 212px; 
+}
+
+.card2 .progresso .progress-bar {
+    color: #E4ECF7;
+    width: 305px;
+    height: 8px;
+    display: inline-block;
+}
+
+.more-info {
+    display: inline-block;
+    margin-left: 250px; 
+}
+
