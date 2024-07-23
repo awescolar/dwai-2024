@@ -1,0 +1,54 @@
+body{
+    font-family: "inter", sans-serif;
+    background: #7aa0a7;
+}
+
+.card{
+    width: 350px;
+    height: 205px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.card-head{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.badge{
+    background: #e4ecf7;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #505780;
+    padding: 2px 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.badge-principal {
+    background-color: #4c6fff;
+    color: #ffffff;
+}
+p{
+    color: #425466;
+    margin-top: 24px;
+}
+.info{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    font-size: 16px;
+}
+.imagem{
+    display: flex;
+    justify-content: space-between;
+}
+.progresso {
+    width: 100%;
+}
