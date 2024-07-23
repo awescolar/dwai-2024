@@ -40,3 +40,25 @@ p {
     color: #425466;
     margin-top: 24px;
 }
+.drive{
+    background-color: #E4ECF7;
+    height: 48px;
+    width: 48px;
+    border-radius: 10px;
+}
+img{
+    padding: 10px;
+
+}
+.head-card{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 18px;
+}
+.info{
+    margin-top: 40px;
+
+}
+.gb-2{
+    margin:
+}
