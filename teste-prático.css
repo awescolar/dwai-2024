@@ -12,26 +12,24 @@ body{
 }
 
 .card .card-head{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    margin-top: 8px;
+    margin-top: 15px;
 }
 
-.card .card-label{
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 16px;
+.card-label{
+    margin-top: 5px;
 }
 
 .badge{
     background: #e4ecf7;
     border-radius: 6px;
-    font-size: 10px ;
-    font-weight:700;
-    padding: 2px 8px;
+    font-weight:500;
+    padding: 3px 8px;
     color: #505780;
     display: inline-block;
     text-decoration: none;
+    margin-top: 5px ;
 }
 
 .badge-principal{
@@ -43,3 +41,28 @@ p{
     color: #425466;
     margin-top: 24px ;
 }
+
+.progress-bar{
+    width: 305px;
+    height: 8px;
+    background: #E4ECF7 ;
+    border-radius: 20px;
+}
+
+.progress{
+    width: 240.169px;
+    height: 8px;
+    background: #4C6FFF;
+    border-radius: 20px;
+}
+
+span.ponto{
+    width: 4px;
+    height: 4px;
+    background: #425466;
+    border-radius: 50% ;
+    display: inline-block;
+}
+ .config{
+     
+ }
