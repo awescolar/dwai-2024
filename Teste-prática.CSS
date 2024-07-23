@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F5F5F5;
+    margin: 0;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.titulo { 
+    font-size: 1.3em;
+    margin: 0 0 10px;
+}
+
+.subtitulo {
+    color: #425466;
+    margin: 0 0 10px;
+}
+
+.badges {
+    margin: 10px 0;
+}
+
+.badge1 {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    margin-right: 5px;
+}
+
+.badge2 {
+
+    
+}
