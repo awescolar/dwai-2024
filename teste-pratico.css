@@ -3,16 +3,23 @@ body{
     background: #f5f5f5;
 }
 .card{
+    border-radius: 16px;
     width: 350px;
     height: 205px;
     padding: 24px;
     background: #ffffff;
+}
+.card2{
+    width: 350px;
+    height: 189px;
+    border-radius: 16px;
 }
 .card .card-head{
     font-size: 16px;
     font-weight: bold;
     margin-top: 8px;
 }
+
 .card .card-label{
     font-size: 14px;
     font-weight: 400;
@@ -35,4 +42,29 @@ body{
 
 p{
     margin-top: 24px;
+}
+
+img.googledrive{
+    background-color: #E4ECF7;    
+    background-size: 48px;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+img.barra{
+    margin-left: 1PX;
+}
+.mais-informações{
+    padding-bottom: 55px;
+    padding-left: 238px;
+}
+
+.card-label.GB{
+    color: #84859E;
+    margin-bottom: 4px;
+    margin-top: 12px;
+
+}
+.card-label.GB.A{
+    padding-right: 211PX;;
 }
