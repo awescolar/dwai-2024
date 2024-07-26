@@ -68,6 +68,7 @@ h5{
     transform: rotate(90);
     flex-shrink: 0;
     justify-content: space-between;
+    padding: auto;
 }
 .progresso {
     width: 100%;
