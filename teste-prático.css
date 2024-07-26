@@ -25,11 +25,12 @@ body{
     background: #e4ecf7;
     border-radius: 6px;
     font-weight:500;
-    padding: 3px 8px;
+    padding: 2px 8px;
     color: #505780;
     display: inline-block;
     text-decoration: none;
-    margin-top: 5px ;
+    margin-top: 27px ;
+    font-size: 12px;
 }
 
 .badge-principal{
@@ -39,7 +40,8 @@ body{
  
 p{
     color: #425466;
-    margin-top: 24px ;
+    margin-top: 45px ;
+    font-size: 15px;
 }
 
 .progress-bar{
