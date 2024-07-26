@@ -64,5 +64,37 @@ span.ponto{
     display: inline-block;
 }
  .config{
-     
- }
+    margin-left: 310px;
+}
+ 
+.drive{
+    background: #E4ECF7;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 25%;
+    
+    
+}
+img{
+    padding: 10px;
+}
+
+.info {
+    color: #84859E;
+    margin-top: 60px ;
+    font-size: 14px;
+    margin-top: 58px;
+    margin-bottom: 10px;
+    
+}
+
+.Head-card {
+    font-size: 18px;
+    margin-top: 21px;
+}
+
+.GB{
+    display: inline-block;
+    margin-left: 200px;
+}
