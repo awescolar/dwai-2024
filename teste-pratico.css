@@ -36,3 +36,50 @@ p{
     color: #425466;
     margin-top:24px ;
 }
+.drive{
+    background-color: #E4ECF7;
+    height: 48px;
+    width: 48px;
+    border-radius: 10px;
+}
+img{
+    padding: 10px;
+}
+.Head-card{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 9px;
+}
+.info{
+    color: #84859E;
+    margin-top: 600px;
+    font-size: 14px;
+    margin-top: 58px;
+    margin-bottom: 10px;
+}
+.progresso-barra{
+    width: 100%;
+    height: 8px;
+    background: #E4ECF7;
+    border-radius: 5px;
+}
+.progresso-barra .progress{
+    width: 240.169px;
+    height: 8px;
+    background: #4C6FFF;
+    border-radius: 20px;
+}
+.config .ponto{
+        display: inline-block;
+        background-color: #425466;
+        height: 4px;
+        width: 4px;
+        border-radius: 10px; 
+}
+.config{
+    margin-left: 320px;
+    
+}
+.gb{
+    margin-left: 70%;
+}
