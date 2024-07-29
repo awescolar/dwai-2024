@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background: lightgrey;
+}
+h1{text-align: center;}
+.card{
+    display: table;
+    padding: 8px;
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.card figure{
+    margin: 0;
+    float: left;
+}
+.card figure img{
+    display: block;
+    margin: 0;
+    border-radius: 10px;
+    padding: 5px;
+}
