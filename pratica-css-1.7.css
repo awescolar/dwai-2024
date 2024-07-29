@@ -1,0 +1,47 @@
+@import url(https://fonts.google.com/specimen/Mulish);
+
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card{
+    display: table;
+    width: 30%;
+    margin-bottom: 30px;
+    float: left;
+    margin-right: 3%;
+}
+
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  
+}
+
+.card figure {
+    margin: 0;
+    float: left;
+}
+
+.card figure img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.conteudo img {
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
