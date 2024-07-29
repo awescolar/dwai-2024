@@ -1,30 +1,28 @@
 body{
-    font-family: "Ubuntu";
     text-align: center;
+    font-family: "Ubuntu";
 }
-
 section{
     background: #fece31;
     padding: 100px;
 }
-
 section small{
-    display: inline-block;
-    width: 300px;
-    padding: 8px;
+    margin-top: 8px;
+    display: block;
+    color: rgb(32, 30, 30);
 }
-
 section h1{
     color: white;
     font-size: 34px;
-    font-weight: 400;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 20px;
 }
-
 section em{
     width: 300px;
     display: inline-block;
+    color: rgb(64, 61, 61);
 }
-
 ul {
     padding: 0;
     list-style: none;
@@ -32,19 +30,21 @@ ul {
     justify-content: space-between;
     margin: 8px;
 }
-
+div{
+    width: 60%;
+    display: inline-block;
+}
 ul li {
     width: 32%;
     background-color: #fff;
     text-align: center;
 }
 
-ul li strong, ul li h2 {
-    margin: 0;
-    padding: 8px;
+ ul li h2 {
     display: flex;
     justify-content: center;
     font-weight: 400;
+    margin: 5px;
 }
 
 
@@ -63,6 +63,7 @@ ul li a {
     justify-content: center;
     text-decoration: none;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 ul .chrome figure { background: #f70c2a; }
