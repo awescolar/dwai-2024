@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/pratica-html4-tables.html"
+    "livePreview.defaultPreviewPath": "/pratica-html4-tables.html",
+    "liveServer.settings.port": 5501
 }
