@@ -1,0 +1,19 @@
+body{
+    font-family: "Roboto slab", sans-serif;
+}
+
+.card{
+    float: left;
+    display: table;
+    width: 30%;
+}
+
+.card figure{
+    margin: 0;
+    float: left;
+    margin-right: 5px;
+}
+
+.card p{
+    width: 350px;
+}

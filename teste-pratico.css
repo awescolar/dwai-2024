@@ -46,3 +46,35 @@ body{
     margin-bottom: 24px;
     color: #425466;
 }
+
+.drive{
+    display: block;
+    background: #E4ECF7;
+    border-radius: 13px; 
+    padding: 10px ;
+    width: 25px;
+    margin-bottom: 10px;
+}
+
+.processo-area{
+    background: #E4ECF7;
+    display: inline-block;
+    width: 35%;
+}
+
+.card-head{
+    margin-bottom: 17px
+}
+
+.info span{
+    color: #84859E;
+    margin-right: 1px;
+}
+
+.info span:last-child{
+    margin-left: 240px;
+}
+
+.card .span{
+    display: inline-block;
+}
