@@ -1,0 +1,18 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card{
+    display: table;
+    width: 30%;
+    float: left;
+}
+.card figure{
+    margin: 0;
+    float: left;
+    margin-right: 5px;
+}
+.card figure img{}
+.card p{
+ 
+    
+}
