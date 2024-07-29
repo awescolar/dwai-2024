@@ -1,39 +1,98 @@
 body {
     font-family: "inter", sans-serif;
-    background: rgb(255, 226, 226);
+    background-color: #DFDFDF;
 }
 
 .card {
-    width: 350px;
+    width: 325px;
     height: 205px;
     padding: 24px;
-    border-radius: 8px;
-    background: #fff;
+    background-color: white;
+    border-radius: 30px;
 }
 
 .card .card-head {
     font-size: 16px;
     font-weight: bold;
-    margin-top: 8px;
+    margin-top: 15px;
+}
+
+.card-label {
+    margin-top: 5px;
 }
 
 .badge {
-    background-color: #E4ECF7;
+    background: #E4ECF7;
     border-radius: 6px;
-    font-weight: 600;
+    font-weight: 500;
     color: #505780;
-    padding: 2px 8px;
+    padding: 3px 8px;
     display: inline-block;
     text-decoration: none;
-    border: none;
+    margin-top: 5px;
 }
 
 .badge-p {
     background-color: #4C6FFF;
-    color: #fff;
+    color: #ffffff;
+
 }
 
 p {
     color: #425466;
     margin-top: 24px;
+}
+
+.googledrive {
+    height: 48px;
+    width: 48px;
+    border-radius: 10px;
+}
+
+img {
+    padding: 0px;
+}
+
+.head-card {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.info {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #84859E;
+    font-size: 14px;
+}
+
+.espaço {
+    color: #84859E;
+    margin-left: 205px;
+}
+
+.progress-bar {
+    width: 305px;
+    height: 8px;
+    background: #E4ECF7;
+    border-radius: 20px;
+}
+
+.progress {
+    width: 240.169px;
+    height: 8px;
+    background: #4C6FFF;
+    border-radius: 20px;
+}
+
+.config .ponto {
+    display: inline-block;
+    background-color: #425466;
+    height: 6px;
+    width: 6px;
+    border-radius: 10px;
+}
+
+.config {
+    margin-left: 290px;
 }
