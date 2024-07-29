@@ -1,0 +1,20 @@
+.card {
+    display: flex;
+    width: 30%;
+    float: left;
+}
+
+P {
+    margin-right: 10px;
+}
+
+.card figure {
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+img {
+    height: 128px;
+}
