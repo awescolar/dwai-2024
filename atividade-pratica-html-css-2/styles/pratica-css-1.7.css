@@ -1,0 +1,12 @@
+.conteudo {
+    display: table;
+    width: 30%;
+    float: left;
+
+}
+
+.conteudo figure{
+    margin:0;
+    float: left;
+    margin-right: 5px;
+}
