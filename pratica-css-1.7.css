@@ -1,0 +1,15 @@
+.card{
+    display: inline-block;
+    width: 30%;
+
+}
+.card .left{
+    margin: 10px;
+    margin-top: 0;
+    float: left;
+}
+h1{
+    margin-bottom: 20PX;
+    font-size: 20px;
+    font-family: inter;
+}
