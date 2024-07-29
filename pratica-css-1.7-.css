@@ -1,0 +1,25 @@
+
+  .card {
+    float: left;
+    width: 30%; 
+    margin: 1%; 
+    box-sizing: border-box;
+    border: 1px solid #ddd; 
+    padding: 16px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+  }
+  
+
+  .card img {
+    border-radius: 4px; 
+    float: left;
+    padding-right: 16px;
+  }
+  
+ 
+  .card p {
+    margin: 0; 
+    padding-top: 8px; 
+    line-height: 1.4; 
+    color: #333; }
