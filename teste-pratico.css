@@ -1,20 +1,54 @@
-@import url(https://fonts.google.com/selection?query=inter);
-
-body {
-    background-color:rgb(199, 199, 199);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0%;
-    flex-direction: column;
-    gap: 20px;
+body{
+    font-family: "inter", sans-serif;
+    background: #7aa0a7;
 }
 
-.card {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    text-align: left;
-    padding: 3%;
-    width: 45%;
+.card{
+    width: 350px;
+    height: 205px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.card-head{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.badge{
+    background: #e4ecf7;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #505780;
+    padding: 2px 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.badge-principal {
+    background-color: #4c6fff;
+    color: #ffffff;
+}
+p{
+    color: #425466;
+    margin-top: 24px;
+}
+.info{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    font-size: 16px;
+}
+.imagem{
+    display: flex;
+    justify-content: space-between;
+}
+.progresso {
+    width: 100%;
 }
