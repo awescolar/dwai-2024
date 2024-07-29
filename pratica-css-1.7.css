@@ -1,0 +1,15 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+}
+
+.text{
+    float: left;
+    margin: 10px;
+    margin-top: 0;
+}
+
