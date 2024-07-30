@@ -1,25 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    font-family: "Inconsolata", monospace
+}
 h1{
-    font-family: ;
     color:#AAA;
     text-align: center;
 }
-    
 .card{
     border-bottom: 1px solid #AAA;
     margin-top: 10px;
 }
 .card figure{
-    margin: 0;
     float: left;
+    margin: 0;
     margin-right: 5px;
 }
-h3{
-    color: #21ABC7;
-
+.card figure img{
+    width: 100px;
 }
 
-.right{
-    background: #21ABC7;
-    float: right;
+.card .container-button{
+    text-align: right;
+    margin-bottom: 20px;
+}
 
+.card .container-button button{
+    background: #21ABC7;
+    padding: 10px;
+    color: #fff;
+    border: 0;
 }
