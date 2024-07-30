@@ -1,0 +1,21 @@
+body{
+    background-color: #eeeeee;
+    font-family: "inter", sans-serif;
+}
+h1{
+    text-align: center;
+    color: #AAAAAA;
+    font-size: 30px;
+    font-weight: 1;
+}
+.card{
+    background-color: white;
+    display: flex;
+    margin: 0;
+    float: left;
+}
+h2{
+    margin: 20px 0;
+}
+
+
