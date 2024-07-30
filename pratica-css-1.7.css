@@ -1,3 +1,23 @@
 body {
     font-family: "Nunito";
+    margin: 0;
+    padding: 0%;
+    border: none;
+}
+
+h1 {
+    margin-bottom: 35px;
+}
+
+.card {
+    display: table;
+    float: left;
+    width: 30%;
+    margin-bottom: 33px;
+}
+
+.card figure img {
+    float: left;
+    margin-right: 10px;
+    height: auto;
 }
