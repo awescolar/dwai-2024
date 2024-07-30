@@ -1,0 +1,33 @@
+body {
+    font-family: "Roboto";
+    font-weight: 300;
+    background-color: #AAAAAA
+}
+
+.card {
+    display: flex;
+    margin: 0;
+    width: 30%;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h2 {
+    float: left;
+}
+
+h3 {
+      
+}
+
+.card figure {
+    margin-left: 300px;
+    margin-right: 7px;
+}
+
+img {
+    height: 128px;
+}
