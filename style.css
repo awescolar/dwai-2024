@@ -1,132 +1,69 @@
-body{
+body {
     font-family: "Inter", sans-serif;
     background: #F5F5F5;
 }
-.card{
-    width: 350px;
-    height: 205px;
-    padding: 24px;
-    border-radius: 16px;
-    background: #ffffff;
-}
 
-
-
-
-
-
-
-
-.card .card-head{
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.card .card-label1{
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 16px;
-}
-
-
-
-.badge{
+.badge {
     padding: 2px 8px;
     color: #505780;
     background: #E4ECF7;
     border-radius: 6px;
-    display: inline-block;
+    display:inline-block;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 10px;
+    font-weight:700;
+    font-size:10px;
 }
-.badge-principal{
+
+.badge-principal {
     color: #FFFFFF;
     background: #4C6FFF;
 }
 
-
-
-
-
-
-
-
-.gray{
-    display: inline-block;
-    width: 305px;
-    height:10px ;
-    background: #E4ECF7;
-    border-radius: 16px;
-}
-
-
-
-
-
-
-
-
-.blue{
-    display: inline-block;
+.blue {
+    display:inline-block;
     width: 240.169px;
-    height: 8px ;
-    background:#4C6FFF ;
+    height:8px;
+    background: #4C6FFF;
     border-radius: 16px;
 }
 
-
-
-
-
-
-
-
-.gray, .blue{
-    position: absolute;
+.card {
+    width: 350px;
+    height:205px;
+    padding:24px;
+    border-radius: 16px;
+    background: #ffffff;
 }
 
-
-
-
-.info{
-    color: #84859E;
+.card .card-head {
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:10px;
 }
 
+.card .card-label1 {
+    font-size:14px;
+    font-weight:400;
+    margin-bottom: 16px;
+}
 
-
-
-
+.circle {
+    display:inline-block;
+    width: 5px;
+    height: 5px;
+    background: #425466;
+    border-radius:16px;
+}
 
 .drive {
-   
-    margin-bottom: 15px;
-   
+    margin-bottom:15px;
 }
 
-
 .drive img {
-    width: 40px;
+    width:40px;
     height: 40px;
     flex-shrink: 0;
 }
-
 
 .drive .image-container {
     width: 48px;
@@ -139,28 +76,30 @@ body{
     justify-content: center;
 }
 
-
-
-
-.info span:last-child {
-    margin-left: 195px;
-}
-
-
-.info{
-    margin-bottom: 13px;
-}
-
-.sla {
+.gray {
     display: inline-block;
-    width: 5px;
-    height: 5px;
-    background: #425466;
+    width:305px;
+    height:10px;
+    background: #E4ECF7;
     border-radius: 16px;
+}
+
+.gray, .blue {
+    position:absolute;
+}
+
+.info {
+    color: #84859E;
+    margin-bottom:13px;
+}
+
+.second {
+    margin-left:195px;
 }
 
 .pontos {
     margin-left: 300px;
     
 }
+
 

@@ -1,0 +1,22 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+.card{
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+    
+}
+
+
+.card img {
+    margin-right: 20px; 
+    float: left;  
+    
+}
+
+.p {
+    margin:0; 
+}
