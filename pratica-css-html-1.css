@@ -1,0 +1,25 @@
+h1{
+    font-family: ;
+    color:#AAA;
+    text-align: center;
+}
+    
+.card{
+    border-bottom: 1px solid #AAA;
+    margin-top: 10px;
+}
+.card figure{
+    margin: 0;
+    float: left;
+    margin-right: 5px;
+}
+h3{
+    color: #21ABC7;
+
+}
+
+.right{
+    background: #21ABC7;
+    float: right;
+
+}
