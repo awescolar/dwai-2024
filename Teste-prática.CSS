@@ -1,16 +1,16 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #F5F5F5;
+    background-color: #f0f2f5;
     margin: 0;
     flex-direction: column;
     gap: 20px;
 }
 
 .card {
-    background-color: #FFFFFF;
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -18,13 +18,13 @@ body{
     text-align: left;
 }
 
-.titulo { 
-    font-size: 1.3em;
+.titulo {
+    font-size: 1.5em;
     margin: 0 0 10px;
 }
 
 .subtitulo {
-    color: #425466;
+    color: #666;
     margin: 0 0 10px;
 }
 
@@ -32,7 +32,7 @@ body{
     margin: 10px 0;
 }
 
-.badge1 {
+.badge {
     display: inline-block;
     padding: 5px 10px;
     border-radius: 12px;
@@ -40,7 +40,57 @@ body{
     margin-right: 5px;
 }
 
-.badge2 {
+.badge.claro {
+    background-color: #e0e0e0;
+    color: #000;
+}
 
-    
+.badge.escuro {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.descricao {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.card-menu {
+    font-size: 1.5em;
+    color: #666;
+    cursor: pointer;
+}
+
+.armazenamento {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.progresso {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    height: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #007bff;
+    height: 100%;
+    border-radius: 4px;
 }
