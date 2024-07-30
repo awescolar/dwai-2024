@@ -1,0 +1,50 @@
+body{
+    font-family: "Inter", sans-serif;
+    background: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    padding: 24px;
+    background: white;
+    border-radius: 10px;
+}
+.card .cardhead{
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 16px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.badge{
+    background: #E4ECF7;
+    border-radius: 6px;
+    color: #505780;
+    padding: 2px 8px;
+    font-weight:700;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.badge2{
+    background: #645fff;
+    color: white;
+    border-radius: 6px;
+    padding: 2px 8px;
+    text-decoration: none;
+    font-weight:700;
+    margin-top: 20px;
+}
+
+p{
+    color:#425466;
+    margin-top: 15px;
+}
+
+
