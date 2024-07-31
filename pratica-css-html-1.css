@@ -1,0 +1,39 @@
+
+h1{
+    color:#AAA;
+    text-align: center;
+}
+.card{
+    border-bottom: 1px solid #aaa;
+    margin-top: 15px;
+}
+.card figure{
+    float: left;
+    margin: 0;
+    margin-right: 8px;
+}
+.card figure img{
+    width: 120px;
+}
+
+.card .container-button{
+    text-align: right;
+    margin-bottom: 25px;
+    color:#21ABC7
+    
+}
+
+.card .container-button button{
+    background: #21ABC7;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+}    
+
+h4{
+    color:#21ABC7
+}
+
+small{
+    color:#aaa
+}
