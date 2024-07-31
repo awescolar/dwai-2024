@@ -1,0 +1,21 @@
+body{
+    font-family: "inter, sans-serif";
+ }
+ .card{
+    border-bottom: 1px solid #aaa;
+ }
+ .card figure{
+    float: left;
+    margin: 0;
+ }
+ .card figure img{
+    width: 100px;
+ }
+ .card .container-buton{
+    text-align: right;
+ }
+ .card .container-buton button{
+    background: #000;
+    border: 0;
+ }
+ 
