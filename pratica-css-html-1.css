@@ -1,3 +1,13 @@
+body{
+    background: #e4e2e2;
+}
+.card{
+    background: #ffff;
+    padding: 50px 50px;
+    margin-top: 0;
+    margin-left: 300px;
+    margin-right: 300px;
+}
 hr{
     margin-top: 30px;
     border-color:#aaa;
@@ -31,7 +41,7 @@ hr{
 .card .right{
     margin-top: 0;
     font-family: inter;
-    line-height: 0.6;
+    line-height: 1;
 }
 small{
     font-size: 15px;
@@ -40,11 +50,13 @@ small{
 h3{
     font-size: 15px;
     font-weight: 500;
+    color: #21abc2;
 }
 h1{
     margin-left: 30%;
-    margin-bottom: 30PX;
-    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40PX;
+    font-size: 30px;
     font-family: inter;
     font-weight: 300;
 }
