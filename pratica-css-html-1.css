@@ -1,0 +1,63 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-weight: 400;
+    color: gray;
+}
+
+strong {
+    display: block;
+    font-weight: 500;
+    color: gray;
+}
+
+span {
+    color: #438fbb;
+}
+
+.card {
+    padding: 30px;
+    background: white;
+    border: 2px solid #f0f0f0;
+    width: 700px;
+    margin: 0 auto;
+    display: table;
+}
+
+.card figure {
+    float: left;
+    margin-right: 10px;
+}
+
+.btn {
+    text-align: right;
+}
+
+.btn a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #438fbb;
+    color: white;
+}
+
+.btn a:hover {
+    background: #255c7c;
+}
+
+.conteudo {
+    height: 130px;
+}
