@@ -1,16 +1,22 @@
-.card figure{
-    border-botton
-}
-
-.card{
-    border-bottom: 1px solid #AAA;
-}
-
-.card .container-buttom{
-    text-align: right;
-}
-.card .container-button button{
-    background: #000;
-    color: #fff;
-    border: 0;
-}
+body{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+  }
+  .card{
+      border-bottom: 1px solid #AAA;
+    }
+    .card figure{
+      float: left;
+      margin: 0;
+    }
+    .card figure img{
+      width: 100px;
+    }
+    
+    .card .container-button{
+      text-align: right;
+    }
+    .card .container-button button{
+      background: #000;
+      color: #fff;
+      border: 0;
+    }
