@@ -1,0 +1,37 @@
+body{
+    background-color: #AAAAAA;
+    font-family: "inter", sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(100, 99, 99);
+    font-weight: 2;
+}
+.conteudo{
+    background-color: #FFFF;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    display: flex;
+}
+figure{
+    float: left;
+}
+h2{
+    font-size: 20px;
+    font-weight: 1;
+    color: #AAAAAA;
+}
+h3{
+    color: #21ABC7;
+    font-weight: 1;
+}
+a{
+    margin-left: 83%;
+    border: 10px solid #21ABC7;
+    text-decoration: none;
+    background-color: #21ABC7;
+    color: #FFFF;
+}
