@@ -1,35 +1,47 @@
 body{
-    background-color: #AAAAAA;
+    background-color: #d1cfcf;
     font-family: "inter", sans-serif;
 }
 h1{
     text-align: center;
-    color: rgb(44, 44, 44);
+    color: rgb(117, 117, 117);
     font-weight: 1;
 }
 .bloco{
     background-color: #FFFF;
-    width: 60%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 .card{
     display: flex;
+    border-bottom: 1px solid #AAAAAA;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 figure{
     float: left;
+    margin-right: 0;
+    margin-top: 40px;
+    margin-left: 8px;
 }
 h2{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 1;
     color: #AAAAAA;
+    margin: 0;
 }
 h3{
-    color: #21ABC7;
-    font-weight: 1;
+    color: #21ABC7; 
+    margin: 8px 0;
+    font-size: 16px;
 }
-a{
-    margin-left: 83%;
+p{
+    margin-top: 0;
+}
+.button{
+    display: inline-block;
+    margin-left: 86%;
     border: 8px solid #21ABC7;
     text-decoration: none;
     background-color: #21ABC7;
@@ -38,7 +50,7 @@ a{
     font-weight: bold;
 }
 .conteudo{
-    border-bottom: 1px solid #AAAAAA;
     padding: 20px;
-    margin-right: 20px;
+    margin-top: 23px;
 }
+
