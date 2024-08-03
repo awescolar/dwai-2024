@@ -4,10 +4,10 @@ body{
 }
 h1{
     text-align: center;
-    color: rgb(100, 99, 99);
-    font-weight: 2;
+    color: rgb(44, 44, 44);
+    font-weight: 1;
 }
-.conteudo{
+.bloco{
     background-color: #FFFF;
     width: 60%;
     margin-left: auto;
@@ -30,8 +30,15 @@ h3{
 }
 a{
     margin-left: 83%;
-    border: 10px solid #21ABC7;
+    border: 8px solid #21ABC7;
     text-decoration: none;
     background-color: #21ABC7;
     color: #FFFF;
+    font-size: 15px;
+    font-weight: bold;
+}
+.conteudo{
+    border-bottom: 1px solid #AAAAAA;
+    padding: 20px;
+    margin-right: 20px;
 }
