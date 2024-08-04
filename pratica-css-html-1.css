@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    font-weight: 400;
+    color: gray;
+}
+small{
+    display: block;
+    font-weight: 500;
+    color: gray;
+}
+h3{
+    color: #438fbb;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background: #f0f0f0;
+}
+.card{
+    padding: 30px;
+    background: white;
+    border: 2px solid #f0f0f0;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.card figure{
+    float: left;
+    margin-right: 10px;
+}
+.botao{
+    text-align: right;
+}
+.botao button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #438fbb;
+    color: white;
+    border: none;
+}
+
+.direita{
+    height: 130px;
+}
