@@ -1,0 +1,46 @@
+body{
+    background: #e4e2e2;
+}
+.card1{
+    background: #ffff;
+    padding: 50px 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+h1{
+    text-align: center;
+    font-weight: 400;
+}
+.card figure{
+    float: left;
+    margin: 0;
+}
+.card{
+    border-bottom: 1px solid #aaa;
+}
+.card figure img{
+    width: 115px;
+}
+.card .container-button{
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.card .container-button button{
+    background: #21ABC7;
+    color: #fff;
+    border: 6px solid #21ABC7;
+}
+small{
+    color: #21ABC7;
+    margin-top: 0;
+    font-weight: bold;
+}
+.right p{
+    margin-top: 5px;
+}
+h4{
+    margin-bottom: 5px;
+    font-weight: 100;
+    color: #aaa;
+}
