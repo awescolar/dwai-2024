@@ -1,0 +1,24 @@
+body{
+    font-family: "Assistant", sans-serif;
+}
+h1{
+    text-align: center;
+}
+h3{
+    color: #21ABC7;
+}
+.card figure{
+    margin: 30px;
+    float: left;
+}
+.card figure img{
+    width: 40%;
+}
+.card container button{
+    text-align: right;
+}
+.card container-button button{
+    background: #21ABC7;
+    color: #fff;
+    border: 1;
+}
