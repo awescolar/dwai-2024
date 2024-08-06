@@ -1,0 +1,19 @@
+.card{
+   
+    display: table;
+    width: 30%;
+    float: left
+   ;
+}
+
+.card figure{
+
+    margin: 0;
+    float: left;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+p{
+    padding-left: 135px;
+}

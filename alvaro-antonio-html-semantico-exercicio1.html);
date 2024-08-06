@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site da Empresa</title>
+</head>
+<body>
+    <header>
+        <img src="download.png" alt="">
+        <h1>TonhoTech</h1>
+        <nav>
+            <ul>
+                <li><a href="">sobre</a></li>
+                <li><a href="">produtos</a></li>
+                <li><a href="">loja</a></li>
+                <li><a href="">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <article>
+                <h2>Sobre nossa empresa</h2>
+                <p>A TonhoTech company foi criada exatamente no dia 06/08/2024 por Álvaro Antônio, empresário bem-sucedido do ramo da informática; nossa empresa se compromete com serviços tecnológicos inovadores, com a missão de realizar mudanças inspiradoras nas nossos clientes, colaboradores e funcionários, trazendo a eles uma experiência extradiordinária e simplemente espetacular.</p>
+            </article>
+        </section>
+    </main>
+
+    <section>
+        <article id="serviços">
+            <h2>Serviços</h2>
+            <p>Oferecemos diversos serviços de TI que englobam desenvolvimento de software, consultoria, suporte e manutenção e infraestrutura de TI, com profissionais capacitados e bem treinados para o ramo, no qual temos compromisso com a produtividade, honestidade, competência e inovação, fornecendo produtos e serviçoes que criem um laço longo e duradouro com todos aqueles que acreditam no nosso trabalho.</p>
+            <p>Entre nossos produtos e serviços, ofertamos desenvolvimento web em diversas linguagens de programação (Python, PHP, HTML/CSS, Javascript, C#, C++, C e Ruby); consultoria para os indivíduos e empresas que quiserem se aperfeiçoar na área da informática, damos aulas sobre estratégias de TI, gestão de projetos e serviços de atendimento ao cliente; manutenção e suporte, onde seu computador/aparelho celular passa por uma revisão minuciosa, retirando qualquer tipo de problema que possa danificar seu aparelho, além disso instalamos softwares e pacotes atualizados para que você sempre esteja um passo a frente; e por último infraestrutura de TI, composta por segurança cibernética, protegendo dados sigilosos dos nossos clientes, redes de conectividade, garantindo confiabilidade e alto desempenho da conectação e servidores e armazenamento, que melhora seu desempenho e versatilidade. </p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Contato: Tonhotech@empresa.gmail.com</p>
+        <p>Siga-nos nas redes sociais:</p>
+        <ul>
+            <li><a href="https://instagram.com/TonhoTech">Instagram</a></li>
+            <li><a href="https://facebook.com/TonhoTech">Facebook</a></li>
+            <li><a href="https://twitter.com/TonhoTech">Twitter</a></li>
+        </ul>
+    </footer>
+ 
+</body>
+</html>
