@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div{
+    display: flex;
+    margin-right: 300px;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin-left: 60px;
+    list-style: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section p{
+    width: 50%;
+}
