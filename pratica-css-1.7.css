@@ -1,27 +1,54 @@
-* {
-    margin: 0;
+*{
+    box-sizing: border-box;
     padding: 0;
-    border: none;
-    font-family: "Roboto", sans-serif;
+    margin: 0;
 }
-
-h1 {
-    margin-bottom: 30px;
+h1{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    text-align: center;
+    padding: 30px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
 }
-
-.card {
+small{
+    display: block;
+    font-weight: 500;
+    color: gray;
+}
+h3{
+    color: #438fbb;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background: #f0f0f0;
+}
+.card{
+    padding: 30px;
+    background: white;
+    border: 2px solid #f0f0f0;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
     display: table;
+}
+.card figure{
     float: left;
-    width: 33%;
-    margin-bottom: 30px;
+    margin-right: 10px;
+}
+.botao{
+    text-align: right;
+}
+.botao button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #438fbb;
+    color: white;
+    border: none;
 }
 
-.card figure {
-    float: left;
-    margin-right: 15px;
-}
-
-.card figure img {
-    width: 100%;
-    height: auto;
+.direita{
+    height: 130px;
 }
