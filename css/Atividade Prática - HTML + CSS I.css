@@ -1,0 +1,98 @@
+<<<<<<< HEAD
+@import url(https://fonts.google.com/specimen/Mulish);
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(180, 180, 180);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3{
+    color: rgb(53, 139, 160);
+    margin: 0;
+}
+.card{
+    border-bottom: 3px solid #AAA;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.card figure{
+    float: left;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.card figure img{
+    width: 100px;
+    padding: 10px;
+}
+
+.card .botao{
+    text-align: right;
+  }
+
+  .card .botao button{
+    background: #21ABC7;
+    color: #fff;
+    border: 0;
+  }
+=======
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    font-weight: 400;
+    color: gray;
+}
+small{
+    display: block;
+    font-weight: 500;
+    color: gray;
+}
+h3{
+    color: #438fbb;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background: #f0f0f0;
+}
+.card{
+    padding: 30px;
+    background: white;
+    border: 2px solid #f0f0f0;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.card figure{
+    float: left;
+    margin-right: 10px;
+}
+.botao{
+    text-align: right;
+}
+.botao button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #438fbb;
+    color: white;
+    border: none;
+}
+
+.direita{
+    height: 130px;
+}
+>>>>>>> a09c2f4eaa2ee0cd9c42be69d69491332efea66b
