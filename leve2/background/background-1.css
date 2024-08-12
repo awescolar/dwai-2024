@@ -1,0 +1,16 @@
+section{
+    padding: 1px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.box1{
+    background-color: #c281ea;
+}
+.box2{
+    background-color: #EAC281;
+}
+
+.box3{
+    background-color: #81EAC2;
+}
