@@ -1,6 +1,3 @@
-img{
-    width: 80%;
-}
 .box1{
     background-color: #FFAEBC;
 }
@@ -9,4 +6,11 @@ img{
 }
 .box3{
     background-color: #B4F8C8;
+}
+.background-image{
+    background-color: #FBE7C6;
+    width: 890px;
+}
+img{
+    width: 800px;
 }
