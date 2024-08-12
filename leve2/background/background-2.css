@@ -1,0 +1,16 @@
+section {
+    width: 100%;
+    height: 33.33%;
+}
+
+.background-image .um {
+    background-color: blue;
+}
+
+.background-image .dois {
+    background-color: red;
+}
+
+.background-image .tres {
+    background-color: yellow;
+}
