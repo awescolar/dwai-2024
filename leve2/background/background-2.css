@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+.background-imagem {
+    background-image: url("https://conteudo.imguol.com.br/c/esporte/46/2019/12/04/neymar-comemora-gol-fazendo-gesto-de-silencio-1575508862463_v2_1x1.jpg");
+    width: 1000px;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
