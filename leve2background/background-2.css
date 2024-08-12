@@ -1,16 +1,11 @@
-section{
-    width: 150px;
-    height: 150px;
+section {
+    width: 50px;
+    height: 50px;
 }
 
-.background-image{
-    background: red;
-    align-items: center;
-    display: flex; 
-    justify-content: center; 
+.background-image {
+    background-image: url('imagens2/marco.jpg');
+    background-color: red;
+
 }
 
-img{
-    width: 100px
-    
-}
