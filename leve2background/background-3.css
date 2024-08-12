@@ -1,0 +1,18 @@
+section {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.combined-background{
+    background: red;
+    align-items: center;
+    display: flex; 
+    justify-content: center; 
+}
+
+img{
+    width: 100px
+
+}
