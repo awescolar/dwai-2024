@@ -1,0 +1,17 @@
+section {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.box1 {
+    background-color: blue;
+}
+
+.box2 {
+    background-color: red;
+}
+
+.box3 {
+    background-color: yellow;
+}
