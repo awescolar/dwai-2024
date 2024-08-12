@@ -1,0 +1,16 @@
+section{
+    height: 50px;
+    width: 50px;
+}
+
+.box1{
+    background: red
+}
+
+.box2{
+    background: blue;
+}
+
+.box3{
+    background: pink;
+}
