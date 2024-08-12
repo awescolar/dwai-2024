@@ -1,0 +1,17 @@
+.box1{
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.box2{
+    background-color: blueviolet;
+    height: 400px;
+    width: 400px;
+}
+.box3{
+    background-color: bisque;
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+}
