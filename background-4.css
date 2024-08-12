@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    margin: 10px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px; 
+}
+
+.bg-section-1 {
+    width: 100%;
+    height: 150px;
+    background-image: url('imagens-att/aki.webp');
+}
+
+.bg-section-2 {
+    width: 100%;
+    height: 200px;
+    background-image: url('imagens-att/angularjs.webp');
+}
+
+.bg-section-3 {
+    width: 100%;
+    height: 250px;
+    background-image: url('imagens-att/css.webp');
+}
+
+.bg-section-4 {
+    width: 100%;
+    height: 300px;
+    background-image: url('imagens-att/html.webp');
+}
+
+.bg-section-5 {
+    width: 80%;
+    height: 200px;
+    background-image: url('imagens-att/html.webp');
+}
+
+.bg-section-6 {
+    width: 80%;
+    height: 250px;
+    background-image: url('imagens-att/jquery.webp');
+}
+
+.bg-section-7 {
+    width: 60%;
+    height: 300px;
+    background-image: url('imagens-att/less.webp');
+}
+
+.bg-section-8 {
+    width: 60%;
+    height: 350px;
+    background-image: url('imagens-att/nodejs.webp');
+}
