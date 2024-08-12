@@ -1,0 +1,22 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(196, 188, 188);
+}
+
+.combined-background{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/15/Logotipo_IFET.svg);
+    background-color: gainsboro;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
