@@ -1,24 +1,25 @@
 body{
     font-family: Inter;
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 h1{
-    margin-bottom: 2%;
+    margin-bottom: 12px;
 }
 .card{
     display: flex;
     float: left;
-    width: 30%;
-    margin: 0%;
+    width: 420px;;
+    height: 200px;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 .card .figure{
-    margin:0%;
-    float: left;
-    margin-right: 10%
-}
-/*
-.card .figure .img{
-    float: left;
-    margin-right: 10%;
+    height: 128px;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
