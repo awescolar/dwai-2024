@@ -1,0 +1,16 @@
+section{
+    width: 100%;
+    height: 100px;
+   }
+ 
+ .box1{
+    background-color: black;
+ }
+
+ .box2{
+    background-color: blue;
+ }
+
+ .box3{
+    background-color: blanchedalmond;
+ }
