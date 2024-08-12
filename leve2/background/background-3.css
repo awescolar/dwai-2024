@@ -1,0 +1,6 @@
+.combined-background{
+    background: gray url(img/flor.jpg);
+    color: azure;
+    padding: 10px;
+    border-radius: 10px;
+}
