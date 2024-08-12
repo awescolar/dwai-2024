@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.combined-background{
+    background-color: blue;
+    width: 100%;
+    height: 50%;
+
+
+}
+
+.foto{
+    width: 100%;
+    height: 50%;
+}
