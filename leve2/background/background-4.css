@@ -1,0 +1,56 @@
+section{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section1 {
+    background-color: #fff;
+    height: 10vh;  
+}
+
+.section2 {
+    background-color: #37C1DB;
+    height: 20vh;  
+}
+
+.section3 {
+    background-color: #1073BB;
+    height: 30vh;  
+}
+
+.section4 {
+    background-color: #1E416F;
+    height: 40vh;  
+}
+
+.section5 {
+    background-color: #E44E25;
+    height: 50vh;  
+}
+
+.section6 {
+    background-color: #3558A8;
+    height: 60vh;  
+}
+
+.section7 {
+    background-color: #67A969;
+    height: 70vh;  
+}
+
+.section8 {
+    background-color: #8FC84E;
+    height: 80vh;  
+}
+
+.section9 {
+    background-color: #f8f8f8;
+    height: 90vh;  
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
