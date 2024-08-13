@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    align-items: center;
+}
+
+.combined-background{
+    background-color: red;
+    background-image: url(styles/google-drive-icons-free-png.png);
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 50vh;
+}
