@@ -1,0 +1,55 @@
+.image1 {
+    background-image: url(imagens/batman-de-ia.webp);
+    background-repeat: no-repeat;
+    height: 123px;
+    width: 10%;
+}
+
+.image2 {
+    background-image: url(imagens/deadpool.jpg);
+    background-repeat: no-repeat;
+    height: 87px;
+    width: 20%;
+}
+
+.image3 {
+    background-image: url(imagens/flash-de-brinquedo.jpg);
+    background-repeat: no-repeat;
+    height: 94px;
+    width: 30%;
+}
+
+.image4 {
+    background-image: url(imagens/homem-aranha.webp);
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 40%;
+} 
+
+.image5 {
+    background-image: url(imagens/homem-de-ferro.jpg);
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 50%;
+}
+
+.image6 {
+    background-image: url(imagens/mulher-maravilha.jpg);
+    background-repeat: no-repeat;
+    height: 432px;
+    width: 60%;
+}
+
+.image7 {
+    background-image: url(imagens/superman-de-brinquedo.jpg);
+    background-repeat: no-repeat;
+    height: 123px;
+    width: 70%;
+}
+
+.image8 {
+    background-image: url(imagens/hulk-de-brinquedo.jpg);
+    background-repeat: no-repeat;
+    height: 123px;
+    width: 80%;
+}
