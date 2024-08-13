@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    background-color: black;
+
+    height: 100vh;
+    justify-content: center;
+}
+.group{
+    display:flex;
+    align-items:center;
+    width:90%;
+    height:100px;
+    margin: 10px;
+
+}
+
+.group section {
+    background-repeat: no-repeat;
+    margin-left:20px;
+
+}
+
+.group #background-0{
+    background-image: url(img/bird-8785666_1280.jpg);
+    background-position-x: 60%;
+    background-position-y: 30%;
+    
+    width: 100%;
+    height: 100px;
+
+    border-top-left-radius: 10px;
+
+
+}
+.group #background-1{
+    background-image: url(img/basket-to-the-sea-8449952_1280.jpg);
+    background-size: 160%;
+    background-position-x: 100%;
+    background-position-y: 20%;
+
+    width: 100%;
+    height: 100px;
+
+    border-top-right-radius: 10px;
+}
+.group #background-2{
+    background-image: url(img/lake-8438063_1280.jpg);
+    background-position-x:40%;
+    background-position-y: 50%;
+    background-size: 100%;
+
+    width: 100%;
+    height: 100px;
+}
+.group #background-3{
+    background-image: url(img/mountains-8326967_1280.jpg);
+    background-position-x:20%;
+    background-position-y: 20%;
+    background-size:100%;
+    
+    width:100%;
+    height:100px;
+
+}
+.group #background-4{
+    background-image: url(img/seagull-8320687_1280.jpg);
+    background-position-x:20%;
+    background-position-y: 60%;
+    background-size: 100%;
+
+    width: 100%;
+    height: 100px;
+}
+.group #background-5{
+    background-image: url(img/waves-8585265_1280.jpg);
+    background-size: 130%;
+
+    width:100%;
+    height: 100px;
+
+}
+.group #background-6{
+    background-image: url(img/truck-8497705_1280.jpg);
+    background-size: 100%;
+    background-position-y: 80%;
+    
+    width:100%;
+    height: 100px;
+
+    border-bottom-left-radius: 10px;
+
+}
+.group #background-7{
+    background-image: url(img/penguin-8875750_1280.jpg);
+    background-size: 100%;
+    background-position-y: 40%;
+
+    width:100%;
+    height:100px;
+
+    border-bottom-right-radius:10px;
+
+}

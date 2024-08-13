@@ -1,0 +1,20 @@
+h1 {
+    color:red;
+}
+
+p {
+   color: blue;
+   border: 1px solid red;
+   margin: 20px;
+   padding: 10px; 
+}
+
+li {
+    color: rgb(64, 116, 66);
+}
+
+li p {
+    color: white;
+    background-color:red;
+    padding: 10px
+}

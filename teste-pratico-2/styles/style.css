@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    background-color: lightgray;
+}
+
+#inter-light-card {
+    color: var(--Text-Body-Light, #425466);
+    font-feature-settings: 'salt' on;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-top: -20px;
+}
+
+#inter-regular-card {
+    font-weight: 400;
+    font-variation-settings: "slnt" 0;
+}
+
+#inter-bold-card {
+    color: var(--Text-Heading-Dark, #27272E);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 136.023%;
+}
+
+.card {
+    margin: auto;
+    background-color: white;
+    width: 350px;
+    height: 205px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.card .top-icons{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#dots {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+
+}
+
+.card span{
+    margin-top:12px;
+}
+
+.badges {
+    display: flex;
+}
+
+.card .badges a {
+    display: flex;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 6px 12px;
+    margin-right: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+#badge1 {
+    background-color: #E4ECF7;
+    color: #505780;
+}
+
+#badge2 {
+    background-color: #4C6FFF;
+    color: white;
+}
+
+.progress-bar{
+    height: 4px;
+    width: 100%;
+    background-color: #E4ECF7;
+
+}
+
+.progress-inline{
+    width: 60%;
+    border: 2px solid #4C6FFF;
+    border-radius: 10px;
+
+}
+

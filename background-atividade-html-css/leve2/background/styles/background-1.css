@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.backgrounds{
+    width:100%
+}
+
+.backgrounds section{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.box1{
+    background-color:rgb(24, 85, 155);
+}
+
+.box2{
+    background-color:gold;
+}
+
+.box3{
+    background-color: forestgreen;
+}

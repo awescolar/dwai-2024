@@ -1,0 +1,9 @@
+div h1, h2 {
+    color:  green;
+    padding-bottom: 10px; 
+    border-bottom: 1px solid green;
+}
+
+div a {
+    color:red;
+}
