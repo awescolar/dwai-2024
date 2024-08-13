@@ -2,7 +2,7 @@ body{
     font-family: Roboto;
 }
 .background-image{
-    background-image: url(karate.webp);
+    background-image: url(imagens/karate.webp);
     color: white;
     background-repeat: no-repeat;
     padding: 1%;
