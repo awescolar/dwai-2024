@@ -1,0 +1,12 @@
+.background-image{
+    background-image: url(img/girl-8880144_1920.png);
+    width: 500px;
+    height: 500px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+section{
+    display: flex;
+    justify-content: center;
+
+}

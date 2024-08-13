@@ -1,6 +1,14 @@
+section > section{
+    width: 100px;
+    height: 100px;
+}
+
 .section1{
     background-image: url(img/water-2600008_1920.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
 }
 .section2{
     background-image: url(img/stars-8908843_1920.jpg);
@@ -9,18 +17,28 @@
 .section3{
     background-image: url(img/seeds-7869190_1920.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    
+
 }
 .section4{
     background-image: url(img/seagull-8320687_1920.jpg);
     background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    background-size: 200px;
 }
 .section5{
     background-image: url(img/seagull-5289474_1920.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .section6{
     background-image: url(img/penguin-8875750_1920.jpg);
     background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    background-size: 200px;
 }
 .section7{
     background-image: url(img/gull-4349143_1920.jpg);
