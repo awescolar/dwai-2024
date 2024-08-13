@@ -1,0 +1,30 @@
+section{
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.img1{
+    background-image: url("img/outono.jpg");
+}
+.img2{
+    background-image: url("img/ocean.jpg");
+}
+.img3{
+    background-image: url("img/nuvens.webp");
+}
+.img4{
+    background-image: url("img/horizonte.jpg");
+}
+.img5{
+    background-image: url("img/cachoeira.jpg");
+}
+.img6{
+    background-image: url("img/estrada.jpg");
+}
+.img7{
+    background-image: url("img/inverno.jpg");
+}
+.img8{
+    background-image: url("img/estrelas.jpg");
+}
