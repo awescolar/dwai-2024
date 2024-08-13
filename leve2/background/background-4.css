@@ -1,35 +1,177 @@
+h1{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 780px;
+    color: #ffff;
+}
+h2{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 860px;
+    color: #b7c3f3;
+}
+body{
+    display: block;
+    background-color: #051553
+}
 section{
-    
+    display: block;
 }
 .section1{
-    background-repeat: no-repeat;
-    background-image: url(imagem/aquarium-blue_1280.jpg);
+    border-radius: 10px;
+    background-color: #506ee5;
+    padding: 0;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
 }
+.section1 img{
+    height: 255x;
+    width: 255px;
+    background-image: url(imagem/aquarium-blue_1280.jpg);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .section2{
+    border-radius: 10px;
+    background-color: #506ee5;
+    padding: 0;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.section2 img{
     background-repeat: no-repeat;
     background-image: url(imagem/bird-blue_1280.jpg);
+    height: 165px;
+    width: 165px;
+    background-position: center;
+    margin-left: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 .section3{
-    background-repeat: no-repeat;
-    background-image: url(imagem/blue-berry_1280.jpg)
+    border-radius: 10px;
+    background-color: #506ee5;
+    padding: 0;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
 }
+.section3 img{
+    background-repeat: no-repeat;
+    background-image: url(imagem/blue-berry_1280.jpg);
+    height: 175px;
+    width: 175px;
+    background-position: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .section4{
+    border-radius: 10px;
+    background-color: #506ee5;
+    padding: 0;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.section4 img{
     background-repeat: no-repeat;
     background-image: url(imagem/blue-flower_1280.jpg);
+    height: 185px;
+    width: 185px;
+    background-position: center;
+    margin-left: 675px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 .section5{
+    border-radius: 10px;
+    background-color: #506ee5;
+    padding: 0;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.section5 img{
     background-repeat: no-repeat;
     background-image: url(imagem/christmas-tree-blue_1280.jpg);
+    height: 195px;
+    width: 195px;
+    background-position: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 .section6{
+    border-radius: 10px;
+    background-color: #506ee5;
+    padding: 0;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.section6 img{
     background-repeat: no-repeat;
     background-image: url(imagem/girl-blue_1280.png);
+    height: 205px;
+    width: 205px;
+    background-position: center;
+    margin-left: 655px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 .section7{
+    border-radius: 10px;
+    background-color: #506ee5;
+    padding: 0;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.section7 img{
     background-repeat: no-repeat;
     background-image: url(imagem/leaves-blue_1280.jpg);
+    height: 210px;
+    width: 210px;
+    background-position: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 .section8{
+    border-radius: 10px;
+    background-color: #506ee5;
+    padding: 0;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section8 img{
     background-repeat: no-repeat;
     background-image: url(imagem/night-sky-blue_1280.jpg);
+    height: 215px;
+    width: 215px;
+    background-position: center;
+    margin-left: 645px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
