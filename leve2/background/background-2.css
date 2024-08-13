@@ -1,0 +1,7 @@
+.background-image{
+    height: 200px;
+    background-image: url(img/montanha.jpg);
+}
+section{
+    padding:10px;
+}
