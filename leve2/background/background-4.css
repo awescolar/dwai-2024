@@ -1,0 +1,59 @@
+section {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    background-position: center;
+}
+
+.box1{
+    background-image: url("imagens/html.png");
+    height: 130px;
+    background-repeat: no-repeat;
+    background-color: beige;
+}
+
+.box2{
+    background-image: url("imagens/angularjs.png");
+    height: 130px;
+    background-repeat: no-repeat;
+}
+
+.box3{
+    background-image: url("imagens/css.png");
+    height: 130px;
+    background-repeat: no-repeat;
+    background-color: beige;
+}
+
+.box4{
+    background-image: url("imagens/javascript.png");
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.box5{
+    background-image: url("imagens/less.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-color: beige;
+}
+
+.box6{
+    background-image: url("imagens/nodejs.png");
+    height: 350px;
+    background-repeat: no-repeat;
+}
+
+.box7{
+    background-image: url("imagens/python.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-color: beige;
+}
+
+.box8{
+    background-image: url("imagens/sass.png");
+    height: 480px;
+    background-repeat: no-repeat;
+}
