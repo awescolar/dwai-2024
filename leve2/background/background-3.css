@@ -1,6 +1,10 @@
-.background-image {
+.combined-background {
+    background-color: #FCF360;
+    width: 100%;
+    height: 800px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box1 {
