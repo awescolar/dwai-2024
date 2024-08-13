@@ -1,0 +1,25 @@
+.card{
+
+    display: table;
+    width: 30%;
+    float: left;
+}
+
+.Card figure{
+
+    margin: 0;
+    float: left;
+    margin-right: 0px;
+    padding: 6px;
+    background-image: url(imagens/imagem.avif);
+    
+}
+
+h1{
+    padding-left: 85px;
+}
+
+body{
+
+    background-color: gray;
+}
