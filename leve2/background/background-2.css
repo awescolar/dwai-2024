@@ -1,0 +1,13 @@
+body {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(180, 180, 180);
+}
+
+.background-image {
+    width: 50%;
+    height: 50%;
+}
