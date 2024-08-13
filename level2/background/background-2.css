@@ -7,4 +7,6 @@ body{
     background-repeat: no-repeat;
     padding: 1%;
     background-size: 1000px, 700px;
+    width: 700px;
+    height: 450px;
 }
