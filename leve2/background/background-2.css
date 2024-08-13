@@ -1,0 +1,6 @@
+.background-image{
+    background-image:url(../../imagens/icon\ gato.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
