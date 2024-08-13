@@ -16,6 +16,6 @@ section {
 }
 
 .combined-background {
-    background: linear-gradient(to right, #5fffff, #7b84fe); /* Gradiente de cor de fundo */
-    color: white; /* Cor do texto para contrastar com o fundo */
+    background: linear-gradient(to right, #5fffff, #7b84fe);
+    color: white; 
 }

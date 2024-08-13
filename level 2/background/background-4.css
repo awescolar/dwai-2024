@@ -25,47 +25,47 @@ section {
 .bg-section-1 {
     width: 100%;
     height: 150px;
-    background-image: url('imagens-att/aki.webp');
+    background-image: url('img/aki.webp');
 }
 
 .bg-section-2 {
     width: 100%;
     height: 200px;
-    background-image: url('imagens-att/angularjs.webp');
+    background-image: url('img/google.webp.jpg');
 }
 
 .bg-section-3 {
     width: 100%;
     height: 250px;
-    background-image: url('imagens-att/css.webp');
+    background-image: url('img/html.webp');
 }
 
 .bg-section-4 {
     width: 100%;
     height: 300px;
-    background-image: url('imagens-att/html.webp');
+    background-image: url('img/jquery.webp');
 }
 
 .bg-section-5 {
     width: 80%;
     height: 200px;
-    background-image: url('imagens-att/html.webp');
+    background-image: url('img/less.webp');
 }
 
 .bg-section-6 {
     width: 80%;
     height: 250px;
-    background-image: url('imagens-att/jquery.webp');
+    background-image: url('img/nodejs.webp');
 }
 
 .bg-section-7 {
     width: 60%;
     height: 300px;
-    background-image: url('imagens-att/less.webp');
+    background-image: url('img/python.webp');
 }
 
 .bg-section-8 {
     width: 60%;
     height: 350px;
-    background-image: url('imagens-att/nodejs.webp');
+    background-image: url('img/sass.webp');
 }
