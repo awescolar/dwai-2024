@@ -1,3 +1,23 @@
 body{
     font-family: Roboto;
+    color: white;
+}
+.combined-background{
+    background-color:#47fcd2;
+    background-image: url(imagens/muay-thai.webp);
+    background-size: 1000px, 500px;
+    background-repeat: no-repeat;
+    background-position-x: 40px;
+    background-position-y: 40px;
+    width: 1000px;
+    height: 650px;
+    padding: 50px;
+}
+/*o background-position-x e y só se refere à imagem.*/
+.combined-background .text{
+    margin-left: 80px;
+}
+.combined-background .title{
+    padding-top: 80px;
+    margin-left: 80px;
 }
