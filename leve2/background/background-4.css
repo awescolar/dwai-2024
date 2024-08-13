@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.section1 {
+    height: 400px;
+    width: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2018/04/21/20/23/tulips-3339416_1280.jpg');
+}
+
+.section2 {
+    height: 300px;
+    width: 50%;
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/30/05/19/sunflowers-8351807_1280.jpg');
+}
+
+.section3 {
+    height: 500px;
+    width: 75%;
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/15/15/29/crocus-8575610_1280.jpg');
+}
+
+.section4 {
+    height: 200px;
+    width: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/12/17/54/anemone-2396299_1280.jpg');
+}
+
+.section5 {
+    height: 350px;
+    width: 60%;
+    background-image: url('https://cdn.pixabay.com/photo/2023/05/28/03/34/flowers-8022731_1280.jpg');
+}
+
+.section6 {
+    height: 250px;
+    width: 80%;
+    background-image: url('https://cdn.pixabay.com/photo/2018/08/03/11/40/poppies-3581709_1280.jpg');
+}
+
+.section7 {
+    height: 450px;
+    width: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/10/14/54/cosmos-2837468_1280.jpg');
+}
+
+.section8 {
+    height: 300px;
+    width: 40%;
+    background-image: url('https://cdn.pixabay.com/photo/2020/01/04/09/45/flowers-4740103_1280.jpg');
+}
