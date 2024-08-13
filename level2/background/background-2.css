@@ -5,8 +5,8 @@ body{
     background-image: url(imagens/karate.webp);
     color: white;
     background-repeat: no-repeat;
-    padding: 1%;
-    background-size: 1000px, 700px;
+    padding: 15px;
+    background-size: 720px, 465px;
     width: 700px;
     height: 450px;
 }
