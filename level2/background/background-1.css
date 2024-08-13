@@ -1,0 +1,21 @@
+body{
+    font-family: Oswald;
+    font-style: normal;
+    margin: 0%;
+    padding: 2%;
+}
+.box1{
+    background: #4C7AE4;
+}
+.box2{
+    background: #EF52CD;
+}
+.box3{
+    background: #F6DB47;
+}
+h3{
+    padding: 1%;
+}
+p{
+    padding: 1%;
+}
