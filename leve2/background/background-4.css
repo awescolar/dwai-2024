@@ -1,0 +1,31 @@
+.img1{
+    background: url(img/arvores.jpg)
+}
+.img2{
+    background: url(img/austria.jpg)
+}
+.img3{
+    background: url(img/aventura.jpg)
+}
+.img4{
+    background: url(img/cidade.jpg)
+}
+.img5{
+    background: url(img/lake.webp)
+}
+.img6{
+    background: url(img/montanha.jpg)
+}
+.img7{
+    background: url(img/montanha2.jpg)
+}
+.img8{
+    background: url(img/passaro.webp)
+}
+
+section{
+    height: 600px;
+    width: 600px;
+    margin: 20px;
+    border-radius: 15px;
+}
