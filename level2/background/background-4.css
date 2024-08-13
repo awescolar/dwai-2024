@@ -26,5 +26,9 @@ body{
     background-image: url();
 }
 .cesimar{
-    background-image: url();
+    background-image: url(imagens/cesimar.webp);
+    background-size: 900px, 300px;
+    width: 900px;
+    height: 300px;
+    padding: 10px;
 }
