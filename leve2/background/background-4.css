@@ -1,56 +1,63 @@
-section{
+section {
     width: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
+    background-size: 104px 104px; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .section1 {
     background-color: #fff;
     height: 10vh;  
+    background-image: url('../../assets/img/react.png');
 }
 
 .section2 {
     background-color: #37C1DB;
     height: 20vh;  
+    background-image: url('../../assets/img/angular.png');
 }
 
 .section3 {
     background-color: #1073BB;
     height: 30vh;  
+    background-image: url('../../assets/img/css.png');
 }
 
 .section4 {
     background-color: #1E416F;
     height: 40vh;  
+    background-image: url('../../assets/img/less.png');
 }
 
 .section5 {
     background-color: #E44E25;
     height: 50vh;  
+    background-image: url('../../assets/img/html.png');
 }
 
 .section6 {
     background-color: #3558A8;
     height: 60vh;  
+    background-image: url('../../assets/img/jquery.png');
 }
 
 .section7 {
     background-color: #67A969;
     height: 70vh;  
+    background-image: url('../../assets/img/js.png');
 }
 
 .section8 {
     background-color: #8FC84E;
     height: 80vh;  
+    background-image: url('../../assets/img/node.png');
 }
 
 .section9 {
     background-color: #f8f8f8;
     height: 90vh;  
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
+    background-image: url('../../assets/img/next.png');
 }
