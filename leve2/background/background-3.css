@@ -1,0 +1,10 @@
+.combined-background{
+    height: 600px;
+    background: blue url(img/austria.jpg);
+}
+
+section{
+    color:aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+}
