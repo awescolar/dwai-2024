@@ -1,0 +1,47 @@
+.box1{
+    background-image: url(img/bird-6361866_640.jpg);
+    height: 500px;
+    width: 400px;
+}
+
+.box2{
+    background-image: url(img/corsac-fox-7368515_640.jpg);
+    height: 405px;
+    width: 600px;
+}
+
+.box3{
+    background-image: url(img/frog-5437468_640.jpg);
+    height: 430px;
+    width: 505px;
+}
+
+.box4{
+    background-image: url(img/jellyfish-4779805_640.jpg);
+    height: 445px;
+    width: 435px;
+}
+
+.box5{
+    background-image: url(img/nature-3162233_640.jpg);
+    height: 390px;
+    width: 635px;
+}
+
+.box6{
+    background-image: url(img/rabbit-2135472_640.jpg);
+    height: 415px;
+    width: 595px;
+}
+
+.box7{
+    background-image: url(img/speckled-rattlesnake-653642_640.jpg);
+    height: 370px;
+    width: 540px;
+}
+
+.box8{
+    background-image: url(img/whale-243920_640.jpg);
+    height: 465px;
+    width: 640px;
+}
