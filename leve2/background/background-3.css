@@ -1,11 +1,10 @@
 .combined-background{
-    background-color: aqua;
-    height: 400px;
-    width: 600px;
-    
+    background-color: blue;
+    width: 1000px;
+    height: 800px;
 }
 
 img{
-    height: 300px;
-    width: 300px;
+    width: 550px;
+    height: 700px;
 }
