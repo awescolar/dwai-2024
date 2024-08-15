@@ -1,0 +1,29 @@
+.img1{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/800px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg)
+}
+.img2{
+    background: url(https://media.istockphoto.com/id/1199283538/pt/foto/planet-uranus.jpg?s=1024x1024&w=is&k=20&c=rF8ybMBGT5SRjITYZI7lUrxqDpstj_UhiUFmQvx-ebM=)
+}
+.img3{
+    background: url(https://cdn.pixabay.com/photo/2012/01/09/09/10/sun-11582_960_720.jpg)
+}
+.img4{
+    background: url(https://cdn.pixabay.com/photo/2017/02/14/00/18/astronomy-2064256_1280.jpg)
+}
+.img5{
+    background: url(https://cdn.pixabay.com/photo/2012/04/10/17/38/moon-26619_1280.png)
+}
+.img6{
+    background: url(https://cdn.pixabay.com/photo/2012/04/05/00/54/mars-25461_1280.png)
+}
+.img7{
+    background: url(https://cdn.pixabay.com/photo/2014/04/03/11/55/globe-312563_1280.png)
+}
+.img8{
+    background:url(https://cdn.pixabay.com/photo/2013/07/12/18/36/neptune-153571_1280.png)
+}
+section{
+    height: 600px;
+    width: 800px;
+    margin: 30px;
+}
