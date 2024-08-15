@@ -1,25 +1,7 @@
-h1{
-    font-family: "Montserrat", sans-serif;
-}
-.card{
-    display: flex;
-    width: 30%;
-    float: left;
-}
+.combine-background{
+    background-image: pink url(https://s1.static.brasilescola.uol.com.br/be/conteudo/images/sonda-new-horizons-registrou-imagem-plutao-em-julho-2015-55a55da01dda4.jpg) ;
+    padding: 20px;
+    border-radius: 10px;
+    color: pink;
 
-p{
-    margin-right: 10px;
 }
-
-.card figure{
-    margin-left: 0;
-    margin-top: 15;
-    margin-right: 20px;
-    margin-bottom: 20px;
-   
-}
-img{
-    height: 128px;
-}
-
-
