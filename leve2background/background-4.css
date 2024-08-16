@@ -1,0 +1,53 @@
+
+section {
+    background-size: cover; 
+}
+
+
+.img1 {
+    background-image: url('img2/elves.jpg');
+    width: 20px;
+    height: 20px; 
+}
+
+.img2 {
+    background-image: url('img2/emoji.jpg');
+    width: 30px;
+    height: 30px;
+}
+
+.img3 {
+    background-image: url('img2/jk.jfif');
+    width: 40px;
+    height: 40px;
+}
+
+.img4 {
+    background-image: url('img2/largatixa.jpg');
+    width: 50px;
+    height: 50px;
+}
+
+.img5 {
+    background-image: url('img2/rusbé.jfif'); 
+    width: 60px;
+    height: 60px;
+}
+
+.img6 {
+    background-image: url('img2/sapino.webp'); 
+    width: 70px;
+    height: 70px;
+}
+
+.img7 {
+    background-image: url('img2/sturt.jfif');
+    width: 80px;
+    height: 80px;
+}
+
+.img8 {
+    background-image: url('img2/telet.webp');
+    width: 120px;
+    height: 120px;
+}
