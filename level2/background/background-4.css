@@ -1,29 +1,55 @@
 body{
     font-family: Roboto;
-}
-.title{
-    background-image: url();
+    background-color: Purple;
 }
 .cristo-redentor{
-    background-image: url();
+    background-image: url(imagens/cristoredentor.webp);
+    background-size: 900px, 300px;
+    width: 900px;
+    height: 300px;
+    padding: 10px;
 }
 .machu-picchu{
-    background-image: url();
+    background-image: url(imagens/machupicchu.webp);
+    background-size: 900px, 300px;
+    width: 900px;
+    height: 300px;
+    padding: 10px;
 }
 .chichen-itza{
-    background-image: url();
+    background-image: url(imagens/chichenitza.webp);
+    background-size: 900px, 300px;
+    width: 900px;
+    height: 300px;
+    padding: 10px;
 }
 .coliseu{
-    background-image: url();
+    background-image: url(imagens/coliseu.webp);
+    background-size: 900px, 300px;
+    width: 900px;
+    height: 300px;
+    padding: 10px;
 }
 .ruinas-de-petra{
-    background-image: url();
+    background-image: url(imagens/ruinasdepetra.webp);
+    background-size: 900px, 300px;
+    width: 900px;
+    height: 300px;
+    padding: 10px;
 }
 .taj-mahal{
-    background-image: url();
+    background-image: url(imagens/tajmahal.webp);
+    background-size: 900px, 300px;
+    width: 900px;
+    height: 300px;
+    padding: 10px;
 }
 .grande-muralha{
-    background-image: url();
+    background-image: url(imagens/muralha.webp);
+    background-size: 900px, 300px;
+    width: 900px;
+    height: 300px;
+    padding: 10px;
 }
 .cesimar{
     background-image: url(imagens/cesimar.webp);
