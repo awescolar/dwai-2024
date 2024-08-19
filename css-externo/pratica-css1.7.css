@@ -1,8 +1,5 @@
 body{
     font-family: Inter;
-    padding: 0;
-    margin: 0;
-    border: 0;
 }
 h1{
     margin-bottom: 12px;
@@ -10,16 +7,17 @@ h1{
 .card{
     display: flex;
     float: left;
-    width: 420px;;
+    width: 400px;;
     height: 200px;
-    margin: 0;
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
 .card .figure{
     height: 128px;
-    margin: 0;
-    padding: 0;
-    border: 0;
+    width: 128px;
+    float: left;
+}
+.card .p{
+    display: flex;
+    float: left;
+    height: 130px;
+    width: 500px;
 }
