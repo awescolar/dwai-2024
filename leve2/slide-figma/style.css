@@ -1,0 +1,49 @@
+body{
+    font-family: "Nunito", sans-serif;
+}
+.bg-azul{
+    background-color: #e7f3ff;
+}
+.slide{
+    width: 1200px;
+    height: 650px;
+    position: relative;
+}
+.slide h1{
+    font-size: 92px;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    position: relative;
+    background: url(imagens/recurso.png);
+    background-repeat: no-repeat;
+    background-position: 0px 180px;
+    padding-left: 20px;
+}
+.slide h1 div{
+    margin-top: -46px; 
+}
+.slide h1 div:nth-child(2){
+    padding-left: 38px;
+}
+.slide h1 div:nth-child(3){
+    text-align: right;
+}
+.slide .logo{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+.slide h1 img{
+    position: absolute;
+    top: 50px;
+    right: 180px;
+}
+.links{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
