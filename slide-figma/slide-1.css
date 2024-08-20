@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.bg-azul {background-color: #e7f3fe;}
+.slide {
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+    position: relative;
+}
+
+.slide h1 {
+    font-size: 92px;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+    background-image: url(/slide-figma/imagem.sf/recurso.png);
+    background-repeat: no-repeat;
+    background-position: 0 170px;
+}
+
+.slide h1 img {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.slide h1 div {
+    margin-top: -50px;
+}
+
+.links {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
