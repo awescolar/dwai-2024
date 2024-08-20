@@ -1,0 +1,13 @@
+section {
+    height: 700px;
+    background: rgb(116, 144, 157);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.combined-image{
+    background-image: url(img/cantor.jpg);
+}
+
