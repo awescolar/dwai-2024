@@ -23,48 +23,48 @@ section{
 .box1{
     height: 150px;
     width: 150px;
-    background-image: url(/dwai-2024/level02/imagens/html.png);
+    background-image: url(/dwai-2024/level02/background/imagens/html.png);
     background-color: rgba(111, 44, 44, 0.5);
 }
 .box2{
     height: 160px;
     width: 160px;
-    background-image: url(/dwai-2024/level02/imagens/css.png);
+    background-image: url(/dwai-2024/level02/background/imagens/css.png);
     background-color: rgba(51, 44, 111, 0.5);
 }
 .box3{
     height: 170px;
     width: 170px;
-    background-image: url(/dwai-2024/level02/imagens/angularjs.png);
+    background-image: url(/dwai-2024/level02/background/imagens/angularjs.png);
     background-color: rgba(44, 101, 111, 0.5);
 }
 .box4{
     height: 180px;
     width: 180px;
-    background-image: url(/dwai-2024/level02/imagens/js.png);
+    background-image: url(/dwai-2024/level02/background/imagens/js.png);
     background-color: rgba(44, 111, 62, 0.5);
 }
 .box5{
     height: 180px;
     width: 180px;
-    background-image: url(/dwai-2024/level02/imagens/jquary.png);
+    background-image: url(/dwai-2024/level02/background/imagens/jquary.png);
     background-color: rgba(47, 44, 111, 0.5);
 }
 .box6{
     height: 170px;
     width: 170px;
-    background-image: url(/dwai-2024/level02/imagens/sass.png);
+    background-image: url(/dwai-2024/level02/background/imagens/sass.png);
     background-color: rgba(108, 44, 111, 0.5);
 }
 .box7{
     height: 160px;
     width: 160px;
-    background-image: url(/dwai-2024/level02/imagens/nodejs.png);
+    background-image: url(/dwai-2024/level02/background/imagens/nodejs.png);
     background-color: rgba(76, 111, 44, 0.5);
 }
 .box8{
     height: 150px;
     width: 150px;
-    background-image: url(/dwai-2024/level02/imagens/less.png);
+    background-image: url(/dwai-2024/level02/background/imagens/less.png);
     background-color: rgba(48, 44, 111, 0.5);
 }
