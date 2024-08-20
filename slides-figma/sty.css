@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+.bg-azul{
+    background-color: #e7f3ff;
+}
+
+.slide h1{
+    font-size: 92px;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 200px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    background: url(/dwai-2024/slides-figma/imag/ballroxa.png);
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 180px;
+}
+
+.slide h1 div{
+    margin-top: -50px;
+}
+
+.slide h1 img{
+    position: absolute;
+    top: 50px;
+    right: 280px;
+}
+
+.slide h1 div:nth-child(2){
+    padding-left: 30px;
+}
+
+.slide h1 div:nth-child(3){
+    text-align: right;
+}
+
+.slide{
+    width: 1200px;
+    height: 650px;
+    position: relative;
+    margin: auto;
+}
+
+.slide .logo{
+    position: absolute;
+    bottom: 60px;
+    left: 100px;
+
+}
+
+
+.slide .links{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
