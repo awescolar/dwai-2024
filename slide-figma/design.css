@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-azul {
+    background-color: #E7F3FF;
+}
+
+.slide {
+    width: 100%;
+    max-width: 1200px;
+    height: 650px;
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.slide h1 {
+    font-size: 6vw; 
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 10%; 
+    width: 100%; 
+    padding-left: 20px;
+    position: relative;
+    background: url(img/bola.png.png) no-repeat;
+    background-position: left center; 
+}
+
+.slide h1 img {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: auto; 
+    height: auto; 
+}
+
+.slide h1 div {
+    margin-top: -5%; 
+}
+
+.slide h1 div:nth-child(2) {
+    padding-left: 40px;
+}
+
+.slide h1 div:nth-child(3) {
+    text-align: right;
+}
+
+.slide .logo {
+    position: absolute;
+    bottom: 60px;
+    left: 100px;
+}
+
+.slide .links {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+@media (max-width: 768px) {
+    .slide {
+        height: auto;
+        padding: 10px;
+    }
+
+    .slide h1 {
+        font-size: 5vw; 
+        padding-top: 5%;
+        background-position: center; 
+    }
+
+    .slide h1 img {
+        top: 5%;
+        right: 5%;
+    }
+
+    .slide .logo,
+    .slide .links {
+        bottom: 20px;
+        left: 10px;
+        right: 10px;
+    }
+}
