@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+.bg-azul{ background-color: #E7F3FF; }
+.slide{
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+    position: relative;
+}
+
+.slide h1{
+    font-size: 92px;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: 20px;
+
+    position: relative;
+
+    background: url(img/recurso.png);
+    background-repeat: no-repeat;
+    background-position: 0 190px;
+}
+
+.slide h1 img{
+    position: absolute;
+    top: 50px;
+    right: 180px;
+}
+
+.slide h1 div{
+    margin-top: -50px;    
+}
+.slide h1 div:nth-child(2){
+    padding-left: 30px;
+}
+.slide h1 div:nth-child(3){
+    text-align: right;
+}
+
+.slide .logo{
+    position: absolute;
+    bottom: 60px;
+    left: 100px;
+}
+
+.slide .links{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
