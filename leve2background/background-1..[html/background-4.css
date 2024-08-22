@@ -1,0 +1,51 @@
+
+section{
+    background-size: cover;
+}
+
+.section1 {
+    width: 300px;
+    height: 300px;
+    background-image: url('img/image1.jpg');
+}
+
+.section2{
+    width: 500px;
+    height: 500px;
+    background-image: url(img/image2.jpg)
+}
+
+.section3{
+    width: 700px;
+    height: 400px;
+    background-image: url(img/image3.jpg);
+}
+
+.section4{
+    width: 730px;
+    height: 350px;
+    background-image: url(img/image4.jpg);
+}
+.section5{
+    width: 605px;
+    height: 320px;
+    background-image: url(img/image5.jpg);
+}
+
+.section6{
+    width: 800px;
+    height: 430px;
+    background-image: url(img/image6.jpg);
+}
+
+.section7{
+    width: 900px;
+    height: 458px;
+    background-image: url(img/image7.jpg);
+}
+
+.section8{
+    width: 870px;
+    height: 655px;
+    background-image: url(img/image8.jpg);
+}
