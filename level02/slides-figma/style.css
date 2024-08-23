@@ -4,7 +4,7 @@ body{font-family: "Nunito", sans-serif;}
 
 .bg-azul{background-color: #E7F3FF;}
 
-.slide{
+.slide,.slide1{
     width: 1200px;
     height: 650px;
     border-radius: 20px;
@@ -58,4 +58,24 @@ body{font-family: "Nunito", sans-serif;}
     position: absolute;
     bottom: 40px;
     right: 40px;
+}
+
+.slide1{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 800px;
+    padding: 48px;
+}
+
+.right{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    margin: 15px;
+    border-radius: 20px;
 }
