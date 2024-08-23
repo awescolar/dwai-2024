@@ -1,20 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
     font-family: 'Nunito', sans-serif;
+    padding: 100px;
 }
 
 .bg-azul{
-    background-color: #e7f3ff
+    background-color: #e7f3ff;
 
 }
 
 .slide{
     width:1200px;
     height:650px;
+    border-radius: 10px;
     position: relative;
-    margin:auto;
+}
 
+.page-2 .slide{
+    width:500px;
+    background-image: url("./assets/logo-figma.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}   
+
+.page-3 .slide{
+    width: 500px;
+    background-color: #dce7f1;
+    background-image: url("./assets/community.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
 }
 
 .slide h1{
@@ -56,9 +77,18 @@ body {
 }
 
 .slide .logo{
+    width: 400px;
     position:absolute;
-    bottom:60px;
+    bottom: 50px;
     left: 100px;
+
+}
+
+.slide .prettify{
+    width: 150px;
+    position: absolute;
+    left: 700px;
+    top: 70px
 
 }
 
@@ -67,8 +97,25 @@ body {
     bottom:40px;
     right: 40px;
 }
-.slide .links .link{
-    padding-left: 10px
+.slide .links .link:nth-child(1){
+    padding-right: 10px;
+}
+
+.list-intro{
+    padding-right:50px;
+    font-size:25px;
+    line-height: 2em;
+    width: 500px;
     
 }
 
+.list-intro h1{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+
+}
+
+.list-intro .enum{
+    list-style: decimal;
+}
