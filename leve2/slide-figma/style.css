@@ -1,0 +1,160 @@
+body{
+    font-family: "Nunito", sans-serif;
+}
+.bg-azul{
+    border-radius: 60px;
+    background-color: #e7f3ff;
+}
+.slide{
+    width: 1200px;
+    height: 650px;
+    position: relative;
+}
+.bg-azul h1{
+    font-size: 92px;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    position: relative;
+    background: url(imagens/recurso.png);
+    background-repeat: no-repeat;
+    background-position: 0px 180px;
+    padding-left: 20px;
+}
+.bg-azul h1 div{
+    margin-top: -46px; 
+}
+.bg-azul h1 div:nth-child(2){
+    padding-left: 38px;
+}
+.bg-azul h1 div:nth-child(3){
+    text-align: right;
+}
+.bg-azul .logo{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+.bg-azul h1 img{
+    position: absolute;
+    top: 50px;
+    right: 180px;
+}
+
+.links{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+.link1{
+    margin-right: 20px;
+}
+
+.bg-branco{
+    background-color: #f6f5f5;
+}
+
+.community{
+    position: absolute;
+    background-color: #d9e7f5;
+    border-radius: 20px;
+    width: 550px;
+    height: 600px;
+    margin-left: 630px;
+}
+.community img{
+    position: absolute;
+    bottom: 20%;
+    left: 12%;
+}
+
+.bg-branco h1{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    position: absolute;
+}
+.bg-branco h1 div:nth-child(1){
+    font-style: italic;
+    font-size: 46px;
+    width: 30%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.bg-branco h1 div:nth-child(2){
+    margin-left: 50px;
+    line-height: 170%
+}
+.bg-branco h1 div:nth-child(3){
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.bg-branco ul li{
+    margin-top: 10px;
+    margin-left: 50px;
+    width:90%;
+}
+.bg-branco ul li a{
+    color: #00a6dd;
+}
+.link2 img{
+    margin-right: 20px;
+    transform: rotateY(180deg);
+}
+.link3 img{
+    transform: rotateY(180deg);
+}
+
+.bg-end{
+    background-color: #f6f5f5;
+}
+.figma{
+    position: absolute;
+    background-color: #e7f3ff;
+    border-radius: 20px;
+    width: 550px;
+    height: 600px;
+    margin-left: 630px;
+}
+.figma img{
+    position: absolute;
+    bottom: 30%;
+    left: 35%;
+}
+.link4 img{
+    margin-right: 20px;
+    transform: rotateY(180deg);
+}
+.bg-end h1{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150%;
+    position: absolute;
+}
+.bg-end h1 div:nth-child(1){
+    font-style: italic;
+    font-size: 46px;
+    width: 30%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.bg-end h1 div:nth-child(2){
+    padding-left: 38px;
+}
+.bg-end h1 div:nth-child(3){
+    padding-left: 48px;
+    width: 25%;
+}
