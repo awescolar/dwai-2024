@@ -1,0 +1,54 @@
+body{
+    font-family: Nunito, sans-serif;
+    width: 1200px;
+    height: 650px;
+  }
+.blue{
+    background-color: #e7f3ff;
+    border-radius: 30px;
+    width: 1200px;
+    height: 650px;
+    position: relative;
+    
+    background-image: url(imagens/slides/recurso.webp);
+    background-repeat: no-repeat;
+    background-position-x: 85px;
+    background-position-y: 175px;
+    background-size: 100px;
+}
+.blue .title{
+    font-size:68px;
+    font-style: italic;
+    font-weight: normal;
+    width: 850px;
+    height: 300px;
+    margin: 0;
+    padding: 65px;
+    position: relative;
+    top: 90px;
+    left: 50px;
+
+    background-image: url(imagens/slides/seta.webp);
+    background-repeat: no-repeat;
+    background-position-y: 45px;
+    background-position-x: 800px;
+    background-size: 100px;
+  }
+.blue .t02{
+    position: relative;
+    left: 13px;
+}
+.blue .t03{
+    position: relative;
+    left: 510px;
+    width: 300px;
+}
+.women{
+    width: 510px;
+    height: 130px;
+}
+.women .conteudo{
+    font-weight: normal;
+    padding-left: 40px;
+    margin: 0px;
+}
