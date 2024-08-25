@@ -2,16 +2,15 @@ body{
     background-color: black;
 }
 .combined-background{
-    display: flex;
-    justify-content: center;
+    background-image: url(https://wallpapers.com/images/hd/haikyuu-karasuno-team-poster-u5uadgtpzp2g1cgm.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    height: 2000px;
+    width: 2000px;
 }
+
 h1{
     color: rgb(243, 138, 0);
     margin-left: 70px;
-    text-align: center;
-}
-
-img{
-    height: 70%;
-    width: 70%;
+    text-align: left;
 }
