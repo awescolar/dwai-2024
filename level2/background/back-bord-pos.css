@@ -52,3 +52,12 @@ body{
     padding-left: 40px;
     margin: 0px;
 }
+.blue .setas .link{
+    position: relative;
+    left: 1000px;
+    padding-right: 15px;
+}
+/*lalala*/
+.white{
+    color: blue;
+}
