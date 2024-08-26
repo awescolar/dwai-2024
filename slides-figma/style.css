@@ -9,6 +9,8 @@ body {
     height: 650px;
     margin: auto;
     position: relative;
+    display: table;
+    font-size: 18px;
 }
 
 .slide h1{
@@ -44,6 +46,12 @@ body {
     text-align: right;
 }
 
+.slide h2{
+    font-size: 44px;
+    font-weight: normal;
+    font-style: italic;
+}
+
 .slide .logo{
     position: absolute;
     bottom: 60px;
@@ -54,4 +62,28 @@ body {
     position: absolute;
     bottom: 40px;
     right: 40px;
+}
+
+
+.left{
+    float: left;
+    width: 35%;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.left ol, .left p{
+    line-height: 1.9em;
+}
+.left p img{
+    height: 18px;
+}
+
+.right{
+    padding-top: 100px;
+    height: 80%;
+    width: 40%;
+    float: right;
+    text-align: center;
+    border-radius: 20px;
 }
