@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Nunito", sans-serif;
+
+}
+.bg-azul{
+    background-color: #e7f3ff;
+}
+
+.slide{
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+    position: relative;
+}
+
+.slide h1{
+    font-size: 92px;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: 20px;
+    position: relative;
+
+    background-image: url("img/recurso.png");
+    background-repeat: no-repeat;
+    background-position: 0 190px;
+}
+
+.slide h1 img{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.slide h1 div{
+    margin-top: -50px; 
+}
+
+.slide .logo{
+    position: absolute;
+    bottom: 60px;
+    left: 100px;;
+}
+
+.slide h1 div:nth-child(2){
+    padding-left: 10px;
+}
+
+.slide h1 div:nth-child(3){
+    text-align: right;
+}
+
+.slide .links{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+
+}
+.destaque{
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0px;
+    right: -20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 145px;
+    padding-bottom: 145px;
+
+}
+p{
+    font-size: 25px;
+    margin-right: 550px;
+    margin-left: 70px;
+}
+.pag2{
+    margin-top: -30px;
+}
+ol{
+    margin-bottom: 30px;
+}
+li{
+    font-size: 25px;
+    margin-right: 550px;
+    margin-left: 70px;
+}
+
+.slide .titulos{
+    background-color: white;
+    padding-top: 25px;
+    position: absolute;
+    top:160px;
+    margin-left: -80px;
+    font-size: 50px;
+    margin-right: 530px;
+}
+
+.destaque2{
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0px;
+    right: -20px;
+    background-color: #e7f3ff;
+    padding-right: 170px;
+    padding-left: 170px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+
+}
