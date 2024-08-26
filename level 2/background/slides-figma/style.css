@@ -7,18 +7,19 @@ body{
 .bg-azul{
     background-color: #e7f3ff;
 }
-
 .slide{
     width: 1200px;
     height: 650px;
     margin: auto;
     position: relative;
+    display: table;
+    font-size: 18px;
 }
 .slide h1{
     font-size: 92px;
     font-style: italic;
     font-weight: normal;
-    padding: 200px;
+    padding-top: 200px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -30,25 +31,27 @@ body{
     background-repeat: no-repeat;
     background-position: 0 190px;
 }
-
 .slide h1 img{
     position: absolute;
     top: 50px;
     right: 100px;
 }
-
 .slide h1 div{
     margin-top: -50px;
 }
-
 .slide h1 div:nth-child(2){
-   padding-left: 10px;
+   padding-left: 30px;
 }
 
 .slide h1 div:nth-child(3){
     text-align: right;
  }
 
+ .slide h2{
+     font-size: 44px;
+     font-weight: normal;
+     font-style: italic;
+ }
 .slide .logo{
     position: absolute;
     bottom: 60px;
@@ -58,4 +61,26 @@ body{
     position: absolute;
     bottom: 40px;
     right: 40px;
+}
+
+.left{
+    float: left;
+    width: 35%;
+    padding-top: 100px;
+    padding-left: 50px;
+
+}
+.left ol, .left p{
+    line-height: 1.9em;
+} 
+.left p img{
+    height: 18px;
+}
+.right{
+    padding-top: 100px;
+    height: 80%;
+    width: 40%;
+    float: right;
+    text-align: center;
+    border-radius: 20px;
 }
