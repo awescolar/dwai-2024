@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AR:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+.bg-azul{
+    background-color: #E7F3FF;
+}
+
+.slide{
+    width: px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+.slide h1{
+    font-size: 92px;
+    font-style: italic;
+    font-weight: normal;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+
+    background: url(img/recurso.png) ;
+    background-repeat: no-repeat;
+    background-position: 0, 90;
+}
+
+.slide h1 img{
+    position: absolute;
+    top: 10px;
+    right: 18px;
+}
+.slide h1 div{
+    margin: -50px;
+   
+}
+
+.slide h1 div:nth-child(2){
+    padding-left: 10px;
+}
+
+.slide h1 div:nth-child(3){
+    text-align: right;
+}
+
+.links{
+    position: absolute;
+    bottom: 40px;
+    right: 70px;
+    top: 450px;
+    background-image: url(img/arrow-left-circle.svg);
+    background-repeat: no-repeat;
+    background-position: 0 90;
+    background-image: url(img/arrow-right-circle.svg);
+    background-repeat: no-repeat;
+    background-position: 0 90;
+}
+.slide .logo{
+    position: absolute;
+    bottom: 60px;
+    left: 100px;
+    top: 430px;
+
+}
