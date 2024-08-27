@@ -1,4 +1,5 @@
 .background-image {
+    background-image: url(imagens/minhas-aventuras-com-superman.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
