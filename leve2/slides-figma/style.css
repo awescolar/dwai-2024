@@ -61,3 +61,59 @@ body {
     bottom: 40px;
     right: 40px;
 }
+
+.slide-2 {
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.slide-2 h2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 100px;
+}
+
+.slide-2 ol {
+    padding-left: 20px;
+}
+
+.slide-2 ol li {
+    margin-bottom: 10px;
+}
+
+.descricao img {
+    float: left;
+    height: 16px;
+}
+
+.descricao { 
+    padding-left: 3px;
+    margin-top: 40px;
+    position: relative;
+}
+.descricao .descricao-1 {
+    margin-bottom: 10px;
+}
+
+.imagem {
+    background-color: #E7F3FF;
+    left: 550px;
+    top: 0px;
+    height: 590px;
+    width: 560px;
+    float: right;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.imagem .logo-figma {
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.link {
+
+}
