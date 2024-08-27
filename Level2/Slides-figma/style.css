@@ -3,13 +3,18 @@
 body{
     font-family: "Nunito", sans-serif;
 }
-.bg-azul{background-color: #ddeeff;}
+.bg-azul{
+    border-radius: 30px;
+    background-color: #ddeeff;
+}
 
 .slide{
     width: 1200px;
     height: 650px;
     position: relative;
     margin: auto;
+    display: table;
+    font-size: 18px;
 }
 
 .slide h1 div{
@@ -31,6 +36,13 @@ body{
     background-repeat: no-repeat;
     background-position: 0 190px;
 }
+.slide .sub-titulo{
+    position: absolute;
+    left:100px;
+    bottom:110px;
+    font-style: italic;
+    font-weight: normal;
+}
 .slide h1 img{
     position:absolute;
     top: 50px;
@@ -38,7 +50,7 @@ body{
 }
 
 .slide h1 div:nth-child(2){
-    padding-left: 36px;
+    padding-left: 30px;
 }
 
 .slide h1 div:nth-child(3){
@@ -48,11 +60,17 @@ body{
 
 .slide .logo{
     position: absolute;
-    width: 60px;
-    left: 100px;
+    bottom: 45px;
+    left: 60px ;
 }
-.slide .links{
+.links .logo{
+    position: absolute;
+    bottom:30px;
+    right: 100px;
+}
+
+.links{
     position: absolute;
     bottom: 40px;
-    right: 40px;
+    left: 1000px;
 }
