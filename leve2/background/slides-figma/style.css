@@ -23,8 +23,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
     width: 80%;
     padding-left: 20px;
 
@@ -72,10 +70,6 @@ body{
     left: 60px;
     bottom: 40px;
 }
-.bg-azul{
-    background-color: #c7e2fd;
-    border-radius: 30px;
-}
 
 .slide2{
     width: 20%;
@@ -94,7 +88,6 @@ body{
     font-weight: normal;
     margin-top: 8%;
     margin-left: 10%;
-    display: block;
     font-size: 20px;
 }
 .list li {
@@ -119,6 +112,6 @@ div h2{
     width: 320px;
     height: 250px;
     position: absolute;
-    left: 10%;
+    left: 9%;
     top: 20%;
 }
