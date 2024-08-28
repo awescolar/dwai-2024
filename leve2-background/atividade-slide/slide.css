@@ -3,7 +3,7 @@ body{
     font-family: "Nunito",sans-serif;
 }
 .bg-azul{
-    background-color: azure;
+    background-color: black;
     border-radius: 20px;
 }
 .slide{
@@ -19,11 +19,77 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    padding-top: 200px;
     padding-left: 20px;
-    background-image: url(iimg-2/recurso.png);
+
+    background: url(iimg-2/recurso.png);
     background-repeat: no-repeat;
-    position: 0 180px;
+    background-position: 0 180px;
 }
 .slide .conteudo{
+    position: relative;
+    bottom: 3px;
+    left: 100px;
+    font-weight: normal;
+    font-style: italic;
+}
+.slide h1 img{
     position: absolute;
+    top: 50px;
+    right: 180px;
+}
+.slide h1 div{
+    margin-top: -50px;
+}
+.slide h1 div:nth-child(2){
+    padding-left: 30px;
+}
+.slide h1 div:nth-child(3){
+    text-align: right;
+}
+.links{
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+.slide .logo{
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+}
+
+/*(slide 2 começa aqui)*/
+
+.assunto p img{
+    height: 15px;
+}
+.slide2{
+    height: 500px;
+    width: 450px;
+    position: absolute;
+    left: 40%;
+    bottom: 40%;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+.assunto h1{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+}
+.assunto{
+    position: absolute;
+    font-weight: normal;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: block;
+    font-size: 20px;
+}
+.lista li{
+    position: relative;
+    padding: 3px;
+    right: 15px;
 }
