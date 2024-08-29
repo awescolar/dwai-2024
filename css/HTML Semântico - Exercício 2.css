@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: black (180, 180, 180);
+}
+
+img {
+    width: 500px;
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-weight: 400;
+    color: cyan;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centraliza os links horizontalmente */
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-link {
+    color: blue;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+small {
+    display: block;
+    font-weight: 500;
+    color: white;
+}
+
+h3 {
+    color: rgb(53, 139, 160);
+    margin: 0;
+}
+
+.card {
+    padding: 30px;
+    background-color: white;
+    border: 2px solid #f0f0f0;
+    width: 700px;
+    margin: 20px auto;
+    display: table;
+    border-bottom: 3px solid #aaa;
+}
+
+.card figure {
+    float: left;
+    margin: 20px 10px 0 0;
+}
+
+.card figure img {
+   max-width: 100%;
+    padding: 20px;
+}
+
+.botao {
+    text-align: right;
+}
+
+.botao button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #438fbb;
+    color: white;
+    border: none;
+    cursor: pointer; /* Adiciona um cursor de ponteiro ao passar o mouse */
+}
+
+.botao button:hover {
+    background: #357ab8; /* Cor de fundo ao passar o mouse sobre o botão */
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contact-info, .social-links {
+    flex: 1;
+    margin: 10px;
+}
+
+.contact-info h2, .social-links h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info p, .social-links a {
+    margin: 5px 0;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #ddd;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
