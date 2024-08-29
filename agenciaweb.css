@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #FDB32f;
+    padding: 4px 0;
+    background-color: #0F315C;
+}
+
+
+header{
+
+
+    background-color: #0F315C;
+    padding: 50px;
+}
+
+
+h1{
+    font-size: 36px;
+    color: #4CC8FF;
+}
+
+
+h2{
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+
+button{
+    background-color: #0F315C;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+main{
+    background-color: #0574f0;
+    padding: 50px;
+
+
+}
+
+
+.contato{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.redes-sociais{
+    display: flex;
+    padding-left: 90px;
+}
+
+
+.redes-sociais a{
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+
+footer{
+    background-color: #0574f0;
+    color: white;
+    padding: 20px;
+}
+
+
+b{
+    color: #FDB32f;
+}
+
+
+small{
+    color: white;
+}
+
+.logo{
+    padding-right: 1000px;
+}
+
+.plug{
+
+  height: 40px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0F315C;
+  margin-top: -30px;
+  
+  
+  background-image: url(https://raw.githubusercontent.com/awescolar/aw-2024/master/background/img/vector.png), url(https://raw.githubusercontent.com/awescolar/aw-2024/master/background/img/vector-2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center left, center right;
+
+}
+
+section hr{
+    margin-top: 23px;
+    border: 2px solid #FDB32f;
+}
+
+header .seta1{
+    padding-right: 490px;
+
+}
+
+header .designer{
+    padding-right: 500px;
+    float: inline-end ;
+}
+
+header .seta2{
+
+    padding-left: 450px;
+}
+
+header .programador{
+
+    padding-left: 430px;
+}
+
+hr{
+    color: #FDB32f;
+}
