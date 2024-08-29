@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-weight: 400;
+    color: #555;
+}
+
+small {
+    display: block;
+    font-weight: 500;
+    color: #666;
+}
+
+h3 {
+    color: #438fbb;
+}
+
+.card {
+    padding: 30px;
+    background: white;
+    border: 2px solid #ddd;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card figure {
+    float: left;
+    margin-right: 15px;
+}
+
+.card figure img {
+    width: 100px;
+    padding: 10px;
+}
+
+.direita {
+    height: 130px;
+}
+
+.botao {
+    text-align: right;
+}
+
+.botao button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #438fbb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao button:hover {
+    background: #357ab8;
+}
