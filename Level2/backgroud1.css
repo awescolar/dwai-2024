@@ -1,0 +1,26 @@
+body {
+    height: 100% ;
+    width: 100% ;
+}
+
+.box1 {
+    height: 500px;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+}
+
+.box2 {
+    height: 500px;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+}
+
+.box3 {
+    height: 500px;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+}
+
