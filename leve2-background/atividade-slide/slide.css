@@ -3,7 +3,7 @@ body{
     font-family: "Nunito",sans-serif;
 }
 .bg-azul{
-    background-color: black;
+    background-color: #ddeeff;
     border-radius: 20px;
 }
 .slide{
@@ -92,4 +92,25 @@ body{
     position: relative;
     padding: 3px;
     right: 15px;
+}
+/*(slide 3 começa aqui)*/
+.slide3{
+    height: 500px;
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+}
+.community{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+.assunto-2{
+    position: absolute;
+    font-weight: normal;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: block;
+    font-size: 20px;
 }
