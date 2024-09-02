@@ -1,0 +1,14 @@
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.background-image {
+    background-image: url(https://cdn1.epicgames.com/offer/fn/Blade_1200x1600_1200x1600-fcea56f5eb92df731a89121e2b4416b5);
+    width: 1600px;
+    height: 1200px;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+}
