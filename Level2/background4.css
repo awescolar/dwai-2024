@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.Background-image {
+    width: 100%;
+    height: 300px;
+    background-image: url(/Level2/img2/astronomy-2061584_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+}
+
+.Background-image1 {
+    background-image: url(/Level2/img2/astronomy-2061582_1280.jpg);
+    width: 95%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+}
+
+.Background-image2 {
+    background-image: url(/Level2/img2/ai-generated-8973563_1280.jpg);
+    width: 95%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+}
+
+.Background-image3 {
+    background-image: url(/Level2/img2/jupiter-7291995_1280.jpg);
+    width: 90%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+}
+
+.Background-image4 {
+    background-image: url(/Level2/img2/moon-8006703_1280.jpg);
+    width: 90%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+}
+
+.Background-image5 {
+    background-image: url(/Level2/img2/moon-1527501_1280.jpg);
+    width: 85%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+}
+
+.Background-image6 {
+    background-image: url(/Level2/img2/m31-3613931_1280.jpg);
+    width: 85%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+}
+
+.Background-image7 {
+    background-image: url(/Level2/img2/space-4705455_1280.jpg);
+    width: 80%;
+    height: 1300px;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+}
