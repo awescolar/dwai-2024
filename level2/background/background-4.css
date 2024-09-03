@@ -3,56 +3,64 @@ body{
     background-color: Purple;
 }
 .cristo-redentor{
-    background-image: url(imagens/cristoredentor.webp);
+    background-image: url(imagens/attv8sections/cristoredentor.webp);
+    background-repeat: no-repeat;
     background-size: 900px, 300px;
     width: 900px;
     height: 300px;
     padding: 10px;
 }
 .machu-picchu{
-    background-image: url(imagens/machupicchu.webp);
+    background-image: url(imagens/attv8sections/machupicchu.webp);
+    background-repeat: no-repeat;
     background-size: 900px, 300px;
     width: 900px;
     height: 300px;
     padding: 10px;
 }
 .chichen-itza{
-    background-image: url(imagens/chichenitza.webp);
+    background-image: url(imagens/attv8sections/chichenitza.webp);
+    background-repeat: no-repeat;
     background-size: 900px, 300px;
     width: 900px;
     height: 300px;
     padding: 10px;
 }
 .coliseu{
-    background-image: url(imagens/coliseu.webp);
+    background-image: url(imagens/attv8sections/coliseu.webp);
+    background-repeat: no-repeat;
     background-size: 900px, 300px;
     width: 900px;
     height: 300px;
     padding: 10px;
 }
 .ruinas-de-petra{
-    background-image: url(imagens/ruinasdepetra.webp);
+    background-image: url(imagens/attv8sections/ruinasdepetra.webp);
+    background-repeat: no-repeat;
     background-size: 900px, 300px;
     width: 900px;
     height: 300px;
     padding: 10px;
 }
 .taj-mahal{
-    background-image: url(imagens/tajmahal.webp);
+    background-image: url(imagens/attv8sections/tajmahal.webp);
+    background-repeat: no-repeat;
     background-size: 900px, 300px;
     width: 900px;
     height: 300px;
     padding: 10px;
 }
 .grande-muralha{
-    background-image: url(imagens/muralha.webp);
+    background-image: url(imagens/attv8sections/muralha.webp);
+    background-repeat: no-repeat;
     background-size: 900px, 300px;
     width: 900px;
     height: 300px;
     padding: 10px;
 }
 .cesimar{
-    background-image: url(imagens/cesimar.webp);
+    background-image: url(imagens/attv8sections/cesimar.webp);
+    background-repeat: no-repeat;
     background-size: 900px, 300px;
     width: 900px;
     height: 300px;
