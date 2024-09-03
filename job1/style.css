@@ -21,26 +21,42 @@ main{
     padding-bottom: 100px;
 }
 
+main .conteudo{
+    max-width: 700px;
+    position: relative;
+    margin-bottom: 150px;
+}
+main .conteudo h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
 main .name-figma{
     border: 2px solid black;
-    position: relative;
+    position: absolute;
+    padding: 0.25em 1em;
 }
 main .name-figma img{
     position: absolute;
 }
 main .name-figma.designer{
     background: #FDB32F;
+    top: -50px;
+    left: -50px;
+    color: #000;
 }
 main .name-figma.designer img{
     right: -50px;
-    bottom: -50px;
+    bottom: -25px;
 }
 main .name-figma.dev{
     background: #29973b;
+    right: -50px;
+    bottom: -50px;
 }
 main .name-figma.dev img{
     left: -50px;
-    top: -50px;
+    top: -25px;
 }
 
 
@@ -61,6 +77,28 @@ footer p strong{
     color: #FDB32F;
 }
 
-footer address{}
-footer address div{}
-footer section{}
+footer address{
+    display: table;
+    width: 100%;
+}
+footer address > div{
+    float: left;
+    width: 30%;
+}
+footer address div .redes-sociais,
+footer address div strong{
+    margin-top: 1em;
+    display: block;
+}
+footer address div .redes-sociais a{
+    color: #FFF;
+}
+footer address div .redes-sociais a:hover{
+    color: #FDB32F;
+}
+footer section{
+    padding-top: 2em;
+    text-align: center;
+    border-top: 1px solid #fff;
+    margin-top: 4em;
+}
