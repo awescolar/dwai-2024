@@ -4,23 +4,49 @@ body {
     background-color: #AAAAAA;
 }
 
+h1 {
+    text-align: center;
+}
+
+.bloco {
+    margin: 0 auto;
+    width: 65%;
+}
+
 .card {
-    border-bottom: 1px solid;
     background-color: #FFFFFF;
-    display: flex;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+hr {
+    height: 1px;
+    background-color: #d6d6d6;
+    border: none;
+    width: 92%;
 }
 
 h2 {
-    margin-top: px;
-    margin-bottom: 0;
+    color: #9c9c9c;
+    font-size: large;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
 
 h3 {
-    margin: 0;
+    color: #21ABC7;
+    float: left;
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 2px;
+    height: 5px;
 }
 
 p {
-    margin-top: 0;
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 90%;
 }
 
 .card figure {
@@ -34,8 +60,9 @@ p {
 
 .card .container-button {
     text-align: right;
-    width: 97%;
+    width: 93%;
     margin-top: auto;
+    margin-bottom: 20px;
 }
 
 .card .container-button button {
