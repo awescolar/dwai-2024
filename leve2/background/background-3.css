@@ -1,0 +1,7 @@
+.combined-background {
+    background-image: url("../../imagens/O_Diário_de_Mika.webp");
+    background-color: purple;
+    width: 1000px;
+    height: 800px;
+    background-repeat: no-repeat;
+}
