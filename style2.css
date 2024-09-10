@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    background: white;
+    font-family: "Lato";
+    margin: 0;
+    margin-top: -12px;
+}
+.container1{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    color: white;
+    background:#203C86;
+}
+header p{
+    text-transform: uppercase;
+    text-align: right;
+    padding: 10px 0px;
+    padding-top: 24px;
+    font-size: 12px;
+    font-weight: 300;
+}
+header p a{
+    text-decoration: none;
+    padding-left: 20px ;
+    color: #FFC82C;
+
+}
+header img{
+    margin: 10px;
+}
+nav{
+    position: relative;
+}
+nav div{
+    display: inline-block;
+    padding: 26px;
+    text-decoration: none;
+}
+header div a{
+    text-decoration: none;
+    color: white;
+    padding: 26px 15px;
+    padding-bottom: 24px;
+    font-weight: 300;
+}
+header div a:hover{
+    font-weight: 400;
+    border-bottom: 5px solid #FFC82C;
+}
+.sobre{
+    font-weight: 400;
+    border-bottom: 5px solid #FFC82C;
+}
+.container2{
+    position: relative;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    margin: 100px;
+    padding-bottom: 20px;
+}
+main h1{
+    font-size: 40px;
+}
+.itálico{
+    font-style: italic;
+    font-weight: 400;
+    color: #2648A1;
+}
+.right{
+    text-align: right;
+}
+.logo{
+    margin: 50px auto;
+}
+main p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.subtitulo{
+    color: #2648A1;
+    margin: 0px;
+}
+.color{
+    color: black;
+}
+article p{
+    max-width: 430px;
+}
+article hr{
+    text-align: right;
+    border: none; 
+    border-bottom: 5px solid #FFC82C; 
+    width: 12%; 
+    margin: 0;
+    margin-top: 5px;
+}
+article{
+    margin-bottom: 300px;
+}
+.imagemaior{
+    position: absolute;
+    right: -150px;
+    top: 650px;
+}
+.bigimg{
+    width: 450px;
+}
+.legenda{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+    border: 2px solid #0D3F82;
+    border-radius: 10px;
+    padding: 10px;
+}
+.legenda h5{
+    font-weight: 400;
+}
+.imagens{
+    position: absolute;
+    left: -250px;
+    right: -320px;
+}
+.imagem{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.imgs{
+    padding: 0;
+    margin: 0;
+    width: 250px;
+}
+footer{
+    background: linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%);
+}
+footer section img{
+    padding: 30px;
+}
+.navs{
+    vertical-align: top;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 130px;
+}
+.nav{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+}
+.nav a:hover{
+    font-weight: 400;
+    color: #FFC82C;
+}
+footer section a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+}
+.contatos span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contatos a {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    float: left; 
+}
+
+.texto {
+    margin-left: 0; 
+    color: white;
+}
+
+.contatos p {
+    vertical-align: middle;
+    margin: 0;
+}
+.icone{
+    padding-right: 20px;
+}
+.geral{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.lorem{
+    position: absolute;
+    left: 345px;
+    bottom: 10px;
+    max-width: 500px;
+}
+.telegram{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px; 
+    padding: 20px;
+}
+.telegram span {
+    display: block;
+    margin-top: 45px; 
+    background-color: #0088cc;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.telegram a {
+    font-size: 2em;
+    margin-right: 10px; 
+    text-decoration: none; 
+    float: left; 
+}
+.telegram span p {
+    display: inline; 
+    margin: 0;
+    line-height: 2.5; 
+}
