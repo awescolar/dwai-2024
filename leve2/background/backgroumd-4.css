@@ -1,0 +1,71 @@
+body{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(45, 44, 44, 0.796);
+}
+
+.linha1, .linha2{display: flex;}
+
+section{
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.box1{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/botanical-8959535_640.png);
+    background-color: rgba(111, 44, 44, 0.5);
+}
+.box2{
+    height: 160px;
+    width: 160px;
+    background-image: url(img/chicken-8448262_640.jpg);
+    background-color: rgba(51, 44, 111, 0.5);
+}
+.box3{
+    height: 170px;
+    width: 170px;
+    background-image: url(img/honey-bee-8196854_1280.jpg);
+    background-color: rgba(44, 101, 111, 0.5);
+}
+.box4{
+    height: 180px;
+    width: 180px;
+    background-image: url(img/sunflowers-8980921_1280.jpg);
+    background-color: rgba(44, 111, 62, 0.5);
+}
+.box5{
+    height: 180px;
+    width: 180px;
+    background-image: url(img/barracuda-8939250_640.jpg);
+    background-color: rgba(47, 44, 111, 0.5);
+}
+.box6{
+    height: 170px;
+    width: 170px;
+    background-image: url(img/coffee-8668442_640.jpg);
+    background-color: rgba(108, 44, 111, 0.5);
+}
+.box7{
+    height: 160px;
+    width: 160px;
+    background-image: url(img/rotterdam-7095262_640.jpg);
+    background-color: rgba(76, 111, 44, 0.5);
+}
+.box8{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/nature-8692760_640.jpg);
+    background-color: rgba(48, 44, 111, 0.5);
+}
