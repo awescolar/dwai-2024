@@ -67,6 +67,12 @@ p {
 
 .esq {
     position: absolute;
-    top: 580px;
-    left: 1000px;
+    top: 500px;
+    left: 1070px;
+}
+
+.dir {
+    position: absolute;
+    top: 500px;
+    left: 1140px;
 }
