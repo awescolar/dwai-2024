@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 450px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+}
+.level{
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+.ponto{
+    display: flex;
+    padding: 2px 7px 4px 7px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 50px;
+    background: var(--Gray-3, #828282);
+}
+.intermediário{
+    display: flex;
+    padding: 2px 7px 4px 7px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 50px;
+    background: var(--Blue-2, #2D9CDB);
+}
+.CSS{
+    display: flex;
+    padding: 2px 7px 4px 7px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFC460;
+}
+header h1{
+    color: #333;
+    font-family: "Paytone One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.descricao1 h2{
+    color: #000;
+    font-family: "Paytone One";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.descricao1 p{
+    align-self: stretch;
+    color: #727272;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.descricao2 h2{
+    color: #000;
+    font-family: "Paytone One";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.descricao2 ul li{
+    align-self: stretch;
+    color: #828282;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.example ul li{
+    list-style-type: none;
+    color: #727272;
+    font-family: "Space Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 18px */
+    letter-spacing: -0.24px;  
+}
