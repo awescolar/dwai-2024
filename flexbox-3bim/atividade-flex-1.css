@@ -1,0 +1,9 @@
+body{
+    display:flexbox
+}
+
+/*flex tem que ser no body
+o body é o container/container maior 
+
+SEMPRE pense em quem você quer manipular e como vc quer manipular
+*/
