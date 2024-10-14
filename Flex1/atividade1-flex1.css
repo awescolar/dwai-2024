@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    font-family: "Paytone One";
+    height: 1080px;
+    justify-content: center;
+    width: 1440px;
+}
+
+.card {
+    background: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+    height: 600px; 
+    width: 450px;
+}
+
+.container header {
+    border-bottom: 0.5px solid var(--Gray-2, #4F4F4F);
+}
+
+.container header .level {
+    display: flex;
+}
+
+.container header .level .cinza-escuro {
+    border-radius: 50px;
+    color: #828282;
+}
+
+.container header .level .inter {
+    border-radius: 50px;
+    color: #2D9CDB
+}
+
+.container header .level .css {
+    border-radius: 50px;
+    color: #FFC460;
+}
