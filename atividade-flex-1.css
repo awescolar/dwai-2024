@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.auto-main{
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+main{
+
+    padding: 10px;
+
+}
+
+.intermed{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.filho1{
+
+    padding: 2px 7px 4px 7px;
+    margin: 0%;
+    border-radius: 50px;
+    background: var(--Gray-3, #828282);
+}
+
+.filho2{
+    padding: 2px 7px 4px 7px;
+    border-radius: 50px;
+    background: var(--Blue-2, #2D9CDB);
+    margin: 0%;
+}
+
+.filho3{
+    border-radius: 50px;
+    background: #FFC460;
+
+}
+
+.intermed p{
+    margin: 0%;
+}
+
+h2{
+    color: #333;
+    font-family: "Paytone One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+.backgrounds{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--Gray-4, #BDBDBD);
+    background: var(--gradiente, linear-gradient(105deg, rgba(196, 196, 196, 0.04) 1.21%, rgba(178, 178, 178, 0.15) 97.68%));
+}
