@@ -1,0 +1,29 @@
+body {
+    justify-content: center;
+    background-color: #DFDFDF;
+    display: flex;
+}
+
+.card-1{
+    background-color: #fff;
+    border-radius: 16px;
+    height: 285px;
+    width:358px;
+    padding: 24px;
+}
+
+.card-1 div {
+    margin: 10px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.card-1 .badge-1 {
+    border-radius: 6px;
+    padding: 2px 8px;
+    background-color: #E4ECF7;
+    margin-top: 30px;
+}
+
