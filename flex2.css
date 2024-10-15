@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -16,14 +16,14 @@ body {
 .card-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
 }
 
 .card {
     background-color: white;
     border-radius: 10px;
-    padding: 20px;
-    width: 300px;
+    padding: 24px;
+    width: 350px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -58,8 +58,8 @@ body {
 }
 
 .badge.light {
-    background-color: #e0e0e0;
-    color: #555;
+    background-color: #E4ECF7;
+    color: #;
 }
 
 .badge.dark {
@@ -68,7 +68,8 @@ body {
 }
 
 .description {
-    font-size: 0.9em;
+    font-size: 14px;
+    line-height: 23px;
     color: #555;
 }
 
