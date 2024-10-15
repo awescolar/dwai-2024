@@ -1,0 +1,30 @@
+<svg width="37" height="20" viewBox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="37" height="20" fill="#F5F5F5"/>
+<g id="desktop">
+<rect width="1440" height="1080" transform="translate(-884 -799)" fill="white"/>
+<g id="card-resumido">
+<g id="bg" filter="url(#filter0_d_0_1)">
+<rect x="-389" y="-559" width="450" height="600" rx="10" fill="#F1F1F1"/>
+</g>
+<g id="rodape">
+<g id="Group">
+<path id="Vector" d="M9.99594 11.9993L9.43179 11.446L9.17335 12.1928L6.64535 19.497L0.686195 19.4469L6.70123 0.923292L19.245 13.2565L17.2258 19.0898L9.99594 11.9993Z" stroke="#BDBDBD"/>
+</g>
+<g id="Group_2">
+<path id="Vector_2" d="M26.6908 8.00069L27.255 8.55397L27.5134 7.80724L30.0414 0.503003L36.0007 0.553108L29.9894 19.0767L17.4418 6.74348L19.4609 0.910233L26.6908 8.00069Z" stroke="#BDBDBD"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-439" y="-605" width="550" height="700" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="25"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+</defs>
+</svg>
