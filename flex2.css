@@ -26,12 +26,9 @@ body {
     width: 350px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .card-header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 15px;
+    flex-direction: column;
 }
 
 .card-header h2 {
@@ -41,25 +38,26 @@ body {
 
 .card-header p {
     color: #888;
-    font-size: 0.9em;
+    font-size: 14px;
+    margin-bottom: 16px;
 }
 
 .badges {
     display: flex;
     gap: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .badge {
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 6px 12px;
+    border-radius: 6px;
     font-size: 0.8em;
     font-weight: bold;
 }
 
 .badge.light {
     background-color: #E4ECF7;
-    color: #;
+    color: #505780;
 }
 
 .badge.dark {
@@ -69,14 +67,11 @@ body {
 
 .description {
     font-size: 14px;
-    line-height: 23px;
-    color: #555;
+    line-height: 25px;
 }
 
 .icon {
     width: 50px;
-    height: 50px;
-    margin-right: 10px;
 }
 
 .progress-bar {
@@ -90,19 +85,19 @@ body {
     background-color: #e0e0e0;
     border-radius: 10px;
     height: 8px;
-    overflow: hidden;
-    position: relative;
+
 }
 
 .progress-filled {
     background-color: #4C6FFF;
-    width: 91%;
+    width: 75%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .headline {
-    margin-top: 10px;
-    font-size: 1.2em;
-    color: #333;
+    margin-top: 18px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    color: #27272E;
 }
