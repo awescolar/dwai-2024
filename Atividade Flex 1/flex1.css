@@ -2,13 +2,25 @@ body{
     display: flex;
     justify-content: center;
 }
-.container{
+.bg{
     width: 450px;
     height: 600px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #F1F1F1;
     box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 399px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
 }
 .level{
     display: flex;
@@ -23,7 +35,7 @@ body{
     border-radius: 50px;
     background: var(--Gray-3, #828282);
 }
-.intermediário{
+.intermediario{
     display: flex;
     padding: 2px 7px 4px 7px;
     align-items: flex-start;
@@ -47,7 +59,17 @@ header h1{
     font-weight: 400;
     line-height: normal;
 }
-.descricao1 h2{
+
+.content{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    width: 399px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+.content h2{
     color: #000;
     font-family: "Paytone One";
     font-size: 14px;
@@ -55,25 +77,15 @@ header h1{
     font-weight: 400;
     line-height: normal;
 }
-.descricao1 p{
-    align-self: stretch;
+.content p{
     color: #727272;
-    font-family: Lato;
+    font-family: "Lato";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 21px */
 }
-.descricao2 h2{
-    color: #000;
-    font-family: "Paytone One";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.descricao2 ul li{
-    align-self: stretch;
+.descricao2 ul{
     color: #828282;
     font-family: Lato;
     font-size: 14px;
@@ -81,13 +93,33 @@ header h1{
     font-weight: 400;
     line-height: 150%; /* 21px */
 }
-.example ul li{
-    list-style-type: none;
+.content .example{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--Gray-4, #BDBDBD);
+    background: var(--gradiente, linear-gradient(105deg, rgba(196, 196, 196, 0.04) 1.21%, rgba(178, 178, 178, 0.15) 97.68%));
+}
+.example ul{
     color: #727272;
     font-family: "Space Mono";
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 18px */
-    letter-spacing: -0.24px;  
+    letter-spacing: -0.24px;
+    list-style: none;
+}
+.rodape{
+    display: flex;
+    justify-content: right;
+}
+.rodape img{
+    width: 36.687px;
+    height: 20px;
+    flex-shrink: 0;
 }
