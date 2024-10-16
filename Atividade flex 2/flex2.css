@@ -1,0 +1,14 @@
+body{
+    background: #DFDFDF;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+}
+.card-text .bg1{
+    width: 350px;
+    height: 205px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--Theme-White-Default, #FFF);
+}
