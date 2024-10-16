@@ -1,0 +1,141 @@
+body{
+    background:#dfdfdf;
+}
+.card{
+    background: #fff;
+    display: block;
+    width: 350px;
+    height: 160px;
+    padding: 24px;
+    border-radius: 16px;
+}
+.card .card-head{
+    width: 320px;
+    padding-bottom: 8px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+.card .card-label{
+    width: 302px;
+    padding-bottom: 25px;
+    color: #425466;
+    font-family: Inter;
+    font-size:14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+.card .badge{
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #E4ECF7;
+    color: #505780;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+.card .badge-principal{
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #4c6fff;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+.card .text{
+    color: #425466;
+    padding-top: 24px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+
+}
+.card2{
+    display: block;
+    padding: 24px;
+    width: 350px;
+    height: 150px;
+    border-radius: 16px;
+    position: relative;
+    background: #fff;
+}
+.imagens{
+    display: flex;
+    justify-content: space-between;
+}
+.driver{
+    width: 48px;
+    height: 48px;
+}
+.pontinhos{
+    width: 24px;
+    height: 24px;
+}
+.card2-headline{
+    color: #27272E;
+    padding-top: 24px;
+    padding-bottom: 18px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+}
+.gigas{
+    display: flex;
+    justify-content: space-between;
+    color: #84859E;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-bottom: 15px;
+}
+.barra{
+    display: flex;
+}
+.barra .card2-azul-esc{
+    position: absolute;
+    background: #4C6FFF;
+    width: 70%;
+    height: 8px;
+    border-radius: 20px;
+}
+.barra .card2-azul-cla{
+    background: #E4ECF7;
+    width: 100%; 
+    height: 8px;
+    border-radius: 20px;
+}
+/*
+
+ display: flex; 
+
+.card2 .card2-azul-esc{
+    display: block;
+    color: #4C6FFF;
+    background: #4C6FFF;
+    width: 240px;
+    height: 8px;
+    border-radius: 20px;
+    position: absolute;
+}
+.card2 .card2-azul-cla{
+    color: #E4ECF7;
+    background: #E4ECF7;
+    width: 305px; 
+    height: 8px;
+    border-radius: 20px;
+}
+    */
