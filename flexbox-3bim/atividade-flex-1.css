@@ -3,20 +3,23 @@ body{
     height: 600px;
     padding: 0px;
 }
+
 .all{
     display: flex;
     flex-direction: column;
     width: 450px;
     height: 600px;
-    border-radius: 20px;
+    border-radius: 50px;
+    box-shadow: #828282;
 }
+
 .header-container{
     font-family:Lato;
     display: flex;
     flex-direction: column;
     background-color: #f1f1f1;
 }
-.all .main-container{
+.main-container{
     font-family: Lato;
     font-size: 14px;
     color: #727272;
@@ -76,6 +79,8 @@ body{
     padding-left: 7px;
     padding-right: 7px;
 }
+
+
 .main-container .non-listed .list .itemlist{
     list-style-type: none;
 }
@@ -93,6 +98,7 @@ body{
     width: 37px;
     height: 20px;
 }
+
 
 /*flex tem que ser no body
 o body é o container/container maior 
