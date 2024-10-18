@@ -1,0 +1,90 @@
+body {
+    align-items: center;
+    background: #DFDFDF;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    height: 1440px;
+    justify-content: center;
+    width: 1024px;
+}
+
+.card1 {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    height: 205px;
+    padding: 24px;
+    width: 350px;
+}
+
+.container {
+    max-height: 157px;
+    max-width: 302px;
+}
+
+h3, p, div {
+    margin: 0;
+}
+
+.tl {
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+
+p {
+    color: #425466;
+}
+
+.badges {
+    display: flex;
+    gap: 8px;
+    padding-bottom: 24px;
+}
+
+.cinza, .azul {
+    border-radius: 6px;
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 2px 8px;
+}
+
+.cinza {
+    background-color: #E4ECF7;    
+    color: #505780;}
+
+.azul {
+    background-color: #4C6FFF;
+    color: #FFFFFF;
+}
+
+.description {
+}
+
+.card2 {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 189px;
+    padding: 24px;
+    width: 350px;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+    padding-bottom: 24px;
+}
+
+.capacidade {
+    display: flex;
+    gap: 212px;
+    padding-top: 24px;
+}
+
+span {
+    color: #84859E;
+}
