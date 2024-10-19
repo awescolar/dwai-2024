@@ -1,29 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body {
-    justify-content: center;
+    align-items: center;
     background-color: #DFDFDF;
     display: flex;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
 }
 
 .card-1{
     background-color: #fff;
     border-radius: 16px;
-    height: 285px;
-    width:358px;
+    height: 200px;
     padding: 24px;
+    width:350px;
+}
+
+.card-1 .card-head {
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.card-1 .card-label {
+    color: #505780;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .card-1 div {
-    margin: 10px;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
+    margin: 10px;
 }
 
-.card-1 .badge-1 {
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+
+.card-1 .badge-1,
+.card-1 .badge-2 {
     border-radius: 6px;
-    padding: 2px 8px;
     background-color: #E4ECF7;
+    color: #505780;
+    font-weight: 500;
     margin-top: 30px;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+.card-1 .badge-2 {
+    color: #fff;
+    background-color: #4C6FFF;
+}
+
+.card-1 p {
+    color: #425466;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 30px 10px;
+
+}
+
+.card-2 {
+    background-color: #fff;
+    border-radius:16px;
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+}
+figure {
+    margin-left: 20px;
+}
+
+.card-2 .card-head {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.gbs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 180px;
+    color: #84859E;
+}
+
+.config {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 4px;   
+
+}
+.pontos {
+    border-radius: 8px;
+    background-color: #425466;
+    height: 8px;
+    width: 8px;
 }
 
