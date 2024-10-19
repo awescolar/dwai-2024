@@ -1,14 +1,127 @@
-body{
-    background: #DFDFDF;
-}
-.card-text{
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    align-items: center;
+    background-color: #DFDFDF;
     display: flex;
+    font-family: "Inter", sans-serif;
     justify-content: center;
+    margin-top: 100px;
 }
-.card-text .bg1{
-    width: 350px;
-    height: 205px;
-    flex-shrink: 0;
+
+.card-1{
+    background-color: #fff;
     border-radius: 16px;
-    background: var(--Theme-White-Default, #FFF);
+    height: 200px;
+    padding: 24px;
+    width:350px;
+}
+
+.card-1 .card-head {
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.card-1 .card-label {
+    color: #505780;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.card-1 div {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+
+.card-1 .badge-1, .card-1 .badge-2 {
+    border-radius: 6px;
+    background-color: #E4ECF7;
+    color: #505780;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+.card-1 .badge-2 {
+    color: #fff;
+    background-color: #4C6FFF;
+}
+
+.card-1 p {
+    color: #425466;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 30px 10px;
+    width: 320px;
+
+}
+
+.card-2 {
+    background-color: #fff;
+    border-radius:16px;
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+}
+figure {
+    margin-left: 20px;
+    margin-top: -30px;
+    width: 350px;
+}
+
+.card-2 .card-head {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.gbs {
+    margin-top: 20px;
+    margin-left: -5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 180px;
+    color: #84859E;
+}
+
+.config {
+    padding: 26px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 4px;   
+
+}
+.pontos {
+    border-radius: 6px;
+    background-color: #425466;
+    height: 6px;
+    width: 6px;
+}
+
+.progress-bar{
+    width: 345px;
+    height: 8px;
+    flex-shrink: 0;
+    margin-left: 25px;
+    border-radius: 20px;
+    background: var(--Theme-Secondary-Default, #E4ECF7);
+}
+.progress{
+    width: 275px;
+    height: 8px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--Theme-Primary-Default, #4C6FFF);
+    margin-top: 10px;
 }
