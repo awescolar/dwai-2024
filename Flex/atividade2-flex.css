@@ -1,9 +1,9 @@
 body {
     align-items: center;
-    background: #DFDFDF;
+    background-color: #DFDFDF;
     display: flex;
     flex-direction: column;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
     height: 1440px;
     justify-content: center;
     width: 1024px;
@@ -45,7 +45,6 @@ p {
 
 .cinza, .azul {
     border-radius: 6px;
-    display: flex;
     font-size: 10px;
     font-weight: 700;
     line-height: 16px;
@@ -83,7 +82,7 @@ img {
 
 .capacidade {
     display: flex;
-    gap: 206px;
+    gap: 208px;
     padding-top: 18px;
     padding-bottom: 13px;
 }
@@ -105,4 +104,17 @@ span {
     border-radius: 20px;
     height: 8px;
     width: 305px;
+}
+
+.pontos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3px;
+}
+
+.ponto {
+    background-color: #425466;
+    border-radius: 16px;
+    height: 4px;
+    width: 4px;
 }
