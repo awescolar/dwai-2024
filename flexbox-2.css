@@ -88,6 +88,7 @@ figure {
 .gbs {
     color: #84859E;
     display: flex;
+    font-size: 14px;
     gap: 180px;
     justify-content: space-around;
     margin-top: 20px;
@@ -102,6 +103,7 @@ figure {
     width: 24px;
 
 }
+
 .pontos {
     border-radius: 20px;
     background-color: #425466;
