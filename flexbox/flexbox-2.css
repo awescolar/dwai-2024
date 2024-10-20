@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #DFDFDF;
+    flex-direction: column;
+}
+.bloco-1{
+    width: 350px;
+    height: 189px;
+    flex-shrink: 0;
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+}
+.bloco-1 p{
+    margin-top: 0%;
+}
+.bloco-2{
+    width: 350px;
+    height: 189px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 55px;
+    border-radius: 16px;
+}
