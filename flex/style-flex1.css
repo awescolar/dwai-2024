@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border-radius: 10px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+    width: 450px;
+    height: 600px;
+    padding: 24px;
+}
+header{
+    border-bottom: 0.5px solid #4F4F4F
+}
+header h1{
+    font-family: Paytone One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.5px;
+    text-align: left;
+    color: #333333;
+}
+.top .ast{
+    color: #fafafa;
+    background: #828282;
+    border-radius: 10px;
+    border:none;
+}
+.top .inter{
+    color: #fafafa;
+    background: #2D9CDB;
+    border-radius: 10px;
+    border:none;
+}
+.top .css{
+    background: #FFC460;
+    border-radius: 10px;
+    border:none;
+    color: #1D1D1B;
+
+}
+main h2{
+    font-family: Paytone One;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.54px;
+    text-align: left;
+}
+main p{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #727272;
+}
+main ul{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #828282;
+    margin-left: -1.0em;
+}
+.back{
+    border-radius: 10px;
+    border: 1px solid #BDBDBD
+}
+.back ul{
+    list-style: none;
+    font-family: Space Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #727272;
+    margin-left: -1.7em;
+}
+footer{}
