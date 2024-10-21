@@ -1,0 +1,81 @@
+/** 
+AQUI SERÁ SÓ A HEADER
+**/
+
+header{}
+header img{}
+header nav{}
+header nav ul{}
+header nav ul li{}
+header nav ul a{}
+
+/**
+
+[      =1
+class  =10
+#id    =100
+inline =1000
+import =100000000
+
+**/
+
+/** SEÇÃO PRINCIPAL DE CONTEÚDO **/
+
+main{}
+main .breadcrumb{}
+main .breadcrumb span{}
+
+header{
+    
+}
+header img{
+    
+}
+header nav{
+    float: right;
+    background-position: bottom 50px right 100px;;
+}
+header nav ul{
+
+}
+header nav ul li{
+    
+}
+header nav ul a{
+    
+}
+
+main{}
+main .breadcrumb{}
+main .breadcrumb span{}
+
+main header{}
+main header h1{}
+main header small{}
+
+main .filtros{}
+main .filtros a{}
+main .filtros a :hover{}
+
+main .conteudo{}
+main .conteudo h2{}
+main .conteudoh2 small{}
+
+.livros{
+    
+
+}
+.livros .livro{}
+.livros .livro figure{
+    background-position: left;
+}
+
+.livros .livro .right{
+    float: right;
+    padding: 10px;
+
+}
+
+footer{
+    text-align: center;
+}
