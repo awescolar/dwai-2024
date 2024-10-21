@@ -44,6 +44,7 @@ body{
     padding: 2px 8px;
     display: inline-block;
     text-decoration: none;
+    
 }
 .badge-principal{
     background: #4C6FFF;
@@ -79,6 +80,13 @@ p{
     background-color: #E4ECF7;
 }
 
+.pontos{
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    border-radius: 20px;
+}
+
 img{
     padding: 12px;
 }
@@ -91,6 +99,10 @@ img{
     justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 8px;
+}
+
+.gb1{
+    margin-right: 55px;
 }
 
 .config{
