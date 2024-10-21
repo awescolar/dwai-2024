@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    padding: 20px;
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .ponto{
+    display: flex;
+    padding: 2px 7px 4px 7px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 50px;
+    background: var(--Gray-3, #828282);
+    color: white ;
+  }
+  .header .level{
+    display: flex;
+    padding: 2px 7px 4px 7px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+    border-radius: 50px;
+    background: var(--Blue-2, #2D9CDB);
+    font-size: 8px;
+  }
+  
+  .header .tag {
+    display: flex;
+    padding: 2px 7px 4px 7px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFC460;
+    color: black;
+    font-size: 8px;
+  }
+  
+  h1 {
+    color: #333;
+    font-family: "Paytone One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #a19f9f;
+    margin: 10px 0;
+  }
+  
+  .content h2 {
+    color: #000;
+    font-family: "Paytone One";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    color: #727272;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    margin-bottom: 20px;
+  }
+  
+  .content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: #828282;
+  }
+  
+  .content ul li {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  
+  .exemplo {
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    align-self: stretch;
+    
+  }
+  
+  .exemplo pre {
+    color: #727272;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  img{
+    margin-left: 300px;
+}
