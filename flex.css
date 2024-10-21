@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    padding: 24px;
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+small:nth-child(1){
+    border-radius: 50px;
+    background: var(--Gray-3, #828282);
+    padding: 2px 7px 4px 7px;
+    color: white;
+}
+
+small:nth-child(2){
+    border-radius: 50px;
+    background: #FFC460;
+    padding: 2px 7px 4px 7px;
+    color: white;
+}
+
+small:nth-child(3){
+    border-radius: 50px;
+    background: var(--Blue-2, #2D9CDB);
+    padding: 2px 7px 4px 7px;
+    color: black;
+}
+
+.nmain li{
+    list-style: none;
+    padding: 2px;
+}
+
+.nmain{
+    border-radius: 10px;
+    border: 1px solid var(--Gray-4, #BDBDBD);
+    background: var(--gradiente, linear-gradient(105deg, rgba(196, 196, 196, 0.04) 1.21%, rgba(178, 178, 178, 0.15) 97.68%));
+}
+
+h1{
+    color: #333;
+    font-family: "Paytone One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2{
+    color: #333;
+    font-family: "Paytone One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p{
+    color: #727272;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
