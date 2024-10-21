@@ -1,25 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body,html{
+    height: 100%;
+}
+
+
 body{
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: #DFDFDF;
     flex-direction: column;
+    font-family: "Inter",sans-serif;
 }
 .bloco-1{
     width: 350px;
-    height: 189px;
+
     flex-shrink: 0;
     background-color: white;
     padding: 30px;
     border-radius: 16px;
 }
+.bloco-1 h3, .bloco-1 h1{
+    margin: 0 0 8px 0;
+}
+.bloco-1 h3{
+    font-size: 14px;
+    color: #425466;
+    font-weight: 400;
+}
+.bloco-1 h1{
+    font-size: 16px;
+    font-weight: 600;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+.bloco-1 .badge-1{
+    padding: 2px 8px;
+    border-radius: 6px;
+    background-color: #E4ECF7;
+    text-decoration: none;
+    color: #505780;
+    font-size: 15px;
+}
+.bloco-1 .badge-2{
+    padding: 2px 8px;
+    border-radius: 6px;
+    background-color: #4C6FFF;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+}
 .bloco-1 p{
-    margin-top: 0%;
+    margin-top: 24px;
+    font-size: 14px;
+    color: #425466;
 }
 .bloco-2{
     width: 350px;
-    height: 189px;
+    height: 160px;
     background-color: white;
     padding: 30px;
     margin-top: 55px;
     border-radius: 16px;
+}
+figure{
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: #E4ECF7;
+    margin: 0%;
+}
+img{
+    padding: 12px;
+}
+.bloco-2 h1{
+    font-size: 16px;
+    margin-top: 25px ;
+}
+.bloco-2 .pontos{
+    background-color: #27272E;
+    border-radius: 20px;
+    width: 4px;
+    height: 4px;
+}
+.config{
+    display: flex;
+    gap: 3px;
+    float: right;
+}
+.bloco-2 .progresso-barra{
+    width: 350px;
+    height: 8px;
+    background-color: #E4ECF7;
+    border-radius: 15px;
+}
+.bloco-2 .progresso{
+    width: 240.169px;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #4C6FFF;
+    margin-top: 13px;
+}
+.bloco-2 .gbs{
+    margin-top: 30px;
+    color: #84859E;
+    font-size: 14px;
+}
+
+.bloco-2 .gb2{
+    margin-left: 250px;
 }
