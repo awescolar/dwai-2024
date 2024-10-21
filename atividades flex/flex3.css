@@ -1,0 +1,22 @@
+header{}
+header img{}
+
+header nav{}
+header menu{}
+
+main header{}
+main header h1{}
+main header small{}
+
+main .filtros 
+
+main .conteudo{}
+main .conteudo h2{}
+main .conteudo h2 small{}
+
+main .conteudo .livros{}
+main .conteudo .livros .livro{}
+
+footer{
+    text-align: center;
+}
