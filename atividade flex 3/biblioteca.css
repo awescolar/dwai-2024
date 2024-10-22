@@ -1,11 +1,13 @@
 body{
     flex-shrink: 0;
     margin: 0;
+    height: 2590px;
+    font-family: 'Inter';
 }
 /**formação para todos o header*/
 
 header{
-    width: 1536px;
+    width: 1519px;
     height: 88px;
     background: var(--Gray-6, #F2F2F2);
 }
@@ -24,13 +26,10 @@ header nav menu{
     margin-left: 1000px;
     margin-top: -60px;
 }
-header nav menu li{
-    
-    
-}
+
+header nav menu li{}
 header nav menu a{
     color: #000;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -48,7 +47,6 @@ main .breadcrumb{
 main .breadcrumb a{
     text-decoration: 0;
     color: var(--dark-silver, #3C4858);
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -64,7 +62,6 @@ main .breadcrumb img{
 }
 main .breadcrumb span{
     color: var(--dark-gray, #8A9399);
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -74,45 +71,133 @@ main .breadcrumb span{
 
 main header{
     background: var(--dark-black, #222);
+    height: 160px;
+    flex-shrink: 0;
 
 }
 main header h1{
     color: var(--extra-light-snow, #F9FAFC);
-
-    /* tipography / heading2 */
-    font-family: Inter;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: 160%; /* 64px */
+    padding: 20px;
+    margin-left: 60px;
+    
 }
 main header small{
+    display: flex;
     color: var(--extra-light-snow-extra-dark, #E5E9F2);
-
-    /* tipography / t2 / regular */
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
     text-decoration: 0;
+    margin-top: -35px;
+    margin-left: 80px;
 }
 
 main .filtros{
-    }
-main .filtros a{
-    
+    padding: 20px;
+    margin-left: 56px;
 }
-main .filtros a:hover{}
+main .filtros a{
+    color: var(--dark-gray, #8A9399);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    text-decoration: 0;
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid var(--dark-gray, #8A9399);
+}
+main .filtros a:hover{
+    color: #FFF;
+    border: 1px solid #FFF;
+    background: var(--Blue-1, #2F80ED);
+}
 
-main .conteudo{}
-main .conteudo h2{}
-main .conteudo h2 small{}
+main .conteudo{
+    padding: 62px;
+    padding-left: 75px;
+}
+main .conteudo h2{
+    color: var(--dark-black-2, #1F2D3D);
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 36.4px */
+}
+main .conteudo h2 small{
+    color: var(--dark-gray, #8A9399);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    margin-left: 23px;
+}
 
-.livros{}
-.livros .livro{}
-.livros .livrom figure{}
-.livros .livrom .right{}
+.livros{
+    display: inline-flex;
+    padding: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: -43px;
+    flex-wrap: wrap;
+    margin-top: -40px;
+}
+.livros .livro{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 420px;
+    height: 240px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 0.5px solid var(--dark-gray, #8A9399);
+    margin-top: 41px;
+    margin-left: 23px;
+}
+.livros .livro figure a{
+    margin-top: 25px;
+    color: var(--Blue-1, #2F80ED);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    text-decoration-line: underline;
+}
+.livros .livro .right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    width: 392px;
+    line-height: 140%; /* 19.6px */
+}
+.livros .livro .right div a:nth-child(3){
+    margin-left: 8px;
+}
+.livros .livro .right div a:nth-child(2){
+    margin-left: 8px;
+}
+.livros .livro .right div a{
+    color: var(--dark-gray, #8A9399);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.livros .livro .right div:nth-child(3){
+    color: var(--dark-gray, #8A9399);
+}
 
 footer{
     text-align: center;
