@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox 3</title>
+    <link rel="stylesheet" href="flexbox-3.css">
 </head>
 
 <body>
     <header>
-        <figure>
+        <a href="#">
             <img src="img - flex/LOGO (1).svg" alt="Logo">
-        </figure>
+        </a>
         <nav>
             <menu>
                 <li><a href="#">SOBRE</a></li>
@@ -24,59 +25,53 @@
     </header>
 
     <main>
-        <section class="breadcrumb">
-            <ul>
-                <span>
-                    <a href="/">Home</a>
-                    <img src="img - flex/arrow-right.svg" alt="Arrow" class="seta">
-                </span>
-                <span>
-                    <a href="#">Livros</a>
-                </span>
-                <img src="img - flex/arrow-right.svg" alt="Arrow" class="seta">
-                <span>
-                    <a href="#">Biblioteca do Professor</a>
-                </span>
-            </ul>
-        </section>
+        <div class="breadcrumb">
+            <a href="/">Home</a>
+            <img src="img - flex/arrow-right.svg" alt="">
+            <a href="livros.html">Livros</a>
+            <img src="img - flex/arrow-right.svg" alt="">
+            <span>Biblioteca do Professor</span>
+        </div>
 
-        <section class="container">
-            <div>
-                <h1>Biblioteca do Professor</h1>
-                <span>256 livros | 23 livros comentados | 5 resenhas </span>
+        <div class="header">
+            <h1>Biblioteca do Professor</h1>
+            <span>256 livros | 23 livros comentados | 5 resenhas </span>
+        </div>
+        <section>
+            <div class="filter">
+                <menu>
+                    <a href="#" class="inline-block">Fundamentos do design</a>
+                    <a href="#" class="inline-block">UX / UI Design</a>
+                    <a href="#" class="inline-block">Inovação</a>
+                    <a href="#" class="inline-block">Ensino e Aprendizagem</a>
+                    <a href="#" class="inline-block">Desenvolvimento Pessoal</a>
+                </menu>
             </div>
-            <section>
-                <div class="filter">
-                    <menu>
-                        <li><a href="#" class="inline-block">Fundamentos do design</a></li>
-                        <li><a href="#" class="inline-block">UX / UI Design</a></li>
-                        <li><a href="#" class="inline-block">Inovação</a></li>
-                        <li><a href="#" class="inline-block">Ensino e Aprendizagem</a></li>
-                        <li><a href="#" class="inline-block">Desenvolvimento Pessoal</a></li>
-                    </menu>
-                </div>
 
-                <div class="container">
-                    <h2>Fundamentos do design <small class="cinza">6 livros</small></h2>
-                    <div class="card design">
-                        <figure>
-                            <img src="img - flex/image 2.jpg" alt="Livro de Design">
-                        </figure>
+            <div class="container">
+                <h2>Fundamentos do design <small class="cinza">6 livros</small></h2>
+                <div class="card design">
+                    <figure>
+                        <img src="img - flex/image 2.jpg" alt="Livro de Design">
+                    </figure>
+
+                    <div class="info">
+                        <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
                         <small>Autor: Ellen Lupton</small>
                         <small class="cinza">Editora, 2020</small>
-
                         <div>
-                            <a href="#" class="inline-block">Artes</a>
-                            <a href="#" class="inline-block">Design</a>
-                            <a href="#" class="inline-block">Fundamentos da Imagem</a>
+                            <a href="#" class="inline-block cinza">Artes</a>
+                            <a href="#" class="inline-block cinza">Design</a>
+                            <a href="#" class="inline-block cinza">Fundamentos da Imagem</a>
                         </div>
-
-                        <a href="#">
-                            Leia mais
-                            <img src="img - flex/arrow-right2.svg" alt="" class="seta">
-                        </a>
                     </div>
-            </section>
+
+                    <a href="#">
+                        Leia mais
+                        <img src="img - flex/arrow-right2.svg" alt="" class="seta">
+                    </a>
+                </div>
+        </section>
         </section>
     </main>
     <footer></footer>

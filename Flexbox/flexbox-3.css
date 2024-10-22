@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body, html {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+header img {   
+    padding: 29.51px 0 28.6px 123.2px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav menu {
+    margin: 33.55px 123px 34.47px 0;
+}
+header nav menu li {
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+header nav menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.inline-block { display: inline-block;}
+
+main .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding-top: 32px;
+    margin-bottom: 14px;
+    margin-left: 120px;
+}
+
+main .header {
+    background-color:black;
+    color: #fff;
+    width: 100%;
+    padding: 18px 0 43px 117px;
+}
+
+main .header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 9px;
+    margin-top: 0;
+}
+
+main .header span {
+    color: #E5E9F2;
+}
+
+main .filter a {
+    text-decoration: none;
+    color: #8A9399;
+    border: solid 1px #8A9399;
+    padding: 5px 10px;
+
+}
+
+main menu {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 5px 10px;
+    gap: 10px;  
+    margin-left: 121px;  
+}
+
+main .container h2 {
+    font-size: 26px;
+    margin-left: 118px;
+    font-weight: 600;
+}
+
+main .container h2 small {
+    font-size: 16px;
+    color:#8A9399;
+    font-weight: 400;
+    margin-left: 21px;
+}
+
+main .card {
+    border: solid 1px #8A9399;
+    width: 350px;
+    height: 217px;
+    padding: 20px;
+    margin-left: 121px;
+}
+
+main .container .card img {
+    float: left;
+}
+
+main .container .card h3 {
+    font-size: 16px;
+}
+
+main .container figure {margin: 0;}
+
+main .container .info {
+    padding-left:20px ;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cinza {
+    color: #8A9399;
+}
