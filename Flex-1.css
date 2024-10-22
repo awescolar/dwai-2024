@@ -1,9 +1,9 @@
-@import url('https://fonts.google.com/specimen/Arima');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lexend:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{margin: 0;}
 
 body{
-    font-family: "Inter", sans-serif;
+    font-family: Overpass;
     color: gray;
 }
 
