@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listagem de Livros</title>
 
+
     <link rel="stylesheet" href="atvsimples.css">
 </head>
 <body>
 
+
     <header>
         <a href="#">
-            <img src="/dwai-2024/flexbox/img/logoifrn.png" alt="">
+            <img src="/dwai-2024/flexbox/img/logoifrn.png" alt="Logo">
         </a>
         <nav>
             <menu>
@@ -26,16 +28,18 @@
 
     <main>
         <div class="breadcrumb">
-            <a href="/">Home</a>
+            <a href="/">Home</a> <img src="/dwai-2024/flexbox/img/setinhapreta.png" alt="">
             <a href="livros.html">Livros</a>
             <span>Biblioteca do Professor</span>
         </div>
 
-        <!-- header -->
-        <header>
+        <!-- Título Principal -->
+        <header class="main-header">
             <h1>Biblioteca do Professor</h1>
             <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
         </header>
+
+        <!-- Filtros -->
         <section class="filtros">
             <a href="#">Fundamentos do design</a>
             <a href="#">UX / UI Design</a>
@@ -45,31 +49,305 @@
         </section>
 
         <section class="conteudo">
+            <!-- Categoria 1 -->
             <h2>Fundamentos do design <small>6 livros</small></h2>
             <ul class="livros">
                 <li class="livro">
                     <figure>
-                        <img src="assets/img/livro/livro-1.jpg" alt="">
-                        <a href="#">Leia mais</a>
+                        <img src="/dwai-2024/flexbox/img/img1.png" alt="Livro 1">
                     </figure>
                     <div class="right">
-                        <strong class="block"></strong>
-                        <div></div>
-                        <div></div>
-                        <div>
-                            <a href="#" class="inline-block">Artes</a>
-                            <a href="#" class="inline-block">Design</a>
-                            <a href="#" class="inline-block">Fundamentos da Imagem</a>
+                        <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                        <div>Autor: Ellen Lupton</div>
+                        <div>Editora, 2022</div>
+                        <div> Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img2.png" alt="Livro 2">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Marcas. Design Estratégico</strong>
+                        <div>Autor: Cecília Consolo</div>
+                        <div>Editora Blucher, 2020</div>
+                        <div>Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+               
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img3.png" alt="Livro 3">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Logo Love Design</strong>
+                        <div>Autor: David Airey</div>
+                        <div>Editora New Riders, 2020</div>
+                        <div> Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img4.png" alt="Livro 4">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                        <div>Autor: Ellen Lupton</div>
+                        <div>Editora, 2022</div>
+                        <div> Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img5.png" alt="Livro 5">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                        <div>Autor: Ellen Lupton</div>
+                        <div>Editora, 2022</div>
+                        <div> Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img6.png" alt="Livro 6">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Logo Love Design</strong>
+                        <div>Autor: David Airey</div>
+                        <div>Editora New Riders, 2020</div>
+                        <div> Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
                         </div>
                     </div>
                 </li>
             </ul>
-        </section>
 
+            <!-- Categoria 2 -->
+            <h2>UX / UI Design <small>5 livros</small></h2>
+            <ul class="livros">
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img7.png" alt="Livro 7">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                        <div>Autor: Ellen Lupton</div>
+                        <div>Editora, 2022</div>
+                        <div> Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+               
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img8.png" alt="Livro 8">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Marcas. Design Estratégico</strong>
+                        <div>Autor: Cecília Consolo</div>
+                        <div>Editora Blucher, 2020</div>
+                        <div>Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img9.png" alt="Livro 9">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Logo Love Design</strong>
+                        <div>Autor: David Airey</div>
+                        <div>Editora New Riders, 2020</div>
+                        <div> Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img10.png" alt="Livro 10">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                        <div>Autor: Ellen Lupton</div>
+                        <div>Editora, 2022</div>
+                        <div> Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img11.png" alt="Livro 11">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Marcas. Design Estratégico</strong>
+                        <div>Autor: Cecília Consolo</div>
+                        <div>Editora Blucher, 2020</div>
+                        <div>Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img12.png" alt="Livro 12">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Logo Love Design</strong>
+                        <div>Autor: David Airey</div>
+                        <div>Editora New Riders, 2020</div>
+                        <div> Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img13.png" alt="Livro 13">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                        <div>Autor: Ellen Lupton</div>
+                        <div>Editora, 2022</div>
+                        <div> Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img14.png" alt="Livro 14">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Marcas. Design Estratégico</strong>
+                        <div>Autor: Cecília Consolo</div>
+                        <div>Editora Blucher, 2020</div>
+                        <div>Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="livro">
+                    <figure>
+                        <img src="/dwai-2024/flexbox/img/img15.png" alt="Livro 15">
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Logo Love Design</strong>
+                        <div>Autor: David Airey</div>
+                        <div>Editora New Riders, 2020</div>
+                        <div> Artes   Design   Fundamentos da Imagem</div>
+                        <div class="categorias">
+                            <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+                <!-- Categoria 3-->
+            <section class="conteudo">
+                <h2>Desenvolvimento Pessoal <small>3 livros</small></h2>
+                <ul class="livros">
+                    <li class="livro">
+                        <figure>
+                            <img src="/dwai-2024/flexbox/img/img16.png" alt="Livro 16">
+                        </figure>
+                        <div class="right">
+                            <strong class="block">Hiperfoco: Como trabalhar menos e render mais</strong>
+                            <div>por Chris Bailey</div>
+                            <div>Editora Benvirá, 2019, 1ª Ed.</div>
+                            <div> Design   Foco  Atenção  Produtividade</div>
+                            <div class="categorias">
+                                <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="livro">
+                        <figure>
+                            <img src="/dwai-2024/flexbox/img/img17.png" alt="Livro 17">
+                        </figure>
+                        <div class="right">
+                            <strong class="block">Negocie qualquer coisa com qualquer pessoa: Estratégias práticas para...</strong>
+                            <div>por Eduardo Ferraz</div>
+                            <div>Editora Planeta Estratégia, 2020</div>
+                            <div>Negociação</div>
+                            <div class="categorias">
+                                <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="livro">
+                        <figure>
+                            <img src="/dwai-2024/flexbox/img/img18.png" alt="Livro 18">
+                        </figure>
+                        <div class="right">
+                            <strong class="block">As armas da persuasão</strong>
+                            <div> por Robert Cialdini</div>
+                            <div>Editora Sextante, 2012</div>
+                            <div>Negociação</div>
+                            <div class="categorias">
+                                <a href="#" class="inline-block">Leia Mais</a> <img src="/dwai-2024/flexbox/img/setinha.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+        </section>
     </main>
+
+
     <footer>
-        <img src="assets/img/logo.png" alt="">
+        <img src="/dwai-2024/flexbox/img/aw.png" alt="Logo AW">
     </footer>
-    
+   
 </body>
 </html>

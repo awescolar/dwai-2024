@@ -1,35 +1,118 @@
-header{}
-header img{}
-
-header nav{}
-header nav menu{}
-header nav menu li{}
-header nav menu a{}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 
-main{}
-main .breadcrumb{}
-main .breadcrumb a{}
-main .breadcrumb span{}
-
-main header{}
-main header h1{}
-main header small{}
-
-main .filtros{}
-main .filtros a{}
-main .filtros a:hover{}
-
-main .conteudo{}
-main .conteudo h2{}
-main .conteudo h2 small{}
-
-.livros{}
-.livros .livro{}
-.livros .livro figure{}
-.livros .livro .right{}
-
-
-footer{
-    text-align: center;
+body {
+    font-family: 'Inter', sans-serif;
 }
+
+
+header {
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+
+header img {
+    width: 120px;
+}
+
+
+header nav {
+    display: flex;
+}
+
+
+header nav menu {
+    display: flex;
+    list-style: none;
+}
+
+
+header nav menu li {
+    margin-right: 30px;
+}
+
+
+header nav menu a {
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+main .breadcrumb {}
+
+
+main .breadcrumb a {}
+
+
+main .breadcrumb span {}
+
+
+main header {}
+
+
+main header h1 {}
+
+
+main header small {}
+
+
+main .filtros {}
+
+
+main .filtros a {}
+
+
+main .filtros a:hover {}
+
+
+main .conteudo {}
+
+
+main .conteudo h2 {}
+
+
+main .conteudo h2 small {}
+
+
+.livros {}
+
+
+.livros .livro {}
+
+
+.livros .livro figure {}
+
+
+.livros .livro figure img {}
+
+
+.livros .livro .right {}
+
+
+.livros .livro .right strong {
+}
+
+
+.livros .livro .right div {}
+
+
+.livros .livro .right .categorias a {}
+
+
+footer {}
+
+
+footer img {}
