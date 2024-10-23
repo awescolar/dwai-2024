@@ -1,10 +1,8 @@
 body {
     font-family: 'Inter';
+    height: 2590px;
     margin: 0;
-}
-
-.block { 
-    display: block; 
+    width: 1440px;
 }
 
 .inline-block {
@@ -14,27 +12,28 @@ body {
 header {
     background: #F2F2F2;
     height: 88px;
-    width: 1440px;
 }
 
 header img { 
     height: 29.886px;
-    padding: 29.5px 1205px 28.6px 123px;
+    padding: 29.5px 0px 28.6px 123px;
     width: 111.325px;
 }
 
 header nav {
-    padding: 33.6px 123px 34.5px 891px;
+    float: right;
+    padding: 33.6px 123px 34.5px 600px;
+    width: 433px;
 }
 
 header nav menu {
-    display: flex;
-    gap: 40px;
     list-style: none;
+    margin: 0;
 }
 
 header nav menu li {
-
+    display: inline-block;
+    margin-right: 35px;
 }
 
 header nav menu a {
@@ -43,12 +42,9 @@ header nav menu a {
 
 /** Seção principal de conteúdo */
 
-main {
-
-}
-
 main .breadcrumb {
-
+    padding: 32px 1275px 14px 120px;
+    width: 360px;
 }
 
 main .breadcrumb a {
@@ -60,15 +56,22 @@ main .breadcrumb span {
 }
 
 main header {
-
+    background: #222;
+    height: 160px;
 }
 
 main header h1 {
-
+    color: #F9FAFC;
+    font-size: 40px;
+    line-height: 160%;
+    margin: 0;
+    padding: 18px 864px 9px 117px;
 }
 
 main header small {
-
+    color: #F9FAFC;
+    font-size: 16px;
+    padding: 0px 949px 43px 120px;
 }
 
 main .filtros {
@@ -76,11 +79,11 @@ main .filtros {
 }
 
 main .filtros a {
-
+    background: #8A9399;
 }
 
 main .filtros a:hover {
-
+    background: #2F80ED;
 }
 
 main .conteudo {
