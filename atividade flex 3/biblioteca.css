@@ -7,7 +7,6 @@ body{
 /**formação para todos o header*/
 
 header{
-    width: 1519px;
     height: 88px;
     background: var(--Gray-6, #F2F2F2);
 }
@@ -15,8 +14,10 @@ header img{
     padding: 30px;
     width: 111.325px;
     height: 29.886px;
+    margin-left: 120px;
 }
-header nav{}
+
+
 header nav menu{
     display: flex;
     justify-content: left;
@@ -43,6 +44,12 @@ header nav menu a{
 
 main{}
 main .breadcrumb{
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        padding-top: 32px;
+        margin-bottom: 14px;
+        margin-left: 148px;
 }
 main .breadcrumb a{
     text-decoration: 0;
@@ -51,14 +58,14 @@ main .breadcrumb a{
     font-style: normal;
     font-weight: 300;
     line-height: 160%; /* 25.6px */
-    margin-left: 40px;
+    margin-left: 2px;
     
 }
 main .breadcrumb div{
     margin-left: 25px;
 }
 main .breadcrumb img{
-    margin-left: 60px;
+    margin-left: -10px;
 }
 main .breadcrumb span{
     color: var(--dark-gray, #8A9399);
@@ -66,7 +73,7 @@ main .breadcrumb span{
     font-style: normal;
     font-weight: 300;
     line-height: 160%; /* 25.6px */
-    margin-left: 40px;
+    margin-left: 2px;
 }
 
 main header{
@@ -82,7 +89,7 @@ main header h1{
     font-weight: 800;
     line-height: 160%; /* 64px */
     padding: 20px;
-    margin-left: 60px;
+    margin-left: 124px;
     
 }
 main header small{
@@ -94,12 +101,12 @@ main header small{
     line-height: 160%; /* 25.6px */
     text-decoration: 0;
     margin-top: -35px;
-    margin-left: 80px;
+    margin-left: 144px;
 }
 
 main .filtros{
     padding: 20px;
-    margin-left: 56px;
+    margin-left: 120px;
 }
 main .filtros a{
     color: var(--dark-gray, #8A9399);
@@ -123,7 +130,7 @@ main .filtros a:hover{
 
 main .conteudo{
     padding: 62px;
-    padding-left: 75px;
+    padding-left: 140px;
 }
 main .conteudo h2{
     color: var(--dark-black-2, #1F2D3D);
@@ -157,7 +164,7 @@ main .conteudo h2 small{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 420px;
+    width: 362px;
     height: 240px;
     flex-shrink: 0;
     border-radius: 5px;
@@ -179,8 +186,9 @@ main .conteudo h2 small{
     display: flex;
     flex-direction: column;
     margin-top: 25px;
-    width: 392px;
+    width: 400px;
     line-height: 140%; /* 19.6px */
+    margin-left: -30px;
 }
 .livros .livro .right div a:nth-child(3){
     margin-left: 8px;
@@ -197,6 +205,9 @@ main .conteudo h2 small{
 }
 .livros .livro .right div:nth-child(3){
     color: var(--dark-gray, #8A9399);
+}
+.livros .livro figure img:nth-child(1){
+    margin-left: -20px;
 }
 
 footer{
