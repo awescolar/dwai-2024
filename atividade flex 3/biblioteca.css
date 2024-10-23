@@ -1,24 +1,24 @@
-body{
+body {
     flex-shrink: 0;
     margin: 0;
     height: 2590px;
     font-family: 'Inter';
 }
-/**formação para todos o header*/
 
-header{
+/* Estilos para o header */
+header {
     height: 88px;
     background: var(--Gray-6, #F2F2F2);
 }
-header img{
+
+header img {
     padding: 30px;
     width: 111.325px;
     height: 29.886px;
     margin-left: 120px;
 }
 
-
-header nav menu{
+header nav menu {
     display: flex;
     justify-content: left;
     list-style: none;
@@ -28,129 +28,124 @@ header nav menu{
     margin-top: -60px;
 }
 
-header nav menu li{}
-header nav menu a{
+header nav menu a {
     color: #000;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 25.6px */
+    line-height: 160%;
     margin-left: 20px;
     text-decoration: none;
-    
 }
 
-/**seção principal de conteudo*/
-
-main{}
-main .breadcrumb{
-        display: flex;
-        align-items: center;
-        gap: 0.8rem;
-        padding-top: 32px;
-        margin-bottom: 14px;
-        margin-left: 148px;
+/* Seção principal */
+main .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding-top: 32px;
+    margin-bottom: 14px;
+    margin-left: 148px;
 }
-main .breadcrumb a{
-    text-decoration: 0;
+
+main .breadcrumb a {
+    text-decoration: none;
     color: var(--dark-silver, #3C4858);
     font-size: 16px;
-    font-style: normal;
     font-weight: 300;
-    line-height: 160%; /* 25.6px */
-    margin-left: 2px;
-    
-}
-main .breadcrumb div{
-    margin-left: 25px;
-}
-main .breadcrumb img{
-    margin-left: -10px;
-}
-main .breadcrumb span{
-    color: var(--dark-gray, #8A9399);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 160%; /* 25.6px */
+    line-height: 160%;
     margin-left: 2px;
 }
 
-main header{
+main .breadcrumb div {
+    margin-left: 25px;
+}
+
+main .breadcrumb img {
+    margin-left: -10px;
+}
+
+main .breadcrumb span {
+    color: var(--dark-gray, #8A9399);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 160%;
+    margin-left: 2px;
+}
+
+main header {
     background: var(--dark-black, #222);
     height: 160px;
     flex-shrink: 0;
-
 }
-main header h1{
+
+main header h1 {
     color: var(--extra-light-snow, #F9FAFC);
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    line-height: 160%; /* 64px */
+    line-height: 160%;
     padding: 20px;
     margin-left: 124px;
-    
 }
-main header small{
+
+main header small {
     display: flex;
     color: var(--extra-light-snow-extra-dark, #E5E9F2);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 25.6px */
-    text-decoration: 0;
+    line-height: 160%;
     margin-top: -35px;
     margin-left: 144px;
 }
 
-main .filtros{
+main .filtros {
     padding: 20px;
     margin-left: 120px;
 }
-main .filtros a{
+
+main .filtros a {
     color: var(--dark-gray, #8A9399);
     text-align: center;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 19.6px */
-    text-decoration: 0;
+    line-height: 140%;
+    text-decoration: none;
     display: inline-flex;
     padding: 5px 10px;
     align-items: flex-start;
     gap: 10px;
     border: 1px solid var(--dark-gray, #8A9399);
 }
-main .filtros a:hover{
+
+main .filtros a:hover {
     color: #FFF;
     border: 1px solid #FFF;
     background: var(--Blue-1, #2F80ED);
 }
 
-main .conteudo{
+main .conteudo {
     padding: 62px;
     padding-left: 140px;
 }
-main .conteudo h2{
+
+main .conteudo h2 {
     color: var(--dark-black-2, #1F2D3D);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 26px;
-    font-style: normal;
     font-weight: 600;
-    line-height: 140%; /* 36.4px */
+    line-height: 140%;
 }
-main .conteudo h2 small{
+
+main .conteudo h2 small {
     color: var(--dark-gray, #8A9399);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 25.6px */
+    line-height: 160%;
     margin-left: 23px;
 }
 
-.livros{
+/* Estilos para livros */
+.livros {
     display: inline-flex;
     padding: 20px;
     flex-direction: row;
@@ -160,7 +155,8 @@ main .conteudo h2 small{
     flex-wrap: wrap;
     margin-top: -40px;
 }
-.livros .livro{
+
+.livros .livro {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -172,44 +168,54 @@ main .conteudo h2 small{
     margin-top: 41px;
     margin-left: 23px;
 }
-.livros .livro figure a{
-    margin-top: 25px;
-    color: var(--Blue-1, #2F80ED);
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%; /* 19.6px */
-    text-decoration-line: underline;
+
+.livros .livro figure {
+    margin-left: 20px;
 }
-.livros .livro .right{
+.livros .livro figure img:nth-last-child(1){
     display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-    width: 400px;
-    line-height: 140%; /* 19.6px */
-    margin-left: -30px;
-}
-.livros .livro .right div a:nth-child(3){
-    margin-left: 8px;
-}
-.livros .livro .right div a:nth-child(2){
-    margin-left: 8px;
-}
-.livros .livro .right div a{
-    color: var(--dark-gray, #8A9399);
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-}
-.livros .livro .right div:nth-child(3){
-    color: var(--dark-gray, #8A9399);
-}
-.livros .livro figure img:nth-child(1){
-    margin-left: -20px;
+    margin-top: -22px;
+    margin-left: 60px;
 }
 
-footer{
+.livros .livro figure a {
+    display: flex;
+    color: var(--Blue-1, #2F80ED);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    text-decoration-line: underline;
+    margin-top: 10px;
+}
+
+.livros .livro .right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    width: 400px;
+    line-height: 140%;
+    margin-left: -30px;
+}
+
+.livros .livro .right div {
+    margin-top: 5px;
+}
+
+.livros .livro .right div a:nth-child(3) {
+    margin-left: 8px;
+    color: var(--dark-gray, #8A9399);
+}
+
+.livros .livro .right div a {
+    color: var(--dark-gray, #8A9399);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Estilos para o footer */
+footer {
     text-align: center;
+    margin-top: 154px;
 }
