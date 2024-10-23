@@ -4,9 +4,10 @@ body, html {
     margin: 0;
 }
 
+.inline-block { display: inline-block;}
+
 header {
     background-color: #F2F2F2;
-    width: 100%;
 }
 
 header img {   
@@ -19,12 +20,11 @@ header nav {
 
 header nav menu {
     margin: 33.55px 123px 34.47px 0;
+    display: flex;
+    gap: 40px;
+    list-style: none;;
 }
-header nav menu li {
-    display: inline-block;
-    margin-left: 40px;
-    
-}
+
 header nav menu a{
     text-decoration: none;
     color: black;
@@ -32,7 +32,6 @@ header nav menu a{
     font-weight: 400;
 }
 
-.inline-block { display: inline-block;}
 
 main .breadcrumb {
     display: flex;
@@ -41,12 +40,17 @@ main .breadcrumb {
     padding-top: 32px;
     margin-bottom: 14px;
     margin-left: 120px;
+    color: #3C4858;
+}
+
+main .breadcrumb a {
+    color: #3C4858;
+    text-decoration: none;
 }
 
 main .header {
     background-color:black;
     color: #fff;
-    width: 100%;
     padding: 18px 0 43px 117px;
 }
 
@@ -77,6 +81,11 @@ main menu {
     margin-left: 121px;  
 }
 
+main menu a:hover{
+    background-color: #8A9399;
+    color: #fdfdfd;
+}
+
 main .container h2 {
     font-size: 26px;
     margin-left: 118px;
@@ -96,6 +105,7 @@ main .card {
     height: 217px;
     padding: 20px;
     margin-left: 121px;
+    border-radius: 5px;
 }
 
 main .container .card img {
@@ -113,8 +123,8 @@ main .container .info {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    font-size: 14px;
 }
 
-.cinza {
-    color: #8A9399;
-}
+
+.cinza {color: #8A9399;}
