@@ -4,31 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="flexbox-3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Biblioteca do Professor</title>
 </head>
 <body>
 
-     <header>
-        <a href="">
-            <img src="" alt="">
+    <header>
+        <a href="#">
+            <img src="Imagens/LOGO.svg" alt="Logo">
         </a>
         <nav>
             <menu>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Cursos</a></li>
-                <li><a href="">Biblioteca</a></li>
-                <li><a href="">Materiais</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Biblioteca</a></li>
+                <li><a href="#">Materiais</a></li>
             </menu>
         </nav>
-     </header>
+    </header>
 
-     <main>
+    <main>
+        <!-- trilha de links -->
+        <div class="breadcrumb">
+            <a href="/">Home</a>
+            <a href="livros.html">Livros</a>
+            <span>Biblioteca do Professor</span>
+        </div>
+
+        <!-- header -->
+        <header>
+            <h1>Biblioteca do Professor</h1>
+            <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+        </header>
+        <section class="filtros">
+            <a href="#">Fundamentos do design</a>
+            <a href="#">UX / UI Design</a>
+            <a href="#">Inovação</a>
+            <a href="#">Ensino e Aprendizagem</a>
+            <a href="#">Desenvolvimento Pessoal</a>
+        </section>
+
+        <section class="conteudo">
+            <h2>Fundamentos do design <small>6 livros</small></h2>
+            <ul class="livros">
+                <li class="livro">
+                    <figure>
+                        <img src="assets/img/livro/livro-1.jpg" alt="">
+                        <a href="#">Leia mais</a>
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                        <div>Autor: Ellen Lupton</div>
+                        <div>Editora, 2020</div>
+                        <div>
+                            <a href="#" class="inline-block">Artes</a>
+                            <a href="#" class="inline-block">Design</a>
+                            <a href="#" class="inline-block">Fundamentos da Imagem</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
         
-     </main>
+        <section class="conteudo">
+            <h2>Fundamentos do design <small>6 livros</small></h2>
+            <ul class="livros">
+                <li class="livro">
+                    <figure>
+                        <img src="assets/img/livro/livro-1.jpg" alt="">
+                        <a href="#">Leia mais</a>
+                    </figure>
+                    <div class="right">
+                        <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                        <div>Autor: Ellen Lupton</div>
+                        <div>Editora, 2020</div>
+                        <div>
+                            <a href="#" class="inline-block">Artes</a>
+                            <a href="#" class="inline-block">Design</a>
+                            <a href="#" class="inline-block">Fundamentos da Imagem</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
 
-     <footer>
-
-     </footer>
-
+    </main>
+    <footer>
+        <img src="assets/img/logo.png" alt="">
+    </footer>
+    
 </body>
 </html>
