@@ -1,20 +1,23 @@
 body{
-    max-width: 1200px;
     font-family: Inter;
+    margin: 0;
 }
 header{
     background: #F2F2F2;
     width: 1440px;
     height: 88px;
+    display: flex;
 }
 header img{}
 header nav{
     display: inline-block;
     float: right;
 }
-header nav menu{}
-header nav menu li{
+header nav menu{
+    gap: 40px;
     list-style: none;
+}
+header nav menu li{
     display: inline-block;
     font-size: 16px;
     font-weight: 400;
@@ -24,6 +27,9 @@ header nav menu li{
 header nav menu li a{
     text-decoration: none;
     color: #000000;
+}
+menu{
+    display: flex;
 }
 main{}
 main .breadcrumb{
@@ -96,6 +102,7 @@ main .conteudo h2 small{
 }
 .livros .livro figure{}
 .livros .livro .right{}
+.livros .livro .right div:nth-child(3),
 .livros .livro .right a{
     display: inline-block;
     color: #8A9399;
