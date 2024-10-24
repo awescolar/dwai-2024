@@ -40,7 +40,7 @@ header nav menu a{
 
 main .breadcrumb{
     display: flex;
-    gap: 9.6px;
+    gap: 0.6rem;
     margin-top: 32px;
     margin-left: 120px;
     margin-bottom: 12px;
@@ -103,25 +103,31 @@ main .conteudo h2 small{
 }
 
 main .livros{
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
 
 }
 main .livros .livro{
+    border: solid 1px ;
     
 } 
 
 main .livros .livro figure{
-  
+    margin: 0;
    
 }
 
 
 main .livros .livro a{
-    
-
 }
 
 main .livros .livro .right{
+
+}
+.livros .livro .right div:nth-child(3),
+.livros .livro .right a{
+    color: #8A9399;
 }
 
 footer{
