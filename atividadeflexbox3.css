@@ -1,36 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    height: 2590px;
+    margin: 0;
+}
 /**Formação para o header (TODOS)*/
 
-header{}
-header img{}
-header nav{}
-header nav menu{}
-header nav menu li{}
-header nav menu a{}
+
+header{
+    height: 90px;
+    background: var(--Gray-6, #F2F2F2);
+    
+    
+}
+
+header img{
+    padding: 30px 123.2px
+    
+}
+
+header nav{
+    float: right;
+}
+header nav menu{
+    margin: 33.57px 123px 34.47px;
+    gap: 40px;
+    display: flex;
+    list-style: none;
+}
+
+header nav menu a{
+    font-weight: 400;
+    text-decoration: none;
+}
 
 /**Seção principal de conteúdo */
 
-main{}
-main .breadcrumb{}
-main .breadcrumb a{}
-main .breadcrumb span{}
+main .breadcrumb{
+    display: flex;
+    gap: 9.6px;
+    margin-top: 32px;
+    margin-left: 120px;
+    margin-bottom: 12px;
+    color: #8A9399;
+}
 
-main header{}
-main header h1{}
-main header small{}
+main .breadcrumb a{
+    color: #3C4858;
+    text-decoration: none;
+}
 
-main .filtros{}
-main .filtros a{}
-main .filtros a:hover{}
+main header{
+    background: var(--dark-black, #222);
+    padding-left: 117px;
+    height: 160px;
+}
+main header h1{
+    padding-top: 18px;
+    color: var(--extra-light-snow, #F9FAFC);
+    font-weight: 800px;
+}
 
-main .conteudo{}
+main header small{
+    gap: 100px ;
+    color: var(--extra-light-snow-extra-dark, #E5E9F2);
+}
+
+main .filtros{
+    padding-left: 121px;
+    padding-top: 20px;
+    padding-bottom: 63px;
+}
+main .filtros a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: solid 1px #8A9399;
+    color: #8A9399;
+}
+main .filtros a:hover{
+    background-color: #8A9399;
+    color: #fdfdfd;
+}
+
+main .conteudo{
+    padding-left: 118px;
+    display: inline-block;
+}
 main .conteudo h2{}
 main .conteudo h2 small{}
 
 main .livros{}
-main .livros .livro{}
-main .livros .livro figure{}
+main .livros .livro{
+} 
+
+main .livros .livro figure{
+    
+}
+
+main .livros .livro a{
+    color: var(--dark-gray, #8A9399);
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px; 
+    text-decoration-line: underline;
+}
+
 main .livros .livro .right{}
 
 footer{
+    background: #F9FAFC;
     text-align: center;
 }
