@@ -1,7 +1,5 @@
 body {
-    flex-shrink: 0;
     margin: 0;
-    height: 2590px;
     font-family: 'Inter';
 }
 
@@ -13,8 +11,8 @@ header {
 
 header img {
     padding: 30px;
-    width: 111.325px;
-    height: 29.886px;
+    width: 112px;
+    height: 30px;
     margin-left: 120px;
 }
 
@@ -23,7 +21,7 @@ header nav menu {
     justify-content: left;
     list-style: none;
     width: 54px;
-    height: 19.959px;
+    height: 20px;
     margin-left: 1000px;
     margin-top: -60px;
 }
@@ -41,7 +39,7 @@ header nav menu a {
 main .breadcrumb {
     display: flex;
     align-items: center;
-    gap: 0.8rem;
+    gap: 2px;
     padding-top: 32px;
     margin-bottom: 14px;
     margin-left: 148px;
@@ -53,7 +51,7 @@ main .breadcrumb a {
     font-size: 16px;
     font-weight: 300;
     line-height: 160%;
-    margin-left: 2px;
+    margin-left: 10px;
 }
 
 main .breadcrumb div {
@@ -61,7 +59,7 @@ main .breadcrumb div {
 }
 
 main .breadcrumb img {
-    margin-left: -10px;
+    margin-left: 5px;
 }
 
 main .breadcrumb span {
@@ -69,7 +67,7 @@ main .breadcrumb span {
     font-size: 16px;
     font-weight: 300;
     line-height: 160%;
-    margin-left: 2px;
+    margin-left: 6px;
 }
 
 main header {
@@ -218,4 +216,9 @@ main .conteudo h2 small {
 footer {
     text-align: center;
     margin-top: 154px;
+    background: var(--extra-light-snow, #F9FAFC);
+    height: 52px;
+}
+footer img{
+    margin-top: 15px;
 }
