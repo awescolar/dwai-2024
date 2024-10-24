@@ -11,69 +11,80 @@
 <body>
     
     <header class="flex container">
-        <a href="#">
-            <img src="" alt="">
-        </a>
-        <nav>
-            <menu class="flex">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Biblioteca</a></li>
-                <li><a href="#">Materiais</a></li>
-            </menu>
-        </nav>
+        <div class="container flex centralizar-vertical alinhar estremidades">
+            <!-- area web safe -->
+            <a href="#">
+                <img src="imagem-flexbox/LOGO.png" alt="logo">
+            </a>
+            <nav>
+                <menu class="flex">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Biblioteca</a></li>
+                    <li><a href="#">Materiais</a></li>
+                </menu>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <div class="breadcrumb">
-            <a href="/">Home</a>
-            <a href="/biblioteca.html">livros</a>
-            <span>Biblioteca do Professor</span>
+        <!-- trilha de links -->
+        <div class="breadcrumb flex centralizar-horizontal">
+            <div class="container">
+                <a href="/">Home</a>
+                <a href="/biblioteca.html">livros</a>
+                <span>Biblioteca do Professor</span>
+            </div>
         </div>
 
         <!-- header -->
 
-        <header>
-            <h1>Biblioteca do professor </h1>
-            <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+        <header class="flex centralizar-horizontal">
+            <div class="container">
+                <h1>Biblioteca do professor </h1>
+                <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+            </div>
         </header>
 
         <!-- section -->
-        <section class="filtros">
-            <a href="#">Fundamentos de design</a>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-
+        <section class="filtros flex centralizar-horizontal">
+            <div class="container">
+                <a href="#">Fundamentos do design</a>
+                <a href="#">UX / UI Design</a>
+                <a href="#">Inovação</a>
+                <a href="#">Ensino e Aprendizagem</a>
+                <a href="#">Desenvolvimento Pessoal</a>
+            </div>
         </section>
 
-        <section class="conteudo">
-            <h2>Fundamentos do design<small> 6 livros</small></h2>
-            <ul class="livros">
-                <li class="livro">
-                    <figure>
-                        <img src="" alt="">
-                        <a href="#">Leia mais</a>
-                    </figure>
-                    <div class="right">
-                        <strong></strong>
-                        <div></div>
-                        <div></div>
-                        <div>
-                            <a href="#">artes</a>
-                            <a href="#">design</a>
-                            <a href="#">fundamentos da imagem</a>
+        <section class="conteudo flex centralizar-horizontal">
+            <div class="container">
+                <h2>Fundamentos do design<small> 6 livros</small></h2>
+                <ul class="livros">
+                    <li class="livro">
+                        <figure>
+                            <img src="i" alt="">
+                            <img src="imagem-flexbox/arrow-right.png" alt="leia mais">
+                            <a href="#">Leia mais</a>
+                        </figure>
+                        <div class="right">
+                            <strong  block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual></strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#">Artes</a>
+                                <a href="#">Design</a>
+                                <a href="#">Fundamentos da imagem</a>
+                            </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </section>
-
     </main>
 
     <footer>
-        <img src="" alt="">
+        <img src="imagem-flexbox/rodape.png" alt="">
     </footer>
     
 </body>
