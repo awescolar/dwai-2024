@@ -4,35 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade Flexbox 3</title>
+    <title>Atividade 3 - Flex</title>
+    <link rel="stylesheet" href="flex3.css">
+    <link rel="stylesheet" href="flex-3.1.css">
+
 </head>
 <body>
-    <header>
-        <a href="">
-            <img src="" alt="">
-        </a>
-        <nav>
-            <menu>
-                <li><a href="#">SOBRE</a></li>
-                <li><a href="#">CURSOS</a></li>
-                <li><a href="#">BIBLIOTECA</a></li>
-                <li><a href="#">MATERIAIS</a></li>
-            </menu>
-        </nav>
-    </header>
+    <header class="flex">
+        <div class="container flex centralizar-vertical alinhar-extremidades">
+            <a href="#">
+                <img src="imagens/LOGO.png" alt="">
+            </a>
+            <nav>
+                <menu class="flex">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Biblioteca</a></li>
+                    <li><a href="#">Materiais</a></li>
+                </menu>
+            </nav>
 
+        </div>
+    </header>
     <main>
-        <div class="br">
+        <div class="breadcrumb flex centralizar-horizontal">
             <a href="/">Home</a>
             <a href="livros.html">Livros</a>
             <span>Biblioteca do Professor</span>
         </div>
-
         <header>
             <h1>Biblioteca do Professor</h1>
             <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
         </header>
-
         <section class="filtros">
             <a href="#">Fundamentos do design</a>
             <a href="#">UX / UI Design</a>
@@ -40,33 +43,33 @@
             <a href="#">Ensino e Aprendizagem</a>
             <a href="#">Desenvolvimento Pessoal</a>
         </section>
-
         <section class="conteudo">
             <h2>Fundamentos do design <small>6 livros</small></h2>
             <ul class="livros">
                 <li class="livro">
                     <figure>
-                        <img src="" alt="">
+                        <img src="imagens/image 2.png" alt="">
+                        <a href="#">
+                            Leia mais <img src="imagens/arrow-right.png" alt="">
+                        </a>
                     </figure>
-                    <div class=>
-                        <strong>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
-                        <div>Autor: Ellen Lupton</div>
-                        <div>Editora, 2020</div>
+                    <div class="right">
+                        <strong class="block"></strong>
+                        <div></div>
+                        <div></div>
                         <div>
-                            <a href="#">Artes </a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
+                            <a href="#" class="inline-block">Artes</a>
+                            <a href="#" class="inline-block">Design</a>
+                            <a href="#" class="inline-block">Fundamentos da Imagem</a>
                         </div>
-                    
                     </div>
                 </li>
             </ul>
         </section>
     </main>
-
     <footer>
-        <img src="./imagens/rodape.png" alt="">
+        <img src="assets/img/logo.png" alt="">
     </footer>
-
+    
 </body>
 </html>

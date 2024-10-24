@@ -1,21 +1,48 @@
-header{}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: Inter;
+    margin: 0;
+}
+
+header{
+    background: #F2F2F2
+}
 header img{}
 
 header nav{}
-header menu{}
+header nav menu{
+    list-style: none;
+    gap: 40px;
+}
+header nav menu li{}
+header nav menu a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main{}
+main .breadcrumb{}
+main .breadcrumb a{}
+main .breadcrumb span{}
 
 main header{}
 main header h1{}
 main header small{}
 
-main .filtros 
+main .filtros{}
+main .filtros a{}
+main .filtros a:hover{}
 
 main .conteudo{}
 main .conteudo h2{}
 main .conteudo h2 small{}
 
-main .conteudo .livros{}
-main .conteudo .livros .livro{}
+.livros{}
+.livros .livro{}
+.livros .livro figure{}
+.livros .livro .right{}
 
 footer{
     text-align: center;
