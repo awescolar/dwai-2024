@@ -51,16 +51,26 @@ main {
 }
 
 
-main .breadcrumb {}
+main .breadcrumb {
+    margin: 15px 25px;
+}
 
 
-main .breadcrumb a {}
+main .breadcrumb a {
+    color: #3C4858;
+    margin-right: 2px;
+    text-decoration: none;
+}
 
 
-main .breadcrumb span {}
+main .breadcrumb span {
+    color: #8A9399;
+}
 
 
-main header {}
+main header {
+    background-color: #000000;
+}
 
 
 main header h1 {}
