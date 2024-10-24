@@ -4,8 +4,6 @@ body, html {
     margin: 0;
 }
 
-.inline-block { display: inline-block;}
-
 header {
     background-color: #F2F2F2;
 }
@@ -91,7 +89,17 @@ main .container h2 {
     margin-left: 118px;
     font-weight: 600;
 }
+main .container .cards{
+    display: flex;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    row-gap: 41px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    margin-left: 121px;
 
+}
 main .container h2 small {
     font-size: 16px;
     color:#8A9399;
@@ -104,16 +112,26 @@ main .card {
     width: 350px;
     height: 217px;
     padding: 20px;
-    margin-left: 121px;
     border-radius: 5px;
 }
 
-main .container .card img {
+main .container .card figure {
     float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 22.32px;
+    
+}
+
+main figure a {
+    display: flex;
+    align-items: center;
+    color: #2F80ED;
 }
 
 main .container .card h3 {
     font-size: 16px;
+    margin: 0;
 }
 
 main .container figure {margin: 0;}
@@ -122,9 +140,14 @@ main .container .info {
     padding-left:20px ;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     font-size: 14px;
+  
 }
 
+.info div a:nth-child(2),
+.info div a:nth-child(3) {
+   margin-left: 10px;
+}
 
 .cinza {color: #8A9399;}
