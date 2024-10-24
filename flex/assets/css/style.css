@@ -1,0 +1,76 @@
+body{
+    font-family:"Inter Tight", sans-serif;
+    margin:0;
+}
+
+/** 
+AQUI SERÁ SOMENTE A FORMATACAO DA HEADER
+******/
+
+header:nth-child(1){
+    align-items:center;
+    background: var(--Gray-6, #F2F2F2);
+    padding:15px;
+}
+
+header a{
+    text-decoration:none;
+    color:black;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+header nav{
+    margin-left:auto;
+    margin-right:20px;
+    text-transform: uppercase;
+}
+header nav menu{
+    list-style:none;
+    gap:16px;
+}
+header nav menu li{}
+header nav menu a{
+    text-decoration:none;
+    color: black;
+    font-weight:300;
+
+}
+
+/** Seção principal de conteúdo */
+
+main{}
+main .breadcrumb{
+    margin-left:20px;
+    padding:20px;
+    gap:25px;
+}
+main .breadcrumb a{}
+main .breadcrumb span{}
+
+main header{}
+main header h1{}
+main header small{}
+
+main .filtros{}
+main .filtros a{}
+main .filtros a:hover{}
+
+main .conteudo{}
+main .conteudo h2{}
+main .conteudo h2 small{}
+
+.livros{}
+.livros .livro{
+    list-style:none;
+}
+.livros .livro figure{}
+.livros .livro .right div:nth-child(3), .livros .livro .right a{
+    color:#8A9399;
+
+}
+
+
+footer{
+    text-align: center;
+}
