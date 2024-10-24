@@ -1,6 +1,25 @@
+.container{
+    max-width: 1400px;
+    border: 1px solid red;
+}
 .block{ 
     display: block; 
 }
 .inline-block{
     display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+.centralizar-horizontal{
+    justify-content: center;
+}
+.centralizar-vertical{
+    align-items: center;
+}
+
+.centralizar{
+    justify-content: center;    
+    align-items: center;
 }

@@ -1,15 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: Inter;
+    margin: 0;
+}
 
 /** 
 AQUI SERÁ SOMENTE A FORMATACAO DA HEADER
 ******/
 
-header{}
+header{
+    background: #F2F2F2;
+}
 header img{}
 
 header nav{}
-header nav menu{}
+header nav menu{
+    list-style: none;
+    gap: 40px;
+}
 header nav menu li{}
-header nav menu a{}
+header nav menu a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 /** Seção principal de conteúdo */
 
@@ -34,6 +49,10 @@ main .conteudo h2 small{}
 .livros .livro{}
 .livros .livro figure{}
 .livros .livro .right{}
+.livros .livro .right div:nth-child(3),
+.livros .livro .right a{
+    color: #8A9399;
+}
 
 
 footer{

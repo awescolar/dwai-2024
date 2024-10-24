@@ -6,22 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listagem de Livros</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
 
-    <header>
-        <a href="#">
-            <img src="logo" alt="">
-        </a>
-        <nav>
-            <menu>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Biblioteca</a></li>
-                <li><a href="#">Materiais</a></li>
-            </menu>
-        </nav>
+    <header class="flex centralizar">
+        <!-- area web safe -->
+        <div class="container flex centralizar">
+
+            <a href="#">
+                <img src="imagens/logo.svg" alt="">
+            </a>
+            <nav>
+                <menu class="flex">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Biblioteca</a></li>
+                    <li><a href="#">Materiais</a></li>
+                </menu>
+            </nav>
+
+        </div>
     </header>
 
     <main>
@@ -50,13 +56,16 @@
             <ul class="livros">
                 <li class="livro">
                     <figure>
-                        <img src="assets/img/livro/livro-1.jpg" alt="">
-                        <a href="#">Leia mais</a>
+                        <img src="imagens/image 2.png" alt="">
+                        <br>
+                        <a href="#">
+                            Leia mais <img src="imagens/arrow-right.svg" alt="">
+                        </a>
                     </figure>
                     <div class="right">
-                        <strong class="block"></strong>
-                        <div></div>
-                        <div></div>
+                        <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                        <div>Autor: Ellen Lupton</div>
+                        <div>Editora, 2020</div>
                         <div>
                             <a href="#" class="inline-block">Artes</a>
                             <a href="#" class="inline-block">Design</a>
