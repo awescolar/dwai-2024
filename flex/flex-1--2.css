@@ -16,34 +16,41 @@ section {
 
 .ini {
     display: flex;
+    margin-top: -10px;
+    margin-bottom: -17px;
 }
 
 .ast {
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
     color: white;
     background-color: gray;
-    width: 30px;
-    border-radius: 20px;
+    width: 10px;
+    border-radius: 10px;
+    padding: 2px 7px 4px 7px;
 }
 
 .int {
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
     color: white;
     background-color: #2D9CDB;
-    width: 95px;
+    width: 75px;
     border-radius: 20px;
     margin-left: 6px;
+    padding: 2px 7px 4px 7px;
 }
 
 .css {
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
-    border: 1px solid;
+    border: 1px;
     border-radius: 20px;
-    width: 30px;
-    margin-left: 6px; 
+    color: black;
+    background-color: rgba(255, 196, 96, 1);
+    width: 20px;
+    margin-left: 6px;
+    padding: 2px 7px 4px 7px;
 }
 
 h4 {
@@ -54,22 +61,33 @@ p {
     color: rgba(114, 114, 114, 1);
 }
 
-.lista {
+.lista1 {
     color: rgba(114, 114, 114, 1);
-    margin-left: -10px;
+    margin-left: -13px;
 }
 
-.ult {
+li {
+    margin-top: 7px;
+}
+
+.caixa2 {
+    padding: 1px;
     background-color: rgb(230, 230, 230);
-    border: rgba(189, 189, 189, 1) 1px solid;
+    border: rgba(189, 189, 189, 1) 1px soli;
     border-radius: 12px;
 }
 
-.caixa {
+.lista2 {
     color: rgba(114, 114, 114, 1);
-    margin-left: -60px;
+    margin-left: -55px;
 }
 
 ol {
     margin-top: 7px;
+}
+
+.rodape {
+    margin-top: 30px;
+    margin-bottom: -30px;
+    margin-left: 385px;
 }
