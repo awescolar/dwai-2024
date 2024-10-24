@@ -1,13 +1,32 @@
-
+body{
+    display: flex;
+    flex-direction: column;
+}
 /*Aqui será SÓ O HEADER */
 header{
-    background-color: red !important;
+    display: flex;
+    background-color: #F2F2F2;
+    font-family: Inter;
+    font-size: 16px;
+    align-content:right;
+    height: 88px;
+    width: 1440px;
 }
 header img{}
-header nav{}
-header nav ul{}
-header nav ul li{}
-header nav ul li a{}
+header nav{
+    align-content: right;
+}
+header nav menu{
+    margin: 5px;
+    padding:0px;
+}
+header nav menu li{
+    list-style-type: none;
+}
+header nav menu li a{
+    text-decoration: none;
+    color:black
+}
 
 /* Seção principal de conteúdo*/
 
@@ -16,7 +35,10 @@ main .breadcrumb{}
 main .breadcrumb a{}
 main .breadcrumb span{}
 
-main header{}
+main .head{
+    background-color: #222222;
+    color: #ffffff;
+}
 main header h1{}
 main header small{}
 
@@ -55,4 +77,4 @@ inline     = 1000
 !important = 10000000000
 
 */
- sf
+
