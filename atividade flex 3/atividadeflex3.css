@@ -1,0 +1,193 @@
+body{
+    font-family: Inter;
+}
+
+header{
+    height: 88px;
+    background: var(--Gray-6, #F2F2F2);
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 111.325px;
+    height: 29.886px;
+    margin-left: 43px;
+
+}
+
+header nav{
+    margin-left: auto;
+    margin-right: 123px;
+}
+
+header nav menu{
+    display: flex; 
+    gap: 40px;
+    list-style: none; 
+}
+
+
+header nav menu a{
+    color: #000;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;  
+}
+
+
+main{
+}
+
+main .breadcrumb{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 44px;
+    margin-top: 32px;
+    margin-bottom: 14px;
+}
+
+main .breadcrumb a{
+    text-decoration: none;
+    color: var(--dark-silver, #3C4858);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+main .breadcrumb span{
+    color: var(--dark-gray, #8A9399);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; 
+}
+
+main header{
+    background: var(--dark-black, #222);
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 43px;
+}
+
+main header h1{
+    color: var(--extra-light-snow, #F9FAFC);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%; 
+}
+
+main header small{
+    color: var(--extra-light-snow-extra-dark, #E5E9F2);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main .filtros{
+}
+
+main .filtros a{
+    display: inline-flex;
+    padding: 5px 10px;
+    border: 1px solid var(--dark-gray, #8A9399);
+    color: var(--dark-gray, #8A9399);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 43px;
+}
+main .filtros a:hover{
+    background-color: lightgray; 
+
+}
+
+main .conteudo{}
+main .conteudo h2{
+    color: var(--dark-black-2, #1F2D3D);
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    margin-left: 43px;
+}
+
+main .conteudo h2 small{
+    color: var(--dark-gray, #8A9399);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 21px;
+}
+main .livros{
+    list-style-type: none;
+    width: 384px;
+    height: 240px;
+    border-radius: 5px;
+    border: 0.5px solid var(--dark-gray, #8A9399);
+    padding: 20px;
+}
+
+main .livros .livro{
+    display: flex;
+  
+}
+
+main .livros strong{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+main .livros .Autor{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+main .livros .editora {
+    color: var(--dark-gray, #8A9399);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+main .livros .editora a{
+    color: var(--dark-gray, #8A9399);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main .livros .livro figure{
+    margin: 0;
+}
+
+main .livros .livro .right{    
+    padding-left: 20px; 
+    
+}
+
+main .livros .livro .right a{}
+
+
+footer{
+    text-align: center;
+}
