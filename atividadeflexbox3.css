@@ -30,7 +30,8 @@ header nav menu{
     list-style: none;
 }
 
-header nav menu a{
+header nav menu a{  
+    color: black;
     font-weight: 400;
     text-decoration: none;
 }
@@ -63,7 +64,7 @@ main header h1{
 }
 
 main header small{
-    gap: 100px ;
+    
     color: var(--extra-light-snow-extra-dark, #E5E9F2);
 }
 
@@ -86,31 +87,42 @@ main .filtros a:hover{
 
 main .conteudo{
     padding-left: 118px;
-    display: inline-block;
 }
-main .conteudo h2{}
-main .conteudo h2 small{}
+main .conteudo h2{
+    font-size: 26px;
+    color: var(--dark-black-2, #1F2D3D);
+    font-weight: 600;
+    line-height: 140%;
+}
+main .conteudo h2 small{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    color: var(--dark-gray, #8A9399);
+    padding-left: 21px;
+}
 
-main .livros{}
+main .livros{
+    list-style: none;
+
+}
 main .livros .livro{
+    
 } 
 
 main .livros .livro figure{
-    
+  
+   
 }
+
 
 main .livros .livro a{
-    color: var(--dark-gray, #8A9399);
+    
 
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 19.6px; 
-    text-decoration-line: underline;
 }
 
-main .livros .livro .right{}
+main .livros .livro .right{
+}
 
 footer{
     background: #F9FAFC;
