@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Paytone+One&display=swap');
+
+
+/** 
+AQUI SERÁ SOMENTE A FORMATACAO DA HEADER
+******/
+
+body{font-family: inter;
+margin: 0%;}
+
+header{}
+header img{}
+
+header nav{}
+header nav menu{
+    list-style: none;
+    gap: 40px;
+}
+header nav menu li{}
+header nav menu a{
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/** Seção principal de conteúdo */
+
+main{}
+main .breadcrumb{}
+main .breadcrumb a{}
+main .breadcrumb span{}
+
+main header{}
+main header h1{}
+main header small{}
+
+main .filtros{}
+main .filtros a{}
+main .filtros a:hover{}
+
+main .conteudo{}
+main .conteudo h2{}
+main .conteudo h2 small{}
+
+.livros{}
+.livros .livro{}
+.livros .livro figure{}
+.livros .livro .right{}
+.livros .livro .right .div:nth-child(3) {color:#aaa}
+.livros .livro .a { }
+
+
+footer{
+    text-align: center;
+}

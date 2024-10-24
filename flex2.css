@@ -48,3 +48,14 @@ p{
 }
 
 
+.bar-gray, .bar-blue{height: 8px;}
+
+.bar-gray{
+    width: 100%;
+    background: #E4ECF7;
+}
+
+.bar-blue{width: 240px;}
+
+
+
