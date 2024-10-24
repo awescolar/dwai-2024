@@ -1,8 +1,7 @@
 .container{
-    max-width: 1400px;
-    border: 1px solid red;
-    min-width: 1400px;
+    min-width: 1000px;
 }
+
 .block{ 
     display: block; 
 }
@@ -26,3 +25,4 @@
 }
 .alinhar-extremidades{
     justify-content: space-between;
+}

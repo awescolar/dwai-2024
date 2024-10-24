@@ -29,7 +29,7 @@ header nav menu a{
 /** Seção principal de conteúdo */
 
 main{}
-main .breadcrumb{}
+
 main .breadcrumb{
     padding-top: 32px;
     padding-bottom: 14px;
