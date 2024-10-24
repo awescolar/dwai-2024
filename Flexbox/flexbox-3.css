@@ -95,9 +95,11 @@ main .container .cards{
     flex-wrap: wrap;
     row-gap: 41px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     column-gap: 50px;
-    margin-left: 121px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 89px;
 
 }
 main .container h2 small {
@@ -137,7 +139,7 @@ main .container .card h3 {
 main .container figure {margin: 0;}
 
 main .container .info {
-    padding-left:20px ;
+    padding-left: 20px ;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -151,3 +153,11 @@ main .container .info {
 }
 
 .cinza {color: #8A9399;}
+
+footer {
+    background-color: #efeff0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+}
