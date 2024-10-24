@@ -91,11 +91,16 @@ main .conteudo h2 small{
 }
 
 .livros{}
-.livros .livro{}
+.livros .livro{
+    list-style: none;
+}
 .livros .livro figure{}
 .livros .livro .right{}
-.livros .livro .right{}
+.livros .livro .right a{
+    display: inline-block;
+    color: #8A9399;
 
+}
 footer{
     text-align: center;
     width: 1447px;
