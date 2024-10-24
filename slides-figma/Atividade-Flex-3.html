@@ -6,26 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listagem de Livros</title>
 
-    <link rel="stylesheet" href="slides-figma/css/Atividade-flex-3.css">
+    <link rel="stylesheet" href="Atividade-Flex-3.css">
+    <link rel="stylesheet" href="global.css">
 </head>
 <body>
 
-    <header>
-        <a href="#">
-            <img src="logo" alt="">
-        </a>
-        <nav>
-            <main>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Biblioteca</a></li>
-                <li><a href="#">Materiais</a></li>
-            </main>
-        </nav>
+    <header class="container flex centralizar">
+        <div class="">
+             <a href="#">
+               <img src="/assets/LOGO.jpg" alt="">
+             </a>
+           <nav>
+               <menu class="flex">
+                   <li><a href="#">Sobre</a></li>
+                   <li><a href="#">Cursos</a></li>
+                   <li><a href="#">Biblioteca</a></li>
+                   <li><a href="#">Materiais</a></li>
+               </menu>
+           </nav>
+        </div>  
     </header>
     
     <main>
-        <div class="breadcrumb">
+        <div class="breadcrumb flex">
             <a href="/">home</a>
             <a href="livros.html">Livros</a>
             <span>Biblioteca do Professor</span>
@@ -35,33 +38,40 @@
             <h1>Biblioteca do Professor</h1>
             <small>256 livros | 23 livros comentados | 5 resenhas</small>
         </header>
-        <section class="filtros">
-            <a href="#">Fundamentos do Design</a>
-            <a href="#">UX / UI Design</a>
-            <a href="#">Inovação</a>
-            <a href="#">Ensino e Aprendizagem</a>
-            <a href="#">Desenvolvimento Pessoal</a>
+        <section class="filtros flex centralizar-horizontal">
+            <div class="container">
+                  <a href="#">Fundamentos do Design</a>
+                <a href="#">UX / UI Design</a>
+                <a href="#">Inovação</a>
+                <a href="#">Ensino e Aprendizagem</a>
+                <a href="#">Desenvolvimento Pessoal</a>
+            </div>
+              
         </section>
-        <section class="conteudo">
-            <h2>Fundamentos do desing <small>6 livros</small></h2>
+        <section class="conteudo flex centralizar-horizontal">
+         <div class="container">
+
+          <h2>Fundamentos do desing <small>6 livros</small></h2>
             <ul class="livros">
                 <li class="livro">
                     <figure>
-                        <img src="assets/img/livro/livro-1.jpg" alt="">
+                        <img src="/assets/image 2.jpg" alt="">
                         <a href="#">Leia mais</a>
                     </figure>
-                    <div class="right">
-                        <strong class="block"></strong>
-                        <div></div>
-                        <div></div>
-                        <div>
-                            <a href="#" class="inline-block">Artes</a>
-                            <a href="#" class="inline-block">Desing</a>
-                            <a href="#" class="inline-block">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+                      <div class="right">
+                         <strong class="block"></strong>
+                         <div></div>
+                         <div></div>
+                         <div>
+                              <a href="#" class="inline-block">Artes</a>
+                              <a href="#" class="inline-block">Desing</a>
+                              <a href="#" class="inline-block">Fundamentos da Imagem</a>
+                         </div>
+                     </div>
+                 </li>
+             </ul>
+         </div>
+          
         </section>
     </main>
     <footer></footer>

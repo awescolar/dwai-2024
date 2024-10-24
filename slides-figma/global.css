@@ -1,0 +1,26 @@
+.container{
+    min-width: 1400px;
+
+}
+
+.block{
+    display: block;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+
+.centralizar-horizontal{
+    justify-content: center;
+}
+
+.centrlizar{
+    justify-content: center;
+    align-items: center;
+}
+

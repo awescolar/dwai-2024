@@ -1,5 +1,13 @@
-header{
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+body{
+    font-family: Inter;
+    margin: 0;
+}
+
+header{
+    background: #f2f2f2;
 }
 header img{
 
@@ -8,20 +16,24 @@ header nav{
 
 }
 header nav menu{
-
+    list-style: none;
+    gap: 40px;
 }
 header nav menu li{
 
 }
 header nav menu li a{
-
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 main{
 
 }
 main .breadcrumb{
-
+    padding-top: 32px;
+    padding-bottom: 14px;
 }
 main .breadcrumb a{
 
