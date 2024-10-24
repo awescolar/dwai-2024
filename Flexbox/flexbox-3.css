@@ -154,8 +154,9 @@ main .conteudo {
     margin-left: 20px;
 }
 
+.livros .livro .right div:nth-child(2),
 .livros .livro .right div a {
-    display: flex;
+
 }
 
 footer {
