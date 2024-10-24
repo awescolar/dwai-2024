@@ -14,66 +14,73 @@
 
 </head>
 <body>
-
     <header class="flex">
-        <a href="#">
-            <img src="./assets/img/logo.svg" alt="">
-        </a>
-        <nav>
-            <menu class="flex">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Biblioteca</a></li>
-                <li><a href="#">Materiais</a></li>
-            </menu>
-        </nav>
+        <div class="container flex centralizar-vertical alinhar-extremidades">
+            <a href="#">
+                <img src="./assets/img/logo.svg" alt="">
+            </a>
+            <nav>
+                <menu class="flex centralizar-vertical">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Biblioteca</a></li>
+                    <li><a href="#">Materiais</a></li>
+                </menu>
+            </nav>
+        </div>
     </header>
 
     <main>
         <!-- trilha de linkas -->
-        <div class="breadcrumb flex">
-            <a href="/">Home</a>
-            <img src="./assets/img/arrow-right.png" alt="">
-            <a href="livros.html">Livros</a>
-            <img src="./assets/img/arrow-right.png" alt="">
-            <a href=""><span>Biblioteca do Professor</span></a>
-        </div>
+        <div class="container">
+            <div class="breadcrumb flex">
+                <a href="/">Home</a>
+                <img src="./assets/img/arrow-right.png" alt="">
+                <a href="livros.html">Livros</a>
+                <img src="./assets/img/arrow-right.png" alt="">
+                <a href=""><span>Biblioteca do Professor</span></a>
+            </div>
+        </div>     
 
         <!-- header -->
-        <header>
-            <h1>Biblioteca do Professor</h1>
-            <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
-        </header>
-        <section class="filtros">
-            <a href="#">Fundamentos do design</a>
-            <a href="#">UX / UI Design</a>
-            <a href="#">Inovação</a>
-            <a href="#">Ensino e Aprendizagem</a>
-            <a href="#">Desenvolvimento Pessoal</a>
-        </section>
+        <div class="container">
+            <header>
+                <h1>Biblioteca do Professor</h1>
+                <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+            </header>
+        </div>
+        
+        <div class="container">
 
-        <section class="conteudo">
-            <h2>Fundamentos do design <small>6 livros</small></h2>
-            <ul class="livros">
-                <li class="livro flex">
-                    <figure>
-                        <img src="./assets/img/img-1.svg" alt="" class="block">
-                        <a href="#">Leia mais</a>
-                    </figure>
-                    <div class="right">
-                        <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
-                        <div>Autor: Ellen Lupton</div>
-                        <div>Editora, 2020</div>
-                        <div>
-                            <a href="#" class="inline-block">Artes</a>
-                            <a href="#" class="inline-block">Design</a>
-                            <a href="#" class="inline-block">Fundamentos da Imagem</a>
+            <section class="filtros">
+                <a href="#">Fundamentos do design</a>
+                <a href="#">UX / UI Design</a>
+                <a href="#">Inovação</a>
+                <a href="#">Ensino e Aprendizagem</a>
+                <a href="#">Desenvolvimento Pessoal</a>
+            </section>
+            <section class="conteudo">
+                <h2>Fundamentos do design <small>6 livros</small></h2>
+                <ul class="livros">
+                    <li class="livro flex">
+                        <figure>
+                            <img src="./assets/img/img-1.svg" alt="" class="block">
+                            <a href="#">Leia mais</a>
+                        </figure>
+                        <div class="right">
+                            <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="inline-block">Artes</a>
+                                <a href="#" class="inline-block">Design</a>
+                                <a href="#" class="inline-block">Fundamentos da Imagem</a>
+                            </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
-        </section>
-
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer>
         <img src="assets/img/logo.png" alt="">

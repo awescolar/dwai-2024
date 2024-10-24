@@ -3,25 +3,28 @@ body{
     margin:0;
 }
 
+a{
+    text-decoration:none;
+
+}
+
 /** 
 AQUI SERÁ SOMENTE A FORMATACAO DA HEADER
 ******/
 
-header:nth-child(1){
-    align-items:center;
-    background: var(--Gray-6, #F2F2F2);
-    padding:15px;
+header {
+    width:100%;
+    background: #F2F2F2;
+    padding:20px;
+
 }
 
-header a{
-    text-decoration:none;
-    color:black;
-    font-weight: 800;
-    margin-left: 20px;
+header div {
+    width:2400px;
+    margin-right:20px;
 }
 
 header nav{
-    margin-left:auto;
     margin-right:20px;
     text-transform: uppercase;
 }
@@ -43,17 +46,28 @@ main{}
 main .breadcrumb{
     margin-left:20px;
     padding:20px;
-    gap:25px;
+    gap:15px;
 }
-main .breadcrumb a{}
-main .breadcrumb span{}
+main .breadcrumb a{
+    font-weight: 200;
+    color: black;
+}
+main .breadcrumb span{
+    color:#8A9399;
+}
 
-main header{}
-main header h1{}
-main header small{}
+main header{
+    color:white;
+    background-color:black;
+}
 
-main .filtros{}
-main .filtros a{}
+main .filtros{
+    
+}
+main .filtros a{
+    color:#8A9399;
+    
+}
 main .filtros a:hover{}
 
 main .conteudo{}
