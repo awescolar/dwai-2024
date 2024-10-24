@@ -114,7 +114,9 @@ main .filtros a:hover{
 
 }
 
-main .conteudo{}
+main .conteudo {
+}
+
 main .conteudo h2{
     color: var(--dark-black-2, #1F2D3D);
     font-family: Inter;
@@ -132,6 +134,7 @@ main .conteudo h2 small{
     font-weight: 400;
     margin-left: 21px;
 }
+
 main .livros{
     list-style-type: none;
     width: 384px;
@@ -139,11 +142,12 @@ main .livros{
     border-radius: 5px;
     border: 0.5px solid var(--dark-gray, #8A9399);
     padding: 20px;
+    margin-left: 43px;
+    
 }
 
 main .livros .livro{
     display: flex;
-  
 }
 
 main .livros strong{
@@ -180,6 +184,16 @@ main .livros .livro figure{
     margin: 0;
 }
 
+main .livros .livro figure a{
+    color: var(--Blue-1, #2F80ED);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex; 
+    align-items: center; 
+
+}
+
 main .livros .livro .right{    
     padding-left: 20px; 
     
@@ -191,3 +205,4 @@ main .livros .livro .right a{}
 footer{
     text-align: center;
 }
+
