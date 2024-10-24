@@ -1,39 +1,28 @@
-
 .container{
     max-width: 1400px;
-    border:1px solid red /*retirar*/
-
+    border: 1px solid red;
+    min-width: 1400px;
 }
 .block{ 
     display: block; 
 }
-
 .inline-block{
     display: inline-block;
 }
 
 .flex{
-    display:flex;
-
+    display: flex;
 }
-
-.center{
+.centralizar-horizontal{
     justify-content: center;
 }
-
-.centralizar-horizontal{
-    
-}
-
 .centralizar-vertical{
     align-items: center;
 }
 
 .centralizar{
-    justify-content: center;
+    justify-content: center;    
     align-items: center;
 }
-
-.alinhar-expremidades{
-    align-content: space-between;
-}
+.alinhar-extremidades{
+    justify-content: space-between;
