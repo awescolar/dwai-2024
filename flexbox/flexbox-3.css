@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: Inter, sans-serif;
+    margin: 0%;
+}
 /** aqui será somente a formação da header */
 header{}
 header img{}
@@ -24,10 +29,11 @@ main .conteudo{}
 main .conteudo h2{}
 main .conteudo h2 small{}
 
-main .livros{}
-main .livros .livro{}
-main .livros .livro figure{}
-main .livros .livro .right{}
+.livros{}
+.livros .livro{}
+.livros .livro figure{}
+.livros .livro .right div:nth-child(3),
+
 
 footer{
     text-align: center;
