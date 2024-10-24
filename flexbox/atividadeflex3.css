@@ -35,23 +35,48 @@ main .breadcrumb{
     padding-bottom: 14px;
 }
 main .breadcrumb a{}
-main .breadcrumb span{}
+main .breadcrumb span{
+    
+}
 
-main header{}
-main header h1{}
+main header{
+    background-color: #222222;
+    color: #F9FAFC;
+
+}
+main header h1{
+    
+}
 main header small{}
 
 main .filtros{}
-main .filtros a{}
-main .filtros a:hover{}
+main .filtros a{
+width: Hug (179px)px;
+height: Hug (30px)px;
+top: 340px;
+left: 121px;
+padding: 5px 10px 5px 10px;
+gap: 10px;
+border: 1px 0px 0px 0px;
+opacity: 0px;     
+
+}
+
+main .filtros a:hover{
+    
+}
 
 main .conteudo{}
 main .conteudo h2{}
 main .conteudo h2 small{}
 
 .livros{}
-.livros .livro{}
-.livros .livro figure{}
+.livros .livro{
+
+}
+.livros .livro figure{
+    
+}
 .livros .livro .right{}
 .livros .livro .right div:nth-child(3),
 .livros .livro .right a{
