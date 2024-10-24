@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+
+body{
+    font-family: inter;
+    margin:0px;
+}
+
+header{
+    background: #F2F2F2;
+}
+header img{}
+header nav{}
+header nav menu{
+    list-style: none;
+    gap: 40px;
+}
+header nav menu li{}
+header nav menu a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/** Seção principal de conteúdo */
+main{}
+main .breadcrumb{
+    padding-top: 32px;
+    padding-bottom: 14px;
+}
+main .breadcrumb a{}
+main .breadcrumb span{}
+main header{}
+main header h1{}
+main header small{}
+main .filtros{}
+main .filtros a{}
+main .filtros a:hover{}
+main .conteudo{}
+main .conteudo h2{}
+main .conteudo h2 small{}
+.livros{}
+.livros .livro{}
+.livros .livro figure{}
+.livros .livro .right{}
+footer{
+    text-align: center;
+}

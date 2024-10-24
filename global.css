@@ -1,0 +1,39 @@
+
+.container{
+    max-width: 1400px;
+    border:1px solid red /*retirar*/
+
+}
+.block{ 
+    display: block; 
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.flex{
+    display:flex;
+
+}
+
+.center{
+    justify-content: center;
+}
+
+.centralizar-horizontal{
+    
+}
+
+.centralizar-vertical{
+    align-items: center;
+}
+
+.centralizar{
+    justify-content: center;
+    align-items: center;
+}
+
+.alinhar-expremidades{
+    align-content: space-between;
+}
