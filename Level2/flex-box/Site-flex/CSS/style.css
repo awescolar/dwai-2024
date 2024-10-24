@@ -1,10 +1,22 @@
-header{}
+body{
+    font-family: Inter,sans-serif;
+}
+header{
+    background:#ebebeb ;
+}
 header img{}
 
 header nav{}
-header nav menu{}
+header nav menu{
+    list-style: none;
+    gap: 40px;
+}
 header nav menu li{}
-header nav menu a{}
+header nav menu a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 /**Seção principal do conteúdo*/
 main{}
