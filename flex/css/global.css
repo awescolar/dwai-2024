@@ -1,6 +1,5 @@
 .container{
-    max-width: 1400px;
-    border: 1px solid red;
+    min-width: 1400px;
 }
 .block{ 
     display: block; 
@@ -22,4 +21,8 @@
 .centralizar{
     justify-content: center;    
     align-items: center;
+}
+
+.alinhar-extremidades{
+    justify-content: space-between;
 }
