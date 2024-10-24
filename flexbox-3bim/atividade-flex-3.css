@@ -30,7 +30,9 @@ header nav menu li a{
 
 /* Seção principal de conteúdo*/
 
-main{}
+main{
+
+}
 main .breadcrumb{}
 main .breadcrumb a{}
 main .breadcrumb span{}
@@ -53,7 +55,7 @@ main .conteudo h2 small{  // alguma coisa 30% da largura // }
 .livros{}
 .livros .livro{}
 .livros .livro figure{}
-.livros .livros .right{}
+.livros .livro .right{}
 
 
 
