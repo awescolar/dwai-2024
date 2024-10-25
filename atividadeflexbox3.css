@@ -2,7 +2,6 @@
 
 body{
     font-family: "Inter", sans-serif;
-    height: 2590px;
     margin: 0;
 }
 /**Formação para o header (TODOS)*/
@@ -11,8 +10,7 @@ body{
 header{
     height: 90px;
     background: var(--Gray-6, #F2F2F2);
-    
-    
+
 }
 
 header img{
@@ -102,35 +100,60 @@ main .conteudo h2 small{
     padding-left: 21px;
 }
 
-main .livros{
+main .livros {
+    justify-content: center;
+    max-width: 1500px;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
-
+    margin-bottom: 50px;
+    padding: 0;
+    gap: 24px;
 }
-main .livros .livro{
-    border: solid 1px ;
-    
-} 
 
-main .livros .livro figure{
+main .livros .livro {
+    border: solid 1px #8A9399;
+    width: 350px;
+    height: 217px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+main .livros .livro figure {
     margin: 0;
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-
-main .livros .livro a{
+main .livros .livro .right {
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3px;   
 }
 
-main .livros .livro .right{
-
+main .livros .livro a {
+    display: flex;
+    align-items: center;
+    color: #2F80ED;
 }
+
 .livros .livro .right div:nth-child(3),
-.livros .livro .right a{
+.livros .livro .right a {
     color: #8A9399;
 }
 
+
+
 footer{
-    background: #F9FAFC;
-    text-align: center;
+    height: 52px;
+    background-color: #efeff0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
