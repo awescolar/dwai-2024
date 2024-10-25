@@ -9,10 +9,15 @@ header{
     align-items: center;
 }
 
-header img{
+header figure{
+    margin: 0; 
+}
+
+header  img{
     width: 111.325px;
     height: 29.886px;
-    margin-left: 43px;
+    margin: 0;
+    margin-left: 60px;
 
 }
 
@@ -23,29 +28,23 @@ header nav{
 
 header nav menu{
     display: flex; 
-    gap: 40px;
+    gap: 25px;
     list-style: none; 
 }
-
 
 header nav menu a{
     color: #000;
     text-decoration: none;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;  
 }
 
-
-main{
-}
-
 main .breadcrumb{
+    margin-left: 60px;
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-left: 44px;
     margin-top: 32px;
     margin-bottom: 14px;
 }
@@ -53,7 +52,6 @@ main .breadcrumb{
 main .breadcrumb a{
     text-decoration: none;
     color: var(--dark-silver, #3C4858);
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -63,37 +61,34 @@ main .breadcrumb span{
     color: var(--dark-gray, #8A9399);
     font-size: 16px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 160%; 
+    font-weight: 300; 
 }
 
 main header{
     background: var(--dark-black, #222);
     height: 160px;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 43px;
 }
 
 main header h1{
     color: var(--extra-light-snow, #F9FAFC);
-    font-family: Inter;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: 160%; 
+    margin-left: 60px;
 }
 
 main header small{
     color: var(--extra-light-snow-extra-dark, #E5E9F2);
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    margin-left: 60px;
 }
 
 main .filtros{
+    margin-left: 60px;
 }
 
 main .filtros a{
@@ -107,24 +102,22 @@ main .filtros a{
     text-decoration: none;
     margin-top: 20px;
     margin-right: 5px;
-    margin-left: 43px;
 }
+
 main .filtros a:hover{
     background-color: lightgray; 
-
 }
 
 main .conteudo {
+    margin-left: 60px;
 }
+
 
 main .conteudo h2{
     color: var(--dark-black-2, #1F2D3D);
-    font-family: Inter;
     font-size: 26px;
     font-style: normal;
     font-weight: 600;
-    line-height: 140%; 
-    margin-left: 43px;
 }
 
 main .conteudo h2 small{
@@ -135,19 +128,24 @@ main .conteudo h2 small{
     margin-left: 21px;
 }
 
+
+
 main .livros{
     list-style-type: none;
     width: 384px;
-    height: 240px;
     border-radius: 5px;
     border: 0.5px solid var(--dark-gray, #8A9399);
     padding: 20px;
-    margin-left: 43px;
-    
+    display: inline-block;
 }
+
 
 main .livros .livro{
     display: flex;
+    color: var(--dark-gray, #8A9399);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 main .livros strong{
@@ -157,27 +155,14 @@ main .livros strong{
     font-weight: 700;
 }
 
-main .livros .Autor{
+
+main .livros .livro .Autor{
     color: #000;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
     margin-top: 10px;
-}
-
-main .livros .editora {
-    color: var(--dark-gray, #8A9399);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    margin-top: 10px;
-}
-
-main .livros .editora a{
-    color: var(--dark-gray, #8A9399);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
+    margin-bottom: 10px;
 }
 
 main .livros .livro figure{
@@ -196,11 +181,20 @@ main .livros .livro figure a{
 
 main .livros .livro .right{    
     padding-left: 20px; 
-    
+
 }
 
-main .livros .livro .right a{}
+.livro div:nth-of-type(3) {
+    margin-top: 10px;
+}
 
+main .livros .livro .right a{
+    color: var(--dark-gray, #8A9399);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+}
 
 footer{
     text-align: center;
