@@ -1,128 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0%;
 }
-
-
-header {
+.header {
     background-color: #F2F2F2;
-    border-bottom: 1px solid #ccc;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
 }
-
-
-header img {
-    width: 120px;
+.header img {
+    padding: 29.51px 0 28.6px 123.2px;
 }
-
-
 header nav {
-    display: flex;
+    float: right;
 }
-
-
-header nav menu {
+.header nav menu {
+    margin: 33.55px 123px 34.47px 0;
     display: flex;
+    gap: 30px;
     list-style: none;
 }
-
-
-header nav menu li {
-    margin-right: 30px;
-}
-
-
 header nav menu a {
-    color: #333;
-    font-weight: bold;
-    text-transform: uppercase;
+    color: #000;
+    font-weight: 400;
     text-decoration: none;
-    letter-spacing: 1px;
 }
-
-
-main {
-    padding: 20px;
-}
-
-
 main .breadcrumb {
-    margin: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding-top: 32px;
+    margin-bottom: 14px;
+    margin-left: 120px;
 }
-
-
 main .breadcrumb a {
     color: #3C4858;
-    margin-right: 2px;
+    margin: 2px;
     text-decoration: none;
 }
-
-
 main .breadcrumb span {
     color: #8A9399;
 }
 
-
 main header {
-    background-color: #000000;
+    background-color: black;
+    color: white;
+    padding: 20px 0 45px 100px;
+}
+main header h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+    font-weight: 800;
+    margin-top: 0%;
+}
+
+main .filtros {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+main .filtros a {
+    border: solid 1px  #8A9399;
+    text-decoration: none;
+    color: #8A9399;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+main .filtros a.active {
+    background-color: #1a73e8;
+    color: white;
+    border-color: #1a73e8;
+}
+
+main .filtros a:hover {
+    background-color: #8A9399;
+    color: #fdfdfd;
 }
 
 
-main header h1 {}
-
-
-main header small {}
-
-
-main .filtros {}
-
-
-main .filtros a {}
-
-
-main .filtros a:hover {}
-
-
-main .conteudo {}
-
-
-main .conteudo h2 {}
-
-
-main .conteudo h2 small {}
-
-
-.livros {}
-
-
-.livros .livro {}
-
-
-.livros .livro figure {}
-
-
-.livros .livro figure img {}
-
-
-.livros .livro .right {}
-
-
+main .conteudo h2 {
+    font-size: 26px;
+    margin-top: 100px;
+    font-weight: 600;
+}
+main .conteudo h2 small {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8A9399;
+}
+.livros {
+    display: flex;
+    padding: 26px;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.livros .livro {
+    display: flex;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+}
+.livros .livro figure {
+    margin-left: 18px;
+}
+.livros .livro figure img {
+    display: flex;
+    margin-top: -26px;
+    margin-left: 0px;
+}
+.livros .livro .right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    width: auto;
+    line-height: 140%;
+    margin-left: 20px;
+}
 .livros .livro .right strong {
+
+}
+.livros .livro .right div {
+    margin-top: 5px;
+}
+.livros .livro .right .categorias div {
+    color: #8A9399;
+    font-size: 14px;
+    height: 300px;
+}
+footer {
+    text-align: center;
+    margin-top: 154px;
+    height: 56px;
 }
 
-
-.livros .livro .right div {}
-
-
-.livros .livro .right .categorias a {}
-
-
-footer {}
-
-
-footer img {}
+footer img {
+    margin-top: 16px;
+}

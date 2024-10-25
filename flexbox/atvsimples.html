@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listagem de Livros</title>
-
-
+    <title>Lista de Livros</title>
     <link rel="stylesheet" href="atvsimples.css">
 </head>
 <body>
 
-
-    <header>
+    <header class="header">
         <a href="#">
-            <img src="/dwai-2024/flexbox/img/logoifrn.png" alt="Logo">
+            <img src="/dwai-2024/flexbox/img/LOGO.png" alt="Logo">
         </a>
         <nav>
             <menu>
@@ -33,24 +30,21 @@
             <span>Biblioteca do Professor</span>
         </div>
 
-        <!-- Título Principal -->
-        <header class="main-header">
+        <header>
             <h1>Biblioteca do Professor</h1>
             <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
         </header>
 
-        <!-- Filtros -->
         <section class="filtros">
             <a href="#">Fundamentos do design</a>
-            <a href="#">UX / UI Design</a>
+            <a href="#" class="active">UX / UI Design</a>
             <a href="#">Inovação</a>
             <a href="#">Ensino e Aprendizagem</a>
             <a href="#">Desenvolvimento Pessoal</a>
         </section>
 
         <section class="conteudo">
-            <!-- Categoria 1 -->
-            <h2>Fundamentos do design <small>6 livros</small></h2>
+            <h2>Fundamentos do design <small class="font-16">6 livros</small></h2>
             <ul class="livros">
                 <li class="livro">
                     <figure>
@@ -146,7 +140,6 @@
                 </li>
             </ul>
 
-            <!-- Categoria 2 -->
             <h2>UX / UI Design <small>5 livros</small></h2>
             <ul class="livros">
                 <li class="livro">
@@ -292,7 +285,6 @@
                 </li>
             </ul>
 
-                <!-- Categoria 3-->
             <section class="conteudo">
                 <h2>Desenvolvimento Pessoal <small>3 livros</small></h2>
                 <ul class="livros">
