@@ -9,7 +9,7 @@ header {
 }
 
 header img {   
-    padding: 29.51px 0 28.6px 123.2px;
+    padding: 29px 0 28px 123px;
 }
 
 header nav {
@@ -17,23 +17,19 @@ header nav {
 }
 
 header nav menu {
-    margin: 33.55px 123px 34.47px 0;
-    display: flex;
+    margin: 33px 123px 34px 0;
     gap: 40px;
-    list-style: none;;
+    list-style: none;
 }
 
 header nav menu a{
-    text-decoration: none;
     color: black;
     font-size: 16px;
     font-weight: 400;
 }
 
 
-main .breadcrumb {
-    display: flex;
-    align-items: center;
+.breadcrumb {
     gap: 0.8rem;
     padding-top: 32px;
     margin-bottom: 14px;
@@ -43,7 +39,6 @@ main .breadcrumb {
 
 main .breadcrumb a {
     color: #3C4858;
-    text-decoration: none;
 }
 
 main .header {
@@ -64,19 +59,15 @@ main .header span {
 }
 
 main .filter a {
-    text-decoration: none;
     color: #8A9399;
     border: solid 1px #8A9399;
     padding: 5px 10px;
-
 }
 
 main menu {
-    display: inline-flex;
-    align-items: flex-start;
     padding: 5px 10px;
     gap: 10px;  
-    margin-left: 121px;  
+    margin-left: 110px;  
 }
 
 main menu a:hover{
@@ -161,3 +152,19 @@ footer {
     justify-content: center;
     height: 52px;
 }
+
+
+.flex{display: flex;}
+
+.align-item{ align-items: center;}
+
+.justify-content { justify-content: center;}
+
+.center {
+    justify-content: center;
+    justify-content: center;
+}
+
+a {text-decoration: none;}
+
+.container {min-width: 1400px}
