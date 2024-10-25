@@ -37,27 +37,29 @@ header nav menu li {
 }
 
 header nav menu a {
+    color: #000;
     text-decoration: none;
 }
 
 /** Seção principal de conteúdo */
 
 main .breadcrumb {
-    padding: 32px 690px 14px 120px;
+    padding: 30px 690px 14px 120px;
     width: 360px;
 }
 
 main .breadcrumb a {
+    color: #000;
     text-decoration: none;
-}
-
-main .breadcrumb span {
-
 }
 
 main header {
     background: #222;
     height: 160px;
+}
+
+main .breadcrumb span {
+    color: #8A9399;
 }
 
 main header h1 {
@@ -72,6 +74,7 @@ main header small {
     color: #F9FAFC;
     font-size: 16px;
     line-height: 160%;
+    margin: 0;
     padding: 0px 649px 43px 120px;
 }
 
@@ -145,22 +148,37 @@ main .conteudo {
     width: 130px;
 }
 
-.livros .livro .right {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-    width: 200px;
-    margin-left: 20px;
+.livros .livro figure a {
+    color: #2F80ED;
 }
 
-.livros .livro .right div:nth-child(2),
-.livros .livro .right div a {
+.livros .livro .right {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 140%;
+    margin-left: 20px;
+    width: 200px;
+}
 
+.livros .livro .right div:nth-child(3),
+.livros .livro .right div a {
+    color: #8a9399;
+}
+
+.livros .livro .right strong {
+    font-size: 16px;
+}
+
+.livros .livro .right div {
+    font-size: 14px;
 }
 
 footer {
+    align-items: center;
     background: #F9FAFC;
+    display: flex;
     height: 52px;
-    text-align: center;
+    justify-content: center;
 }
