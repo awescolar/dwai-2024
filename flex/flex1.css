@@ -1,0 +1,18 @@
+body {  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+}  
+
+.background {  
+    height: 100vh;  
+    background-color: rgba(135, 206, 250, 0.5); 
+    background-image: url('/img/angularjs.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-clip: content-box;
+    background-origin: padding-box; 
+    background-size: cover;
+    padding: 20px;  
+    text-align: center;  
+}
