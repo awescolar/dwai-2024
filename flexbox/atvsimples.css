@@ -8,13 +8,13 @@ body {
     background-color: #F2F2F2;
 }
 .header img {
-    padding: 29.51px 0 28.6px 123.2px;
+    padding: 30px 0 29px 124px;
 }
 header nav {
     float: right;
 }
 .header nav menu {
-    margin: 33.55px 123px 34.47px 0;
+    margin: 34px 123px 35px 0;
     display: flex;
     gap: 30px;
     list-style: none;
@@ -25,7 +25,6 @@ header nav menu a {
     text-decoration: none;
 }
 main .breadcrumb {
-    display: flex;
     align-items: center;
     gap: 0.8rem;
     padding-top: 32px;
@@ -36,6 +35,7 @@ main .breadcrumb a {
     color: #3C4858;
     margin: 2px;
     text-decoration: none;
+    
 }
 main .breadcrumb span {
     color: #8A9399;
@@ -69,18 +69,10 @@ main .filtros a {
     border-radius: 5px;
 }
 
-main .filtros a.active {
-    background-color: #1a73e8;
-    color: white;
-    border-color: #1a73e8;
-}
-
 main .filtros a:hover {
-    background-color: #8A9399;
+    background-color: #1a73e8;
     color: #fdfdfd;
 }
-
-
 main .conteudo h2 {
     font-size: 26px;
     margin-top: 100px;
@@ -93,7 +85,7 @@ main .conteudo h2 small {
 }
 .livros {
     display: flex;
-    padding: 26px;
+    padding: 0;
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
@@ -113,12 +105,10 @@ main .conteudo h2 small {
     margin-left: 18px;
 }
 .livros .livro figure img {
-    display: flex;
     margin-top: -26px;
     margin-left: 0px;
 }
 .livros .livro .right {
-    display: flex;
     flex-direction: column;
     margin-top: 0px;
     width: auto;
