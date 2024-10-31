@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body{
     font-family: Inter;
@@ -6,24 +6,24 @@ body{
 }
 
 header{
-    background: #F2F2F2
+    background: #F2F2F2;
 }
-header img{}
 
-header nav{}
 header nav menu{
     list-style: none;
     gap: 40px;
 }
-header nav menu li{}
+
 header nav menu a{
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-main{}
-main .breadcrumb{}
+main .breadcrumb{
+    padding-top: 32px;
+    padding-bottom: 14px;
+}
 main .breadcrumb a{}
 main .breadcrumb span{}
 
@@ -35,14 +35,34 @@ main .filtros{}
 main .filtros a{}
 main .filtros a:hover{}
 
-main .conteudo{}
-main .conteudo h2{}
-main .conteudo h2 small{}
+main .conteudo{
+    margin-top: 64px;
+}
+main .conteudo h2{
+    font-size: 26px;
+}
+main .conteudo h2 small{
+    font-size: 16px;
+    margin-top: 20px;
+}
 
-.livros{}
-.livros .livro{}
+.livros{
+    margin-top: 32px;
+    list-style: none;
+    padding: 0;
+    border-radius: 5px;
+}
+.livros .livro{
+    border:  1px solid #8A9399;
+    padding: 15px 18px;
+}
 .livros .livro figure{}
 .livros .livro .right{}
+.livros .livro .right div:nth-child(3),
+.livros .livro .right a{
+    color: #8A9399;
+}
+
 
 footer{
     text-align: center;
