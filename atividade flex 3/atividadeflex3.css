@@ -4,21 +4,13 @@ body{
 
 header{
     height: 88px;
-    background: var(--Gray-6, #F2F2F2);
+    background: #F2F2F2;
     display: flex;
     align-items: center;
 }
 
-header figure{
-    margin: 0; 
-}
-
-header  img{
-    width: 111.325px;
-    height: 29.886px;
-    margin: 0;
+.espaçar{
     margin-left: 60px;
-
 }
 
 header nav{
@@ -51,51 +43,46 @@ main .breadcrumb{
 
 main .breadcrumb a{
     text-decoration: none;
-    color: var(--dark-silver, #3C4858);
+    color: #3C4858;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
 }
 
 main .breadcrumb span{
-    color: var(--dark-gray, #8A9399);
+    color:#8A9399;
     font-size: 16px;
     font-style: normal;
     font-weight: 300; 
 }
 
 main header{
-    background: var(--dark-black, #222);
+    background: #222;
     height: 160px;
     flex-direction: column;
     align-items: flex-start;
 }
 
 main header h1{
-    color: var(--extra-light-snow, #F9FAFC);
+    color: #F9FAFC;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    margin-left: 60px;
 }
 
 main header small{
-    color: var(--extra-light-snow-extra-dark, #E5E9F2);
+    color:#E5E9F2;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    margin-left: 60px;
 }
 
-main .filtros{
-    margin-left: 60px;
-}
 
 main .filtros a{
     display: inline-flex;
     padding: 5px 10px;
-    border: 1px solid var(--dark-gray, #8A9399);
-    color: var(--dark-gray, #8A9399);
+    border: 1px solid  #8A9399;
+    color: #8A9399;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -114,14 +101,14 @@ main .conteudo {
 
 
 main .conteudo h2{
-    color: var(--dark-black-2, #1F2D3D);
+    color: #1F2D3D;
     font-size: 26px;
     font-style: normal;
     font-weight: 600;
 }
 
 main .conteudo h2 small{
-    color: var(--dark-gray, #8A9399);
+    color: #8A9399;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -134,18 +121,21 @@ main .livros{
     list-style-type: none;
     width: 384px;
     border-radius: 5px;
-    border: 0.5px solid var(--dark-gray, #8A9399);
+    border: 0.5px solid  #8A9399;
     padding: 20px;
     display: inline-block;
 }
 
 
-main .livros .livro{
-    display: flex;
-    color: var(--dark-gray, #8A9399);
+.editora, .editora + div a{
+    color: #8A9399;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+}
+
+main .livro{
+    display: flex;
 }
 
 main .livros strong{
@@ -170,7 +160,7 @@ main .livros .livro figure{
 }
 
 main .livros .livro figure a{
-    color: var(--Blue-1, #2F80ED);
+    color: #2F80ED;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -186,14 +176,6 @@ main .livros .livro .right{
 
 .livro div:nth-of-type(3) {
     margin-top: 10px;
-}
-
-main .livros .livro .right a{
-    color: var(--dark-gray, #8A9399);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-
 }
 
 footer{
