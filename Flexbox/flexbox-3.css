@@ -43,7 +43,9 @@ AQUI SERÁ SOMENTE A FORMATACAO DA HEADER
 header{
     background: #F2F2F2;
 }
-header img{}
+header img{
+    padding: ;
+}
 
 header nav{}
 header nav menu{
