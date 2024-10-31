@@ -10,21 +10,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style-flex3.css">
+    <link rel="stylesheet" href="global.css">
     <title>Listagem de livros</title>
 </head>
 <body>
-    <header>
-        <a href="">
-            <img src="imgs/logo.png" alt="">
-        </a>
-        <nav>
-            <menu>
-                <li><a href="#">SOBRE</a></li>
-                <li><a href="#">CURSOS</a></li>
-                <li><a href="#">BIBLIOTECA</a></li>
-                <li><a href="#">MATERIAIS</a></li>
-            </menu>
-        </nav>
+    <header class="flex centralizar">
+        <div class="container flex centralizar-vertical alinhar-extremidades">
+            <a href="">
+                <img src="imgs/logo.png" alt="">
+            </a>
+            <nav>
+                <menu>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">CURSOS</a></li>
+                    <li><a href="#">BIBLIOTECA</a></li>
+                    <li><a href="#">MATERIAIS</a></li>
+                </menu>
+            </nav>
+        </div>
     </header>
     <main>
         <div class="breadcrumb">
@@ -32,21 +35,23 @@
             <a href="">Livros</a><img src="imgs/arrow-right.png" alt="">
             <span>Biblioteca do Professor</span>
         </div>
-        <header>
-            <h1>Biblioteca do Professor</h1>
-            <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+        <header class="flex centralizar-horizontal">
+            <div class="container">
+                <h1>Biblioteca do Professor</h1>
+                <small>256 livros  |  23 livros comentados   |  5 resenhas</small>    
+            </div>
         </header>
-        <section class="filtros">
+        <section class="filtros flex centralizar-horizontal">
             <a href="#">Fundamentos do design</a>
             <a href="#">UX / UI Design</a>
             <a href="#">Inovação</a>
             <a href="#">Ensino e Aprendizagem</a>
             <a href="#">Desenvolvimento Pessoal</a>
         </section>
-        <section class="conteudo">
+        <section class="conteudo flex centralizar-horizontal">
             <h2>Fundamentos do design <small>6 livros</small></h2>
             <ul class="livros">
-                <li class="livro">
+                <li class="livro flex">
                     <figure>
                         <img src="imgs/revista1.png" alt="">
                         <a href="#">Leia mais</a><img src="imgs/arrow-right-azul.png" alt="">
@@ -152,7 +157,7 @@
                 </li>
             </ul>
         </section>
-        <section class="conteudo">
+        <section class="conteudo flex centralizar-horizontal">
             <h2>UX / UI Design <small>22 livros</small></h2>
             <ul class="livros">
                 <li class="livro">
@@ -316,7 +321,7 @@
                 </li>
             </ul>
         </section>
-        <section class="conteudo">
+        <section class="conteudo flex centralizar-horizontal">
             <h2>Desenvolvimento Pessoal <small>3 livros</small></h2>
             <ul class="livros">
                 <li class="livro">
