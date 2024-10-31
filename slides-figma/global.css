@@ -15,12 +15,28 @@
     display: flex;
 }
 
+.flutuar-esquerda{
+
+}
+
+.flutuar-direita{
+    
+}
+
 .centralizar-horizontal{
     justify-content: center;
+}
+
+.centralizar-vertical{
+    align-items: center;
 }
 
 .centrlizar{
     justify-content: center;
     align-items: center;
+}
+
+.alinhar-extremidades{
+    justify-content: space-between;
 }
 

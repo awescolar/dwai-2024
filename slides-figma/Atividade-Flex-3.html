@@ -11,10 +11,10 @@
 </head>
 <body>
 
-    <header class="container flex centralizar">
-        <div class="">
+    <header class="flex centralizar">
+        <div class="container flex centralizar-vertical alinhar-extremidades">
              <a href="#">
-               <img src="/assets/LOGO.jpg" alt="">
+               <img src="/assets/Logo-2.png" alt="">
              </a>
            <nav>
                <menu class="flex">
@@ -24,27 +24,36 @@
                    <li><a href="#">Materiais</a></li>
                </menu>
            </nav>
+
         </div>  
     </header>
     
     <main>
-        <div class="breadcrumb flex">
-            <a href="/">home</a>
-            <a href="livros.html">Livros</a>
-            <span>Biblioteca do Professor</span>
+        <div class="breadcrumb flex container-horizontal">
+            <div class="container">
+
+                <a href="/">home</a>
+                <img src="/assets/arrow-right.png" alt="">
+                <a href="livros.html">Livros</a>
+                <img src="/assets/arrow-right.png" alt="">
+
+                <span>Biblioteca do Professor</span>
+            </div>
         </div>
         
-        <header>
+        <header class="flex centralizar-horizontal">
+          <div class="con">
             <h1>Biblioteca do Professor</h1>
             <small>256 livros | 23 livros comentados | 5 resenhas</small>
+          </div>
         </header>
         <section class="filtros flex centralizar-horizontal">
             <div class="container">
-                  <a href="#">Fundamentos do Design</a>
-                <a href="#">UX / UI Design</a>
-                <a href="#">Inovação</a>
-                <a href="#">Ensino e Aprendizagem</a>
-                <a href="#">Desenvolvimento Pessoal</a>
+                <a href="#" class="inline-block">Fundamentos do Design</a>
+                <a href="#" class="inline-block">UX / UI Design</a>
+                <a href="#" class="inline-block">Inovação</a>
+                <a href="#" class="inline-block">Ensino e Aprendizagem</a>
+                <a href="#" class="inline-block">Desenvolvimento Pessoal</a>
             </div>
               
         </section>
@@ -52,16 +61,17 @@
          <div class="container">
 
           <h2>Fundamentos do desing <small>6 livros</small></h2>
-            <ul class="livros">
+            <ul class="livros flex">
                 <li class="livro">
                     <figure>
                         <img src="/assets/image 2.jpg" alt="">
-                        <a href="#">Leia mais</a>
+                        <a href="#">Leia mais <img src="/assets/arrow-right-blu.png" alt=""></a>
                     </figure>
-                      <div class="right">
-                         <strong class="block"></strong>
-                         <div></div>
-                         <div></div>
+                      <div class="flutuar-direita right">
+
+                         <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                         <div>Autor: Ellen Lupton</div>
+                         <div>Editora, 2020</div>
                          <div>
                               <a href="#" class="inline-block">Artes</a>
                               <a href="#" class="inline-block">Desing</a>
