@@ -22,26 +22,72 @@ header nav menu a{
 }
 
 main{}
-main .breadcrump{}
+main .breadcrump{
+    padding-top: 32px;
+    padding-bottom: 14px;
+}
 main .breadcrump a{}
 main .breadcrump span{}
 
-main header{}
-main header h1{}
-main header small{}
+main header{
+    padding: 30px;
+}
+main header h1{
+    color: #fff;
+    font-size: 40px;
+}
+main header small{
+    color: #e5e9f2;
+    font-size: 16px;
+}
 
-main .filtros{}
-main .filtros a{}
-main .filtros a:hover{}
+main .filtros{
+    padding-top: 20px;
+}
+main .filtros a{
+    border: 1px solid;
+    color: #8a9399;
+    padding:  5px 10px;
+    margin-right: 10px;
+    text-decoration: none;
 
-main .conteudo{}
-main .conteudo h2{}
-main .conteudo h2 small{}
+}
+main .filtros a:hover{
+    background-color: #2f80ed;
+    color: #fff;
+}
 
-.livros{}
-.livros .livro{}
-.livros .livro figure{}
-.livros .livro .right{}
+main .conteudo{
+    margin-top: 64px;
+}
+main .conteudo h2{
+    font-size: 26px;
+    color: #1f3d3d;
+}
+main .conteudo h2 small{
+    color: #8A9399;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.livros{
+    margin-top: 32px;
+    list-style: none;
+    padding: 0;
+}
+.livros .livro{
+    border: 1px solid #8A9399;
+    padding: 15px 18px;
+    border-radius: 5px;
+    max-width: 50%;
+}
+.livros .livro figure{
+    width: 40%;
+}
+.livros .livro .right strong{
+    font-size: 16px;
+}
 .livros .livro .right div:nth-child(3),
 .livros .livro .right a{
     color: #8a9399;
