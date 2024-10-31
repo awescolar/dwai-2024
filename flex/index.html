@@ -14,45 +14,44 @@
 
 </head>
 <body>
-    <header class="flex">
-        <div class="container flex centralizar-vertical alinhar-extremidades">
-            <a href="#">
-                <img src="./assets/img/logo.svg" alt="">
-            </a>
-            <nav>
-                <menu class="flex centralizar-vertical">
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Cursos</a></li>
-                    <li><a href="#">Biblioteca</a></li>
-                    <li><a href="#">Materiais</a></li>
-                </menu>
-            </nav>
-        </div>
-    </header>
+    <div class="container">
+        <header class="flex">
+            <div class="flex centralizar-vertical alinhar-extremidades">
+                <a href="#">
+                    <img src="./assets/img/logo.svg" alt="">
+                </a>
+                <nav>
+                    <menu class="flex centralizar-vertical">
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Cursos</a></li>
+                        <li><a href="#">Biblioteca</a></li>
+                        <li><a href="#">Materiais</a></li>
+                    </menu>
+                </nav>
+            </div>
+        </header>
 
-    <main>
-        <!-- trilha de linkas -->
-        <div class="container">
-            <div class="breadcrumb flex">
+        <main>
+            <!-- trilha de linkas -->
+            
+            <div class="breadcrumb flex container">
                 <a href="/">Home</a>
                 <img src="./assets/img/arrow-right.png" alt="">
                 <a href="livros.html">Livros</a>
                 <img src="./assets/img/arrow-right.png" alt="">
                 <a href=""><span>Biblioteca do Professor</span></a>
-            </div>
-        </div>     
+            </div>     
 
-        <!-- header -->
-        <div class="container">
+            <!-- header -->
+            
             <header>
                 <h1>Biblioteca do Professor</h1>
                 <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
             </header>
-        </div>
         
-        <div class="container">
+            
 
-            <section class="filtros">
+            <section class="filtros flex">
                 <a href="#">Fundamentos do design</a>
                 <a href="#">UX / UI Design</a>
                 <a href="#">Inovação</a>
@@ -65,26 +64,28 @@
                     <li class="livro flex">
                         <figure>
                             <img src="./assets/img/img-1.svg" alt="" class="block">
-                            <a href="#">Leia mais</a>
+                            <a href="#" class="flex">
+                                Leia mais
+                                <img src="./assets/img/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="right flex">
                             <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
                             <div>Autor: Ellen Lupton</div>
                             <div>Editora, 2020</div>
                             <div>
-                                <a href="#" class="inline-block">Artes</a>
-                                <a href="#" class="inline-block">Design</a>
-                                <a href="#" class="inline-block">Fundamentos da Imagem</a>
+                                <a href="#" class="inline">Artes</a>
+                                <a href="#" class="inline">Design</a>
+                                <a href="#" class="inline">Fundamentos da Imagem</a>
                             </div>
                         </div>
                     </li>
                 </ul>
             </section>
-        </div>
-    </main>
-    <footer>
-        <img src="assets/img/logo.png" alt="">
-    </footer>
-    
+        </main>
+        <footer>
+            <img src="assets/img/logo.svg" alt="">
+        </footer>
+    </div>
 </body>
 </html>

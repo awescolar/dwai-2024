@@ -32,7 +32,7 @@ header nav menu{
     list-style:none;
     gap:16px;
 }
-header nav menu li{}
+
 header nav menu a{
     text-decoration:none;
     color: black;
@@ -44,7 +44,9 @@ header nav menu a{
 
 main{}
 main .breadcrumb{
-    margin-left:20px;
+    margin-left:0;
+    justify-content: space-around;
+    max-width:400px;
     padding:20px;
     gap:15px;
 }
@@ -62,26 +64,66 @@ main header{
 }
 
 main .filtros{
-    
+    margin-top:15px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    gap:10px;
 }
 main .filtros a{
     color:#8A9399;
-    
+    border: 2px solid #8A9399;
+    padding:5px;
+    transition: .5s;
 }
-main .filtros a:hover{}
+main .filtros a:hover{
+    background-color: #2F80ED;
+    color: white;
+    border: 2px solid white;
+}
 
 main .conteudo{}
-main .conteudo h2{}
-main .conteudo h2 small{}
-
-.livros{}
-.livros .livro{
-    list-style:none;
+main .conteudo h2{
+    color: #383b3d;
+    margin-left: 12px;
 }
-.livros .livro figure{}
-.livros .livro .right div:nth-child(3), .livros .livro .right a{
-    color:#8A9399;
+main .conteudo h2 small{
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 15px;
+}
 
+.livros{
+    flex-wrap: wrap;
+    margin-left:10px;
+    padding:0;
+}
+.livros .livro{    
+    list-style:none;
+    max-width:400px;
+    border: 2px solid #8A9399;
+    border-radius: 8px;
+    padding:10px;
+    
+}
+
+.livros .livro .right{
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.livros .livro .right a{
+    text-decoration-line:underline;
+    color:#8A9399
+}
+.livros .livro figure{
+    text-decoration:underline;
+    color: #2F80ED;
+}
+
+
+.livros .livro .right div{
+    gap: 10px;
 }
 
 
