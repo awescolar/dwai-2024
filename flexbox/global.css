@@ -1,12 +1,13 @@
 .container{
-    max-width: 1400px;
+    min-width: 1400px;
 }
-.block{
-    display: block;
+.block{ 
+    display: block; 
 }
 .inline-block{
     display: inline-block;
 }
+
 .flex{
     display: flex;
 }
@@ -16,6 +17,11 @@
 .centralizar-vertical{
     align-items: center;
 }
+.centralizar{
+    justify-content: center;    
+    align-items: center;
+}
+
 .alinhar-extremidades{
-    align-content: space-between;
+    justify-content: space-between;
 }
