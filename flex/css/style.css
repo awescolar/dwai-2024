@@ -26,6 +26,7 @@ header nav menu a{
     text-transform: uppercase;
 }
 
+
 /** Seção principal de conteúdo */
 
 main{}
@@ -39,18 +40,52 @@ main .breadcrumb span{}
 main header{}
 main header h1{}
 main header small{}
+main header div{
+    margin-bottom: 43px;
+}
+main .filtros{
+    padding-top: 20px;
+}
+main .filtros a{
+    border: 1px solid #8A9399;
+    color: #8A9399;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+main .filtros a:hover{
+    background-color: #2f80ed;
+    color: #fff;
+}
 
-main .filtros{}
-main .filtros a{}
-main .filtros a:hover{}
+main .conteudo{
+    margin-top: 64px;
+}
+main .conteudo h2{
+    font-size: 26px;
+    color:  #1f2d3d;
+}
+main .conteudo h2 small{
+    font-size: 16px;
+    color: #8A9399;
+    font-weight: 400;
+    margin-left: 10px;
+}
 
-main .conteudo{}
-main .conteudo h2{}
-main .conteudo h2 small{}
-
-.livros{}
-.livros .livro{}
-.livros .livro figure{}
+.livros{
+    margin-top: 32px;
+    list-style: none;
+    padding: 22px;
+}
+.livros .livro{
+    border: 1px solid #8A9399;
+    padding: 15px 18px;
+    border-radius: 5px;
+    max-width: 30%;
+}
+.livros .livro figure{
+    width: 40%;
+}
 .livros .livro .right{}
 .livros .livro .right div:nth-child(3),
 .livros .livro .right a{

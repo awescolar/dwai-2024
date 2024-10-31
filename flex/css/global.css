@@ -26,3 +26,27 @@
 .alinhar-extremidades{
     justify-content: space-between;
 }
+
+.textobranco{
+    color: #fff;
+}
+
+.fundopreto{
+    background-color: black;
+}
+
+.removerestilodolink{
+    text-decoration: none;
+}
+
+.borda{
+    border: 1px solid #8A9399;
+}
+
+.flutuar-esquerda{
+    justify-self: start;
+}
+
+.flutuar-direita{
+    justify-content: end;
+}
