@@ -17,15 +17,18 @@ header nav{
     align-content: right;
 }
 header nav menu{
+    display: flex;
     margin: 5px;
-    padding:0px;
+    padding:5px;
+    border-radius
 }
 header nav menu li{
     list-style-type: none;
 }
 header nav menu li a{
     text-decoration: none;
-    color:black
+    color:black;
+    margin: 10px;
 }
 
 /* Seção principal de conteúdo*/
