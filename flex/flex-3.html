@@ -6,59 +6,205 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="/flex/flex-3.css">
+    <link rel="stylesheet" href="/flex/global.css">
 </head>
 <body>
 
-    <section>
-        <header class="logo1">
-            <h1>LOGO</h1>
+    <!--Cabeçalho para a "Logo"-->
+    <header class="cabeçalho1">
+        <div class="container flex centralizar-vertical alinhar-extremidades">
+            <a href="#">
+                <img src="img-flex/Logo.png" alt="">
+            </a>
+            <nav>
+                <menu class="flex">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Biblioteca</a></li>
+                    <li><a href="#">Materiais</a></li>
+                </menu>
+            </nav>
+        </div>
+    </header>
 
-            <ul class="link1">
-                <ol>SOBRE</ol>
-                <ol>CURSOS</ol>
-                <ol>BIBLIOTECA</ol>
-                <ol>MATERIAIS</ol>
-            </ul>
-        </header>
-
-        <header class="logo2">
-            <ul class="link2">
-                <ol>Home<img src="/flex/img-flex/arrow-right.png" alt=""></ol>
-                <ol>Livros<img src="/flex/img-flex/arrow-right.png" alt=""></ol>
-                <ol>Biblioteca do Professor</ol>
-            </ul>
-        </header>
-
-        <header>
-            <h1>Biblioteca do Professor</h1>
-
-            <span>256 livros  |  23 livros comentados   |  5 resenhas</span>
-        </header>
-
-        <div class="caixa1">
-            <ul>
-                <ol>Fundamentos do design</ol>
-                <ol>UX / UI Design</ol>
-                <ol>Inovação</ol>
-                <ol>Ensino e Aprendizagem</ol>
-                <ol>Desenvolvimento Pessoal</ol>
-            </ul>
+    <main>
+        <div class="breadcrumb flex centralizar-horizontal">
+            <div class="container">
+                <a href="#">Home</a>
+                <a href="#">Livros</a>
+                <a href="#">Biblioteca do Professor</a>
+            </div>
         </div>
 
-        <div>
-            <ul class="fund">
-                <ol><h3>Fundamentos do design</h3></ol>
-                <ol><span>6 livros</span></ol>
-            </ul>
-        </div>
+        <!--Cabeçalho para a "Bublioteca"-->
+        <header class="cabeçalho2">
+            <div class="container">
+                <h1>Biblioteca do Professor</h1>
+                <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+            </div>
+        </header>
 
-        <div>
-            <img src="/flex/img-flex/imagem 1.png" alt="">
+    <!--Section do "Fundamentos do design"-->
+        <section class="filtros flex centralizar-horizontal">
+            <div class="container">
+                <a href="#">Fundamentos do design</a>
+                <a href="#">UX / UI Design</a>
+                <a href="#">Inovação</a>
+                <a href="#">Ensino e Aprendizagem</a>
+                <a href="#">Desenvolvimento Pessoal</a>
+            </div>
+        </section>
 
-            <h5>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h5>
-        </div>
-    </section>
+        <!--Section do "Fundamentos do design"-->
+        <section class="conteudo flex centralizar-horizontal">
+            <div class="container">
 
+                <h2>Fundamentos do design <small>6 livros</small></h2>
 
+                <!--Lista do "Primeiro livro"-->
+                <ul class="livros">
+                    <ol class="livro">
+                        <figure>
+                            <img src="img-flex/imagem 1.png" alt="">
+                            <br>
+                            <a href="#">
+                                Leia mais <img src="imagens/arrow-right.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="link1">Artes</a>
+                                <a href="#" class="link1">Design</a>
+                                <a href="#" class="link1">Fundamentos da Imagem</a>
+                            </div>
+                        </div>
+                    </ol>
+                </ul>
+
+                <!--Lista do "Segundo livro"-->
+                <ul class="livros">
+                    <ol class="livro">
+                        <figure>
+                            <img src="img-flex/image 2.png" alt="">
+                            <br>
+                            <a href="#">
+                                Leia mais <img src="imagens/arrow-right.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="link1">Artes</a>
+                                <a href="#" class="link1">Design</a>
+                                <a href="#" class="link1">Fundamentos da Imagem</a>
+                            </div>
+                        </div>
+                    </ol>
+                </ul>
+
+                <!--Lista do "Terceiro livro"-->
+                <ul class="livros">
+                    <ol class="livro">
+                        <figure>
+                            <img src="img-flex/image 3.png" alt="">
+                            <br>
+                            <a href="#">
+                                Leia mais <img src="imagens/arrow-right.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="link1">Artes</a>
+                                <a href="#" class="link1">Design</a>
+                                <a href="#" class="link1">Fundamentos da Imagem</a>
+                            </div>
+                        </div>
+                    </ol>
+                </ul>
+
+                <!--Lista do "Quarto livro"-->
+                <ul class="livros">
+                    <ol class="livro">
+                        <figure>
+                            <img src="img-flex/image 4.png" alt="">
+                            <br>
+                            <a href="#">
+                                Leia mais <img src="imagens/arrow-right.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="link1">Artes</a>
+                                <a href="#" class="link1">Design</a>
+                                <a href="#" class="link1">Fundamentos da Imagem</a>
+                            </div>
+                        </div>
+                    </ol>
+                </ul>
+
+                <!--Lista do "Quinto livro"-->
+                <ul class="livros">
+                    <ol class="livro">
+                        <figure>
+                            <img src="img-flex/image 5.png" alt="">
+                            <br>
+                            <a href="#">
+                                Leia mais <img src="imagens/arrow-right.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="link1">Artes</a>
+                                <a href="#" class="link1">Design</a>
+                                <a href="#" class="link1">Fundamentos da Imagem</a>
+                            </div>
+                        </div>
+                    </ol>
+                </ul>
+
+                <!--Lista do "Sexto livro"-->
+                <ul class="livros">
+                    <ol class="livro">
+                        <figure>
+                            <img src="img-flex/image 6.png" alt="">
+                            <br>
+                            <a href="#">
+                                Leia mais <img src="imagens/arrow-right.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="link1">Artes</a>
+                                <a href="#" class="link1">Design</a>
+                                <a href="#" class="link1">Fundamentos da Imagem</a>
+                            </div>
+                        </div>
+                    </ol>
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <img src="img-flex/rodape (1).png" alt="">
+    </footer>
 </body>
 </html>
