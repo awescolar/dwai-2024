@@ -1,159 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body{
-    font-family: "Inter", sans-serif;
+    font-family: Inter;
     margin: 0;
 }
-/**Formação para o header (TODOS)*/
 
+/** 
+AQUI SERÁ SOMENTE A FORMATACAO DA HEADER
+******/
 
 header{
-    height: 90px;
-    background: var(--Gray-6, #F2F2F2);
-
+    background: #F2F2F2;
 }
+header img{}
 
-header img{
-    padding: 30px 123.2px
-    
-}
-
-header nav{
-    float: right;
-}
+header nav{}
 header nav menu{
-    margin: 33.57px 123px 34.47px;
-    gap: 40px;
-    display: flex;
     list-style: none;
+    gap: 40px;
 }
-
-header nav menu a{  
-    color: black;
-    font-weight: 400;
+header nav menu li{}
+header nav menu a{
+    color: #000;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
-/**Seção principal de conteúdo */
+/** Seção principal de conteúdo */
 
+main{}
 main .breadcrumb{
-    display: flex;
-    gap: 0.6rem;
-    margin-top: 32px;
-    margin-left: 120px;
-    margin-bottom: 12px;
-    color: #8A9399;
+    padding-top: 32px;
+    padding-bottom: 14px;
 }
+main .breadcrumb a{}
+main .breadcrumb span{}
 
-main .breadcrumb a{
-    color: #3C4858;
-    text-decoration: none;
-}
-
-main header{
-    background: var(--dark-black, #222);
-    padding-left: 117px;
-    height: 160px;
-}
-main header h1{
-    padding-top: 18px;
-    color: var(--extra-light-snow, #F9FAFC);
-    font-weight: 800px;
-}
-
-main header small{
-    
-    color: var(--extra-light-snow-extra-dark, #E5E9F2);
-}
+main header{}
+main header h1{}
+main header small{}
 
 main .filtros{
-    padding-left: 121px;
     padding-top: 20px;
-    padding-bottom: 63px;
 }
 main .filtros a{
-    text-decoration: none;
-    font-size: 14px;
-    padding: 5px 10px;
-    border: solid 1px #8A9399;
     color: #8A9399;
 }
 main .filtros a:hover{
-    background-color: #8A9399;
-    color: #fdfdfd;
+    background-color: ;
+    color: white;
 }
 
-main .conteudo{
-    padding-left: 118px;
-}
-main .conteudo h2{
-    font-size: 26px;
-    color: var(--dark-black-2, #1F2D3D);
-    font-weight: 600;
-    line-height: 140%;
-}
-main .conteudo h2 small{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 160%;
-    color: var(--dark-gray, #8A9399);
-    padding-left: 21px;
-}
+main .conteudo{}
+main .conteudo h2{}
+main .conteudo h2 small{}
 
-main .livros {
-    justify-content: center;
-    max-width: 1500px;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-    padding: 0;
-    gap: 24px;
-}
-
-main .livros .livro {
-    border: solid 1px #8A9399;
-    width: 350px;
-    height: 217px;
-    padding: 20px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: flex-start;
-}
-
-main .livros .livro figure {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-main .livros .livro .right {
-    padding-left: 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 3px;   
-}
-
-main .livros .livro a {
-    display: flex;
-    align-items: center;
-    color: #2F80ED;
-}
-
+.livros{}
+.livros .livro{}
+.livros .livro figure{}
+.livros .livro .right{}
 .livros .livro .right div:nth-child(3),
-.livros .livro .right a {
+.livros .livro .right a{
     color: #8A9399;
 }
 
 
-
 footer{
-    height: 52px;
-    background-color: #efeff0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    text-align: center;
 }

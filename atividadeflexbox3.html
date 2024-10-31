@@ -1,354 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade FlexBox3</title>
+    <title>Atividade FlexBox 3</title>
 
     <link rel="stylesheet" href="atividadeflexbox3.css">
+    <link rel="stylesheet" href="css/global.css">
 </head>
-<body> 
+<body>
 
-    <header>
-        <a href="">
-            <img src="imagens/LOGO.svg" alt="">
-        </a>
-        <nav>
-            <menu>
-                <li><a href="#">SOBRE</a></li>
-                <li><a href="#">CURSOS</a></li>
-                <li><a href="#">BIBLIOTECA</a></li>
-                <li><a href="#">MATERIAIS</a></li>
-            </menu>
-        </nav>
+    <header class="flex centralizar">
+    
+        <div class="container flex centralizar-vertical alinhar-extremidades">
+            <a href="#">
+                <img src="imagens/logo.svg" alt="">
+            </a>
+            <nav>
+                <menu class="flex">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Biblioteca</a></li>
+                    <li><a href="#">Materiais</a></li>
+                </menu>
+            </nav>
+
+        </div>
     </header>
 
     <main>
-        <div class="breadcrumb">
-            <a href="/">Home</a>
-            <img src="imagens/arrow-right-BLACK.svg" alt="Flecha preta">
-            <a href="livros.html">Livros</a>
-            <img src="imagens/arrow-right-BLACK.svg" alt="Flecha preta">
-            <span>Biblioteca do Professor</span>
+        
+        <div class="breadcrumb flex centralizar-horizontal">
+            <div class="container">
+                <a href="/">Home</a>
+                <img src="imagens/arrow-right-BLACK.svg" alt="">
+                <a href="livros.html">Livros</a>
+                <img src="imagens/arrow-right-BLACK.svg" alt="">
+                <span>Biblioteca do Professor</span>
+            </div>
         </div>
-
-        <header>
-            <h1>Biblioteca do Professor</h1>
-            <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+        <header class="flex centralizar-horizontal">
+            <div class="container">
+                <h1>Biblioteca do Professor</h1>
+                <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+            </div>
         </header>
-
-        <section class="filtros">
-            <a href="#">Fundamentos do design</a>
-            <a href="#">UX / UI Design</a>
-            <a href="#">Inovação</a>
-            <a href="#">Ensino e Aprendizagem</a>
-            <a href="#">Desenvolvimento Pessoal</a>
+        <section class="filtros flex centralizar-horizontal">
+            <div class="container">
+                <a href="#" class="inline-block">Fundamentos do design</a>
+                <a href="#" class="inline-block">UX / UI Design</a>
+                <a href="#" class="inline-block">Inovação</a>
+                <a href="#" class="inline-block">Ensino e Aprendizagem</a>
+                <a href="#" class="inline-block">Desenvolvimento Pessoal</a>
+            </div>
         </section>
 
-        <section class="conteudo">
-            <h2>Fundamentos do design <small>6 livros</small></h2>
-            <ul class="livros">
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/fundamentosdodesignlivro1.png" alt="Livro 1 Fundamentos">
-                        <br>
-                        <a href="#" class="azul">Leia mais <img  src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong class="">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
-                        <div>Autor: Ellen Lupton</div>
-                        <div>Editora, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#" >Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/fundamentosdodesignlivro2.png" alt="Livro 2 Fundamentos">
-                        <br>
-                        <a href="#" class="azul">Leia mais <img  src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Marcas. Design Estratégico</strong>
-                        <div>Autor: Cecília Consolo</div>
-                        <div>Editora Blucher, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/fundamentosdodesignlivro3.png" alt="Livro 3 Fundamentos">
-                        <a href="#" class="azul">Leia mais <img  src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Logo Love Design</strong>
-                        <div>Autor: David Airey</div>
-                        <div>Editora New Riders, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/fundamentosdodesignlivro4.png" alt="Livro 4 Fundamentos">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
-                        <div>Autor: Ellen Lupton</div>
-                        <div>Editora, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/fundamentosdodesignlivro5.png" alt="Livro 5 Fundamentos">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Marcas. Design Estratégico</strong>
-                        <div>Autor: Cecília Consolo</div>
-                        <div>Editora Blucher, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/fundamentosdodesignlivro6.png" alt="Livro 6 Fundamentos">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Logo Love Design</strong>
-                        <div>Autor: David Airey</div>
-                        <div>Editora New Riders, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+        <section class="conteudo flex centralizar-horizontal">
+            <div class="container">
 
-            <h2>UX / UI Design <small>22 livros</small></h2>
-            <ul class="livros">
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/uxuidesign1.png" alt="Livro 1 UX/UI">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
-                        <div>Autor: Ellen Lupton</div>
-                        <div>Editora, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
+                <h2>Fundamentos do design <small>6 livros</small></h2>
+                <ul class="livros">
+                    <li class="livro">
+                        <figure>
+                            <img src="imagens/image 2.png" alt="">
+                            <br>
+                            <a href="#">
+                                Leia mais <img src="imagens/arrow-right.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="inline-block">Artes</a>
+                                <a href="#" class="inline-block">Design</a>
+                                <a href="#" class="inline-block">Fundamentos da Imagem</a>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/uxuidesign2.png" alt="Livro 2 UX/UI">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Marcas. Design Estratégico</strong>
-                        <div>Autor: Cecília Consolo</div>
-                        <div>Editora Blucher, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/uxuidesign3.png" alt="Livro 3 UX/UI">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Logo Love Design</strong>
-                        <div>Autor: David Airey</div>
-                        <div>Editora New Riders, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/uxuidesign4.png" alt="Livro 4 UX/UI">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
-                        <div>Autor: Ellen Lupton</div>
-                        <div>Editora, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/uxuidesign5.png" alt="Livro 5 UX/UI">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Marcas. Design Estratégico</strong>
-                        <div>Autor: Cecília Consolo</div>
-                        <div>Editora Blucher, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/uxuidesign6.png" alt="Livro 6 UX/UI">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Logo Love Design</strong>
-                        <div>Autor: David Airey</div>
-                        <div>Editora New Riders, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/uxuidesign7.png" alt="Livro 7 UX/UI">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
-                        <div>Autor: Ellen Lupton</div>
-                        <div>Editora, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/uxuidesign8.png" alt="Livro 8 UX/UI">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Marcas. Design Estratégico</strong>
-                        <div>Autor: Cecília Consolo</div>
-                        <div>Editora Blucher, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/uxuidesign9.png" alt="Livro 9 UX/UI">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Logo Love Design</strong>
-                        <div>Autor: David Airey</div>
-                        <div>Editora New Riders, 2020</div>
-                        <div>
-                            <a href="#">Artes</a>
-                            <a href="#">Design</a>
-                            <a href="#">Fundamentos da Imagem</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <h2>Desenvolvimento Pessoal <small>3 livros</small></h2>
-            <ul class="livros">
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/desenvolvimentopessoal1.png" alt="Livro 1 Desenvolvimento">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Hiperfoco: Como trabalhar menos e render mais</strong>
-                        <div>Autor: Chris Bailey</div>
-                        <div>Editora Benvirá, 2019, 1ª Ed.</div>
-                        <div>
-                            <a href="#">Design</a>
-                            <a href="#">Foco</a>
-                            <a href="#">Atenção</a>
-                            <a href="#">Produtividade</a>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/desenvolvimentopessoal2.png" alt="Livro 2 Desenvolvimento">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>Negocie qualquer coisa com qualquer pessoa: Estratégias práticas para...</strong>
-                        <div>Autor: Eduardo Ferraz</div>
-                        <div>Editora Planeta Estratégia, 2020</div>
-                        <div>
-                            <a href="#">Negociação</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="livro">
-                    <figure>
-                        <img src="imagens/desenvolvimentopessoal3.png" alt="Livro 3 Desenvolvimento">
-                        <a href="#">Leia mais <img src="imagens/arrow-right-BLUE.svg" alt=""></a>
-                    </figure>
-                    <div class="right">
-                        <strong>As armas da persuasão</strong>
-                        <div>Autor: Robert Cialdini</div>
-                        <div>Editora Sextante, 2012</div>
-                        <div>
-                            <a href="#">Negociação</a>
-                        </div> 
-                    </div>
-                </li>
+                    </li>
+                </ul>
+            </div>
         </section>
 
     </main>
-
     <footer>
-        <img src="imagens/rodape.png" alt="">
+        <img src="assets/img/logo.png" alt="">
     </footer>
-
+    
 </body>
 </html>
