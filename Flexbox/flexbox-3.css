@@ -110,15 +110,11 @@ main .card {
 
 main .container .card figure {
     float: left;
-    display: flex;
-    flex-direction: column;
     gap: 22.32px;
     
 }
 
 main figure a {
-    display: flex;
-    align-items: center;
     color: #2F80ED;
 }
 
@@ -131,11 +127,8 @@ main .container figure {margin: 0;}
 
 main .container .info {
     padding-left: 20px ;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
     font-size: 14px;
-  
 }
 
 .info div a:nth-child(2),
@@ -147,24 +140,19 @@ main .container .info {
 
 footer {
     background-color: #efeff0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 52px;
 }
 
+.flex {display: flex;}
 
-.flex{display: flex;}
+.align-item {align-items: center;}
 
-.align-item{ align-items: center;}
+.justify-content {justify-content: center;}
 
-.justify-content { justify-content: center;}
-
-.center {
-    justify-content: center;
-    justify-content: center;
-}
+.center {justify-content: center;}
 
 a {text-decoration: none;}
 
 .container {min-width: 1400px}
+
+.columns {flex-direction: column ;}
