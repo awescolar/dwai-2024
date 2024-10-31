@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1204px;
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space {
+    justify-content: space-between;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.nav {
+    padding-top: 24px;
+}
+
+.links {
+    list-style: none;
+}
+
+.breadcrumb, .bandage {
+    display: flex;
+    gap: 8px;
+}
+
+.bandage {
+    color: white;
+    background-color: #222;
+    padding: 48px 0px;
+    width: 100%;
+    margin: 24px 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.livros{
+    margin: 48px 0px;
+
+}
+
+button {
+    color: #8A9399;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #8A9399;
+    background: transparent;
+}
+
+button.active {
+    color: #FFF;
+    background: #2F80ED;
+    border-color: #2F80ED;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+.livros .title {
+    display: flex;
+    gap: 24px;
+}
+
+.livro {
+    max-width: 368px;
+    padding: 16px;
+    border: 1px solid #a5a8aa;
+    border-radius: 8px;
+    display: flex;
+    gap: 16px;
+}
+.content-livro{
+    width: 50%;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.autor, .editora, .etiqueta {
+    font-size: 14px;
+    color: #8A9399;
+}
+
+.etiqueta span {
+    text-decoration: underline;
+}
+
+.btn-mais {
+    display: flex;
+    align-items: center;
+}
+
+.btn-mais a {
+    color: #2F80ED;
+}
+
+.container-livros{
+    display: flex;
+    width: 1210px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 28px;
+    flex-wrap: wrap;
+}
