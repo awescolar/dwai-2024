@@ -1,412 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox 3</title>
-    <link rel="stylesheet" href="flexbox-3.css">
-</head>
+    <title>Listagem de Livros</title>
 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
 <body>
-    <header class="container">
-        <a href="#">
-            <img src="img - flex/LOGO (1).svg" alt="Logo">
-        </a>
-        <nav>
-            <menu class="flex">
-                <li><a href="#">SOBRE</a></li>
-                <li><a href="#">CURSOS</a></li>
-                <li><a href="#">BIBLIOTECA</a></li>
-                <li><a href="#">MATERIAIS</a></li>
-            </menu>
-        </nav>
+
+    <header class="flex centralizar">
+        <!-- area web safe -->
+        <div class="container flex centralizar-vertical alinhar-extremidades">
+            <a href="#">
+                <img src="imagens/logo.svg" alt="">
+            </a>
+            <nav>
+                <menu class="flex">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Biblioteca</a></li>
+                    <li><a href="#">Materiais</a></li>
+                </menu>
+            </nav>
+
+        </div>
     </header>
 
-    <main class="container">
-        <div class="breadcrumb flex align-item">
-            <a href="/">Home</a>
-            <img src="img - flex/arrow-right.svg" alt="">
-            <a href="livros.html">Livros</a>
-            <img src="img - flex/arrow-right.svg" alt="">
-            <span class="cinza">Biblioteca do Professor</span>
-        </div>
-
-        <div class="header">
-            <h1>Biblioteca do Professor</h1>
-            <span>256 livros | 23 livros comentados | 5 resenhas </span>
-        </div>
-        <section>
-            <div class="filter">
-                <menu class="flex">
-                    <a href="#" class="inline-block cinza ">Fundamentos do design</a>
-                    <a href="#" class="inline-block cinza">UX / UI Design</a>
-                    <a href="#" class="inline-block cinza">Inovação</a>
-                    <a href="#" class="inline-block cinza">Ensino e Aprendizagem</a>
-                    <a href="#" class="inline-block cinza">Desenvolvimento Pessoal</a>
-                </menu>
-            </div>
-
+    <main>
+        <!-- trilha de linkas -->
+        <div class="breadcrumb flex centralizar-horizontal">
             <div class="container">
-                <h2>Fundamentos do design <small class="cinza">6 livros</small></h2>
-                <section class="cards align-item ">
-                    <div class="card design">
-                        <figure class="flex colunms">
-                            <img src="img - flex/intuicao.jpg" alt="Livro de Design">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem VisuaDl</h3>
-                            <div>Autor: Ellen Lupton</div>
-                            <div class="cinza">Editora, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/marcas.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Marcas. Design <br> Estratégico</h3>
-                            <div>Cecília Consolo</div>
-                            <div class="cinza">Editora Blucher, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza"> Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
+                <a href="/">Home</a>
+                <a href="livros.html">Livros</a>
+                <span>Biblioteca do Professor</span>
+            </div>
+        </div>
 
-                    <div class="card">
-                        <figure>
-                            <img src="img - flex/logodesign.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Logo Love Design</h3>
-                            <div>David Airey</div>
-                            <div class="cinza">Editora New Riders, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/designbrasil.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
-                            <div>Autor: Ellen Lupton</div>
-                            <div class="cinza">Editora, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/principios.jpg" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Marcas. Design Estratégico</h3>
-                            <div>Cecília Consolo</div>
-                            <div class="cinza">Editora Blucher, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/identidade.jpg" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Logo Love Design</h3>
-                            <div>David Airey</div>
-                            <div class="cinza">Editora New Riders, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <h2>UX / UI Design <small>22 livros</small></h2>
-
-                <section class="cards align-item">
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/historiadesign.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-
-                        <div class="info flex columns">
-                            <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
-                            <div>Autor: Ellen Lupton</div>
-                            <div class="cinza">Editora, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/projetosdeproduto.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Marcas. Design <br> Estratégico</h3>
-                            <div>Cecília Consolo</div>
-                            <div class="cinza">Editora Blucher, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza"> Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/designemocional.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Logo Love Design</h3>
-                            <div>David Airey</div>
-                            <div class="cinza">Editora New Riders, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/dia-a-dia.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-
-                        <div class="info flex columns">
-                            <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
-                            <div>Autor: Ellen Lupton</div>
-                            <div class="cinza">Editora, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/designdofuturo.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Marcas. Design <br> Estratégico</h3>
-                            <div>Cecília Consolo</div>
-                            <div class="cinza">Editora Blucher, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza"> Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/designcentrado.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Logo Love Design</h3>
-                            <div>David Airey</div>
-                            <div class="cinza">Editora New Riders, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/design.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-
-                        <div class="info flex columns">
-                            <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
-                            <div>Autor: Ellen Lupton</div>
-                            <div class="cinza">Editora, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/designnegocios.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Marcas. Design <br> Estratégico</h3>
-                            <div>Cecília Consolo</div>
-                            <div class="cinza">Editora Blucher, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza"> Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <figure class="flex columns">
-                            <img src="img - flex/interacao.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-                        <div class="info flex columns">
-                            <h3>Logo Love Design</h3>
-                            <div>David Airey</div>
-                            <div class="cinza">Editora New Riders, 2020</div>
-                            <div>
-                                <a href="#" class="cinza">Artes</a>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Fundamentos da Imagem</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <h2>Desenvolvimento Pessoal <small>3 livros</small></h2>
-                <section class="cards align-item">
-                    <div class="card">
-                        <figure class="flex colunms">
-                            <img src="img - flex/hiperfoco.png" alt="">
-                            <a href="#" class="flex align-item">Leia mais
-                                <img src="img - flex/arrow-right2.svg" alt="">
-                            </a>
-                        </figure>
-
-                        <div class="info flex columns">
-                            <h3>Hiperfoco: Como trabalhar menos e render mais</h3>
-                            <div>por Chris Bailey</div>
-                            <div class="cinza">Editora Benvirá, 2019, 1ª Ed.</div>
-                            <div>
-                                <a href="#" class="cinza">Design</a>
-                                <a href="#" class="cinza">Foco</a>
-                                <a href="#" class="cinza">Atenção</a>
-                                <a href="#" class="cinza">Produtividade</a>
-                            </div>
-                        </div>
-                    </div>
-                        
-                        <div class="card">
-                            <figure class="flex colunms">
-                                <img src="img - flex/negocie.png" alt="">
-                                <a href="#" class="flex align-item">Leia mais
-                                    <img src="img - flex/arrow-right2.svg" alt="">
-                                </a>
-                            </figure>
-
-                            <div class="info flex columns">
-                                <h3>Negocie qualquer coisa com qualquer pessoa: Estratégias práticas para...</h3>
-                                <div>por Eduardo Ferraz</div>
-                                <div class="cinza">Editora Planeta Estratégia, 2020</div>
-                                <div>
-                                    <a href="#" class="cinza">Negociação</a>
-                                </div>
-                            </div>
-                        </div>
-
-                            <div class="card">
-                                <figure class="flex colunms">
-                                    <img src="img - flex/persuasao.png" alt="">
-                                    <a href="#" class="flex align-item">Leia mais
-                                        <img src="img - flex/arrow-right2.svg" alt="">
-                                    </a>
-                                </figure>
-
-                                <div class="info flex columns">
-                                    <h3>As armas da persuasão</h3>
-                                    <div> por Robert Cialdini</div>
-                                    <div class="cinza">Editora Sextante, 2012</div>
-                                    <div>
-                                        <a href="#" class="cinza">Negociação</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </section>
+        <!-- header -->
+        <header class="flex centralizar-horizontal">
+            <div class="container">
+                <h1>Biblioteca do Professor</h1>
+                <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+            </div>
+        </header>
+        <section class="filtros flex centralizar-horizontal">
+            <div class="container">
+                <a href="#">Fundamentos do design</a>
+                <a href="#">UX / UI Design</a>
+                <a href="#">Inovação</a>
+                <a href="#">Ensino e Aprendizagem</a>
+                <a href="#">Desenvolvimento Pessoal</a>
+            </div>
         </section>
-    </main>
-    <footer class="flex justify-content align-item">
-        <img src="img - flex/rodape (1).svg" alt="">
-    </footer>
-</body>
 
+        <section class="conteudo flex centralizar-horizontal">
+            <div class="container">
+
+                <h2>Fundamentos do design <small>6 livros</small></h2>
+                <ul class="livros">
+                    <li class="livro">
+                        <figure>
+                            <img src="imagens/image 2.png" alt="">
+                            <br>
+                            <a href="#">
+                                Leia mais <img src="imagens/arrow-right.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="inline-block">Artes</a>
+                                <a href="#" class="inline-block">Design</a>
+                                <a href="#" class="inline-block">Fundamentos da Imagem</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <img src="assets/img/logo.png" alt="">
+    </footer>
+    
+</body>
 </html>

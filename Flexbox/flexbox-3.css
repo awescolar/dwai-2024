@@ -1,158 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-body, html {
-    font-family: "Lato", sans-serif;
-    margin: 0;
+.container{
+    min-width: 1400px;
+}
+.block{ 
+    display: block; 
+}
+.inline-block{
+    display: inline-block;
 }
 
-header {
-    background-color: #F2F2F2;
-}
-
-header img {   
-    padding: 29px 0 28px 123px;
-}
-
-header nav {
-    float: right;
-}
-
-header nav menu {
-    margin: 33px 123px 34px 0;
-    gap: 40px;
-    list-style: none;
-}
-
-header nav menu a{
-    color: black;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-
-.breadcrumb {
-    gap: 0.8rem;
-    padding-top: 32px;
-    margin-bottom: 14px;
-    margin-left: 120px;
-    color: #3C4858;
-}
-
-main .breadcrumb a {
-    color: #3C4858;
-}
-
-main .header {
-    background-color:black;
-    color: #fff;
-    padding: 18px 0 43px 117px;
-}
-
-main .header h1 {
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 9px;
-    margin-top: 0;
-}
-
-main .header span {
-    color: #E5E9F2;
-}
-
-main .filter a {
-    color: #8A9399;
-    border: solid 1px #8A9399;
-    padding: 5px 10px;
-}
-
-main menu {
-    padding: 5px 10px;
-    gap: 10px;  
-    margin-left: 110px;  
-}
-
-main menu a:hover{
-    background-color: #8A9399;
-    color: #fdfdfd;
-}
-
-main .container h2 {
-    font-size: 26px;
-    margin-left: 118px;
-    font-weight: 600;
-}
-main .container .cards{
+.flex{
     display: flex;
-    max-width: 1500px;
-    flex-wrap: wrap;
-    row-gap: 41px;
+}
+.centralizar-horizontal{
+    justify-content: center;
+}
+.centralizar-vertical{
     align-items: center;
-    justify-content: space-evenly;
-    column-gap: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 89px;
-
-}
-main .container h2 small {
-    font-size: 16px;
-    color:#8A9399;
-    font-weight: 400;
-    margin-left: 21px;
 }
 
-main .card {
-    border: solid 1px #8A9399;
-    width: 350px;
-    height: 217px;
-    padding: 20px;
-    border-radius: 5px;
+.centralizar{
+    justify-content: center;    
+    align-items: center;
 }
 
-main .container .card figure {
-    float: left;
-    gap: 22.32px;
-    
+.alinhar-extremidades{
+    justify-content: space-between;
 }
 
-main figure a {
-    color: #2F80ED;
-}
 
-main .container .card h3 {
-    font-size: 16px;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: Inter;
     margin: 0;
 }
 
-main .container figure {margin: 0;}
+/** 
+AQUI SERÁ SOMENTE A FORMATACAO DA HEADER
+******/
 
-main .container .info {
-    padding-left: 20px ;
-    gap: 10px;
-    font-size: 14px;
+header{
+    background: #F2F2F2;
+}
+header img{}
+
+header nav{}
+header nav menu{
+    list-style: none;
+    gap: 40px;
+}
+header nav menu li{}
+header nav menu a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.info div a:nth-child(2),
-.info div a:nth-child(3) {
-   margin-left: 10px;
+/** Seção principal de conteúdo */
+
+main{}
+main .breadcrumb{
+    padding-top: 32px;
+    padding-bottom: 14px;
+}
+main .breadcrumb a{}
+main .breadcrumb span{}
+
+main header{}
+main header h1{}
+main header small{}
+
+main .filtros{}
+main .filtros a{}
+main .filtros a:hover{}
+
+main .conteudo{}
+main .conteudo h2{}
+main .conteudo h2 small{}
+
+.livros{}
+.livros .livro{}
+.livros .livro figure{}
+.livros .livro .right{}
+.livros .livro .right div:nth-child(3),
+.livros .livro .right a{
+    color: #8A9399;
 }
 
-.cinza {color: #8A9399;}
 
-footer {
-    background-color: #efeff0;
-    height: 52px;
+footer{
+    text-align: center;
 }
-
-.flex {display: flex;}
-
-.align-item {align-items: center;}
-
-.justify-content {justify-content: center;}
-
-.center {justify-content: center;}
-
-a {text-decoration: none;}
-
-.container {min-width: 1400px}
-
-.columns {flex-direction: column ;}
