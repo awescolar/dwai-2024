@@ -1,25 +1,28 @@
-/** 
-AQUI SERÁ SÓ A HEADER
-**/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-header{}
+
+body{
+    font-family: inter;
+    margin: 0;
+}
+
+header{
+    background-color: #F2F2F2;
+}
 header img{}
 header nav{}
-header nav ul{}
-header nav ul li{}
-header nav ul a{}
+header nav ul{
+    list-style-type: none;
+}
+    
+header nav ul li{
+    
+    
+}
+header nav ul a{
+  
 
-/**
-
-[      =1
-class  =10
-#id    =100
-inline =1000
-import =100000000
-
-**/
-
-/** SEÇÃO PRINCIPAL DE CONTEÚDO **/
+}
 
 main{}
 main .breadcrumb{}
@@ -49,32 +52,60 @@ main{}
 main .breadcrumb{}
 main .breadcrumb span{}
 
-main header{}
-main header h1{}
-main header small{}
+main header{
+    background-color: #222222;
+    color: #F2F2F2;
+}
+main header h1{
+    color: #ffff;
+    font-size: 40px;
+}
+main header small{
+    color: #E5E9F2;
+    font-size: 13px;
+    
+}
 
-main .filtros{}
-main .filtros a{}
-main .filtros a :hover{}
+main .filtros{
+    padding-top: 20px ;
+    
+}
+main .filtros a{
+    border: 1px solid #8A9399;
+    padding: 5px 10px;
+    margin-right: 1px;
+    text-decoration: none;
+}
+main .filtros a :hover{
+    background-color: #2F80ED;
+}
 
 main .conteudo{}
 main .conteudo h2{}
 main .conteudoh2 small{}
 
 .livros{
-    
+    list-style: none;
+    padding: 0;
 
 }
-.livros .livro{}
-.livros .livro figure{
+.livros .livro{
+    border: 0px solid #8A9399;
     background-position: left;
+    padding: 15px 18px;
+    border-radius: 5px;
+    max-width: 30%;
+}
+.livros .livro figure{
+    width: 40%;
 }
 
 .livros .livro .right{
-    float: right;
-    padding: 10px;
+
 
 }
+
+.livros .livro 
 
 footer{
     text-align: center;

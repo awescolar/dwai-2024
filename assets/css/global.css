@@ -1,0 +1,42 @@
+.container{
+    min-width: 1400px;
+}
+
+.flex{
+    display: flex;
+}
+
+.centralizar{
+    justify-content: center;
+    align-items: center;
+}
+
+.alinhar-extremidades{
+    justify-content: space-between;
+}
+
+.centralizar-vertical{
+    justify-content: center;
+}
+
+.centralizar-horizontal{
+    justify-content: center;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.container{}
+
+.flutuar-direita{
+
+}
+
+.flutuar-esquerda{
+    
+}
+
+.block{
+    display: block;
+}
