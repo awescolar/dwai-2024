@@ -5,7 +5,9 @@ body{
 header{
     height: 88px;
     background: #F2F2F2;
-    display: flex;
+}
+
+.alinhar{
     align-items: center;
 }
 
@@ -13,18 +15,21 @@ header{
     margin-left: 60px;
 }
 
+.flex{
+    display: flex;
+}
+
 header nav{
     margin-left: auto;
     margin-right: 123px;
 }
 
-header nav menu{
-    display: flex; 
+menu{
     gap: 25px;
     list-style: none; 
 }
 
-header nav menu a{
+menu a{
     color: #000;
     text-decoration: none;
     font-size: 16px;
@@ -32,16 +37,13 @@ header nav menu a{
     font-weight: 400;  
 }
 
-main .breadcrumb{
-    margin-left: 60px;
-    display: flex;
-    align-items: center;
+.breadcrumb{
     gap: 10px;
     margin-top: 32px;
     margin-bottom: 14px;
 }
 
-main .breadcrumb a{
+.breadcrumb a{
     text-decoration: none;
     color: #3C4858;
     font-size: 16px;
@@ -49,7 +51,7 @@ main .breadcrumb a{
     font-weight: 300;
 }
 
-main .breadcrumb span{
+.breadcrumb span{
     color:#8A9399;
     font-size: 16px;
     font-style: normal;
@@ -60,7 +62,6 @@ main header{
     background: #222;
     height: 160px;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 main header h1{
@@ -77,37 +78,29 @@ main header small{
     font-weight: 400;
 }
 
-
-main .filtros a{
+.filtros a{
     display: inline-flex;
     padding: 5px 10px;
     border: 1px solid  #8A9399;
     color: #8A9399;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     text-decoration: none;
-    margin-top: 20px;
-    margin-right: 5px;
+    margin: 20px 5px 0 0;
 }
 
-main .filtros a:hover{
+.filtros a:hover{
     background-color: lightgray; 
 }
 
-main .conteudo {
-    margin-left: 60px;
-}
-
-
-main .conteudo h2{
+.conteudo h2{
     color: #1F2D3D;
     font-size: 26px;
     font-style: normal;
     font-weight: 600;
 }
 
-main .conteudo h2 small{
+.conteudo h2 small{
     color: #8A9399;
     font-size: 16px;
     font-style: normal;
@@ -115,17 +108,16 @@ main .conteudo h2 small{
     margin-left: 21px;
 }
 
-
-
-main .livros{
+.livros{
     list-style-type: none;
-    width: 384px;
     border-radius: 5px;
     border: 0.5px solid  #8A9399;
     padding: 20px;
     display: inline-block;
+    width: 30%;
+    width: 384px;
+    height: 240px;
 }
-
 
 .editora, .editora + div a{
     color: #8A9399;
@@ -134,48 +126,34 @@ main .livros{
     font-weight: 400;
 }
 
-main .livro{
-    display: flex;
-}
-
-main .livros strong{
+.livros strong{
     color: #000;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
 }
 
-
-main .livros .livro .Autor{
+.Autor{
     color: #000;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
-main .livros .livro figure{
+.livro figure{
     margin: 0;
 }
 
-main .livros .livro figure a{
+.livro figure a{
     color: #2F80ED;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    display: flex; 
-    align-items: center; 
-
 }
 
-main .livros .livro .right{    
+.right{    
     padding-left: 20px; 
-
-}
-
-.livro div:nth-of-type(3) {
-    margin-top: 10px;
 }
 
 footer{
