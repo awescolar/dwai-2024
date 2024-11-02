@@ -50,3 +50,6 @@
 .flutuar-direita{
     justify-content: end;
 }
+.quebrarLinha{
+    flex-wrap: wrap;
+}
