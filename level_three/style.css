@@ -1,7 +1,7 @@
+/*INICIO CONFIGURAÇÕES GLOBAIS CSS */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -11,18 +11,11 @@ body {
     align-items: center;
 }
 
-.container {
-    max-width: 1204px;
-    width: 100%;
-    display: flex;
-    gap: 24px;
-}
-
-.flex {
+.display-flex {
     display: flex;
 }
 
-.flex-column {
+.flex-direction-column {
     flex-direction: column;
 }
 
@@ -30,11 +23,11 @@ body {
     align-items: center;
 }
 
-.justify-center {
+.justify-content-center {
     justify-content: center;
 }
 
-.justify-space {
+.justify-content-space-between {
     justify-content: space-between;
 }
 
@@ -50,17 +43,30 @@ body {
     gap: 24px;
 }
 
-.nav {
-    padding-top: 24px;
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+/*FIM CONFIGURAÇÕES GLOBAIS CSS */
+
+.container {
+    max-width: 1204px;
+    width: 100%;
+    gap: 24px;
+    padding: 24px;
 }
 
 .links {
     list-style: none;
-}
-
-.breadcrumb, .bandage {
-    display: flex;
-    gap: 8px;
 }
 
 .bandage {
@@ -71,14 +77,8 @@ body {
     margin: 24px 0;
 }
 
-h1 {
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.livros{
+.livros {
     margin: 48px 0px;
-
 }
 
 button {
@@ -95,30 +95,16 @@ button.active {
     border-color: #2F80ED;
 }
 
-h2 {
-    font-size: 26px;
-}
-
-.livros .title {
-    display: flex;
-    gap: 24px;
-}
-
 .livro {
-    max-width: 368px;
+    max-width: 340px;
     padding: 16px;
     border: 1px solid #a5a8aa;
     border-radius: 8px;
-    display: flex;
     gap: 16px;
 }
-.content-livro{
-    width: 50%;
-}
 
-h3 {
-    font-size: 16px;
-    font-weight: 700;
+.title span{
+    color: #8A9399;
 }
 
 .autor, .editora, .etiqueta {
@@ -130,20 +116,12 @@ h3 {
     text-decoration: underline;
 }
 
-.btn-mais {
-    display: flex;
-    align-items: center;
-}
-
-.btn-mais a {
-    color: #2F80ED;
-}
-
 .container-livros{
-    display: flex;
-    width: 1210px;
-    align-items: flex-start;
-    align-content: flex-start;
-    gap: 28px;
     flex-wrap: wrap;
+}
+
+footer{
+    width: 100%;
+    background-color: #F9FAFC;
+    padding: 16px 0px;
 }

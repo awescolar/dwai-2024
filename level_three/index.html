@@ -1,409 +1,492 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>LIVROS</title>
- <link rel="stylesheet" href="style.css">
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIVROS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body class="flex-column">
- <div class="container flex-column">
-  <header>
-   <nav class="nav justify-space flex">
-    <img src="./img/logo.svg" alt="logo">
-    <ul class="links flex align-center gap-24">
-     <li>SOBRE</li>
-     <li>CURSOS</li>
-     <li>BIBLIOTECA</li>
-     <li>MATERIAIS</li>
-    </ul>
-   </nav>
-  </header>
+<body class="flex-direction-column">
 
-  <section class="breadcrumb gap-8 flex">
-   <p>Home</p>
-   <img src="./img/arrow.svg" alt="arrow">
-   <p>Livros</p>
-   <img src="./img/arrow.svg" alt="arrow">
-   <p>Biblioteca do Professor</p>
+  <div class="container flex-direction-column display-flex">
+    <!-- Header Section -->
+    <header>
+      <nav class="nav justify-content-space-between display-flex">
+        <img src="./img/logo.svg" alt="logo">
+        <ul class="links align-center gap-24 display-flex">
+          <li>SOBRE</li>
+          <li>CURSOS</li>
+          <li>BIBLIOTECA</li>
+          <li>MATERIAIS</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Breadcrumb Section -->
+    <section class="breadcrumb gap-8 display-flex">
+      <p>Home</p>
+      <img src="./img/arrow.svg" alt="arrow">
+      <p>Livros</p>
+      <img src="./img/arrow.svg" alt="arrow">
+      <p>Biblioteca do Professor</p>
+    </section>
+  </div>
+
+  <!-- Bandage Section -->
+  <section class="bandage justify-content-center display-flex gap-24">
+    <div class="container flex-direction-column display-flex">
+      <h1>Biblioteca do Professor</h1>
+      <div class="dados align-center gap-8 display-flex">
+        <p>256 livros</p><span>|</span><p>23 livros comentados</p><span>|</span><p>5 resenhas</p>
+      </div>
+    </div>
   </section>
- </div>
 
- <section class="bandage justify-center">
-  <div class="container flex-column">
-   <h1>Biblioteca do Professor</h1>
-   <div class="dados flex align-center gap-8">
-    <p>256 livros</p><span>|</span><p>23 livros comentados</p><span>|</span><p>5 resenhas</p>
-   </div>
-  </div>
- </section>
+  <div class="container flex-direction-column display-flex">
+    <!-- Tags Section -->
+    <div class="tags align-center gap-16 display-flex">
+      <button>Fundamentos do design</button>
+      <button class="active">UX / UI Design</button>
+      <button>Inovação</button>
+      <button>Ensino e Aprendizagem</button>
+      <button>Desenvolvimento Pessoal</button>
+    </div>
 
- <div class="container flex-column">
-  <div class="tags flex align-center gap-16">
-   <button>Fundamentos do design</button>
-   <button class="active">UX / UI Design</button>
-   <button>Inovação</button>
-   <button>Ensino e Aprendizagem</button>
-   <button>Desenvolvimento Pessoal</button>
-  </div>
-
-  <section class="livros gap-24 flex flex-column">
-    <div class="title gap-16 align-center">
+    <!-- Livros Section -->
+    <section class="livros gap-24 flex-direction-column display-flex">
+      <div class="title gap-16 align-center display-flex">
         <h2>Fundamentos do design</h2>
         <span>6 livros</span>
-    </div>
-    <div class="container-livros">
+      </div>
 
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-1.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
-                </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
-                    <p class="autor">Autor: Ellen Lupton</p>
-                    <p class="editora">Editora, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
+      <div class="container-livros display-flex gap-24 ">
+
+        <div class="livro flex-direction-column display-flex ">
+          <div class="livro-interno justify-content-space-between display-flex gap-24">
+            <div class="esquerda">
+              <img src="./img/capa-1.png" alt="capa">
+              <div class="btn-mais display-flex">
+                <a href="#">Leia mais</a>
+                <img src="./img/arrow-azul.svg" alt="seta">
+              </div>
             </div>
+            <div class="content-livro gap-8 flex-direction-column display-flex">
+              <h3>Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
+              <p class="autor">Autor: Ellen Lupton</p>
+              <p class="editora">Editora, 2020</p>
+              <p class="etiqueta">
+                <span>Artes</span>
+                <span>Design</span>
+                <span>Fundamentos da Imagem</span>
+              </p>
+            </div>
+          </div>
         </div>
-        
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
+
+        <div class="livro flex-direction-column display-flex ">
+            <div class="livro-interno justify-content-space-between display-flex gap-24">
+              <div class="esquerda">
                 <img src="./img/capa-2.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
+                <div class="btn-mais display-flex">
+                  <a href="#">Leia mais</a>
+                  <img src="./img/arrow-azul.svg" alt="seta">
                 </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Marcas. Design Estratégico</h3>
-                    <p class="autor">Autor: Cecília Consolo</p>
-                    <p class="editora">Editora Blucher, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
+              </div>
+              <div class="content-livro gap-8 flex-direction-column display-flex">
+                <h3>Marcas. Design Estratégico</h3>
+                <p class="autor">Autor: Cecília Consolo</p>
+                <p class="editora">Editora Blucher, 2020</p>
+                <p class="etiqueta">
+                  <span>Artes</span>
+                  <span>Design</span>
+                  <span>Fundamentos da Imagem</span>
+                </p>
+              </div>
             </div>
-        </div>
+          </div>
 
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
+          <div class="livro flex-direction-column display-flex ">
+            <div class="livro-interno justify-content-space-between display-flex gap-24">
+              <div class="esquerda">
                 <img src="./img/capa-3.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
+                <div class="btn-mais display-flex">
+                  <a href="#">Leia mais</a>
+                  <img src="./img/arrow-azul.svg" alt="seta">
                 </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Logo Love Design</h3>
-                    <p class="autor">Autor: David Airey</p>
-                    <p class="editora">Editora New Riders, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
+              </div>
+              <div class="content-livro gap-8 flex-direction-column display-flex">
+                <h3>Logo Love Design</h3>
+                <p class="autor">David Airey</p>
+                <p class="editora">Editora New Riders, 2020</p>
+                <p class="etiqueta">
+                  <span>Artes</span>
+                  <span>Design</span>
+                  <span>Fundamentos da Imagem</span>
+                </p>
+              </div>
             </div>
-        </div>
+          </div>
 
-        
-
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
+          <div class="livro flex-direction-column display-flex ">
+            <div class="livro-interno justify-content-space-between display-flex gap-24">
+              <div class="esquerda">
                 <img src="./img/capa-4.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
+                <div class="btn-mais display-flex">
+                  <a href="#">Leia mais</a>
+                  <img src="./img/arrow-azul.svg" alt="seta">
                 </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
-                    <p class="autor">Autor: Ellen Lupton</p>
-                    <p class="editora">Editora, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
+              </div>
+              <div class="content-livro gap-8 flex-direction-column display-flex">
+                <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
+                <p class="autor">Autor: Ellen Lupton</p>
+                <p class="editora">Editora, 2020</p>
+                <p class="etiqueta">
+                  <span>Artes</span>
+                  <span>Design</span>
+                  <span>Fundamentos da Imagem</span>
+                </p>
+              </div>
             </div>
-        </div>
-        
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
+          </div>
+
+          <div class="livro flex-direction-column display-flex ">
+            <div class="livro-interno justify-content-space-between display-flex gap-24">
+              <div class="esquerda">
                 <img src="./img/capa-5.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
+                <div class="btn-mais display-flex">
+                  <a href="#">Leia mais</a>
+                  <img src="./img/arrow-azul.svg" alt="seta">
                 </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Marcas. Design Estratégico</h3>
-                    <p class="autor">Autor: Cecília Consolo</p>
-                    <p class="editora">Editora Blucher, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
+              </div>
+              <div class="content-livro gap-8 flex-direction-column display-flex">
+                <h3>Logo Love Design</h3>
+                <p class="autor">David Airey</p>
+                <p class="editora">Editora New Riders, 2020</p>
+                <p class="etiqueta">
+                  <span>Artes</span>
+                  <span>Design</span>
+                  <span>Fundamentos da Imagem</span>
+                </p>
+              </div>
             </div>
-        </div>
+          </div>
 
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
+          <div class="livro flex-direction-column display-flex ">
+            <div class="livro-interno justify-content-space-between display-flex gap-24">
+              <div class="esquerda">
                 <img src="./img/capa-6.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
+                <div class="btn-mais display-flex">
+                  <a href="#">Leia mais</a>
+                  <img src="./img/arrow-azul.svg" alt="seta">
                 </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Logo Love Design</h3>
-                    <p class="autor">Autor: David Airey</p>
-                    <p class="editora">Editora New Riders, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
+              </div>
+              <div class="content-livro gap-8 flex-direction-column display-flex">
+                <h3>Logo Love Design</h3>
+                <p class="autor">David Airey</p>
+                <p class="editora">Editora New Riders, 2020</p>
+                <p class="etiqueta">
+                  <span>Artes</span>
+                  <span>Design</span>
+                  <span>Fundamentos da Imagem</span>
+                </p>
+              </div>
             </div>
+          </div>
+
+      </div>
+    </section>
+
+
+     <!-- Livros Section -->
+     <section class="livros gap-24 flex-direction-column display-flex">
+        <div class="title gap-16 align-center display-flex">
+          <h2>UX / UI Design</h2>
+          <span>22 livros</span>
         </div>
-  </section>
-
-  <section class="livros gap-24 flex flex-column">
-    <div class="title gap-16 align-center">
-        <h2>UX / UI Design</h2>
-        <span>22 livros</span>
-    </div>
-    <div class="container-livros">
-
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
+  
+        <div class="container-livros display-flex gap-24 ">
+  
+          <div class="livro flex-direction-column display-flex ">
+            <div class="livro-interno justify-content-space-between display-flex gap-24">
+              <div class="esquerda">
                 <img src="./img/capa-7.png" alt="capa">
-                <div class="btn-mais">
+                <div class="btn-mais display-flex">
+                  <a href="#">Leia mais</a>
+                  <img src="./img/arrow-azul.svg" alt="seta">
+                </div>
+              </div>
+              <div class="content-livro gap-8 flex-direction-column display-flex">
+                <h3>Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
+                <p class="autor">Autor: Ellen Lupton</p>
+                <p class="editora">Editora, 2020</p>
+                <p class="etiqueta">
+                  <span>Artes</span>
+                  <span>Design</span>
+                  <span>Fundamentos da Imagem</span>
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="livro flex-direction-column display-flex ">
+              <div class="livro-interno justify-content-space-between display-flex gap-24">
+                <div class="esquerda">
+                  <img src="./img/capa-8.png" alt="capa">
+                  <div class="btn-mais display-flex">
                     <a href="#">Leia mais</a>
                     <img src="./img/arrow-azul.svg" alt="seta">
+                  </div>
                 </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
+                <div class="content-livro gap-8 flex-direction-column display-flex">
+                  <h3>Marcas. Design Estratégico</h3>
+                  <p class="autor">Autor: Cecília Consolo</p>
+                  <p class="editora">Editora Blucher, 2020</p>
+                  <p class="etiqueta">
+                    <span>Artes</span>
+                    <span>Design</span>
+                    <span>Fundamentos da Imagem</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="livro flex-direction-column display-flex ">
+              <div class="livro-interno justify-content-space-between display-flex gap-24">
+                <div class="esquerda">
+                  <img src="./img/capa-9.png" alt="capa">
+                  <div class="btn-mais display-flex">
+                    <a href="#">Leia mais</a>
+                    <img src="./img/arrow-azul.svg" alt="seta">
+                  </div>
+                </div>
+                <div class="content-livro gap-8 flex-direction-column display-flex">
+                  <h3>Logo Love Design</h3>
+                  <p class="autor">David Airey</p>
+                  <p class="editora">Editora New Riders, 2020</p>
+                  <p class="etiqueta">
+                    <span>Artes</span>
+                    <span>Design</span>
+                    <span>Fundamentos da Imagem</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="livro flex-direction-column display-flex ">
+              <div class="livro-interno justify-content-space-between display-flex gap-24">
+                <div class="esquerda">
+                  <img src="./img/capa-10.png" alt="capa">
+                  <div class="btn-mais display-flex">
+                    <a href="#">Leia mais</a>
+                    <img src="./img/arrow-azul.svg" alt="seta">
+                  </div>
+                </div>
+                <div class="content-livro gap-8 flex-direction-column display-flex">
+                  <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
+                  <p class="autor">Autor: Ellen Lupton</p>
+                  <p class="editora">Editora, 2020</p>
+                  <p class="etiqueta">
+                    <span>Artes</span>
+                    <span>Design</span>
+                    <span>Fundamentos da Imagem</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="livro flex-direction-column display-flex ">
+              <div class="livro-interno justify-content-space-between display-flex gap-24">
+                <div class="esquerda">
+                  <img src="./img/capa-11.png" alt="capa">
+                  <div class="btn-mais display-flex">
+                    <a href="#">Leia mais</a>
+                    <img src="./img/arrow-azul.svg" alt="seta">
+                  </div>
+                </div>
+                <div class="content-livro gap-8 flex-direction-column display-flex">
+                  <h3>Logo Love Design</h3>
+                  <p class="autor">David Airey</p>
+                  <p class="editora">Editora New Riders, 2020</p>
+                  <p class="etiqueta">
+                    <span>Artes</span>
+                    <span>Design</span>
+                    <span>Fundamentos da Imagem</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="livro flex-direction-column display-flex ">
+              <div class="livro-interno justify-content-space-between display-flex gap-24">
+                <div class="esquerda">
+                  <img src="./img/capa-12.png" alt="capa">
+                  <div class="btn-mais display-flex">
+                    <a href="#">Leia mais</a>
+                    <img src="./img/arrow-azul.svg" alt="seta">
+                  </div>
+                </div>
+                <div class="content-livro gap-8 flex-direction-column display-flex">
+                  <h3>Logo Love Design</h3>
+                  <p class="autor">David Airey</p>
+                  <p class="editora">Editora New Riders, 2020</p>
+                  <p class="etiqueta">
+                    <span>Artes</span>
+                    <span>Design</span>
+                    <span>Fundamentos da Imagem</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="livro flex-direction-column display-flex ">
+                <div class="livro-interno justify-content-space-between display-flex gap-24">
+                  <div class="esquerda">
+                    <img src="./img/capa-13.png" alt="capa">
+                    <div class="btn-mais display-flex">
+                      <a href="#">Leia mais</a>
+                      <img src="./img/arrow-azul.svg" alt="seta">
+                    </div>
+                  </div>
+                  <div class="content-livro gap-8 flex-direction-column display-flex">
                     <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
                     <p class="autor">Autor: Ellen Lupton</p>
                     <p class="editora">Editora, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
+                    <p class="etiqueta">
+                      <span>Artes</span>
+                      <span>Design</span>
+                      <span>Fundamentos da Imagem</span>
+                    </p>
+                  </div>
                 </div>
-            </div>
-        </div>
-        
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-8.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
-                </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Marcas. Design Estratégico</h3>
-                    <p class="autor">Autor: Cecília Consolo</p>
-                    <p class="editora">Editora Blucher, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-9.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
-                </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
+              </div>
+    
+              <div class="livro flex-direction-column display-flex ">
+                <div class="livro-interno justify-content-space-between display-flex gap-24">
+                  <div class="esquerda">
+                    <img src="./img/capa-14.png" alt="capa">
+                    <div class="btn-mais display-flex">
+                      <a href="#">Leia mais</a>
+                      <img src="./img/arrow-azul.svg" alt="seta">
+                    </div>
+                  </div>
+                  <div class="content-livro gap-8 flex-direction-column display-flex">
                     <h3>Logo Love Design</h3>
-                    <p class="autor">Autor: David Airey</p>
+                    <p class="autor">David Airey</p>
                     <p class="editora">Editora New Riders, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
+                    <p class="etiqueta">
+                      <span>Artes</span>
+                      <span>Design</span>
+                      <span>Fundamentos da Imagem</span>
+                    </p>
+                  </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-10.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
-                </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
-                    <p class="autor">Autor: Ellen Lupton</p>
-                    <p class="editora">Editora, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-11.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
-                </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Marcas. Design Estratégico</h3>
-                    <p class="autor">Autor: Cecília Consolo</p>
-                    <p class="editora">Editora Blucher, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-12.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
-                </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
+              </div>
+    
+              <div class="livro flex-direction-column display-flex ">
+                <div class="livro-interno justify-content-space-between display-flex gap-24">
+                  <div class="esquerda">
+                    <img src="./img/capa-15.png" alt="capa">
+                    <div class="btn-mais display-flex">
+                      <a href="#">Leia mais</a>
+                      <img src="./img/arrow-azul.svg" alt="seta">
+                    </div>
+                  </div>
+                  <div class="content-livro gap-8 flex-direction-column display-flex">
                     <h3>Logo Love Design</h3>
-                    <p class="autor">Autor: David Airey</p>
+                    <p class="autor">David Airey</p>
                     <p class="editora">Editora New Riders, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
+                    <p class="etiqueta">
+                      <span>Artes</span>
+                      <span>Design</span>
+                      <span>Fundamentos da Imagem</span>
+                    </p>
+                  </div>
                 </div>
-            </div>
+              </div>
+  
         </div>
+      </section>
 
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-13.png" alt="capa">
-                <div class="btn-mais">
+
+      <!-- Livros Section -->
+    <section class="livros gap-24 flex-direction-column display-flex">
+        <div class="title gap-16 align-center display-flex">
+          <h2>Desenvolvimento Pessoal</h2>
+          <span>3 livros</span>
+        </div>
+  
+        <div class="container-livros display-flex gap-24 ">
+  
+          <div class="livro flex-direction-column display-flex ">
+            <div class="livro-interno justify-content-space-between display-flex gap-24">
+              <div class="esquerda">
+                <img src="./img/capa-16.png" alt="capa">
+                <div class="btn-mais display-flex">
+                  <a href="#">Leia mais</a>
+                  <img src="./img/arrow-azul.svg" alt="seta">
+                </div>
+              </div>
+              <div class="content-livro gap-8 flex-direction-column display-flex">
+                <h3>Hiperfoco: Como trabalhar menos e render mais</h3>
+                <p class="autor">Autor: Ellen Lupton</p>
+                <p class="editora">Editora, 2020</p>
+                <p class="etiqueta">
+                  <span>Artes</span>
+                  <span>Design</span>
+                  <span>Fundamentos da Imagem</span>
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="livro flex-direction-column display-flex ">
+              <div class="livro-interno justify-content-space-between display-flex gap-24">
+                <div class="esquerda">
+                  <img src="./img/capa-17.png" alt="capa">
+                  <div class="btn-mais display-flex">
                     <a href="#">Leia mais</a>
                     <img src="./img/arrow-azul.svg" alt="seta">
+                  </div>
                 </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Logo Love Design</h3>
-                    <p class="autor">Autor: David Airey</p>
-                    <p class="editora">Editora New Riders, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
+                <div class="content-livro gap-8 flex-direction-column display-flex">
+                  <h3>Negocie qualquer coisa com qualquer pessoa: Estratégias práticas para...</h3>
+                  <p class="autor">Autor: Cecília Consolo</p>
+                  <p class="editora">Editora Blucher, 2020</p>
+                  <p class="etiqueta">
+                    <span>Negociação</span>
+                  </p>
                 </div>
+              </div>
             </div>
-        </div>
-
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-14.png" alt="capa">
-                <div class="btn-mais">
+  
+            <div class="livro flex-direction-column display-flex ">
+              <div class="livro-interno justify-content-space-between display-flex gap-24">
+                <div class="esquerda">
+                  <img src="./img/capa-18.png" alt="capa">
+                  <div class="btn-mais display-flex">
                     <a href="#">Leia mais</a>
                     <img src="./img/arrow-azul.svg" alt="seta">
+                  </div>
                 </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Logo Love Design</h3>
-                    <p class="autor">Autor: David Airey</p>
-                    <p class="editora">Editora New Riders, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
+                <div class="content-livro gap-8 flex-direction-column display-flex">
+                  <h3>As armas da persuasão</h3>
+                  <p class="autor">David Airey</p>
+                  <p class="editora">Editora New Riders, 2020</p>
+                  <p class="etiqueta">
+                    <span>Negociação</span>
+                  </p>
                 </div>
+              </div>
             </div>
+  
         </div>
+      </section>
+  
 
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-15.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
-                </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Logo Love Design</h3>
-                    <p class="autor">Autor: David Airey</p>
-                    <p class="editora">Editora New Riders, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
-            </div>
-        </div>
-  </section>
-
-
-
-  <section class="livros gap-24 flex flex-column">
-    <div class="title gap-16 align-center">
-        <h2>UX / UI Design</h2>
-        <span>22 livros</span>
-    </div>
-    <div class="container-livros">
-
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-7.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
-                </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
-                    <p class="autor">Autor: Ellen Lupton</p>
-                    <p class="editora">Editora, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-8.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
-                </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Marcas. Design Estratégico</h3>
-                    <p class="autor">Autor: Cecília Consolo</p>
-                    <p class="editora">Editora Blucher, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="livro flex-column">
-            <div class="livro-interno justify-space flex">
-               <div class="esquerda">
-                <img src="./img/capa-8.png" alt="capa">
-                <div class="btn-mais">
-                    <a href="#">Leia mais</a>
-                    <img src="./img/arrow-azul.svg" alt="seta">
-                </div>
-               </div>
-                <div class="content-livro gap-8 flex flex-column">
-                    <h3>Marcas. Design Estratégico</h3>
-                    <p class="autor">Autor: Cecília Consolo</p>
-                    <p class="editora">Editora Blucher, 2020</p>
-                    <p class="etiqueta"><span>Artes</span> <span>Design</span> <span>Fundamentos da Imagem</span></p>
-                </div>
-            </div>
-        </div>
-
-  </section>
-
- </div>
+  <footer class="display-flex align-center justify-content-center">
+    <img src="./img/logo-awe.svg" alt="logo awe footer">
+  </footer>
 </body>
 </html>
-
-
