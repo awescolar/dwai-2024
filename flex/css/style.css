@@ -95,6 +95,7 @@ main .conteudo h2 small{
 }
 .livros .livro figure a{
     color: #2f80ed;
+    font-size: 14px;
 }
 
 .livros .livro .right{}
