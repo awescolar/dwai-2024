@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
 
     <link rel="stylesheet" href="flexbox-3.css">
 </head>
+
 <body>
 
     <header class="flex centralizar">
@@ -31,9 +33,11 @@
     <main>
         <!-- trilha de linkas -->
         <div class="breadcrumb flex centralizar-horizontal">
-            <div class="container">
+            <div class="container flex centralizar-vertical gap">
                 <a href="/">Home</a>
+                <img src="img - flex/arrow-right.svg" alt="">
                 <a href="livros.html">Livros</a>
+                <img src="img - flex/arrow-right.svg" alt="">
                 <span>Biblioteca do Professor</span>
             </div>
         </div>
@@ -42,7 +46,7 @@
         <header class="flex centralizar-horizontal">
             <div class="container">
                 <h1>Biblioteca do Professor</h1>
-                <small>256 livros  |  23 livros comentados   |  5 resenhas</small>
+                <small>256 livros | 23 livros comentados | 5 resenhas</small>
             </div>
         </header>
         <section class="filtros flex centralizar-horizontal">
@@ -59,27 +63,136 @@
             <div class="container">
 
                 <h2>Fundamentos do design <small>6 livros</small></h2>
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="img - flex/intuicao.jpg" alt="">
                             <br>
-                            <a href="#">
-                                Leia mais <img src="imagens/arrow-right.svg" alt="">
+                            <a href="#" class="flex centralizar-vertical">
+                                Leia mais <img src="img - flex/arrow-right2.svg" alt="">
                             </a>
                         </figure>
-                        <div class="right">
-                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
+                        <div class="flutuar-direita right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem
+                                Visual</strong>
                             <div>Autor: Ellen Lupton</div>
                             <div>Editora, 2020</div>
                             <div>
                                 <a href="#" class="inline-block">Artes</a>
                                 <a href="#" class="inline-block">Design</a>
-                                <a href="#" class="inline-block">Fundamentos da Imagem</a>
+                                <a href="#">Fundamentos <div> da Imagem</div></a>
                             </div>
                         </div>
                     </li>
-                </ul>
+
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
+                            <img src="img - flex/intuicao.jpg" alt="">
+                            <br>
+                            <a href="#" class="flex centralizar-vertical">
+                                Leia mais <img src="img - flex/arrow-right2.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="flutuar-direita right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem
+                                Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="inline-block">Artes</a>
+                                <a href="#" class="inline-block">Design</a>
+                                <a href="#">Fundamentos <div> da Imagem</div></a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
+                            <img src="img - flex/intuicao.jpg" alt="">
+                            <br>
+                            <a href="#" class="flex centralizar-vertical">
+                                Leia mais <img src="img - flex/arrow-right2.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="flutuar-direita right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem
+                                Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="inline-block">Artes</a>
+                                <a href="#" class="inline-block">Design</a>
+                                <a href="#">Fundamentos <div> da Imagem</div></a>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
+                            <img src="img - flex/intuicao.jpg" alt="">
+                            <br>
+                            <a href="#" class="flex centralizar-vertical">
+                                Leia mais <img src="img - flex/arrow-right2.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="flutuar-direita right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem
+                                Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="inline-block">Artes</a>
+                                <a href="#" class="inline-block">Design</a>
+                                <a href="#">Fundamentos <div> da Imagem</div></a>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
+                            <img src="img - flex/intuicao.jpg" alt="">
+                            <br>
+                            <a href="#" class="flex centralizar-vertical">
+                                Leia mais <img src="img - flex/arrow-right2.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="flutuar-direita right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem
+                                Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="inline-block">Artes</a>
+                                <a href="#" class="inline-block">Design</a>
+                                <a href="#">Fundamentos <div> da Imagem</div></a>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
+                            <img src="img - flex/intuicao.jpg" alt="">
+                            <br>
+                            <a href="#" class="flex centralizar-vertical">
+                                Leia mais <img src="img - flex/arrow-right2.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="flutuar-direita right">
+                            <strong class="block">Sintaxe da Intuição, Ação, Criação Graphic Design Thinking Linguagem
+                                Visual</strong>
+                            <div>Autor: Ellen Lupton</div>
+                            <div>Editora, 2020</div>
+                            <div>
+                                <a href="#" class="inline-block">Artes</a>
+                                <a href="#" class="inline-block">Design</a>
+                                <a href="#">Fundamentos <div> da Imagem</div></a>
+                            </div>
+                        </div>
+                    </li>
+
             </div>
         </section>
 
@@ -87,6 +200,7 @@
     <footer>
         <img src="assets/img/logo.png" alt="">
     </footer>
-    
+
 </body>
+
 </html>

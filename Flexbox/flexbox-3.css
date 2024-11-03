@@ -27,12 +27,22 @@
     justify-content: space-between;
 }
 
+.gap {
+    gap: 10px   
+}
 
+.flutuar-esquerda {
+    justify-content: start;
+}
+
+.flutuar-direita {
+    justify-content: end;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body{
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     margin: 0;
 }
 
@@ -44,7 +54,7 @@ header{
     background: #F2F2F2;
 }
 header img{
-    padding: ;
+    padding: 24px;
 }
 
 header nav{}
@@ -63,31 +73,103 @@ header nav menu a{
 
 main{}
 main .breadcrumb{
-    padding-top: 32px;
-    padding-bottom: 14px;
+    padding: 24px 0;
 }
-main .breadcrumb a{}
-main .breadcrumb span{}
 
-main header{}
-main header h1{}
-main header small{}
+main .breadcrumb a{
+    text-decoration: none;
+    color:#3C4858;
+}
 
-main .filtros{}
-main .filtros a{}
-main .filtros a:hover{}
+main .breadcrumb span{color: #8A9399;}
 
-main .conteudo{}
-main .conteudo h2{}
-main .conteudo h2 small{}
+main header {
+    background-color: #000;
+    color: #fff;
+    height: 160px;
+}
 
-.livros{}
-.livros .livro{}
-.livros .livro figure{}
-.livros .livro .right{}
+main header h1{
+    margin-bottom: 9px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+main header small {
+    font-size: 16px;
+}
+
+main .filtros {
+    margin-top: 20px;
+    
+}
+main .filtros a {
+    text-decoration: none;
+    color: #8A9399;
+    border: #8A9399 solid 1px;
+    padding: 5px 10px;
+    margin-right: 20px;
+    
+}
+main .filtros a:hover{
+    color: #3C4858;
+    border: #3C4858 solid 1px;
+}
+
+main .conteudo{
+    margin-top: 63px;
+}
+
+main .conteudo h2 {
+    font-size: 26px;
+}
+
+main .conteudo h2 small{
+    color: #8A9399;
+    font-weight: normal;
+    margin-left: 20px; 
+    font-size: 16px;
+}
+
+.livros{
+    list-style: none;
+    margin-top: 32px;
+    padding: 0;
+    gap: 23px;
+    max-width: 1400px;
+    flex-wrap: wrap;
+}
+
+.livros .livro {
+    border: 1px solid #8A9399;
+    max-width: 30%;
+    border-radius: 5px;
+    list-style: none;
+    padding: 15px 14px 0 14px;
+
+}
+.livros .livro figure {
+    width: 40%;
+    margin-bottom: 22px;
+}
+
+.livros .livro figure a {
+    margin-top: 22px;
+}
+
+.livros .livro .right strong {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.livros .livro .right div {
+    margin: 5px 0;
+    font-size: 14px;
+}
 .livros .livro .right div:nth-child(3),
 .livros .livro .right a{
     color: #8A9399;
+    margin-right: 10px;
 }
 
 
