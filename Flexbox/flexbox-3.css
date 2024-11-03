@@ -1,0 +1,144 @@
+body {
+    font-family: Inter;
+    margin: 0;
+    background-color: #FFF;
+}
+
+header {
+    background: #F2F2F2;
+    height: 88px;
+}
+
+.secoes, .conteudo {
+    min-width: 1400px; 
+}
+
+header nav menu li a {
+    text-decoration: none;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+header nav menu {
+    list-style: none;
+    gap: 40px;
+}
+
+main .breadcrumb {
+    padding: 24px 0;
+    padding-right: 1080px;
+}
+
+main header {
+    background-color: #222222;
+    padding: 30px;  
+}
+
+main header h1 {
+    color: #FFF;
+    font-size: 40px;
+    margin: 0;
+}
+
+main header small {
+    color: #E5E9F2;
+    font-size: 16px;
+}
+
+.flutuar-esquerda {
+    justify-content: start;
+}
+
+.flutuar-direita {
+    justify-content: end;
+}
+
+.centralizar-horizontal {
+    justify-content: center;
+}
+
+main .filtros {
+    padding: 20px;
+}
+
+main .filtros a {
+    border: 1px solid;
+    color: #8A9399;
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+main .filtros a:hover {
+    background-color: #2F80ED;
+    color: #FFF;
+}
+
+main .conteudo {
+    margin-top: 64px;
+}
+
+main .conteudo h2 {
+    font-size: 26px;
+    color: #1F2D3D;
+}
+
+main .conteudo h2 small {    
+    color: #8A9399;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 20px;    
+}
+
+.centralizar-vertical {
+    align-items: center;
+}
+
+.livros {
+    list-style: none;
+    margin-top: 32px;
+    padding: 0;
+}
+
+.livros .livro {
+    border: 1px solid #8A9399;
+    padding: 15px 18px;
+    border-radius: 5px;
+    max-width: 30%;
+}
+
+.livros .livro figure {
+    width: 40%;
+}
+
+.livros .livro .right strong {
+    font-size: 16px;
+}
+
+.livros .livro .right div:nth-child(3),
+.livros .livro .right a {
+    color: #8A9399;
+}
+
+.centralizar {
+    justify-content: center;    
+    align-items: center;
+}
+
+.alinhar-extremidades {
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+}
