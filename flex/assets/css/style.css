@@ -13,13 +13,13 @@ AQUI SERÁ SOMENTE A FORMATACAO DA HEADER
 ******/
 
 header {
-    width:100%;
     background: #F2F2F2;
     padding:20px;
-
+    padding-left: 100px;
 }
 
 header div {
+
     width:2400px;
     margin-right:20px;
 }
@@ -27,13 +27,17 @@ header div {
 header nav{
     margin-right:20px;
     text-transform: uppercase;
+
 }
 header nav menu{
+
     list-style:none;
     gap:16px;
+
 }
 
 header nav menu a{
+
     text-decoration:none;
     color: black;
     font-weight:300;
@@ -42,85 +46,134 @@ header nav menu a{
 
 /** Seção principal de conteúdo */
 
-main{}
 main .breadcrumb{
-    margin-left:0;
     justify-content: space-around;
+
     max-width:400px;
     padding:20px;
+    padding-left: 100px;
     gap:15px;
 }
+
 main .breadcrumb a{
+
     font-weight: 200;
     color: black;
+
 }
+
+main section{
+    padding-left: 90px;
+
+}
+
 main .breadcrumb span{
+
     color:#8A9399;
+
 }
 
 main header{
+
     color:white;
     background-color:black;
 }
 
 main .filtros{
+
     margin-top:15px;
     margin-left: 10px;
+
     flex-wrap: wrap;
     gap:10px;
 }
+
 main .filtros a{
+
     color:#8A9399;
     border: 2px solid #8A9399;
+
     padding:5px;
     transition: .5s;
+
 }
+
 main .filtros a:hover{
+
     background-color: #2F80ED;
     color: white;
     border: 2px solid white;
+
 }
 
-main .conteudo{}
 main .conteudo h2{
+
     color: #383b3d;
     margin-left: 12px;
+    margin-top: 80px;
+
 }
+
 main .conteudo h2 small{
+
     font-weight: 500;
     font-size: 16px;
     margin-left: 15px;
+
 }
 
 .livros{
-    flex-wrap: wrap;
+
     margin-left:10px;
+    flex-wrap: wrap;
+
+    gap: 10px;
     padding:0;
+
 }
-.livros .livro{    
+
+.livros .livro{  
+
     list-style:none;
-    max-width:400px;
+    
     border: 2px solid #8A9399;
     border-radius: 8px;
-    padding:10px;
-    
+
+    padding:20px;
+    max-width:400px;
+
+    align-items: flex-start;
+    font-size: 16px;
+
 }
 
 .livros .livro .right{
+
     flex-direction: column;
     gap: 10px;
 
 }
 
 .livros .livro .right a{
+
     text-decoration-line:underline;
+    margin-right:10px;
     color:#8A9399
+
 }
 .livros .livro figure{
+
     text-decoration:underline;
+    margin-top: 0;
+    margin-left: 0;
     color: #2F80ED;
+
 }
 
+.livros .livro figure a{
+    margin-top:10px;
+
+}
 
 .livros .livro .right div{
     gap: 10px;
@@ -128,5 +181,9 @@ main .conteudo h2 small{
 
 
 footer{
+
+    padding: 10px;
+    background: #f9fafc;
     text-align: center;
+
 }
