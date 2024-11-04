@@ -27,15 +27,18 @@ main .breadcrumb{
     padding: 24px 0;
 }
 main .breadcrumb a{}
-main .breadcrumb span{}
+main .breadcrumb span{color:#000}
 
 main header{
     background-color: #222222;
     padding: 30px;
+    height: 160px;
 }
 main header h1{
     color: #fff;
     font-size: 40px;
+    margin-bottom: 9px;
+    font-weight: 400px;
 }
 main header small{
     color: #E5E9F2;
@@ -75,20 +78,39 @@ main .conteudo h2 small{
     list-style: none;
     padding: 0;
     flex-wrap: wrap;
+    gap: 24px;
+    max-width: 1400px;
 }
 .livros .livro{
     border: 1px solid #8A9399;
-    padding: 15px 18px;
+    padding: 15px 14px 0 14px;
     border-radius: 5px;
     max-width: 30%;
+
 }
 .livros .livro figure{
     width: 40%;
+    margin: 10px 10px 0 10px;
 }
-
+.livros .livro figure a{
+    margin: 10px 0;
+    color: #2F80ED;
+    font-size: 14px;
+}
+.livros .livro strong{
+    font-size: 16px;
+    margin: 10px 0;
+    max-width: 200px;
+}
+.livros .livro .right div{
+    margin: 8px 0;
+    font-size: 14px;
+    width: 200px;
+}
 .livros .livro .right div:nth-child(3),
 .livros .livro .right a{
     color: #8A9399;
+    margin-right: 10px;
 }
 footer{
     text-align: center;
