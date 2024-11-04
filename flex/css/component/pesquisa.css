@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 840px;
+    gap: 12px;
+    padding: 20px 16px 20px 42px;
+    border-radius: 8px;
+    border: 1px solid rgba(204, 204, 204, 0.80);
+    background: var(--color-gray-10, #FFF);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    background: url(search.svg) no-repeat;
+    background-position: 16px center;
+}
