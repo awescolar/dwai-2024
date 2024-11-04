@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: Inter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa {
+    display: flex;
+    border: rgba(204, 204, 204, 0.80) 1px solid;
+    border-radius: 7px;
+    width: 500px;
+    padding: 20px 16px;
+    padding-left: 45px;
+}
+
+.placeholder {
+    color: rgba(158, 158, 158, 1);
+}
+
+.lupa {
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15px;
+}
