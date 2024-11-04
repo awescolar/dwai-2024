@@ -3,17 +3,24 @@ body{
 }
 .pesquisa{
     display: flex;
-    width: 270px;
-    padding: 6px;
-    padding-top: 7px;
+    gap: 10px;
+    width: 840px;
+    font-size: 17px;
+
+    padding-right: 16px;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-bottom: 20px;
+
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.05);
     color: #cccccc;
 
-    border-radius: 50px;
+    border-radius: 8px;
     border: solid 1px;
     border-color: #cccccc;
 
     background-image: url(../imgs/search-normal.svg);
     background-repeat: no-repeat;
-    background-position: left 6px top 6px;
-    background-size: 15px 15px;
+    background-position: 16px 20px;
+    background-size: 16px 16px;
 }
