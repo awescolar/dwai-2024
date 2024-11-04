@@ -1,0 +1,19 @@
+body{
+    font-family: Inter;
+}
+.pesquisa{
+    display: flex;
+    border-radius: 50px;
+    border: solid 1px;
+    border-color: #cccccc;
+    padding: 6px;
+    padding-top: 7px;
+    color: #cccccc;
+
+    background-image: url(../imgs/search-normal.svg);
+    background-repeat: no-repeat;
+    background-position: left 6px top 6px;
+    background-size: 15px 15px;
+
+    width: 270px;
+}
