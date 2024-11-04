@@ -9,8 +9,8 @@ header {
     height: 88px;
 }
 
-.secoes, .conteudo {
-    min-width: 1400px; 
+.secoes {
+    min-width: 1400px;
 }
 
 header nav menu li a {
@@ -105,6 +105,7 @@ main .conteudo h2 small {
 }
 
 .livros {
+    flex-wrap: wrap;
     list-style: none;
     margin-top: 32px;
     padding: 0;
@@ -112,8 +113,8 @@ main .conteudo h2 small {
 
 .livros .livro {
     border: 1px solid #8A9399;
-    padding: 15px 18px;
     border-radius: 5px;
+    padding: 15px 18px;
     max-width: 30%;
 }
 
