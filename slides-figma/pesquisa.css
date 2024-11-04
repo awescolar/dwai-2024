@@ -9,5 +9,6 @@
     border-radius: 10px;
     background: url(/assets/search-normal.png) no-repeat;
     background-position: 16px center;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.05);
 }
 
