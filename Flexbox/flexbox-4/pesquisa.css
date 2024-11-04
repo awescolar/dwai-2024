@@ -1,0 +1,31 @@
+.centralizar-horizontal {
+    justify-content: center;
+}
+
+.centralizar-vertical {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.centralizar {
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+input {
+    border: none;
+    padding: 20px 16px;
+
+}
+
+.container div {
+    border: 1px solid #9E9E9E;
+    width: 840px;
+}
