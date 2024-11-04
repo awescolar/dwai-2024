@@ -1,0 +1,51 @@
+.banner{
+    height: 181px;
+    width: 800px;
+
+    padding: 20px 24px;
+
+    background: #2f80ed;
+    background-image: url('../img/background.svg');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 0px;
+    background-size: 275px;
+
+    border-radius: 10px;
+    color: white;
+
+
+}
+
+.banner small {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.banner h1{
+    font-size: 24px;
+    font-weight: 600;
+    width: 600px;
+}
+
+.banner a{
+    text-decoration:none;
+    color: white;
+    font-size: 14px;
+
+    background-color: black;
+    padding: 8px 12px;
+
+    border-radius: 40px;;
+
+}
+
+.banner a img{
+    position:relative;
+    top:2.5%;
+    
+    margin-left: 12px;
+
+}
