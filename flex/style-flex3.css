@@ -102,16 +102,11 @@ main .conteudo h2 small{
     margin-left: 20px;
 }
 
-.livros{
-    margin-top: 32px;
-    padding: 0;
-    list-style: none;
-}
+.livros{z}
 .livros .livro{
     list-style: none;
     border: 1px solid #8A9399;
     padding: 15px 18px;
-    border-radius: 5px;
 }
 .livros .livro figure{}
 .livros .livro .right{}

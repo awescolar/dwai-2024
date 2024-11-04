@@ -1,0 +1,29 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+.pesquisa{
+    border: #CCCCCCCC;
+}
+input{
+    border: none;
+}
+.banner{
+    background: #2F80ED;
+}
+.banner a{
+    background: #202020;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.card-1{
+    display: inline-block;
+}
+.card-1 strong{
+    color: #2667BF;
+}
+.card-2 span{
+    color: #2667BF;
+    background: #BFDAFF40;
+    border-radius: 8px;
+    background-position: 12%;
+}
