@@ -81,6 +81,8 @@ main .conteudo h2 small{
     margin-top: 32px;
     list-style: none;
     padding: 0;
+    flex-wrap: wrap;
+    
 }
 .livros .livro{
     border: 1px solid #8A9399;
@@ -90,6 +92,7 @@ main .conteudo h2 small{
 }
 .livros .livro figure{
     width: 40%;
+    margin: 10px;
 }
 .livros .livro .right strong{
     font-size: 16px;
