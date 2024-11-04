@@ -1,0 +1,120 @@
+body {
+    align-items: center;
+    background-color: #DFDFDF;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter";
+    height: 1440px;
+    justify-content: center;
+    width: 1024px;
+}
+
+.card1 {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    max-height: 205px;
+    max-width: 350px;
+    padding: 24px;
+}
+
+.container {
+    max-height: 157px;
+    max-width: 302px;
+}
+
+h4, p, div {
+    margin: 0;
+}
+
+.tl {
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+
+p {
+    color: #425466;
+    font-size: 14px;
+}
+
+.badges {
+    display: flex;
+    gap: 8px;
+    padding-bottom: 23px;
+}
+
+.cinza, .azul {
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 4px 10px;
+}
+
+.cinza {
+    background-color: #E4ECF7;    
+    color: #505780;}
+
+.azul {
+    background-color: #4C6FFF;
+    color: #FFFFFF;
+}
+
+.description {
+    line-height: 22px;
+}
+
+.card2 {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    flex-direction: column;
+    margin-top: 59px;
+    max-height: 189px;
+    max-width: 350px;
+    padding: 24px 20px 24px 24px;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+    padding-bottom: 20px;
+}
+
+.capacidade {
+    display: flex;
+    gap: 208px;
+    padding-top: 18px;
+    padding-bottom: 13px;
+}
+
+span {
+    color: #84859E;
+    font-size: 14px;
+}
+
+.roxo {
+    background-color: #4C6FFF;
+    border-radius: 20px;
+    height: 8px;
+    width: 240px;
+}
+
+.total {
+    background-color: #E4ECF7;
+    border-radius: 20px;
+    height: 8px;
+    width: 305px;
+}
+
+.pontos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3px;
+}
+
+.ponto {
+    background-color: #425466;
+    border-radius: 16px;
+    height: 4px;
+    width: 4px;
+}

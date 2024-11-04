@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.bg-azul {
+    background-color: #E7F3FF;
+    border-radius: 30px;
+}
+
+.slide {
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+    position: relative;
+}
+
+.slide h1 {
+    font-size: 92px;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: 20px;
+
+    position: relative;
+
+    background: url(Imagens/recurso.png);
+    background-repeat: no-repeat;
+    background-position: 0 190px;
+}
+
+.slide h1 img {
+    position: absolute;
+    top: 70px;
+    right: 180px;
+}
+
+.slide h1 div {
+    margin-top: -30px;
+}
+
+.slide h1 div:nth-child(2) {
+    padding-left: 36px;
+}
+
+.slide h1 div:nth-child(3){
+    text-align: right;
+}
+
+.slide .logo {
+    position: absolute;
+    bottom: 60px;
+    left: 100px;
+}
+
+.links a {
+    margin-left: 20px;
+}
+
+.links {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.slide-2 {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.slide-2 h2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 90px;
+    padding-left: 60px;
+}
+
+.slide-2 ol {
+    padding-left: 80px;
+}
+
+.slide-2 ol li {
+    margin-bottom: 10px;
+}
+
+.descricao img {
+    float: left;
+    height: 16px;
+}
+
+.descricao { 
+    padding-left: 60px;
+    margin-top: 45px;
+    position: relative;
+}
+
+.descricao div:nth-child(1) {
+    padding-left: 20px;
+}
+
+.descricao div:nth-child(2) {
+    margin-top: 6px;
+}
+
+.descricao div:nth-child(3) {
+    margin-top: 6px;
+}
+
+.imagem {
+    background-color: #E7F3FF;
+    left: 610px;
+    top: -10px;
+    height: 600px;
+    width: 570px;
+    float: right;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.imagem .logo-figma {
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.links {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.slide-3 {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.slide-3 h2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 90px;
+    padding-left: 60px;
+}
+
+.descricao-2 { 
+    padding-left: 60px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.descricao-2 div:nth-child(2) {
+    margin-top: 6px;
+}
+
+.descricao-2 div:nth-child(3) {
+    margin-top: 6px;
+}
+
+.recursos p { 
+    margin-top: 40px;
+    padding-left: 60px;
+}
+
+.recursos {
+    width: 500px;
+}
+
+.recursos a {
+    color: #21A1F5;
+}
+
+.recursos ul {
+    padding-left: 80px;
+}
+
+.imagem-2 {
+    background-color: #E7F3FF;
+    left: 610px;
+    top: -10px;
+    height: 600px;
+    width: 570px;
+    float: right;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.imagem-2 .img-community {
+    padding-top: 110px;
+    padding-left: 40px;
+}

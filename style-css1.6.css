@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e7e7e7;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.googleplus {
+    display: inline-block;
+    text-align: center;
+    background-color: #fece31;
+    width: 100%;
+    padding: 100px;
+}
+.list {
+    margin-top: 30px;
+    text-align: center;
+}
+.list div {
+    display: inline-block;
+    text-align: center;
+    width: 330px;
+    background-color: #ffffff;
+    margin: 0 60px;
+}
+.list .chrome {
+    margin-left: 0;
+}
+.list .maps {
+    margin-right: 0;
+}
+.list div h2 {
+    font-weight: 200;
+}
+.chrome img, .search img, .maps img {
+    padding: 30px;
+}
+.chrome img {
+    background-color: red;
+}
+.chrome a, .chrome h2 {
+    color: red;
+}
+.search img {
+    background-color: blue;
+}
+.search a, .search h2 {
+    color: blue;
+}
+.maps img {
+    background-color: green;
+}
+.maps a, .maps h2 {
+    color: green;
+}
+h1 {
+    color: #ffffff;
+    font-weight: 200;
+}
