@@ -13,6 +13,14 @@
     display: flex;
 }
 
+.flutuar-esquerda{
+    justify-content: start;
+}
+
+.flutuar-direita{
+    justify-content: end;
+}
+
 .centralizar-horizontal{
     justify-content: center;
 }
