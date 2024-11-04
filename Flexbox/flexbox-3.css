@@ -150,22 +150,27 @@ main .conteudo h2 small{
 }
 .livros .livro figure {
     width: 40%;
-    margin-bottom: 22px;
+    margin: 10px 10px 0 10px;
 }
 
 .livros .livro figure a {
-    margin-top: 22px;
+    margin: 10px 0;
+    color: #2F80ED;
+    font-size: 14px;
 }
 
 .livros .livro .right strong {
     font-size: 16px;
     margin: 10px 0;
+    max-width: 200px;
 }
 
 .livros .livro .right div {
-    margin: 5px 0;
+    margin: 8px 0;
     font-size: 14px;
+    width: 200px;
 }
+
 .livros .livro .right div:nth-child(3),
 .livros .livro .right a{
     color: #8A9399;
@@ -174,5 +179,8 @@ main .conteudo h2 small{
 
 
 footer{
+    margin-top: 154px;
+    background-color: #eff3f5;
     text-align: center;
+    padding: 10px;
 }
