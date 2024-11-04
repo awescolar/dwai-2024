@@ -29,13 +29,16 @@ header nav menu a{
 
 /** Seção principal de conteúdo */
 
-main{}
 main .breadcrumb{
     padding-top: 32px;
     padding-bottom: 14px;
 }
-main .breadcrumb a{}
-main .breadcrumb span{}
+main .breadcrumb a{
+    color: #3C4858;
+}
+main .breadcrumb span{
+    color: #8A9399;
+}
 
 main header{}
 main header h1{}
@@ -73,25 +76,36 @@ main .conteudo h2 small{
 }
 
 .livros{
+    row-gap: 32px;
+    column-gap: 16px;
     margin-top: 32px;
     list-style: none;
     padding: 22px;
+    flex-wrap: wrap;
 }
-.livros .livro{
+.conteudo .livros .livro{
     border: 1px solid #8A9399;
     padding: 15px 18px;
     border-radius: 5px;
-    max-width: 30%;
+    width: 384px;
+    height: 240px;
 }
 .livros .livro figure{
     width: 40%;
 }
+.livros .livro figure a{
+    color: #2f80ed;
+    font-size: 14px;
+}
+
 .livros .livro .right{}
 .livros .livro .right div:nth-child(3),
 .livros .livro .right a{
     color: #8A9399;
 }
-
+.livros .livro div, .livros .livro strong{
+    margin-bottom: 10px;
+}
 
 footer{
     text-align: center;

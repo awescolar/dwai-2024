@@ -1,6 +1,10 @@
 .container{
     min-width: 1400px;
 }
+.container2{
+    max-width: 1400px;
+}
+
 .block{ 
     display: block; 
 }
@@ -11,9 +15,11 @@
 .flex{
     display: flex;
 }
+
 .centralizar-horizontal{
     justify-content: center;
 }
+
 .centralizar-vertical{
     align-items: center;
 }
@@ -50,3 +56,4 @@
 .flutuar-direita{
     justify-content: end;
 }
+
