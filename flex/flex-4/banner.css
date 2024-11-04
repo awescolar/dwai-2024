@@ -20,3 +20,9 @@ position: relative;
 top:50px;
 right: 740px;
 }
+
+.lupa{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
