@@ -1,0 +1,22 @@
+.banner{
+    border-radius: 10px;
+background: var(--Default, #2F80ED);
+color: white;
+display: flex;
+padding: 40px;
+
+
+}
+
+.link{
+border-radius: 40px;
+background: var(--color-gray-100, #202020);
+color: white;
+text-decoration: none;
+height: 36px;
+padding: 8px 12px;
+align-items: center;
+position: relative;
+top:50px;
+right: 740px;
+}
