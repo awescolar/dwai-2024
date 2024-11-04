@@ -4,7 +4,7 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0%;
 }
-.header {
+header {
     background-color: #F2F2F2;
 }
 .header img {
@@ -34,13 +34,11 @@ main .breadcrumb {
 main .breadcrumb a {
     color: #3C4858;
     margin: 2px;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 main .breadcrumb span {
     color: #8A9399;
 }
-
 main header {
     background-color: black;
     color: white;
@@ -52,7 +50,6 @@ main header h1 {
     font-weight: 800;
     margin-top: 0%;
 }
-
 main .filtros {
     display: flex;
     gap: 10px;
@@ -60,7 +57,6 @@ main .filtros {
     margin-top: 20px;
     justify-content: center;
 }
-
 main .filtros a {
     border: solid 1px  #8A9399;
     text-decoration: none;
@@ -68,7 +64,6 @@ main .filtros a {
     padding: 10px 20px;
     border-radius: 5px;
 }
-
 main .filtros a:hover {
     background-color: #1a73e8;
     color: #fdfdfd;
@@ -115,9 +110,6 @@ main .conteudo h2 small {
     line-height: 140%;
     margin-left: 20px;
 }
-.livros .livro .right strong {
-
-}
 .livros .livro .right div {
     margin-top: 5px;
 }
@@ -128,10 +120,7 @@ main .conteudo h2 small {
 }
 footer {
     text-align: center;
-    margin-top: 154px;
-    height: 56px;
 }
-
 footer img {
     margin-top: 16px;
 }
