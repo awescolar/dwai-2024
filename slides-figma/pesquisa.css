@@ -1,0 +1,13 @@
+.pesquisa{
+    border-radius: 1px;
+    width: 840px;
+    height: 14px;
+    padding: 20px 16px 20px 42px;
+    color: #ffffff;
+    border-color: #CCCCCC;
+    font-size: 14px;
+    border-radius: 10px;
+    background: url(/assets/search-normal.png) no-repeat;
+    background-position: 16px center;
+}
+
