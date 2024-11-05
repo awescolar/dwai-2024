@@ -1,0 +1,39 @@
+section{
+    width: 840px;
+    height: 181px;
+    border-radius: 10px;
+    background: var(--Default, #2F80ED);
+    padding: 51px 218px 72px 24px;  
+    background-image: url('imagens/Star\ 1.svg');
+    background-repeat: no-repeat;
+    background-position: 1000px 45px; 
+}
+
+.branco{
+    color: var(--color-gray-10, #FFF);
+}
+
+.banner small{
+    font-size: 12px;
+}
+
+.banner a{
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 14px;
+    padding: 8px 12px;
+    gap: 12px;
+    border-radius: 40px;
+    background: #202020;
+}
+
+.bola {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #f0f0f0; 
+    display: inline-flex;
+    padding: 5px; 
+
+}
+

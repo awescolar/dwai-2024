@@ -1,18 +1,14 @@
-body{
-    font-family: inter;
+body {
+    font-family: Inter;
 }
 
-input{
-    background-image: url('imagens/search-normal.jpg');
-    width: 300px;
-    height: 40px;
-    padding-left: 30px; 
-    background-repeat: no-repeat;
-    background-position: 10px center;
-    border: 1px solid rgba(204, 204, 204, 0.80);
+input {
+    background: url('imagens/search-normal.jpg') no-repeat 10px center;
+    border: 1px solid rgba(204, 204, 204, 0.8);
     border-radius: 5px;
-    font-family: 'Inter'; 
     font-size: 14px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 
