@@ -54,15 +54,15 @@ header{
     background: #F2F2F2;
 }
 header img{
-    padding: 24px;
+    padding: 24px 0;
 }
 
-header nav{}
+
 header nav menu{
     list-style: none;
     gap: 40px;
 }
-header nav menu li{}
+
 header nav menu a{
     color: #000;
     text-decoration: none;
@@ -71,7 +71,6 @@ header nav menu a{
 
 /** Seção principal de conteúdo */
 
-main{}
 main .breadcrumb{
     padding: 24px 0;
 }
@@ -135,7 +134,7 @@ main .conteudo h2 small{
     list-style: none;
     margin-top: 32px;
     padding: 0;
-    gap: 23px;
+    gap: 41px 25px;
     max-width: 1400px;
     flex-wrap: wrap;
 }
@@ -145,7 +144,7 @@ main .conteudo h2 small{
     max-width: 30%;
     border-radius: 5px;
     list-style: none;
-    padding: 15px 14px 0 14px;
+    padding: 10px;
 
 }
 .livros .livro figure {
