@@ -1,0 +1,23 @@
+body{
+    font-family: Inter;
+}
+
+.banner{
+    background: #2F80ED;
+    border-radius: 10px;
+    width: 550px;
+    height: 116px;
+
+}
+
+small{
+    font-size: 8px;
+    padding-left: 23px;
+    height: 4000px;
+}
+
+h1{
+    font-size: 15px;
+    color: white;
+    padding-right: 23px;
+}

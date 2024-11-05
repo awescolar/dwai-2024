@@ -1,0 +1,17 @@
+body{
+    font-family: Inter;
+}
+
+input{
+    background-image: url(img/search-normal.svg);
+    background-repeat: no-repeat;
+    background-position: 20px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(204, 204, 204, 0.80);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 16px;
+    padding-left: 50px;
+    width: 700px;
+    
+
+}
