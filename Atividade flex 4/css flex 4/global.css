@@ -1,0 +1,13 @@
+body{
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pesquisa{
+    margin-top: 40px;
+}
+.banner{
+   margin: 40px;
+}
