@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: inter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(223, 223, 223, 1);
+}
+
+.conteudo-quaternário {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 0 solid;
+    border-radius: 10px;
+    margin: 1000px 0 0 0;
+}

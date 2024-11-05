@@ -10,9 +10,9 @@ body {
 
 .conteudo-secundário {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 300px;
     background-color: rgba(47, 128, 237, 1);
-    width: 750px;
+    width: 770px;
     border: 0 solid;
     border-radius: 10px;
     padding: 15px;
@@ -22,7 +22,7 @@ small {
     display: flex;
     font-size: 11px;
     color: white;
-    margin-bottom: -5px;
+    margin-bottom: -8px;
 }
 
 h2 {
@@ -51,6 +51,9 @@ h2 {
 .brilhos {
     position: absolute;
     margin-top: -160px;
-    margin-left: 550px;
-    width: 220px;
+    margin-left: 566px;
+}
+
+.reticências {
+    margin-left: 70px;
 }
