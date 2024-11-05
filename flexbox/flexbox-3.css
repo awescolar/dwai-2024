@@ -8,13 +8,13 @@ body{
 header{
     background: #f2f2f2;
 }
-header img{}
-header nav{}
+header img{
+    padding: 24px;
+}
 header nav menu{
     list-style: none;
     gap: 40px;
 }
-header nav menu li{}
 header nav menu li a{
     color: #000;
     text-decoration: none;
@@ -26,7 +26,10 @@ main{}
 main .breadcrumb{
     padding: 24px 0;
 }
-main .breadcrumb a{}
+main .breadcrumb a{
+    text-decoration: none;
+    color:#3C4858;
+}
 main .breadcrumb span{color:#000}
 
 main header{
@@ -44,7 +47,6 @@ main header small{
     color: #E5E9F2;
     font-size: 16px;
 }
-
 main .filtros{
     padding-top: 20px;
 }
@@ -59,7 +61,6 @@ main .filtros a:hover{
     background-color: #2f80ed;
     color: #fff;
 }
-
 main .conteudo{
     margin-top: 64px;
 }
@@ -73,6 +74,7 @@ main .conteudo h2 small{
     font-weight: normal;
     margin-left: 20px;
 }
+
 .livros{
     margin-top: 32px;
     list-style: none;
@@ -86,7 +88,6 @@ main .conteudo h2 small{
     padding: 15px 14px 0 14px;
     border-radius: 5px;
     max-width: 30%;
-
 }
 .livros .livro figure{
     width: 40%;

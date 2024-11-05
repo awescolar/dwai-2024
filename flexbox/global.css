@@ -10,13 +10,6 @@
 .gap{
     gap: 10px;
 }
-.flutuar-esquerda {
-    justify-content: start;
-}
-
-.flutuar-direita {
-    justify-content: end;
-}
 .flex{
     display: flex;
 }
