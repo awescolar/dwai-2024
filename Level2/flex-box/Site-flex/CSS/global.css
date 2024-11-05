@@ -1,5 +1,6 @@
 .container{
     min-width: 1400px;
+    display: inline-block;
 }
 .block{
     display: block;
