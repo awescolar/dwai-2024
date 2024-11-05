@@ -13,3 +13,9 @@ width: 800px;
 img{
     display: flex;
 }
+
+.lupa{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
