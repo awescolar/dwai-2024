@@ -7,6 +7,8 @@ section{
     background-image: url('imagens/Star\ 1.svg');
     background-repeat: no-repeat;
     background-position: 1000px 45px; 
+    display: flex;
+    flex-direction: column;
 }
 
 .branco{

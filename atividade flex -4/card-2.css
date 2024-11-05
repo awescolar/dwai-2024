@@ -1,0 +1,51 @@
+.card-2 {
+    width: 268px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 14px 42px rgba(8, 15, 52, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.card-2 figure {
+    width: 100%;
+    margin: 0;
+    border-radius: 12px;
+}
+
+.card-2 figure img {
+    width: 100%;
+    height: auto;
+}
+
+.card-2 span {
+    background: rgba(191, 218, 255, 0.25);
+    color: #2667BF;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.card-2 p {
+    color: #202020;
+    font-size: 14px;
+    width: 244px;
+}
+
+.load {
+    width: 100%;
+    height: 6px;
+    background: #D9D9D9;
+}
+
+.load-bar {
+    width: 45%; 
+    height: 100%;
+    background: #2F80ED;
+}
+
+.arredondar {
+    border-radius: 3px;
+}
