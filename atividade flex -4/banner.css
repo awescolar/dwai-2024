@@ -1,14 +1,11 @@
 section{
-    width: 840px;
-    height: 181px;
+    width: 750px;
     border-radius: 10px;
-    background: var(--Default, #2F80ED);
+    background: #2F80ED;
     padding: 51px 218px 72px 24px;  
-    background-image: url('imagens/Star\ 1.svg');
+    background-image: url('imagens/Star\ 1.svg'), url('imagens/Star\ 2.svg'), url('imagens/Star\ 3.svg'), url('imagens/Star\ 4.svg'), url('imagens/Star\ 5.svg');
     background-repeat: no-repeat;
-    background-position: 1000px 45px; 
-    display: flex;
-    flex-direction: column;
+    background-position: 693px 80px, 790px 0px, 622px 20px, 800px 150px, 622px 213px;
 }
 
 .branco{
@@ -17,6 +14,10 @@ section{
 
 .banner small{
     font-size: 12px;
+}
+
+.banner h1{
+    width: 598px;
 }
 
 .banner a{
@@ -29,13 +30,9 @@ section{
     background: #202020;
 }
 
-.bola {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
+.moldura-play{
+    border-radius: 50px;
     background-color: #f0f0f0; 
-    display: inline-flex;
     padding: 5px; 
-
 }
 
