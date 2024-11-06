@@ -1,0 +1,36 @@
+.banner-section {
+    border-radius: 8px;
+    background: #2F80ED;
+}
+
+.banner-text {
+    max-width: 60%;
+    padding: 24px;
+}
+
+.banner-subtitle {
+    color: #FFF;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.banner-button {
+    height: 36px;
+    padding: 8px 12px;
+    border-radius: 40px;
+    background: #202020;
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    width: fit-content;
+    gap: 8px;
+    align-items: center;
+}
+

@@ -1,26 +1,31 @@
-.input-container {
+/* Estilizações específicas */
+.container {
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0 16px;
+    height: 100vh;
+}
+
+.search-container {
     position: relative;
     width: 100%;
 }
 
-input {
-    display: flex;
+.search-input {
+    width: 100%;
     padding: 16px 16px 16px 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
     border-radius: 8px;
-    border: 1px solid #CCC;
+    border: 1px solid #f1f1f1;
     background: #FFF;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 14px 42px rgba(8, 15, 52, 0.007);
     color: #9E9E9E;
     font-size: 14px;
     font-weight: 500;
-    width: 100%;
     outline: none;
 }
 
-input:focus {
+.search-input:focus {
     border: 1px solid #1c1c1c;
 }
 
@@ -28,8 +33,7 @@ input:focus {
     position: absolute;
     left: 16px;
     top: 50%;
-    transform: translateY(-50%); 
+    transform: translateY(-50%);
     color: #9E9E9E;
 }
-
 

@@ -5,43 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ATIVIDADE FLEX 4</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="interface-4.css">
-    <link rel="stylesheet" href="interface-3.css">
-    <link rel="stylesheet" href="interface-2.css">
+    <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="interface-1.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="interface-2.css">
+    <link rel="stylesheet" href="interface-3.css">
+    <link rel="stylesheet" href="interface-4.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container display-flex flex-direction-column gap-32 justify-content-center">
         
-        <div class="input-container">
-            <input type="text" placeholder="O que você procura?" />
-            <img class="search-icon" src="./search.svg" alt="search icon">
+        <!-- Barra de Busca -->
+        <div class="search-container">
+            <input class="search-input" type="text" placeholder="O que você procura?" />
+            <img class="search-icon" src="./img/search.svg" alt="Ícone de busca">
         </div>
         
-        <section class="banner">
-            <span>jogos em tempo real</span>
-            <h1>Aqui você tem a Semadec de um jeito que você nunca viu: na palma da sua mão e do seu jeito.</h1>  
-            <button>
-                Assista os jogos
-            </button>
+        <!-- Banner -->
+        <section class="banner-section display-flex justify-content-space-between gap-8">
+            <div class="banner-text display-flex flex-direction-column gap-8">
+                <span class="banner-subtitle">jogos em tempo real</span>
+                <h1 class="banner-title">Aqui você tem a Semadec de um jeito que você nunca viu: na palma da sua mão e do seu jeito.</h1>  
+                <button class="banner-button display-flex align-center gap-12">
+                    Assista os jogos
+                    <img src="./img/btn.svg" alt="Ícone de play">
+                </button>
+            </div>
+            <img src="./img/Vector.svg" alt="Imagem decorativa">
         </section>
         
-
-        <section class="interface">
-            <div class="card-progress">
-                <div class="container-img">
-                    <img src="card-progress.png" alt="imagem do card">
-                    <button><img src="./heart.svg" alt="heart icon"></button>
+        <!-- Cartão de Informações -->
+        <section class="info-card-section">
+            <div class="info-card display-flex justify-content-space-between align-center">
+                <div class="info-card-left display-flex align-center gap-8">
+                    <div class="icon-notification display-flex justify-content-center align-center">
+                        <img src="./img/notification.svg" alt="Ícone de notificação">
+                    </div>
+                    <div class="info-card-text">
+                        <h6 class="info-title">Informatica</h6>
+                        <span class="info-subtitle">Agenda</span>
+                    </div>
                 </div>
-                <span class="tag">Apresentação</span>
-                <h4>Apresentação das aberturas dos cursos</h4>
-                <div class="progress-bar">
-                    <div class="progress"></div>
+                <img src="./img/more.svg" alt="Ícone de mais opções">
+            </div>
+        </section>
+
+        <!-- Cartão de Progresso -->
+        <section class="progress-card-section">
+            <div class="progress-card display-flex flex-direction-column gap-10">
+                <div class="card-image-container position-relative">
+                    <img class="card-image" src="./img/card-progress.png" alt="Imagem do card de progresso">
+                    <button class="image-button display-flex justify-content-center align-center">
+                        <img src="./img/heart.svg" alt="Ícone de coração">
+                    </button>
+                </div>
+                <span class="tag-label display-flex justify-content-center align-center">Apresentação</span>
+                <h4 class="progress-title">Apresentação das aberturas dos cursos</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-fill"></div>
                 </div>
             </div>
         </section>
     </div>
 </body>
 </html>
-
