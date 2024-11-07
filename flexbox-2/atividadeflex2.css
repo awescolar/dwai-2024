@@ -1,0 +1,119 @@
+body{
+    font-family: "Inter", sans-serif;
+    background: #DFDFDF;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.card{
+    width: 350px;
+    height: 205px;
+    padding: 24px;
+    border-radius: 16px;
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card {
+    color: var(--Text-Body-Light, #425466);
+
+}
+
+.card .card-head{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+.card .card-label1{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: var(--Text-Body-Light, #425466);
+
+}
+
+.badge{
+    padding: 2px 8px;
+    color: #505780;
+    background: #E4ECF7;
+    border-radius: 6px;
+    font-weight: 650;
+    font-size: 15px;
+    border: none;
+}
+
+.badge-principal{
+    color: #FFFFFF;
+    background: #4C6FFF;
+    border-radius: 6px;
+    font-weight: 650;
+    font-size: 15px;
+    border: none;
+    padding: 2px 8px;
+}
+
+.gray{
+    width: 305px;
+    height:10px ;
+    background: #E4ECF7;
+    border-radius: 16px;
+}
+
+.blue{
+    width: 240.169px;
+    height: 10px ;
+    background:#4C6FFF ;
+    border-radius: 16px;
+   
+}
+
+.gray, .blue{
+    position: absolute;
+}
+
+.informação{
+    color: #84859E;
+}
+
+.drive img {
+    width: 40px;
+    height: 40px;
+}
+
+.drive .image-container {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background: var(--Theme-Secondary-Default, #E4ECF7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informação{
+    margin-bottom: 13px;
+    
+}
+
+.points{
+    margin-left: auto;
+}
+
+.points{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.point {
+    width: 5px;
+    height: 5px;
+    background: #425466;
+    border-radius: 15px;
+    margin-left:5px ;
+}
