@@ -1,0 +1,15 @@
+
+
+.pesquisa{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 20px 16px;
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    background-image: url(/semadec/imgs/search-normal.png);
+    background-repeat: no-repeat;
+    background-position: 20px 16px ;
+    font-size: 14px;
+    padding-left: 42px;
+
+}
