@@ -14,23 +14,25 @@
 
 <body>
 
-    <header>
-        <a href="#">
-            <img src="Imagens/LOGO.svg" alt="Logo">
-        </a>
-        <nav>
-            <menu>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Biblioteca</a></li>
-                <li><a href="#">Materiais</a></li>
-            </menu>
-        </nav>
+    <header class="flex centralizar">
+        <div class="secoes flex centralizar-vertical alinhar-extremidades">
+            <a href="#">
+                <img src="Imagens/LOGO.svg" alt="Logo">
+            </a>
+            <nav>
+                <menu class="flex">
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">CURSOS</a></li>
+                    <li><a href="#">BIBLIOTECA</a></li>
+                    <li><a href="#">MATERIAIS</a></li>
+                </menu>
+            </nav>
+        </div>
     </header>
 
     <main>
         <!-- trilha e links -->
-        <div class="breadcrumb">
+        <div class="breadcrumb flex centralizar-horizontal">
             <a href="/">Home</a>
             <img src="Imagens/arrow-right.svg" alt="">
             <a href="livros.html">Livros</a>
@@ -39,30 +41,37 @@
         </div>
 
         <!-- header -->
-        <header>
-            <h1>Biblioteca do Professor</h1>
-            <small>256 livros | 23 livros comentados | 5 resenhas</small>
+        <header class="flex centralizar-horizontal">
+            <div class="secoes">
+                <h1>Biblioteca do Professor</h1>
+                <small>256 livros | 23 livros comentados | 5 resenhas</small>
+            </div>
         </header>
-        <section class="filtros">
-            <a href="#">Fundamentos do design</a>
-            <a href="#">UX / UI Design</a>
-            <a href="#">Inovação</a>
-            <a href="#">Ensino e Aprendizagem</a>
-            <a href="#">Desenvolvimento Pessoal</a>
+
+        <section class="filtros flex centralizar-horizontal">
+            <div class="secoes">
+                <a href="#" class="inline-block">Fundamentos do design</a>
+                <a href="#" class="inline-block">UX / UI Design</a>
+                <a href="#" class="inline-block">Inovação</a>
+                <a href="#" class="inline-block">Ensino e Aprendizagem</a>
+                <a href="#" class="inline-block">Desenvolvimento Pessoal</a>
+            </div>
         </section>
 
-        <h2>Fundamentos do design <small>6 livros</small></h2>
+        
+        <div class="conteudo flex centralizar-horizontal">
+            <section class="secoes">
 
-        <div class="secoes">
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <h2>Fundamentos do design <small>6 livros</small></h2>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Graphic Design.png" alt="">
                             <a href="#">Leia mais</a>
                             <img src="Imagens/arrow-right-blue.svg" alt="">
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
+
                             <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem
                                 Visual</strong>
                             <div>Autor: Ellen Lupton</div>
@@ -75,17 +84,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
-
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Marcas.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Marcas. Design Estratégico</strong>
                             <div>Cecília Consolo</div>
                             <div>Editora Blucher, 2020</div>
@@ -97,17 +105,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
-
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Logo Design Love.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Logo Love Design</strong>
                             <div>David Airey</div>
                             <div>Editora New Riders, 2020</div>
@@ -119,17 +126,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
-
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Design Gráfico.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem
                                 Visual</strong>
                             <div>Autor: Ellen Lupton</div>
@@ -142,17 +148,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
 
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Princípios.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Marcas. Design Estratégico</strong>
                             <div>Cecília Consolo</div>
                             <div>Editora Blucher, 2020</div>
@@ -164,17 +169,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
 
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Design Identidade.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Logo Love Design</strong>
                             <div>David Airey</div>
                             <div>Editora New Riders, 2020</div>
@@ -188,19 +192,20 @@
                 </ul>
             </section>
         </div>
+        
+        <div class="conteudo flex centralizar-horizontal">
+            <section class="secoes">
 
-        <h2>UX / UI Design <small>22 livros</small></h2>
-
-        <div class="secoes">
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <h2>UX / UI Design <small>22 livros</small></h2>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/História do Design.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem
                                 Visual</strong>
                             <div>Autor: Ellen Lupton</div>
@@ -213,17 +218,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
 
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Projeto de Produto.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#"> 
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Marcas. Design Estratégico</strong>
                             <div>Cecília Consolo</div>
                             <div>Editora Blucher, 2020</div>
@@ -235,17 +239,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
 
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Design Emocional.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Logo Love Design</strong>
                             <div>David Airey</div>
                             <div>Editora New Riders, 2020</div>
@@ -257,17 +260,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
 
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Dia a dia.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem
                                 Visual</strong>
                             <div>Autor: Ellen Lupton</div>
@@ -280,17 +282,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
 
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Design do Futuro.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Marcas. Design Estratégico</strong>
                             <div>Cecília Consolo</div>
                             <div>Editora Blucher, 2020</div>
@@ -302,17 +303,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
 
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Design Usuário.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Logo Love Design</strong>
                             <div>David Airey</div>
                             <div>Editora New Riders, 2020</div>
@@ -324,17 +324,17 @@
                         </div>
                     </li>
                 </ul>
-            </section>
 
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Design Thinking.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
+
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem
                                 Visual</strong>
                             <div>Autor: Ellen Lupton</div>
@@ -347,17 +347,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
 
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Design de Negócios.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Marcas. Design Estratégico</strong>
                             <div>Cecília Consolo</div>
                             <div>Editora Blucher, 2020</div>
@@ -369,17 +368,16 @@
                         </div>
                     </li>
                 </ul>
-            </section>
 
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Humano Computador.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class="right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Logo Love Design</strong>
                             <div>David Airey</div>
                             <div>Editora New Riders, 2020</div>
@@ -393,19 +391,20 @@
                 </ul>
             </section>
         </div>
+        
+        <div class="conteudo flex centralizar-horizontal">
+            <section class="secoes">
 
-        <h2>Desenvolvimento Pessoal <small>3 livros</small></h2>
-
-        <div class="secoes">
-            <section class="conteudo">
-                <ul class="livros">
-                    <li class="livro">
-                        <figure>
+                <h2>Desenvolvimento Pessoal <small>3 livros</small></h2>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
                             <img src="Imagens/Hiperfoco.png" alt="">
-                            <a href="#">Leia mais</a>
-                            <img src="Imagens/arrow-right-blue.svg" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
                         </figure>
-                        <div class=" right">
+                        <div class="flutuar-direita direita">
                             <strong class="block">Hiperfoco: Como trabalhar menos e render mais</strong>
                             <div>por Chris Bailey</div>
                             <div>Editora Benvirá, 2019, 1ª Ed.</div>
@@ -415,26 +414,45 @@
                                 <a href="#" class="inline-block">Atenção</a>
                                 <a href="#" class="inline-block">Produtividade</a>
                             </div>
-        </div>
-        </li>
-        </ul>
-        </section>
+                        </div>
+                    </li>
+                </ul>
 
-        <section class="conteudo">
-            <ul class="livros">
-                <li class="livro">
-                    <figure>
-                        <img src="Imagens/Negocie.png" alt="">
-                        <a href="#">Leia mais</a>
-                        <img src="Imagens/arrow-right-blue.svg" alt="">
-                    </figure>
-                    <div class="right">
-                        <strong class="block">Negocie qualquer coisa com qualquer pessoa: Estratégias práticas
-                            para...</strong>
-                        <div>por Eduardo Ferraz</div>
-                        <div>Editora Planeta Estratégia, 2020</div>
-                        <div>
-                            <a href="#" class="inline-block">Negociação</a>
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
+                            <img src="Imagens/Negocie.png" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="flutuar-direita direita">
+                            <strong class="block">Negocie qualquer coisa com qualquer pessoa: Estratégias práticas
+                                para...</strong>
+                            <div>por Eduardo Ferraz</div>
+                            <div>Editora Planeta Estratégia, 2020</div>
+                            <div>
+                                <a href="#" class="inline-block">Negociação</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="livros flex">
+                    <li class="livro flex">
+                        <figure class="flutuar-esquerda">
+                            <img src="Imagens/Armas.png" alt="">
+                            <a href="#">
+                                Leia mais <img src="Imagens/arrow-right-blue.svg" alt="">
+                            </a>
+                        </figure>
+                        <div class="flutuar-direita direita">
+                            <strong class="block">As armas da persuasão</strong>
+                            <div>por Robert Cialdini</div>
+                            <div>Editora Sextante, 2012</div>
+                            <div>
+                                <a href="#" class="inline-block">Negociação</a>
+                            </div>
                         </div>
                     </div>
                 </li>
@@ -461,6 +479,7 @@
             </ul>
         </section>
         </div>
+        
     </main>
 
     <footer>

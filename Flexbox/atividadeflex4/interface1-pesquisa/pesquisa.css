@@ -1,0 +1,20 @@
+.pesquisa {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    height: 17px;
+    padding: 20px 16px;
+    width: 808px;
+}
+
+.pesquisa img {
+    padding-right: 10px;
+}
+
+.pesquisa p {
+    color: #9E9E9E;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
