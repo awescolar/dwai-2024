@@ -1,3 +1,7 @@
+body{
+    font-family: Inter;
+}
+
 .flex{
     display: flex;
     align-items: center;
@@ -9,6 +13,7 @@
     box-shadow: 0 14px 42px rgba(8, 15, 52, 0.06);
     width: 271.333px;
     gap: 10px;
+    
 }
 
 .card-1 div { flex: 1; }
@@ -24,7 +29,6 @@
 .card-1 strong {
     color: #2667BF;
     font-size: 12px;
-    margin: 0px;
 }
 
 .card-1 div div {
@@ -32,3 +36,10 @@
     color: #202020;
     font-weight: 600;
 }
+
+.gray{
+    color: blue;
+}
+
+
+
