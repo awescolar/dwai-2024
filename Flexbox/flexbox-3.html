@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="flex3.css">
+    <link rel="stylesheet" href="flexbox3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 <body>
 
     <header class="flex centralizar">
-        <div class="secoes flex centralizar-vertical alinhar-extremidades">
+        <div class="container flex centralizar-vertical alinhar-extremidades">
             <a href="#">
                 <img src="Imagens/LOGO.svg" alt="Logo">
             </a>
@@ -42,14 +42,14 @@
 
         <!-- header -->
         <header class="flex centralizar-horizontal">
-            <div class="secoes">
+            <div class="container">
                 <h1>Biblioteca do Professor</h1>
                 <small>256 livros | 23 livros comentados | 5 resenhas</small>
             </div>
         </header>
 
         <section class="filtros flex centralizar-horizontal">
-            <div class="secoes">
+            <div class="container">
                 <a href="#" class="inline-block">Fundamentos do design</a>
                 <a href="#" class="inline-block">UX / UI Design</a>
                 <a href="#" class="inline-block">Inovação</a>
@@ -60,7 +60,7 @@
 
         
         <div class="conteudo flex centralizar-horizontal">
-            <section class="secoes">
+            <section class="secoes alinhar-esquerda">
 
                 <h2>Fundamentos do design <small>6 livros</small></h2>
                 <ul class="livros flex">
@@ -72,8 +72,7 @@
                         </figure>
                         <div class="flutuar-direita direita">
 
-                            <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem
-                                Visual</strong>
+                            <strong class="block">Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</strong>
                             <div>Autor: Ellen Lupton</div>
                             <div>Editora, 2020</div>
                             <div>
@@ -454,31 +453,9 @@
                                 <a href="#" class="inline-block">Negociação</a>
                             </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <section class="conteudo">
-            <ul class="livros">
-                <li class="livro">
-                    <figure>
-                        <img src="Imagens/Armas.png" alt="">
-                        <a href="#">Leia mais</a>
-                        <img src="Imagens/arrow-right-blue.svg" alt="">
-                    </figure>
-                    <div class="right">
-                        <strong class="block">As armas da persuasão</strong>
-                        <div>por Robert Cialdini</div>
-                        <div>Editora Sextante, 2012</div>
-                        <div>
-                            <a href="#" class="inline-block">Negociação</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </section>
-        </div>
+                    </li>
+                </ul>
+            </section>
         
     </main>
 

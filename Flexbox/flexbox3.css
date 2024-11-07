@@ -9,9 +9,13 @@ header {
     height: 88px;
 }
 
-.secoes {
+.container {
     min-width: 1400px;
 }
+
+.secoes {
+    min-width: 1400px;
+ }
 
 header nav menu li a {
     text-decoration: none;
