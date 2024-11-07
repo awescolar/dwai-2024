@@ -1,0 +1,22 @@
+.card1{
+    background-color: #fff;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    justify-content: space-between;
+    width: 271px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.card1 strong{
+    color: #2667BF;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.card1 div div{
+    font-size: 12px;
+    font-weight: 600;
+    color: #202020;
+}
