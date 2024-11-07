@@ -1,0 +1,20 @@
+.banner{
+    width: 840px;
+    height: 181px;
+
+}
+.banner h1{
+    font-size: 24px ;
+    margin-top: 16px;
+    margin-bottom:16px ;
+}
+
+.banner a{
+    border-radius: 40px;
+    background: #000;
+    padding: 8px 12px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
