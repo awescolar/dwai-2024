@@ -1,0 +1,11 @@
+.card {
+    background-color: #fff;
+    width: 271px;
+    padding: 12px;
+}
+
+.card span:nth-child(1) {
+    color: #2667BF;
+    font-size: 12px;
+    font-weight: 700;
+}

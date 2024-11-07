@@ -1,33 +1,7 @@
-.centralizar-horizontal {
-    justify-content: center;
-}
-
-.centralizar-vertical {
-    align-items: center;
-}
-
-.flex {
-    display: flex;
-}
-
-.centralizar {
-    align-items: center;
-    justify-content: center;
-}
-
-.container {
-    max-width: 1200px;
-}
-
-.arredondar-borda {
-    border-radius: 8px;
-}
-
 input {
     border: none;
     padding: 20px 10px;
     color: #9E9E9E;
-    font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
