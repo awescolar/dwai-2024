@@ -1,38 +1,53 @@
-body{
+body {
     font-family: 'Inter', Arial, sans-serif;
-    background-color:#f0f0f0;
+    background-color: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
+    height: 100vh;
 }
-.banner{
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.banner {
     background-color: #2F80ED;
     color: #f0f0f0;
     border-radius: 15px;
     padding: 22px;
     width: 800px;
     background-image: url('/dwai-2024/organizaçãocss/img/estrelas.svg');
-    background-position: % %;
-
+    background-repeat: no-repeat;
+    background-position: right;
 }
-.banner small{
-    font-size: 12;
+
+.banner small {
+    font-size: 12px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 24px;
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 29px;
     margin: 16px 0 20px;
 }
-.banner a{
+
+.banner a {
     align-items: center;
     background-color: black;
     color: #FFFFFF;
     font-weight: bold;
     padding: 10px 15px;
-    border-radius: 40px;
-    text-decoration: none;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.banner a:after {
+    margin-left: 8px;
+    font-size: 12px;
 }

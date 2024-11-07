@@ -1,0 +1,21 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.card-1{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 271px;
+}
+.icon-container{
+    width: 40px;
+    height: 40px;
+    background-color: #2F80ED;
+    border-radius: 50px;
+}
