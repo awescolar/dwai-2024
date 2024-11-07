@@ -1,0 +1,34 @@
+.card-1{
+    display:flex;
+    gap:50px;
+
+    border-radius: 8px;
+    background: #FFF;
+
+    /* Cards/Long Default */
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    padding:10px;
+    align-items: center;
+
+    max-width:272px;
+
+}
+
+.card-1 div:nth-child(1){
+    display: flex;
+    gap:10px;
+}
+
+.card-1 span button{
+    border:none;
+    border-radius: 100%; 
+
+    background-color: #2f80ed;
+    padding : 12px;
+}
+
+
+.card-1 a figure img{
+    height: 30px;
+}
+
