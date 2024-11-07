@@ -1,0 +1,21 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    background-color: #2F80ED;
+    margin-top: 21px;
+    border-radius: 10px;
+    padding: 5px;
+    color:#ffffff
+
+}
+.banner small{
+    text-transform: uppercase;
+}
+.banner h1{
+}
+.banner a{
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+}
+
