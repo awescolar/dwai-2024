@@ -1,7 +1,6 @@
 .container-card1{
     display: flex;
     margin-bottom: 30px;
-    gap
 }
 
 .card1{
@@ -34,4 +33,14 @@
     font-size: 40px;
     margin-left: 150px;
     margin-top: 6px;
+}
+
+.card1 .cinzapeso600{
+    color: #5F5F5F;
+    font-weight: 600;
+}
+
+.card1 .cinzapeso400{
+    color: #5F5F5F;
+    font-weight: 400;
 }
