@@ -10,7 +10,7 @@
     padding:10px;
     align-items: center;
 
-    max-width:272px;
+    max-width:372px;
 
 }
 
@@ -19,14 +19,40 @@
     gap:10px;
 }
 
+.card-1 div {
+    color: #5F5F5F;
+
+}
+
 .card-1 span button{
     border:none;
     border-radius: 100%; 
 
-    background-color: #2f80ed;
+    background-color: rgba(191, 218, 255, 0.25);
     padding : 12px;
 }
 
+.card-1:first-child div strong{
+    color: #2667BF;
+    font-weight:700;
+
+}
+
+.card-1:first-child div{
+    color:black;
+    font-weight: 600;
+
+}
+
+.card-1:first-child span button{
+    background-color: #2667BF;
+
+}
+
+.card-1 a{
+    margin-right: 0;
+    width: 80px;
+}
 
 .card-1 a figure img{
     height: 30px;
