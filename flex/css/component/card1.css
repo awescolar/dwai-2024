@@ -5,6 +5,7 @@
     background: #FFF;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
 }
+
 .card1 span{
     display: inline-block;
     padding: 12px;
@@ -15,11 +16,20 @@
     border-radius: 50%;
     margin-left: 8px;
 }
+.card1 .sino{
+    background: rgba(191, 218, 255, 0.25) url(../../imagens/sino2.svg) no-repeat center;
+    background-size: 50%;
+
+}
+
 .card1 div{
     gap:10px;
 }
 .card1 div strong{
     color: #2F80ED;
+}
+.card1 .cinza{
+    color:#5F5F5F;
 }
 .card1 a{
     display: inline-block;

@@ -13,6 +13,7 @@
     background: lightgray 50% / cover no-repeat;
 }
 
+
 .card2 small {
     display: inline-block;
     padding: 12px;
@@ -27,16 +28,16 @@
 }
 
 .card2 span {
+    max-width: 25%;
     color: #2F80ED;
-    padding: 12px;
+    padding: 4px 8px;
     font-size: 8px;
-    max-width: 65px;
     border-radius: 10px;
     background: var(--Light-Opacity, rgba(191, 218, 255, 0.25));
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
     text-transform: uppercase;
-}
 
+}
 .card2 p {
     color: #202020;
     font-family: Inter;
