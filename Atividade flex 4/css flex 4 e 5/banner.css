@@ -22,6 +22,7 @@
     background: #202020;
     display: inline-flex;
     height: 36px;
+    width: 180px;
     padding: 8px 12px;
     align-items: center;
 }
