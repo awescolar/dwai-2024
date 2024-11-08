@@ -1,0 +1,60 @@
+.card2 {
+    width: 268px;
+    padding: 12px;
+    gap: 10px;
+    position: relative;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+}
+
+.card2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.card2 small {
+    display: inline-block;
+    padding: 12px;
+    width: 5px;
+    height: 5px;
+    background: rgba(204, 204, 204, 0.50) url(../../imagens/coração.svg) no-repeat center;
+    background-size: 50%;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: 35px;
+}
+
+.card2 span {
+    color: #2F80ED;
+    padding: 12px;
+    font-size: 8px;
+    max-width: 65px;
+    border-radius: 10px;
+    background: var(--Light-Opacity, rgba(191, 218, 255, 0.25));
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    text-transform: uppercase;
+}
+
+.card2 p {
+    color: #202020;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card2 .load {
+    width: 244px;
+    height: 6px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.card2 .load-bar {
+    width: 122px;
+    height: 6px;
+    background: #2F80ED;
+    border-radius: 10px;
+}
