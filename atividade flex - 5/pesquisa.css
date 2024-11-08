@@ -1,0 +1,19 @@
+body {
+    font-family: Inter;
+}
+
+input {
+    background: url('imagens/search-normal.jpg') no-repeat 10px center;
+    border: 1px solid rgba(204, 204, 204, 0.8);
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    box-sizing: border-box;
+}
+/*Width:100% se quisesse ocupar a tela toda
+
+
+
+

@@ -2,14 +2,13 @@ body{
     font-family: Inter;
 }
 
-.card-container-1{
-    display: flex;
-    gap: 10px;
-}
-
 .flex{
     display: flex;
     align-items: center;
+} /*para todo o html*/
+
+.card-container-1{
+    gap: 10px;
 }
 
 .card-1 {
@@ -17,6 +16,7 @@ body{
     border-radius: 8px;
     box-shadow: 0 14px 42px rgba(8, 15, 52, 0.06);
     width: 271.333px;
+    width: 30%;
     gap: 10px;
 }
 

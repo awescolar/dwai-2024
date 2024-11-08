@@ -1,0 +1,38 @@
+section{
+    width: 750px;
+    border-radius: 10px;
+    background: #2F80ED;
+    padding: 51px 218px 72px 24px;  
+    background-image: url('imagens/Star\ 1.svg'), url('imagens/Star\ 2.svg'), url('imagens/Star\ 3.svg'), url('imagens/Star\ 4.svg'), url('imagens/Star\ 5.svg');
+    background-repeat: no-repeat;
+    background-position: 693px 80px, 790px 0px, 622px 20px, 800px 150px, 622px 213px;
+}
+
+.branco{
+    color: var(--color-gray-10, #FFF);
+}
+
+.banner small{
+    font-size: 12px;
+}
+
+.banner h1{
+    width: 598px;
+}
+
+.banner a{
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 14px;
+    padding: 8px 12px;
+    gap: 12px;
+    border-radius: 40px;
+    background: #202020;
+}
+
+.moldura-play{
+    border-radius: 50px;
+    background-color: #f0f0f0; 
+    padding: 5px; 
+}
+
