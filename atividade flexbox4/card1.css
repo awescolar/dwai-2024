@@ -1,12 +1,18 @@
+.container-card1{
+    display: flex;
+    margin-bottom: 30px;
+    gap
+}
+
 .card1{
     background-color: #fff;
     display: flex;
     padding: 12px;
-    align-items: center;
-    justify-content: space-between;
     width: 271px;
     height: 40px;
     border-radius: 8px;
+    gap: 8px;
+    margin-bottom: 30px;
 }
 
 .card1 strong{
@@ -19,4 +25,13 @@
     font-size: 12px;
     font-weight: 600;
     color: #202020;
+}
+
+.card1 span{
+    width: 24px;
+    height: 24px;
+    transform: rotate(90deg);
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 6px;
 }
