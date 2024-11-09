@@ -1,13 +1,13 @@
 .container {
     width: 268px;
     padding: 12px;
-    background-color:#FFFFFF 
     border-radius: 10px;
 }
+
 .card-2 {
+    background-color: #F9F9FB;
     border-radius: 15px;
     overflow: hidden;
-    background-color: #F9F9FB;
     padding: 10px;
     margin-top: 15px;
 }
@@ -40,7 +40,7 @@
     margin-bottom: 4px;
     padding: 2px 12px;
     border: 1px solid #F9F9FB;
-    background-color: #BFDAFF40;
+    background-color: rgba(191, 218, 255, 0.25);
     border-radius: 8px;
 }
 
@@ -61,5 +61,5 @@
     width: 244px;
     height: 6px;
     background-color: #2F80ED;
-    border-radius: 3px;
+    border-radius: 3px;
 }
