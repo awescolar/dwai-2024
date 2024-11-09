@@ -1,6 +1,67 @@
-.card-2{
-    border-radius: 16px;
-    width: 200px;
+.container {
+    width: 268px;
     padding: 12px;
+    background-color:#FFFFFF 
+    border-radius: 10px;
+}
+.card-2 {
+    border-radius: 15px;
     overflow: hidden;
+    background-color: #F9F9FB;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.card-2 figure {
+    position: relative;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.card-2 figure img:last-child {
+    width: 268px;
+    max-height: 244px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-2 figure img:first-child {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.card-2 span {
+    display: inline-block;
+    font-size: 12px;
+    color: #2F80ED;
+    font-weight: bold;
+    margin-bottom: 4px;
+    padding: 2px 12px;
+    border: 1px solid #F9F9FB;
+    background-color: #BFDAFF40;
+    border-radius: 8px;
+}
+
+.card-2 p {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.load {
+    height: 6px;
+    background-color: #E0E0E0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.load-bar {
+    width: 244px;
+    height: 6px;
+    background-color: #2F80ED;
+    border-radius: 3px;
 }
