@@ -17,4 +17,48 @@ body {
     border: 0 solid;
     border-radius: 10px;
     margin: 1000px 0 0 0;
+    flex-direction: column;
+    width: 260px;
+    padding-top: 9px;
+    padding-bottom: 20px;
+}
+
+.coração {
+    background-color: rgba(204, 204, 204, 0.5);
+    position: absolute;
+    width: 8px;
+    padding: 5px;
+    border-radius: 9px;
+    margin: -170px -210px 0 0;
+}
+
+.sub-titulo {
+    font-size: 10px;
+    color: rgba(47, 128, 237, 1);
+    background-color: rgba(191, 218, 255, 0.25);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px 156px 0 0;
+}
+
+.texto {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.progresso-1 {
+    position: absolute;
+    color: rgba(76, 111, 255, 1);
+    border: 4px solid;
+    border-radius: 6px;
+    width: 120px;
+    margin-top: 215px;
+    margin-left: -110px;
+}
+
+.progresso-2 {
+    color: rgba(228, 236, 247, 1);
+    border: 4px solid;
+    border-radius: 6px;
+    width: 230px;
 }
