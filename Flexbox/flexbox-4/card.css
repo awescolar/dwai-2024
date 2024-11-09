@@ -1,11 +1,41 @@
 .card {
+    margin-top: 50px;
     background-color: #fff;
     width: 271px;
-    padding: 12px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 271px;
+    height: 30px;
 }
 
-.card span:nth-child(1) {
-    color: #2667BF;
+.card img {
+    background-color: #2F80ED;
+    padding: 12px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.card div:nth-child(1) {
+    color: #2F80ED;
     font-size: 12px;
     font-weight: 700;
+}
+
+.card span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.card .pontos {
+    gap: 5px;
+    margin-left: 150px;
+    flex-direction: column; 
+
+}
+
+.card .ponto {
+    background-color: #000;
+    height: 5px;
+    width: 5px;
+    border-radius: 10px;
 }
