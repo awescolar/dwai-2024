@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #9a9a9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.banner {
+    background-color: #2F80ED;
+    color: #f0f0f0;
+    border-radius: 15px;
+    padding: 22px;
+    width: 800px;
+    background-image: url('/dwai-2024/organizaçãocss/img/estrelas.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    border-width: 165px;
+    border-color: #202020;
+}
+
+.banner small {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin: 16px 0 20px;
+}
+
+.banner a {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #202020;
+    color: #FFFFFF;
+    padding: 10px 40px 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    background-size: 20px;
+    background-image: url('/dwai-2024/organizaçãocss/img/botaobranco.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+}
+
