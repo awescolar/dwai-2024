@@ -1,12 +1,39 @@
 .banner{
-    background: #2F80ED;
-    width: 840px;
+    background-color: #2F80ED;
+    color: #fff;
     height: 181px;
-    border-radius: 10px;
-    align-items: center;
+    background-image: url(../img-flex-4/Vector.png);
+    background-size: 299px;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 8px;
+    margin-top: 30px;
+    height: 155px; 
+    padding: 20px 251px 20px 24px;
+
 }
 
 .banner h1{
     font-size: 24px;
+    color: #FFF;
+}
+.banner .button{
+    color: #fff;
+    border-radius: 40px;
+    padding: 8px 12px;
+    background-color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    width: 135px;
+    gap: 12px;
+}
+.button img{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+.banner small{
+    font-size: 12px;
     color: #FFF;
 }

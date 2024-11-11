@@ -1,0 +1,25 @@
+.card2{
+    margin-top: 30px;
+    width: 268px;
+    border-radius: 10px;
+    background:#FFF;
+    padding: 12px;
+}
+.card2 .like{
+    border-radius: 50px;
+    background: rgba(204, 204, 204, 0.50);
+    padding: 6px;
+}
+.card2 small{
+    color: #2667BF;
+    font-size: 8px;
+    padding: 9px;
+    height: 15px;
+    border-radius: 8px;
+    background: var(--Light-Opacity, rgba(191, 218, 255, 0.25));
+}
+.card h1{
+    font-size: 14px;
+    color: #202020;
+}
+
