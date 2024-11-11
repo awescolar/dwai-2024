@@ -1,12 +1,25 @@
 .card2 {
     background-color: #fff;
-    padding: 6px;
+    padding: 12px;
     margin-top: 50px;
     width: 268px;
-    height: 260px;
     flex-direction: column;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    gap: 10px;
 }
 
+.card2 figure .heart {
+    padding: 6px;
+    position:fixed;
+    left:775px;
+    top: 510px;
+    border-radius: 50px;
+    background: rgba(204, 204, 204, 0.50);
+
+}
+figure {
+    margin: 0;
+}
 .card2 figcaption {
     background-color: #BFDAFF40;
     color: #2667BF;
@@ -15,14 +28,13 @@
     font-weight: 400;
     width: 70px;
     padding: 5px;
-    margin-top: 10px;
 }
 
 .card2 h1 {
     font-size: 14px;
     font-weight: 500;
     max-width: 244px;
-    margin-top: 0;   
+    margin: 0;   
 }
 
 .card2 .progress {
