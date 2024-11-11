@@ -1,69 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body{
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     margin: 0;
 }
 
 header{
-    background: #F2F2F2;
+    background: #f2f2f2;
 }
-
+header img{
+    padding: 24px;
+}
 header nav menu{
     list-style: none;
     gap: 40px;
 }
-
-header nav menu a{
+header nav menu li a{
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
 }
 
+main{}
 main .breadcrumb{
-    padding-top: 32px;
-    padding-bottom: 14px;
+    padding: 24px 0;
 }
-main .breadcrumb a{}
-main .breadcrumb span{}
+main .breadcrumb a{
+    text-decoration: none;
+    color:#3C4858;
+}
+main .breadcrumb span{color:#000}
 
-main header{}
-main header h1{}
-main header small{}
-
-main .filtros{}
-main .filtros a{}
-main .filtros a:hover{}
-
+main header{
+    background-color: #222222;
+    padding: 30px;
+    height: 160px;
+}
+main header h1{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 9px;
+    font-weight: 400px;
+}
+main header small{
+    color: #E5E9F2;
+    font-size: 16px;
+}
+main .filtros{
+    padding-top: 20px;
+}
+main .filtros a{
+    color: #8A9399;
+    border: 1px solid;
+    padding: 5px 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+main .filtros a:hover{
+    background-color: #2f80ed;
+    color: #fff;
+}
 main .conteudo{
     margin-top: 64px;
 }
 main .conteudo h2{
     font-size: 26px;
+    color: #1f2d3d;
 }
 main .conteudo h2 small{
+    color: 8A9399;
     font-size: 16px;
-    margin-top: 20px;
+    font-weight: normal;
+    margin-left: 20px;
 }
 
 .livros{
     margin-top: 32px;
     list-style: none;
     padding: 0;
-    border-radius: 5px;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 1400px;
 }
 .livros .livro{
-    border:  1px solid #8A9399;
-    padding: 15px 18px;
+    border: 1px solid #8A9399;
+    padding: 15px 14px 0 14px;
+    border-radius: 5px;
+    max-width: 30%;
 }
-.livros .livro figure{}
-.livros .livro .right{}
+.livros .livro figure{
+    width: 40%;
+    margin: 10px 10px 0 10px;
+}
+.livros .livro figure a{
+    margin: 10px 0;
+    color: #2F80ED;
+    font-size: 14px;
+}
+.livros .livro strong{
+    font-size: 16px;
+    margin: 10px 0;
+    max-width: 200px;
+}
+.livros .livro .right div{
+    margin: 8px 0;
+    font-size: 14px;
+    width: 200px;
+}
 .livros .livro .right div:nth-child(3),
 .livros .livro .right a{
     color: #8A9399;
+    margin-right: 10px;
 }
-
-
 footer{
     text-align: center;
 }

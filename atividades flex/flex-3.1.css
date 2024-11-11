@@ -7,6 +7,9 @@
 .inline-block{
     display: inline-block;
 }
+.gap{
+    gap: 10px;
+}
 .flex{
     display: flex;
 }
@@ -22,7 +25,6 @@
 .centralizar-vertical{
     align-items: center;
 }
-
 .centralizar{
     justify-content: center;    
     align-items: center;
