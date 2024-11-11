@@ -3,7 +3,8 @@
     padding: 6px;
     margin-top: 50px;
     width: 268px;
-    height: 224px;
+    height: 260px;
+    flex-direction: column;
 }
 
 .card2 figcaption {
@@ -15,20 +16,25 @@
     width: 70px;
     padding: 5px;
     margin-top: 10px;
-
 }
 
 .card2 h1 {
     font-size: 14px;
     font-weight: 500;
     max-width: 244px;
-    margin-left: 40px;
-    margin-top: 10px ;
+    margin-top: 0;   
 }
 
 .card2 .progress {
-    display: inline-block;
     background-color: #D9D9D9;
     width: 244px;
     height: 6px;
+    border-radius: 20px;
+}
+
+.card2 .barra {
+    background-color: #2667BF;
+    width: 122px;
+    height: 6px;
+    border-radius: 20px;    
 }
