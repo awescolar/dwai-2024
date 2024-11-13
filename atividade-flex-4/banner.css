@@ -11,11 +11,11 @@ body{
     color: #fff;
     padding: 20px 24px;
     width: 840px;
+    
 }
 
 .banner small{
     font-size: 12px;
-    text-transform: uppercase;
 }
 
 .banner h1{
@@ -24,7 +24,7 @@ body{
 
 .banner a{
     background: #202020 no-repeat center right;
-    background-image: url(./img/play.svg); 
+    background-image: url(./img/btn.png); 
     background-position: 95% center;
     border-radius: 40px;
     color: #fff;
@@ -32,17 +32,10 @@ body{
     font-size: 14px;
     font-weight: 500;
     padding: 8px 12px;
-    padding-right: 44px;
+    padding-right: 35px;
     text-decoration: none;
 }
 
-.banner-branco{
-    width: 20px;
-    height: 20px;
-    padding: 6px;
-    border-radius: 50px;
-}
-
-.fundo{
-    background: #FFF;
+.banner h1{
+    width: 550px;
 }
