@@ -1,6 +1,13 @@
 .group-cards-2{
     display: flex;
-    margin-left: -48px;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+.group-cards-2 h2{
+    position: absolute;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 10px;
 }
 .card2 {
     margin-left: 18px;
