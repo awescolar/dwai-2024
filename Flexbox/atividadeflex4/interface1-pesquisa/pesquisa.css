@@ -6,15 +6,13 @@
     height: 17px;
     padding: 20px 16px;
     width: 808px;
+    background-image: url(interface1-pesquisa/lupa.png) no-repeat;
 }
 
-.pesquisa img {
-    padding-right: 10px;
-}
-
-.pesquisa p {
+.pesquisa input {
     color: #9E9E9E;
     font-size: 14px;
     font-weight: 500;
     margin: 0;
+    border: 0;
 }
