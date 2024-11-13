@@ -1,0 +1,44 @@
+.banner  {
+    background-color: #2F80ED;
+    color: #fff;
+    height: 181px;
+    background-image: url(../img/stars.png);
+    background-size: 299px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 60px;
+    height: 155px;
+    width: 570px;  
+    padding: 20px 251px 20px 24px;
+    
+}
+.banner small {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.banner h1 {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    width: 105%;
+}
+
+.banner .button {
+    color: #fff;
+    border-radius: 40px;
+    padding: 8px 12px;
+    background-color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    width: 135px;
+    gap: 12px;
+}
+
+.banner .button img {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}

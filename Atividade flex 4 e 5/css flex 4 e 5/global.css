@@ -1,0 +1,28 @@
+body {
+    font-family:"Inter", sans-serif;
+    background-color: #D9D9D9D9;
+}
+.centralizar-horizontal {
+    justify-content: center;
+}
+
+.centralizar-vertical {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.centralizar {
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;  
+}
+
+.arredondar-borda {
+    border-radius: 8px;
+}
