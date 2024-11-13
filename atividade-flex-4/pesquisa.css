@@ -1,0 +1,13 @@
+input{
+    background-image: url(./imagens/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.pesquisa {
+    border: rgba(204, 204, 204, 0.80) 1px solid;
+    border-radius: 7px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 30px;
+}
