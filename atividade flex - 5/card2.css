@@ -1,10 +1,16 @@
 .card-2 {
-    padding: 10px;
+    padding: 12px;
     border-radius: 12px;
     box-shadow: 0 14px 42px rgba(8, 15, 52, 0.06);
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+    width: 300px;
+}
+
+.card-container-2{
+    justify-content: space-between;
+
 }
 
 .card-2 figure {
@@ -28,7 +34,7 @@
     padding: 4px;
 }
 
-.card-2 span {
+.blue-button {
     background: rgba(191, 218, 255, 0.25);
     color: #2667BF;
     font-size: 10px;

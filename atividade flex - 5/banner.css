@@ -1,5 +1,7 @@
 section{
-    width: 750px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    max-width: 750px;
     border-radius: 10px;
     background: #2F80ED;
     padding: 51px 218px 72px 24px;  
