@@ -74,10 +74,6 @@ h2 {
     margin-left: 566px;
 }
 
-.reticências {
-    margin-left: 70px;
-}
-
 .conteudo-terciário {
     position: absolute;
     background-color: white;
@@ -111,6 +107,10 @@ h2 {
 
 .agenda {
     margin-top: -20px;
+}
+
+.reticências-1 {
+    margin-left: 70px;
 }
 
 .conteudo-quaternário {
@@ -168,15 +168,16 @@ h2 {
     width: 230px;
 }
 
-.conteudo-quintenário {
+.conteudo-V-VI-1-1 {
     position: absolute;
     background-color: white;
     border: 0 solid;
     border-radius: 10px;
-    margin-top: 1400px;
+    margin-top: 800px;
+    margin-left: -380px;
 }
 
-.lista-quintenária {
+.lista-quintenária-informática {
     display: flex;
     align-items: center;
     margin-left: -60px;
@@ -185,6 +186,24 @@ h2 {
     margin-bottom: 0;
 }
 
-.sub-div-quintenário {
-    display: flex;
+.notificação {
+    background-color: rgba(47, 128, 237, 1);
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.sub-lista-quintenária {
+    margin-left: -60px;
+}
+
+.informática {
+    color: rgba(47, 128, 237, 1);
+}
+
+.agenda {
+    margin-top: -20px;
+}
+
+.reticências-2 {
+    margin-left: 70px;
 }
