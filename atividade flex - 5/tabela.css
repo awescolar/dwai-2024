@@ -1,0 +1,20 @@
+.cabecario{
+    justify-content: space-between;
+}
+
+.line-one{
+    color: #3F3F3F;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.jogo img{
+    border-radius: 50px;
+}
+
+.jogo div{
+    flex: 1;
+}

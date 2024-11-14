@@ -1,5 +1,5 @@
 .main-container {
-    width: 990px;
+    max-width: 990px;
     margin: 0 auto; 
     padding: 20px;
     background-color: #f5f5f5; 
