@@ -1,0 +1,121 @@
+section{
+    margin-top: 40px;
+}
+.table{
+    display: flex;
+    padding: 20px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    margin-top: 20px;
+    margin-left: -45px;
+    width: 950px;
+}
+.tabela h1{
+    color: #202020;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -40px;
+}
+.tabela h1 a{
+    color: var(--Dark, #2667BF);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 700px;
+}
+
+.dados{
+    color: #3F3F3F;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    align-self: stretch;
+    margin-left: -100px;
+}
+.dados th:nth-child(1){
+    width: 440px;
+}
+.dados th:nth-child(2){
+    width: 200px;
+}
+.dados th:nth-child(3){
+    flex: 1 0 0;
+}
+.dados th:nth-child(4){
+    width: 320px;
+}
+
+.equipes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+    
+}
+.equipes div{
+    color: #202020;
+    font-size: 14px;
+    font-weight: 500;
+ 
+}
+.equipes img{
+    display: flex;
+    margin-left: -35px;
+    margin-top: -30px;
+}
+.equipes span{
+    color: #5F5F5F;
+    font-size: 11px;
+    font-weight: 400;
+}
+.equipes td:nth-child(2){
+    height: 12px;
+    padding: 6px;
+    gap: 10px;
+    color: #2F80ED;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(191, 218, 255, 0.25);
+
+}
+.equipes td:nth-child(3){
+    color: #202020;
+    font-size: 14px;
+    font-weight: 400;
+}
+.equipes td a{
+    height: 12px;
+    padding: 6px;
+    gap: 10px;
+    color: #2667BF;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 8px;
+    background: rgba(191, 218, 255, 0.25);
+}
+
+.equipes td:nth-child(1){
+    margin-left: 135px;
+    width: 320px;
+}
+.equipes td:nth-child(2){
+    
+}
+.equipes td:nth-child(3){
+    margin-left: 75px;
+    flex: 1 0 0;
+}
+.equipes td:nth-child(4){
+    width: 190px;
+}

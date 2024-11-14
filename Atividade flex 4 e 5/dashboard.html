@@ -4,12 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox 4</title>
+    <title>Flexbox 4/5/6</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="../Atividade flex 4 e 5/css flex 4 e 5/pesquisa.css">
     <link rel="stylesheet" href="../Atividade flex 4 e 5/css flex 4 e 5/banner.css">
     <link rel="stylesheet" href="../Atividade flex 4 e 5/css flex 4 e 5/card1.css">
     <link rel="stylesheet" href="../Atividade flex 4 e 5/css flex 4 e 5/card-2.css">
     <link rel="stylesheet" href="../Atividade flex 4 e 5/css flex 4 e 5/global.css">
+    <link rel="stylesheet" href="../Atividade flex 4 e 5/css flex 4 e 5/tabela.css">
 </head>
 
 <body>
@@ -21,7 +29,7 @@
             </form>
 
             <section class="banner arredondar-borda">
-                
+
                 <small>jogos em tempo real</small>
                 <h1>
                     Aqui você tem a Semadec de um jeito que <br> você nunca viu: na palma da sua mão e do seu jeito.
@@ -75,6 +83,10 @@
 
             <section class="group-cards-2">
                 <h2>Novidades pra você</h2>
+                <div class="setas">
+                    <a href="#"><img src="img/seta-left.png" alt="seta-left"></a>
+                    <a href="#"><img src="img/seta-rigth.png" alt="seta-rigth"></a>
+                </div>
                 <section class="card2 flex arredondar-borda centralizar-vertical">
                     <figure>
                         <img src="img/heart.png" alt="" class="heart">
@@ -109,6 +121,43 @@
                     </div>
                 </section>
             </section>
+            <section class="tabela">
+                <h1>Jogos do seu interesse <a href="#">Ver tudo</a></h1>
+                <table class="table flex arredondar-borda centralizar-vertical">
+                    <tr class="dados">
+                        <th>JOGOS</th>
+                        <th>ESPORTES</th>
+                        <th>PLACAR</th>
+                        <th>AÇÕES</th>
+                    </tr>
+                    <tr class="equipes">
+                        <td>
+                            <div>Informática X Eletro</div>
+                            <span>Ginásio | 22/12 | 15:00</span>
+                            <img src="../Atividade flex 4 e 5/img/sport.png" alt="">
+                        </td>
+                        <td>Basquete - Masc</td>
+                        <td>123 x 0</td>
+                        <td>
+                            <a href="#">DETALHES</a>
+                        </td>
+                    </tr>
+                    <tr class="equipes">
+                        <td>
+                            <div>Informática X Eletro</div>
+                            <span>Ginásio | 22/12 | 15:00</span>
+                            <img src="../Atividade flex 4 e 5/img/sport.png" alt="">
+                        </td>
+                        <td>Basquete - Masc</td>
+                        <td>2 x 0</td>
+                        <td>
+                            <a href="#">DETALHES</a>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+
         </section>
     </main>
 </body>
