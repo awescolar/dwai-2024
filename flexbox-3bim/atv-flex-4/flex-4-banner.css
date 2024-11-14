@@ -8,21 +8,34 @@
     margin-top: 21px;
     border-radius: 10px;
     padding: 24px;
-    color:#ffffff
+    color:#ffffff;
+
+    font-size: 24px;
+    color: var(--color-gray-10, #FFF);
+
+
+
+    width: 840px;
+    height: 181px;
 
 }
 .banner small{
     text-transform: uppercase;
 }
 .banner h1{
+    margin-bottom:5px;
+    margin-top: 5px;
 }
 .banner a{
     display: inline-block;
     color: #ffffff;
     text-decoration: none;
     font-weight: 500;
-    padding: 8px 12px;
+    padding: 10px 10px;
     border-radius: 40px;
     background: var(--color-gray-100, #202020);
+    font-size: 14px;
+    gap: 12px;
+    width: 165px;
+    align-items: center;
 }
-

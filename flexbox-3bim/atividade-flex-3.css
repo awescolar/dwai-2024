@@ -1,4 +1,5 @@
 body{
+    font-family: Inter;
     display: flex;
     flex-direction: column;
 }
@@ -18,9 +19,9 @@ header nav{
 }
 header nav menu{
     display: flex;
+    position: 80%;
     margin: 5px;
     padding:5px;
-    border-radius
 }
 header nav menu li{
     list-style-type: none;
@@ -37,12 +38,16 @@ main{
 
 }
 main .breadcrumb{}
-main .breadcrumb a{}
+main .breadcrumb a{
+    text-decoration: none;
+    color: #3C4858;
+}
 main .breadcrumb span{}
 
 main .head{
     background-color: #222222;
     color: #ffffff;
+    padding: 
 }
 main header h1{}
 main header small{}
