@@ -1,50 +1,54 @@
 .banner{
-    height: 160px;
-    width: 800px;
+    box-sizing:border-box;
+    position:relative;
+    height: 330px;
+    width: 100%;
 
-    padding: 20px 24px;
+    padding: 60px 40px;
 
     background: #2f80ed;
     background-image: url('../img/background.svg');
     background-repeat: no-repeat;
-    background-position-x: 100%;
+    background-position-x: 98%;
     background-position-y: 0px;
-    background-size: 245px;
+    background-size: 400px;
 
-    border-radius: 10px;
+    border-radius:40px;
     color: white;
 
 
 }
 
 .banner small {
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
 
 }
 
 .banner h1{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 500;
-    width: 560px;
+    width:830px;
+
 }
 
 .banner a{
     text-decoration:none;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
 
     background-color: black;
-    padding: 8px 12px;
+    padding: 15px 20px;
 
     border-radius: 40px;;
 
 }
 
 .banner a img{
+    height: 30px;
     position:relative;
-    top:2.5%;
+    top:4%;
     
     margin-left: 12px;
 
