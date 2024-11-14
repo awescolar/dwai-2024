@@ -1,0 +1,52 @@
+.banner {
+    width: 840px;
+
+    display: flex;
+    border-radius: 10px;
+    background: var(--Default, #2F80ED);
+}
+
+.banner div {
+    width: 598px;
+    padding: 20px 0 20px 24px;
+}
+
+.banner div small {
+    color: #FFF;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.banner div h1 {
+    color: #FFF;
+    font-size: 24px;
+}
+
+.banner div a {
+    display: inline-flex;
+    height: 24px;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 12px;
+
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 40px;
+    background: #202020;
+}
+
+.banner div a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.banner div a span img {
+    width: 12px;
+}

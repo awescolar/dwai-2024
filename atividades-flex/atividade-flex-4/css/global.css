@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    font-family: "Inter", sans-serif;
+
+    background-color: rgb(218, 218, 218);
+}

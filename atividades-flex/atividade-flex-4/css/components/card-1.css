@@ -1,0 +1,46 @@
+.card1 {
+    display: flex;
+    width: 271px;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 8px;
+    background: #FFF;
+
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+}
+
+.card1 span {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+    background: #2F80ED;
+}
+
+.card1 span img {
+    width: 20px;
+}
+
+.card1 div {
+    display: flex;
+    padding: 0px 8px;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1 0 0;
+}
+
+.card1 div strong {
+    color: #2667BF;
+}
+
+.card1 div div {
+    color: #202020;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
