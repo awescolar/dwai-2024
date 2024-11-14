@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .banner {
     width: 840px;
     border-radius: 10px;
@@ -7,6 +9,8 @@
     background-position: right center;
     color: #fff;
     padding: 20px 24px;
+    margin-top: 30px;
+    font-family: "inter", serif;
 }
 
 .banner small{
