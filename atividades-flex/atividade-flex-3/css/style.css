@@ -1,0 +1,69 @@
+.container {
+    max-width: 1204px;
+    width: 100%;
+    gap: 24px;
+    padding: 24px;
+}
+
+.links {
+    list-style: none;
+}
+
+.bandage {
+    color: white;
+    background-color: #222;
+    padding: 48px 0px;
+    width: 100%;
+    margin: 24px 0;
+}
+
+.livros {
+    margin: 48px 0px;
+}
+
+button {
+    color: #8A9399;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #8A9399;
+    background: transparent;
+}
+
+button.active {
+    color: #FFF;
+    background: #2F80ED;
+    border-color: #2F80ED;
+}
+
+.livro {
+    max-width: 340px;
+    padding: 16px;
+    border: 1px solid #a5a8aa;
+    border-radius: 8px;
+    gap: 16px;
+}
+
+.title span {
+    color: #8A9399;
+}
+
+.autor,
+.editora,
+.etiqueta {
+    font-size: 14px;
+    color: #8A9399;
+}
+
+.etiqueta span {
+    text-decoration: underline;
+}
+
+.container-livros {
+    flex-wrap: wrap;
+}
+
+footer {
+    width: 100%;
+    background-color: #F9FAFC;
+    padding: 16px 0px;
+}
