@@ -26,3 +26,7 @@ body {
 .arredondar-borda {
     border-radius: 8px;
 }
+
+.azul-claro {
+    background-color: #BFDAFF40;
+}

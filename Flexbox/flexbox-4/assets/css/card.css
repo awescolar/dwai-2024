@@ -8,10 +8,16 @@
 }
 
 .card img {
-    background-color: #2F80ED;
     padding: 12px;
     border-radius: 20px;
     margin-right: 8px;
+}
+.card .azul-claro {
+    background: var(--Light-Opacity, rgba(191, 218, 255, 0.25));
+}
+
+.card .azul-escuro {
+    background-color: #2F80ED;
 }
 
 .card div:nth-child(1) {
