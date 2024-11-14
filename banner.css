@@ -1,0 +1,36 @@
+body {
+    font-family: inter
+}
+
+.banner {
+    width: 840px;
+    padding: 20px 24px;
+    color: #fff;
+    background: #2f80ed;
+    background-repeat: no-repeat;
+    background-position: center right;
+    border-radius: 10px;
+}
+
+.banner small {
+  font-size: 12px;
+}
+
+.banner h1 {
+    width: 550px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.banner a {
+    padding-right: 44px;
+    background-position: 95% center;
+    padding: 8px 12px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    background: #202020 no-repeat center right;
+}
+
