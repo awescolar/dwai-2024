@@ -12,7 +12,7 @@ input:focus {
 }
 
 .container form {
-    width: 840px;
+    width: 900px;
     border-radius: 8px; 
     border: 1px solid rgba(204, 204, 204, 0.80);
     background: var(--color-gray-10, #FFF);

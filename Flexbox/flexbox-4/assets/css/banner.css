@@ -2,14 +2,14 @@
     background-color: #2F80ED;
     color: #fff;
     height: 181px;
-    background-image: url(img/Vector.svg);
+    background-image: url(../img/Vector.svg);
     background-size: 299px;
     background-repeat: no-repeat;
     background-position: right;
-    margin-top: 60px;
     height: 155px;
-    width: 570px;  
-    padding: 20px 251px 20px 24px;
+    width: 870px;  
+    padding: 20px;
+    border-radius: 20px;
     
 }
 
@@ -23,6 +23,7 @@
     margin-top: 16px;
     font-weight: 600;
     font-size: 24px;
+    max-width: 600px;
 }
 
 .banner .button {

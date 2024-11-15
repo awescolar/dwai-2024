@@ -20,13 +20,22 @@ body {
 }
 
 .container {
-    max-width: 1200px;  
+    max-width: 1200px;
+    background-color: aliceblue;
+
 }
 
-.arredondar-borda {
-    border-radius: 8px;
+.alinhar-extremidades {
+    justify-content: space-between;
 }
 
-.azul-claro {
-    background-color: #BFDAFF40;
+.coluna {
+    flex-direction: column;
+}
+
+.gap {
+    gap: 24px;
+} 
+.gap-1 {
+    gap: 18px;
 }
