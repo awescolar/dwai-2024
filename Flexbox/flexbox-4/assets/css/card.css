@@ -21,14 +21,16 @@
 }
 
 .card div:nth-child(1) {
-    color: #2F80ED;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .card span {
     font-size: 12px;
-    font-weight: 700;
+}
+
+.card .destacar {
+    font-weight: 600;
 }
 
 .card .pontos {
@@ -44,7 +46,7 @@
     width: 5px;
     border-radius: 10px;
 }
-.abas {
+.grupo-card-1 {
     gap:13px;
     flex: 1 0 0;
 }
