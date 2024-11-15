@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+main{
+    width: 940px;
+}
+
+body{
+    height: 100vh;
+    background: #F5F5F5;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-1{margin-bottom: 20px;}
+
+.meninas{background-image: url(/ESTUDOS/DESIGN-SEM2/flexbox4/assets/img/unsplash_QQ9LainS6tI.jpg);}
+.tolf{background-image: url(/ESTUDOS/DESIGN-SEM2/flexbox5/assets/img/unsplash_QQ9LainS6tI.png);}
+.basquete{background-image: url(/ESTUDOS/DESIGN-SEM2/flexbox5/assets/img/basquete.png);}
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

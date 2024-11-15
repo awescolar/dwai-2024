@@ -1,0 +1,27 @@
+.top{
+    position: sticky;
+    top: 0;}
+
+.container{min-width: 1400px;}
+
+.linha{border: 1px solid red;}
+
+.block{ display: block; }
+
+.inline-block{display: inline-block;}
+
+.flex{display: flex;}
+
+.flex-row{flex-direction: row;}
+.flex-column{flex-direction: column;}
+
+.font-16{font-size: 16px;}
+.font-14{font-size: 14px;}
+
+.centralizar-vertical{align-items: center;}
+
+.centralizar{
+    align-items: center;
+    justify-content: center;}
+
+.alinhar-extremidade{justify-content: space-between;}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{margin: 0;}
+
+body{
+    font-family: "Inter", sans-serif;}
+
+header{
+    height: 88px;
+    background: #F2F2F2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{}
+header nav{}
+header nav menu{
+    list-style: none;
+    gap: 40px;}
+header nav menu li{}
+header nav menu a{
+    color: black;
+    text-decoration: none;}
+
+main{}
+main .breadcrumb{
+    padding-top: 32px;
+    padding-bottom: 14px;
+    gap: 10px;}
+main .breadcrumb div{gap: 10px;}
+main .breadcrumb a{
+    text-decoration: none;
+    color: #3C4858;}
+main .breadcrumb span{
+    color: #8A9399;}
+
+main header{
+    background: #222222;
+    color: #F9FAFC;
+    height: 160px;}
+main header h1{}
+main header small{}
+main .filtros{margin-top: 20px;}
+main .filtros div{gap: 0px 20px;}
+main .filtros a{
+    border: 1px solid #8A9399;
+    padding: 5px 10px;
+    color: #8A9399;
+    text-decoration: none;}
+main .filtros a:hover{
+    border: none;
+    background: #2F80ED;
+    color: white;}
+
+main .conteudo{
+    margin-top: 50px;}
+main .conteudo h2{
+    font-size: 26px;}
+main .conteudo h2 small{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;}
+
+.livro-pai{margin-bottom: 80px;}
+.livros{
+    margin: 0;
+    padding: 0;
+    max-width: 1400px;
+    flex-wrap: wrap;
+}
+.livros .livro{
+    max-width: 30%;
+    list-style: none;
+    height: 240px;
+    width: 384px;
+    border: 1px solid #8A9399;
+    border-radius: 10px;
+    margin: 40px 0px 0px 0px;
+    padding: 0;
+}
+.livros .livro figure{
+    padding: 20px;
+}
+figure a{
+    display: flex;
+}
+figure img{
+    margin-bottom: 10px;
+}
+.livros .livro .right{
+    padding: 20px;
+    gap: 5px;
+    font-size: 14px;
+}
+.livro .right strong{
+    font-size: 16px;
+}
+
+
+footer{
+    background: #F9FAFC;
+    padding: 20px;
+    text-align: center;}

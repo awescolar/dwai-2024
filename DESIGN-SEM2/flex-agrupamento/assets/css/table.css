@@ -1,0 +1,45 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title a{color: #2667BF;}
+
+.table-jogos{
+    height: 178px;
+    width: 840px;
+    margin: 0;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.384);
+}
+
+.table-jogos table{
+    height: 100%;
+    width: 100%;
+}
+.table-jogos table thead tr th{width: 25%;}
+
+table tr{height: 30%;}
+
+.table-jogos table tbody tr td{text-align: center;}
+.table-jogos table tbody tr td .confronto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-jogos table tbody tr td .confronto img{
+    height: 24px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.table-jogos table tbody tr td .confronto div strong{display: block;}
+.table-jogos table tbody tr td a{
+    padding: 6px 16px;
+    background: #BFDAFF40;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #2F80ED;
+}
