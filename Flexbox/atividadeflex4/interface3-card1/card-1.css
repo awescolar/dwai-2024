@@ -1,0 +1,47 @@
+.card-1 {
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    gap: 8px;
+    padding: 12px;
+    width: 271.333px;
+}
+
+.card-1 img {
+    background: #2F80ED;
+    border-radius: 50px;
+    padding: 12px;
+}
+
+.card-1 .curso {
+    flex-direction: column;
+    gap: 4px;
+    padding: 0px 8px;
+    width: 167.33334px;
+}
+
+.card-1 .azul {
+    color: #2667BF;
+}
+
+.card-1 .preto {
+    padding: 0;
+    font-weight: 600;
+}
+
+.card-1 .pontos {
+    flex-direction: column;
+    gap: 4px;
+    height: 45px;
+    padding: 0;
+    width: 24px;
+}
+
+.card-1 .pontos a {
+    background-color: black;
+    border-radius: 6px;
+    height: 6px;
+    transform: rotate(90deg);
+    width: 6px;
+}

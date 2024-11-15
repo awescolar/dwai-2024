@@ -1,13 +1,19 @@
 .banner {
     background: #2F80ED;
-    background-image: url(Imagens/bg-banner.svg) no-repeat;
+    background-image: url(Imagens/bg-banner.svg);
     background-position: right;
-    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-size: 290px 221px;
     border-radius: 10px;
     color: #FFFFFF;
-    margin: 15px 0;
-    max-height: 181px;
+    flex-direction: column;
+    height: 161px;
     padding: 20px 24px;
+    width: 840px;
+}
+
+.banner small {
+    font-weight: 400;
 }
 
 .banner div {
@@ -18,9 +24,14 @@
     width: 141px;
 }
 
-.banner small {
+.banner div a {
     font-size: 14px;
-    font-weight: 500;
+}
+
+.banner h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 230px;
 }
 
 .banner div img {
