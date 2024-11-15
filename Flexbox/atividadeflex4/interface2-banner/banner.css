@@ -1,5 +1,8 @@
 .banner {
     background: #2F80ED;
+    background-image: url(Imagens/bg-banner.svg) no-repeat;
+    background-position: right;
+    background-size: 50px 50px;
     border-radius: 10px;
     color: #FFFFFF;
     margin: 15px 0;
@@ -21,12 +24,7 @@
 }
 
 .banner div img {
-    align-items: center;
     height: 20px;
     padding-left: 12px;
     width: 20px;
-}
-
-.banner img {
-    
 }
