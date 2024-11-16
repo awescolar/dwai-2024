@@ -4,7 +4,7 @@ body{
     display: flex;
     justify-content: center;
     font-family: "Inter", sans-serif;
-    background: lightblue;
+    background: rgb(224, 230, 232);
 }
 
 main{
@@ -15,5 +15,4 @@ main{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    border: 1px solid red;
 }
