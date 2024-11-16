@@ -10,17 +10,18 @@
     <link rel="stylesheet" href="assets/css/card.css">
     <link rel="stylesheet" href="assets/css/card2.css">
     <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/tabela.css">
 </head>
 
 <body>
     <main class="flex centralizar">
-        <section class="container flex centralizar coluna gap">
-            <form class="pesquisa flex arredondar-borda centralizar-vertical">
+        <section class="container flex coluna gap">
+            <form class="pesquisa flex centralizar-vertical">
                 <img src="assets/img/search-normal.svg" alt="">
                 <input type="text" placeholder="O que você procura?">
             </form>
 
-            <section class="banner arredondar-borda">
+            <section class="banner">
                 <small>jogos em tempo real</small>
                 <h1>
                     Aqui você tem a Semadec de um jeito que você nunca viu: na palma da sua mão e do seu jeito.
@@ -32,7 +33,7 @@
             </section>
 
             <div class="flex grupo-card-1">
-                <section class="card flex centralizar-vertical arredondar-borda">
+                <section class="card flex centralizar-vertical">
                     <img src="assets/img/notification.svg" alt="" class="azul-escuro">
                     <div>
                         <div class="azul">Informática</div>
@@ -45,7 +46,7 @@
                     </div>
                 </section>
 
-                <section class="card flex centralizar-vertical arredondar-borda">
+                <section class="card flex centralizar-vertical">
                     <img src="assets/img/notification-2.svg" alt="" class="azul-claro">
                     <div>
                         <div class="cinza">Comércio</div>
@@ -58,7 +59,7 @@
                     </div>
                 </section>
 
-                <section class="card flex centralizar-vertical arredondar-borda">
+                <section class="card flex centralizar-vertical">
                     <img src="assets/img/notification-2.svg" alt="" class="azul-claro">
                     <div>
                         <div class="cinza">Eletrônica</div>
@@ -73,7 +74,7 @@
             </div>
             <section class="grupo-card-2">
                 <div class="flex centralizar-vertical alinhar-extremidades">
-                    <h2>Novidades pra você</h2>
+                    <h3>Novidades pra você</h3>
                     <div class="setas">
                         <a href="#"><img src="assets/img/seta1.png" alt=""></a>
                         <a href="#"><img src="assets/img/seta2.png" alt=""></a>
@@ -81,33 +82,33 @@
                 </div>
 
                 <div class="flex gap-1">
-                    <article class="card2 flex centralizar-vertical">
+                    <article class="card2 flex ">
                         <figure>
                             <img src="assets/img/heart.svg" alt="" class="heart">
                             <img src="assets/img/imagem-semadec.png" alt="Imagem da SEMADEC">
-                            <figcaption class="arredondar-borda">APRESENTAÇÃO</figcaption>
+                            <div class="filtro">APRESENTAÇÃO</div>
                         </figure>
                         <h1>Apresentação das aberturas dos cursos</h1>
                         <div class="progress">
                             <div class="barra"></div>
                         </div>
                     </article>
-                    <article class="card2 flex arredondar-borda centralizar-vertical">
+                    <article class="card2 flex">
                         <figure>
                             <img src="assets/img/heart.svg" alt="" class="heart">
                             <img src="assets/img/imagem-semadec-2.png" alt="Imagem da SEMADEC">
-                            <figcaption class="arredondar-borda">APRESENTAÇÃO</figcaption>
+                            <div class="filtro">APRESENTAÇÃO</div>
                         </figure>
                         <h1>A alcateia não torce. A alcateia inspira, contagia!</h1>
                         <div class="progress">
                             <div class="barra"></div>
                         </div>
                     </article>
-                    <article class="card2 flex arredondar-borda centralizar-vertical">
+                    <article class="card2 flex">
                         <figure>
                             <img src="assets/img/heart.svg" alt="" class="heart">
                             <img src="assets/img/imagem-semadec-3.png" alt="Imagem da SEMADEC">
-                            <figcaption>ESPORTE</figcaption>
+                            <div class="filtro menor">ESPORTE</div>
                         </figure>
                         <h1>Basquete masculino é de informática.</h1>
                         <div class="progress">
@@ -115,7 +116,39 @@
                         </div>
                     </article>
                 </div>
+            </section>
 
+            <section class="tabela-jogos">
+                <div>
+                    <h3>Jogos do seu interesse</h3>
+                    <a href="#" class="azul">Ver tudo</a>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>JOGO</th>
+                            <th>ESPORTE</th>
+                            <th>PLACAR</th>
+                            <th>AÇÕES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Informática X Eletro<small>Ginásio | 22/12 | 15:00</small></td>
+                            <td class="filtro">BASQUETE - MASC</td>
+                            <td>123 X 0</td>
+                            <td class="filtro">DETALHES </td>
+                        </tr>
+                        <tr>
+                            Informática X Eletro
+                            <small>Ginásio | 22/12 | 15:00</small>
+                            <td class="filtro">BASQUETE - MASC</td>
+                            <td>2x5</td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
             </section>
         </section>
     </main>

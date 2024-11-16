@@ -1,7 +1,6 @@
 .card2 {
     background-color: #fff;
     padding: 12px;
-    width: 268px;
     flex-direction: column;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
     gap: 10px;
@@ -22,16 +21,19 @@
     margin: 0;
 }
 
-.card2 figcaption {
+.filtro {
     background-color: #BFDAFF40;
     color: #2667BF;
     font-size: 8px;
     text-transform: uppercase;
     font-weight: 400;
-    width: 70px;
+    width: 80px;
     padding: 5px;
+    border-radius: 20px;
 }
-
+.card2 .menor  {
+    width: 45px;
+}
 .card2 h1 {
     font-size: 14px;
     font-weight: 500;
@@ -52,3 +54,4 @@
     height: 6px;
     border-radius: 20px;    
 }
+
