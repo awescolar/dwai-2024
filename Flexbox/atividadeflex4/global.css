@@ -1,8 +1,10 @@
 body {
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
     font-family: 'Inter', serif;
-    margin: 0;
     gap: 24px;
+    margin: 0;
 }
 
 .flex {

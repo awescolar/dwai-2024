@@ -1,0 +1,59 @@
+.card-2 {
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    flex-direction: column;
+    gap: 10px;
+    height: 224px;
+    justify-content: center;
+    padding: 2px 12px;
+    width: 244px;
+}
+
+.card-2 .info {
+    border-radius: 12px;
+    height: 115px;
+    width: 244px;
+}
+
+.card-2 .coracao {
+    background: rgba(204, 204, 204, 0.50);
+    border-radius: 50px;
+    height: 8px;
+    padding: 6px;
+    position: relative;
+    left: 214px;
+    top: 40px;
+    width: 8px;
+}
+
+.card-2 small {
+    background: var(--Light-Opacity, rgba(191, 218, 255, 0.25));
+    border-radius: 8px;
+    color: #2667BF;
+    font-size: 8px;
+    font-weight: 400;
+    height: 15px;
+    line-height: normal;
+    padding: 0px 12px;
+    width: 63px;
+}
+
+.card-2 h1 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.card-2 .total {
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    height: 6px;
+}
+
+.card-2 .azul {
+    background-color: #2f80ed;
+    border-radius: 50px;
+    height: 6px;
+    width: 122px;
+}
