@@ -1,0 +1,19 @@
+
+.container-jogos {
+    margin-top: 20px;
+    padding: 20px 22px;
+    height: 178px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 14px 42px 0px rgba(8, 15, 52, 0.06);
+}
+
+
+.container-jogos .ver-tudo {
+    font-size: 14px;
+    color: #007bff;
+    float: right;
+    margin-top: -45px;
+}
+
+
