@@ -20,6 +20,23 @@ body{
     display:flex;
 }
 
+.align-center{
+    align-items:center;
+}
+
+.direction-column{
+    flex-direction:column;
+}
+
+.space-between{
+    justify-content:space-between
+}
+
+.space-around{
+    justify-content: space-around;
+
+}
+
 .grupo-card-1{
     width:100%;
     justify-content:space-evenly;
@@ -52,4 +69,74 @@ body{
     padding:10px;
     border: 2px solid #9e9e9e;
     border-radius: 100%;
+}
+
+section{
+    flex-direction:column;
+    gap:20px;
+    width:100%;
+}
+
+.col{
+    display:flex;
+    flex:1;
+
+    align-items: center;
+    justify-content: center;
+
+    gap:20px
+}
+
+.col:nth-child(even) p{
+    font-weight:400;
+    color:#2F80ED;
+    background-color: rgba(191, 218, 255, 0.25);
+    padding:10px;
+    border-radius: 20px;
+
+}
+
+.header-eventos{
+    width:100%;
+}
+
+.final-section header .col:nth-child(even){
+    font-weight:400;
+    color:black;
+    background-color: white;
+
+}
+
+.final-section header .col:first-child{
+    flex-direction:row;
+    align-items:flex-start;
+
+}
+
+
+
+.final-section{
+    background-color: white;
+
+    padding-top: 30px;
+    padding-bottom:30px;
+    margin-bottom: 30px;
+
+    border-radius: 20px;
+    justify-content: space-between;
+    
+    gap:50px;
+    width: 100%;
+
+}
+
+.final-section .col .background-img{
+    height:38px;
+    width:40px;
+
+    background-image: url('../img/esporte.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+
+    border-radius:100%;
 }
