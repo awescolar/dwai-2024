@@ -1,3 +1,7 @@
+.grupo-card-1 {
+    gap: 13px;
+}
+
 .card-1 {
     align-items: center;
     background: #FFFFFF;
@@ -16,20 +20,41 @@
     width: 16px;
 }
 
+.card-1 .azul-palido {
+    background: var(--Light-Opacity, rgba(191, 218, 255, 0.25));
+}
+
 .card-1 .curso {
     flex-direction: column;
     gap: 4px;
     width: 167.33334px;
 }
 
-.card-1 .azul {
-    color: #2667BF;
+.card-1 .curso strong, 
+.card-1 .curso div {
     font-size: 12px;
 }
 
-.card-1 .preto {
+.card-1 .curso .azul {
+    color: #2667BF;
+    font-weight: 700;
+}
+
+.card-1 .curso .preto,
+.card-1 .curso .cinza {
+    font-weight: 600;
+}
+
+.card-1 .curso .cinza {
+    color: #5F5F5F;
+}
+
+.card-1 .curso .peso400 {
+    font-weight: 400;
+}
+
+.card-1 .curso div {
     font-size: 12px;
-    padding: 0;
     font-weight: 600;
 }
 

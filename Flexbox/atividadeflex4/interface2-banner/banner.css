@@ -9,7 +9,7 @@
     flex-direction: column;
     height: 150px;
     padding: 18px 24px;
-    width: 840px;
+    width: 792px;
 }
 
 .banner small {
@@ -32,7 +32,7 @@
 .banner h1 {
     font-size: 24px;
     font-weight: 600;
-    margin-right: 230px;
+    margin-right: 210px;
 }
 
 .banner div img {
