@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.pesquisa{
+    color: #cccccc;
+    position: relative;
+    bottom: 25px;
+    right: 5px;
+    display: flex;
+    gap: 12px;
+}
+
+.banner{
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    width: 840px;
+    height: 57px;
+    position: relative;
+    left: 38px;
+    top: 369px;
+    gap: 12px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.card-1 figure img{
+    height: 39px;
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+}
+
+.card-2{
+    font-family: Inter;
+    font-size: 17px;
+    color: gray;
+    position: relative;
+    bottom: 75px;
+    left: 70px;
+}
