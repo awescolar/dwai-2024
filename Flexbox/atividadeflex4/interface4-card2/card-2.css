@@ -10,6 +10,11 @@
     width: 244px;
 }
 
+.card-2 figure {
+    margin: 0;
+    position: relative;
+}
+
 .card-2 .info {
     border-radius: 12px;
     height: 115px;
@@ -21,9 +26,9 @@
     border-radius: 50px;
     height: 8px;
     padding: 6px;
-    position: relative;
-    left: 214px;
-    top: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
     width: 8px;
 }
 
@@ -32,9 +37,7 @@
     border-radius: 8px;
     color: #2667BF;
     font-size: 8px;
-    font-weight: 400;
     height: 15px;
-    line-height: normal;
     padding: 0px 12px;
     width: 63px;
 }
