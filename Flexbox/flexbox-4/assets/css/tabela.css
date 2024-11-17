@@ -1,8 +1,3 @@
-
-
-.tabela-jogos .cabecalho h3 {
-    font-size: 12px;
-    font-weight: 600;
-    color: #3F3F3F;
+.tabelas-jogos .td-1 {
+    background: url(../img/esporte.png) lightgray 50% / cover no-repeat;
 }
-
