@@ -1,0 +1,15 @@
+.alinhar-v-center{
+    align-items: center;
+}
+
+.alinhar-h-space{
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.alinhar-coluna{
+    flex-direction: column;
+}
