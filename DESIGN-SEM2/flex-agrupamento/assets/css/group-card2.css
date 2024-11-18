@@ -15,6 +15,10 @@
     border: none;
     background: none;
 }
+.group-card2 .title button:hover{
+    cursor: pointer;
+}
+
 .group-card2 .title button img{
     height: 24px;
 }
@@ -35,6 +39,7 @@
     border-radius: 10px;
     font-size: 14px;
     gap: 8px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
 }
 
 .card-2 span{
@@ -50,6 +55,10 @@
     color: #2F80ED;
     font-size: 8px;
 }
+
+.meninas{background-image: url(../img/unsplash_QQ9LainS6tI.jpg);}
+.tolf{background-image: url(../img/unsplash_QQ9LainS6tI.png);}
+.basquete{background-image: url(../img/basquete.png);}
 
 .card-2 .background-top{
     height: 113px;
