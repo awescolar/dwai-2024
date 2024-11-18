@@ -1,13 +1,14 @@
 .container-card2{
-    display: flex;
+    display: flexbox;
     gap: 20px;
+    width: 1022px;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    max-width: 1130px;
 }
+    
 header a{
    padding-left: 8px;
 }
