@@ -1,0 +1,37 @@
+.card-2{
+    border-radius: 20px;
+    background: var(--color-gray-10, #FFF);
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+
+}
+
+.card-2 div{
+
+}
+
+.card-2 h2{
+    color: var(--color-gray-100, #202020);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+}
+
+.card-2 figure{
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-2 span{
+
+}
+
+.card-2 p{
+
+}

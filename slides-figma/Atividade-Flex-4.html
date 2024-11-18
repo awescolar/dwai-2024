@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="banner.css">
     <link rel="stylesheet" href="card-1.css">
     <link rel="stylesheet" href="card-2.css">
+    <link rel="stylesheet" href="jogos-interesse.css">
 </head>
 <body>
-    
+   <main>
     <input type="text" class="pesquisa" placeholder="O que você procura?">
 
    <br>
@@ -25,6 +26,7 @@
     </section>
 
    <br>
+   
     <div class="card-1">
          <span></span>
          <div class="card">
@@ -32,12 +34,12 @@
              <div>Agenda</div>
          </div>
          
-         <div class="card">
+         <div class="card-2">
              <strong>Comércio</strong>
              <div>Agenda</div>
          </div>
 
-         <div class="card"> 
+         <div class="card-2"> 
              <strong>Eletrônica</strong>
              <div>Agenda</div>
          </div>
@@ -47,7 +49,7 @@
    <br>
 
     </div>
-    <div class="card-2">
+    <div class="card-2 flex">
 
         <h2>Novidades pra você</h2>
 
@@ -70,5 +72,66 @@
         <p>Basquete masculino é de informática.</p>
 
     </div>
+
+    <section class="jogos-interesse">
+
+        <div class="header flex alinhar-h-bordas alinhar-v-bordas">
+            <h1>Jogos do seu interesse</h1>
+            <a href="#">Ver tudo</a>
+        </div>
+        <table class="jogos">
+            <tr class="jogos-title">
+                <th>JOGO</th>
+                <th>ESPORTE</th>
+                <th>PLACAR</th>
+                <th>AÇÕES</th>
+            </tr>
+            <tr class="jogos-conteudo">
+                <td>
+                    <div class="jogo flex">
+                        <img src="/assets/Mask group.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Informática x Eletro</strong>
+                            <span>Ginásio | 22/12 | 15:00</span>
+                        </div>
+                    </div>
+                 </td>
+                <td>
+                    <span class="tag">FUTSAL - MASC</span>
+                </td>
+                <td>
+                    3 x 0
+                </td>
+                <td>
+                    <a href="#" class="tag">DETALHES</a>
+                </td>
+            </tr>
+
+            <tr class="jogos-conteudo">
+                <td>
+                    <div class="jogo flex">
+                        <img src="/assets/Mask group.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Informática x Eletro</strong>
+                            <span>Ginásio | 22/12 | 15:00</span>
+                        </div>
+                    </div>
+                 </td>
+                <td>
+                    <span class="tag">FUTSAL - MASC</span>
+                </td>
+                <td>
+                    2 x 5
+                </td>
+                <td>
+                    <a href="#" class="tag">DETALHES</a>
+                </td>
+            </tr>
+
+     
+            
+        </table>
+    </section>
+
 </body>
 </html>

@@ -3,3 +3,19 @@
 .body{
     font-family: "inter", serif;
 }
+
+.flex{
+    display: flex;
+}
+
+.alinhar-h-bordas{
+    justify-content: space-between;
+}
+
+.alinhar-v-bordas{
+    align-items: center;
+}
+
+.alinhar-coluna{
+    flex-direction: column;
+}

@@ -10,7 +10,7 @@
 }
 
 .card-1 div{
-    font-family: "inter" serif;
+    font-family: "inter", serif;
     margin-left: 52px;  
 }
 
@@ -20,11 +20,25 @@
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
     width: 271px;
     height: 64px;
-    font-size: 20px;
+    font-size: 16px;
     background: url(/assets/btn\ \(1\).png) no-repeat;
-    background-position: 12px center;
+    background-position: 8px center;
     margin-left: 52px;
-    font-family: "inter" serif ;
+    font-family: "inter", serif ;
+    
+}
+
+.card-1 div.card-2{
+    border-radius: 12px;
+    background: var(--color-gray-10, #FFF);
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    width: 271px;
+    height: 64px;
+    font-size: 16px;
+    background: url(/assets/btn\ \(2\).png) no-repeat;
+    background-position: 8px center;
+    margin-left: 52px;
+    font-family: "inter", serif ;
     
 }
 
@@ -32,7 +46,7 @@
     align-self: stretch;
     color: var(--Dark, #2667BF);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
