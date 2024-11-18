@@ -1,0 +1,18 @@
+.jogos-interesse{}
+.jogos-interesse .header{}
+
+
+.jogos-interesse .container-jogos{
+    border-radius: 6px;
+    background: #FFF;
+    padding: 20px 24px;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+}
+.jogos-interesse .jogos{
+    width: 100%;
+}
+.jogos-interesse .jogos .jogos-title{
+    text-align: left;
+}
+.jogos-interesse .jogos .conteudo{}
+.jogos-interesse .jogos .jogo{}

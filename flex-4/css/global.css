@@ -3,3 +3,16 @@
 body{
     font-family: "Inter", serif;
 }
+
+.flex{
+    display: flex;
+}
+.alinhar-h-bordas{
+    justify-content: space-between;
+}
+.alinhar-v-centro{
+    align-items: center;
+}
+.alinhar-coluna{
+    flex-direction: column;
+}
