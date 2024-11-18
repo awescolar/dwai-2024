@@ -64,5 +64,7 @@
 .coluna{
     flex-direction: column;
 }
-
+.alinhar-h-bordas{
+    justify-content: space-between;
+}
 
