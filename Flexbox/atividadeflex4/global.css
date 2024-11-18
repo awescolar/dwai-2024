@@ -23,3 +23,7 @@ body {
 .alinhar-vertical {
     align-items: center;
 }
+
+.alinhar-horizontal {
+    justify-content: center;
+}
