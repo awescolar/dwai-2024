@@ -19,3 +19,7 @@ body {
 .alinhar-esquerda {
     justify-content: flex-start;
 }
+
+.alinhar-vertical {
+    align-items: center;
+}
