@@ -25,3 +25,15 @@
     width: 5px;
     border-radius: 10px;
 }
+.card img {
+    padding: 12px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+.card .azul-escuro{
+    background-color: #2F80ED;
+}
+.card .azul-claro{
+    background-color: #BFDAFF40;
+}
+
