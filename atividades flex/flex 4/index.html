@@ -2,50 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade 4 - Flexbox</title>
-    <link rel="stylesheet" href="banner.css">
-    <link rel="stylesheet" href="card1.css">
-    <link rel="stylesheet" href="card2.css">
-    <link rel="stylesheet" href="pesquisa.css">
-    <link rel="stylesheet" href="global.css">
+    <title>Components</title>
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/card1.css">
+    <link rel="stylesheet" href="css/card2.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/pesquisa.css">
 </head>
 <body>
-    <section class="search">
-        <img src="lupa.png" alt="search">
-        <input type="text" class="pesquisa" placeholder="O que você procura?">
-    </section>
-    
 
-    <section class="banner">
-        <small>jogos em tempo real</small>
-        <h1>Aqui você tem a Semadec de um jeito que 
-            você nunca viu: na palma da sua mão e do seu jeito.</h1>
-            <a href="#">
-                Assista os jogos
-            </a>
-    </section>
+    <main class="flex centralizar">
 
-    <div class="card1">
-        <span></span>
-        <div>
-            <strong>Informática</strong>
-            <div>Agenda</div>
-        </div>
-        <a href="#">
+        <!-- Pesquisa -->
+        <section class="search">
+            <div class="flex pesquisa centralizar-vertical arredondar-borda">
+                <img src="img/lupa.png" alt="">
+                <input type="text" placeholder="O que você procura?">
+            </div>
 
-        </a>
-    </div>
+        <!--Banner-->
+            <section class="banner">
+                <small>JOGOS EM TEMPO REAL</small>
+                <h1>Aqui você tem a Semadec de um jeito que <br>você nunca viu: na palma da sua mão e do seu jeito.</h1>
+                <a href="#" class="flex centralizar-horizontal button">
+                    Assista os jogos
+                    <img src="" alt=""> 
+                </a>
+                <img class="brilhos" src="" alt="">
+            </section>
 
-    <div class="card2">
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <span>Apresentação</span>
-        <p>Apresentação das aberturas dos cursos</p>
-        <div class="load">
-            <div class="load-bar"></div>
-        </div>
-    </div>
+            <!--Card 1-->
+            <div class="flex grupo-card-1">
+                <div class="card flex centralizar-vertical">
+                    <img src="" alt="" class="azul-escuro">
+                    <div>
+                        <div class="blue">Informática</div> 
+                        <span class="negrito">Agenda</span>
+                    </div>
+                    <div class="flex pontos">
+                        <span class="ponto"></span>
+                        <span class="ponto"></span>
+                        <span class="ponto"></span>
+                    </div>
+                </div>
+
+            <!--Card 2-->
+            <div class="card2 flex arredondar-borda centralizar-vertical">
+                <figure>
+                    <img src="" alt="" class="like">
+                    <img src="" alt="Imagem da SEMADEC">
+                    <div class="arredondar-borda">APRESENTAÇÃO</div>
+                </figure>
+                <h1>Apresentação das aberturas dos cursos</h1>
+                <img src="" alt="">
+            </div>
+
+
+
+            </div>
+        
+        </section>
+
+    </main>
+
+ 
 </body>
 </html>

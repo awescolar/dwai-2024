@@ -1,19 +1,40 @@
 .banner{
+    color: #FFF;
+    background: #2F80ED;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: 10px;
+    padding: 20px 24px;
     width: 840px;
-    height: 181px;
+}
+
+.banner small{
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 .banner h1{
-    font-size: 24px ;
+    font-size: 24px;
+    margin-bottom: 16px;
     margin-top: 16px;
-    margin-bottom:16px ;
 }
-
 .banner a{
+    background: #202020 no-repeat;
+    background-image: url(../../imagens/btn.png);
+    background-position: 95% center;
     border-radius: 40px;
-    background: #000;
-    padding: 8px 12px;
+    color: #FFF;
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
+    padding: 8px 12px;
+    padding-right: 44px;
+    text-decoration: none;
+}
+
+.banner .brilhos {
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 550px;
+    width: 220px;
 }
