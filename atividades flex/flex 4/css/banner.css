@@ -6,6 +6,7 @@
     border-radius: 10px;
     padding: 20px 24px;
     width: 840px;
+    height: 150px;
 }
 
 .banner small{
@@ -18,9 +19,9 @@
     margin-bottom: 16px;
     margin-top: 16px;
 }
-.banner a{
+.banner button{
+    height: 36px;
     background: #202020 no-repeat;
-    background-image: url(../../imagens/btn.png);
     background-position: 95% center;
     border-radius: 40px;
     color: #FFF;
@@ -29,12 +30,11 @@
     font-weight: 500;
     padding: 8px 12px;
     padding-right: 44px;
-    text-decoration: none;
+    font-size: 14px;
 }
 
-.banner .brilhos {
-    position: absolute;
-    margin-top: -160px;
-    margin-left: 550px;
-    width: 220px;
+.banner .brilhos{
+    width: 221px;
+    margin-left: 640px;
+    margin-top: -500px;
 }

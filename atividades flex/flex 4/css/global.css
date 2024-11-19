@@ -1,22 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-body{
-    font-family: "Inter", serif;
+body {
+    font-family:"Inter", sans-serif;
+}
+.centralizar-horizontal {
+    justify-content: center;
 }
 
-.flex{
-    display: flex;
-}
-.alinhar-h-bordas{
-    justify-content: space-between;
-}
-.alinhar-v-centro{
+.centralizar-vertical {
     align-items: center;
 }
-.alinhar-coluna{
-    flex-direction: column;
+
+.flex {
+    display: flex;
 }
 
-.arredondar-borda{
+.centralizar {
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+}
+.arredondar-borda {
     border-radius: 8px;
 }
