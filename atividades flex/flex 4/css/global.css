@@ -16,3 +16,7 @@ body{
 .alinhar-coluna{
     flex-direction: column;
 }
+
+.arredondar-borda{
+    border-radius: 8px;
+}
