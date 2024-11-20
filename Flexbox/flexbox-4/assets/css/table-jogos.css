@@ -1,18 +1,46 @@
-table {
+.jogos .table-jogos {
+    border-radius: 6px;
+    background: #FFF;
     padding: 20px 24px;
-    background-color: #fff;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
 }
 
-table thead tr {
-    width: 792px;
+.jogos table {
+    width: 100%;
 }
 
-table tbody img {
-    border-radius: 20pxgti ;
+.jogos .table-jogos .jogos-title{
+    text-align: left;
 }
 
-table td small {
+.jogo .table-jogos .jogos-conteudo tr{
+    padding: 20px;
+}
+.jogos .table-jogos .jogos-conteudo .jogo img {
+    border-radius: 20px;
+}
+
+.jogos .table-jogos .jogos-conteudo small {
+    color: #5F5F5F;
     font-weight: 400;
     font-size: 11px;
-    text-transform: capitalize;
+}
+
+.jogos .table-jogos .jogos-conteudo strong {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.jogos .table-jogos .tag {
+    font-size: 12px;
+    display: inline-block;
+    padding: 2px 12px;
+    border-radius: 24px;
+    background: rgba(191, 218, 255, 0.25);
+    color: #2F80ED;
+}
+
+.jogos .table-jogos a {
+    color: #2F80ED;
+    text-decoration: none;
 }
