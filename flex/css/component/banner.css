@@ -6,7 +6,8 @@
     padding: 20px 24px;
     color:#FFF;
     background-image: url(../../imagens/estrela.svg);
-    
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .banner small{
     font-size: 12px;

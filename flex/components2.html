@@ -25,7 +25,7 @@
             </a>
     </section>
 
-    <div class="flex">
+    <div class="flex espacamento-1">
         <div class="card1 alinhar-extremidades flex centralizar-vertical">
             <span></span>
             <div class="flex coluna">
@@ -46,7 +46,7 @@
     
             </a>
         </div>
-        <div class="card1 alinhar-extremidades flex centralizar-vertical">
+        <div class="card1 alinhar-extremidades flex centralizar-vertical margin">
             <span class="sino"></span>
             <div class="flex coluna">
                 <strong class="cinza">Eletrónica</strong>
@@ -90,28 +90,64 @@
             </div>
         </div>
     </section>
-    <div class="table-jogos flex coluna centrlaizar-horizontal">
-        <h1>Jogos do seu interesse</h1>
-        <table>
-            <tr>
-                <th>Jogo</th>
-                <th>Esporte </th>
-                <th>Placar</th>
-                <th>Ações</th>
-            </tr>
-            <tr>
-                <th><span>Informática X Eletro</span> <span>Ginásio | 22/12 | 15:00</span></th>
-                <th>Basquete - Masc</th>
-                <th>123 x 0</th>
-                <th>Detalhes</th>
-            </tr>
-            <tr>
-                <th>Informática X Eletro</th>
-                <th>Basquete - Masc</th>
-                <th>123 x 0</th>
-                <th>Detalhes</th>
-            </tr>
-        </table>
-    </div>
+    <section class="jogos-interesse">
+        <div class="header flex centralizar-vertical alinhar-extremidades">
+            <h2>Jogos do seu interesse</h2>
+            <a href="#">Ver tudo</a>
+        </div>
+        <div class="container-jogos">
+            <table class="jogos">
+                <tr class="jogos-title">
+                    <th>JOGO</th>
+                    <th>ESPORTE</th>
+                    <th>PLACAR</th>
+                    <th>AÇÕES</th>
+                </tr>
+                <tr class="conteudo">
+                    <td>
+                        <div class="jogo flex">
+                            <img src="imagens/img-jogo.png" alt="">
+                            <div class="flex coluna">
+                                <strong>Informática X Eletro</strong>
+                                <span>Ginásio | 22/12 | 15:00</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="tag">FUTSAL - MASC</span>
+                    </td>
+                    <td>
+                        3 x 0
+                    </td>
+                    <td>
+                        <a href="#" class="tag">DETALHES</a>
+                    </td>
+                </tr>
+                <tr class="conteudo">
+                    <td>
+                        <div class="jogo flex">
+                            <div>
+                                <img src="imagens/img-jogo.png" alt="">
+                            </div>
+                            <div class="flex coluna">
+                                <strong>Informática X Eletro</strong>
+                                <span>Ginásio | 22/12 | 15:00</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="tag">FUTSAL - MASC</span>
+                    </td>
+                    <td>
+                        2 x 5
+                    </td>
+                    <td>
+                        <a href="#" class="tag">DETALHES</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+    </section>
 </body>
 </html>
