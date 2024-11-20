@@ -1,0 +1,43 @@
+.banner{
+    width: 570px;
+    height: 155px;
+    border-radius: 10px;
+    background-color: #2F80ED;
+    color: white;
+    padding: 20px 251px 20px 24px;
+    background-image: url(imagensflexbox-4-5/estrelas-banner.png);
+    background-repeat: no-repeat;
+    background-position: 590px -50px; 
+    margin-bottom: 30px;
+    
+}
+
+.banner small{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+
+.banner h1{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.banner a{
+    width: 141px;
+    display: inline-flex;
+    height: 20px;
+    padding: 8px 12px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    border-radius: 40px;
+    font-size: 14px;
+    gap: 12px;
+}
