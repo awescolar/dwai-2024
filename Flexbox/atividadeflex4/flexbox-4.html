@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Organização de CSS</title>
 </head>
-<body>
+<body class="alinhar-horizontal">
     
     <input class="pesquisa" placeholder="O que você procura?"></input>
 
@@ -109,8 +109,8 @@
 
     <div class="table-jogos flex">
         <h1 class="flex">Jogos de seu interesse <a href="">Ver tudo</a></h1>
-        <table class="flex">
-            <thead class="flex">
+        <table>
+            <thead>
                 <tr class="flex">
                     <th class="jogo">JOGO</th>
                     <th class="esporte">ESPORTE</th>
@@ -122,8 +122,10 @@
                 <tr class="flex alinhar-vertical">
                     <td class="flex jogo">
                         <img src="atividadeflex6/Imagens/imagem-jogos.svg" alt="">
-                        <strong>Informática x Eletro</strong>
-                        <div>Ginásio | 22/12 | 15:00</div>
+                        <div class="jogos-dados flex alinhar-esquerda">
+                            <strong>Informática x Eletro</strong>
+                            <div>Ginásio | 22/12 | 15:00</div>
+                        </div>
                     </td>
                     <td class="flex esporte-dados centralizar">BASQUETE - MASC</td>
                     <td class="placar-dados">123 X 0</td>
@@ -131,9 +133,11 @@
                 </tr>
                 <tr class="flex alinhar-vertical">
                     <td class="flex jogo">
-                        <img class="flex" src="atividadeflex6/Imagens/imagem-jogos.svg" alt="">
-                        <strong>Informática x Eletro</strong>
-                        <div>Ginásio | 22/12 | 15:00</div>
+                        <img src="atividadeflex6/Imagens/imagem-jogos.svg" alt="">
+                        <div class="jogos-dados flex alinhar-esquerda">
+                            <strong>Informática x Eletro</strong>
+                            <div>Ginásio | 22/12 | 15:00</div>
+                        </div>
                     </td>
                     <td class="esporte-dados flex centralizar">BASQUETE - MASC</td>
                     <td class="placar-dados">2 x 5</td>

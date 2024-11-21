@@ -25,7 +25,6 @@
     border-radius: 6px;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
     flex-direction: column;
-    gap: 24px;
     padding: 20px 24px;
 }
 
@@ -33,28 +32,14 @@
     color: #3F3F3F;
     font-size: 12px;
     font-weight: 600;
-}
-
-.table-jogos table thead tr .jogo {
-    text-align: left;
-    width: 240px;
-}
-
-.table-jogos table thead tr .esporte {
-    width: 75px;
-}
-
-.table-jogos table thead tr .placar {
-    width: 229px;
-}
-
-.table-jogos table thead tr .acoes {
-    width: 80px;
+    width: 100%;
 }
 
 .table-jogos tbody tr, 
 .table-jogos table thead tr {
     gap: 56px;
+    text-align: left;
+    width: 100%;
 }
 
 .table-jogos tbody {
@@ -62,7 +47,7 @@
     gap: 24px;
 }
 
-.table-jogos tbody tr img {
+.table-jogos tbody tr td img {
     gap: 8px;
     height: 27.024px;
     width: 27.024px;
@@ -70,8 +55,11 @@
 
 .table-jogos tbody tr .jogo {
     flex-direction: column;
+}
+
+.table-jogos tbody tr .jogo .jogos-dados {
+    flex-direction: column;
     gap: 4px;
-    width: 220px;
 }
 
 .table-jogos tbody tr .esporte-dados,
@@ -87,6 +75,5 @@
 .table-jogos tbody tr .placar-dados {
     font-size: 12px;
     text-align: center;
-    width: 212px;
 } 
 
