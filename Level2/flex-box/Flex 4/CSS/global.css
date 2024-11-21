@@ -3,6 +3,14 @@
 body{
     font-family: "Inter", serif;
     background-color: #F5F5F5;
+    
+}
+
+.container-principal{
+    padding: 32px;
+    gap: 24px;
+    flex-direction: column;
+    
 }
 
 .flex{
