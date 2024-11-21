@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-input{
-    box-shadow: 0;
-    outline: 0;
-    border: 0 none;
-    background-image: url(../img/search-normal.png);
-    background-repeat: no-repeat;
-    padding-left: 25px;
-    font-size: 16px;
-}
+
 
 .pesquisa{
+    background-image: url(../img/search-normal.png);
+    background-position: 20px 16px;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(204, 204, 204, 0.80);
     border-radius: 8px;
-    width: 840px;
-    border: 1px solid #cccccccc;
-    box-shadow: 0px 4px 8px 0px #0000000d;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
     padding: 20px 16px;
+    padding-left: 42px;
+    width: 100%;
+    font-size: 14px;
+    
 }
 
 
