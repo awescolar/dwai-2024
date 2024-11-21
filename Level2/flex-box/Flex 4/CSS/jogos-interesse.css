@@ -1,11 +1,13 @@
-.jogos-interesse{}
+.jogos-interesse{
+
+}
 
 .jogos-interesse .container-jogos{
     border-radius: 6px;
-background:  #FFF;
-box-shadow: 0px 14px 42px 0px #080f340f;
+    background: #FFF;
+    padding: 20px 24px;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
 }
-
 .jogos-interesse .jogos{
     width: 100%;
 } 
@@ -13,12 +15,17 @@ box-shadow: 0px 14px 42px 0px #080f340f;
     text-align: left;
 } 
 .jogos-interesse .jogos .conteúdo{} 
-.jogos-interesse .jogos .jogo{} 
-.jogos-interesse .jogos .jogo .tag{
+.jogos-interesse .jogos .jogo img{
+    width: 28px;
+    height: 28px;
+    padding: 8px;
+} 
+.jogos-interesse .jogos .jogos-conteudo .tag{
+    font-size: 12px;
     display: inline-block;
-    font-size: 10px;
-    padding: 6px 12px;
+    padding: 6px;
     text-align: center;
     border-radius: 24px;
     background: rgba(191, 218, 255, 0.25);
+    color: #2F80ED;
 } 

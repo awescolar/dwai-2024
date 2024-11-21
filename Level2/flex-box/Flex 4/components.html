@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="CSS/jogos-interesse.css">
 </head>
 <body>
+
+    <!-- component 1 - pesquisa -->
     <section class="search">
-    
         <input type="text" class="pesquisa" placeholder="O que você procura?">
     </section>
     
-
+    <!-- component 1 - banner -->
     <section class="banner">
         <small>jogos em tempo real</small>
         <h1>Aqui você tem a Semadec de um jeito que 
@@ -27,6 +28,7 @@
             </a>
     </section>
 
+    <!-- component 1 - card 1-->
     <div class="card1">
         <span></span>
         <div>
@@ -37,7 +39,8 @@
 
         </a>
     </div>
-
+ 
+    <!-- component 1 - card 2-->
     <div class="card2">
         <figure>
             <img src="" alt="">
@@ -48,7 +51,8 @@
             <div class="load-bar"></div>
         </div>
     </div>
-
+    
+    <!-- tabela de jogos -->
     <section class="jogos-interesse"> 
          <div class="header flex alinhar-v-center alinhar-h-space">
              <h2>Jogos do seu interesse</h2>
@@ -56,7 +60,7 @@
          </div>
         <div class="container-jogos">
             <table class="jogos">
-                <tr>
+                <tr class="jogos-title">
                     <th>JOGO</th>
                     <th>ESPORTE</th>
                     <th>PLACAR</th>
@@ -65,7 +69,7 @@
                 <tr class="jogos-conteudo">
                     <td>
                         <div class="jogo flex">
-                            <img src="#" alt="">
+                            <img src="img/img-jogo.jpg" alt="">
                             <div class="flex alinhar-coluna">
                                 <strong>Informática X Eletro</strong>
                                 <span>Ginásio | 22/12 | 15:00</span>
@@ -85,9 +89,9 @@
     
                  <tr class="jogos-conteudo">
                     <td>
-                        <div class="jogo">
-                            <img src="#" alt="">
-                            <div>
+                        <div class="jogo flex">
+                            <img src="img/img-jogo.jpg" alt="">
+                            <div class=" flex alinhar-coluna" >
                                 <strong>Informática X Eletro</strong>
                                 <span>Ginásio | 22/12 | 15:00</span>
                             </div>
@@ -108,5 +112,7 @@
         </div>
         
     </section>
+
+    <!-- fim da tabela -->
 </body>
 </html>
