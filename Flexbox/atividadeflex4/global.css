@@ -1,12 +1,13 @@
 body {
-    align-items: center;
     background-color: #FFFFFF;
     display: flex;
-    flex-direction: column;
     font-family: 'Inter', serif;
-    gap: 24px;
     margin: 0;
     padding-top: 20px;
+}
+
+.container {
+    gap: 24px;
 }
 
 .flex {
@@ -28,4 +29,12 @@ body {
 
 .alinhar-horizontal {
     justify-content: center;
+}
+
+.alinhar-coluna {
+    flex-direction: column;
+}
+
+.alinhar-extremidades {
+    justify-content: space-between;
 }

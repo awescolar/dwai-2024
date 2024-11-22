@@ -15,137 +15,152 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Organização de CSS</title>
 </head>
-<body class="alinhar-horizontal">
-    
-    <input class="pesquisa" placeholder="O que você procura?"></input>
+<body class="centralizar">
 
-    <section class="banner flex">
-        <small>JOGOS EM TEMPO REAL</small>
-        <h1>Aqui você tem a Semadec de um jeito que <br> você nunca viu: na palma da sua mão e do seu jeito.</h1>
-        <div class="flex">
-            <a>Assista os jogos</a>
-            <img src="interface2-banner/Imagens/btn.svg" alt="">
+    <section class="container centralizar flex alinhar-coluna">
+
+        <input class="pesquisa" placeholder="O que você procura?"></input>
+        
+        <section class="banner flex">
+            <small>JOGOS EM TEMPO REAL</small>
+            <h1>Aqui você tem a Semadec de um jeito que <br> você nunca viu: na palma da sua mão e do seu jeito.</h1>
+            <div class="flex">
+                <a>Assista os jogos</a>
+                <img src="interface2-banner/Imagens/btn.svg" alt="">
+            </div>
+        </section>
+        
+        <div class="grupo-card-1 flex">
+            <section class="card-1 flex">
+                <img src="interface3-card1/Imagens/notification-white.svg" alt="">
+                <div class="curso flex alinhar-esquerda">
+                    <strong class="azul alinhar-esquerda">Informática</strong>
+                    <div class="preto alinhar-esquerda">Agenda</div>
+                </div>
+                <div class="pontos flex centralizar">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </section>
+            
+            <section class="card-1 flex">
+                <img class="azul-palido" src="interface3-card1/Imagens/notification-blue.svg" alt="">
+                <div class="curso flex alinhar-esquerda">
+                    <strong class="cinza alinhar-esquerda">Comércio</strong>
+                    <div class="cinza peso400 alinhar-esquerda">Agenda</div>
+                </div>
+                <div class="pontos flex centralizar">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </section>
+            
+            <section class="card-1 flex">
+                <img class="azul-palido" src="interface3-card1/Imagens/notification-blue.svg" alt="">
+                <div class="curso flex alinhar-esquerda">
+                    <strong class="cinza alinhar-esquerda">Eletrônica</strong>
+                    <div class="cinza peso400 alinhar-esquerda">Agenda</div>
+                </div>
+                <div class="pontos flex centralizar">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </section>
+        </div>
+        
+        <div class="grupo-card-2 flex alinhar-coluna">
+            <div class="flex alinhar-extremidades">
+                <h1>Novidades para você</h1>
+                <div class="setas flex">
+                    <img class="seta" src="interface4-card2/Imagens/arrow-left.svg" alt="">
+                    <img class="seta" src="interface4-card2/Imagens/arrow-right.svg" alt="">
+                </div>
+            </div>
+            <div class="cards flex">
+                <section class="card-2 flex">
+                    <figure>
+                        <img class="coracao" src="interface4-card2/Imagens/heart.svg" alt="">
+                        <img class="info" src="interface4-card2/Imagens/natacao.png" alt="">
+                    </figure>
+                    <small class="flex alinhar-vertical">APRESENTAÇÃO</small>
+                    <h1>Apresentação das aberturas dos cursos</h1>
+                    <div class="total">
+                        <div class="azul"></div>
+                    </div>
+                </section>
+                
+                <section class="card-2 flex">
+                    <figure>
+                        <img class="coracao" src="interface4-card2/Imagens/heart.svg" alt="">
+                        <img class="info" src="interface4-card2/Imagens/torcida.svg" alt="">
+                    </figure>
+                    <small class="flex alinhar-vertical">APRESENTAÇÃO</small>
+                    <h1>A alcateia não torce. A alcateia inspira, contagia!</h1>
+                    <div class="total">
+                        <div class="azul"></div>
+                    </div>
+                </section>
+    
+                <section class="card-2 flex">
+                    <figure>
+                        <img class="coracao" src="interface4-card2/Imagens/heart.svg" alt="">
+                        <img class="info" src="interface4-card2/Imagens/basquete.png" alt="">
+                    </figure>
+                    <small class="flex alinhar-vertical">ESPORTE</small>
+                    <h1>Basquete masculino é de Informática.</h1>
+                    <div class="total">
+                        <div class="azul"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <div class="table-jogos">
+            <div class="flex alinhar-extremidades alinhar-vertical">
+                <h1>Jogos de seu interesse</h1>
+                <a href="">Ver tudo</a>
+            </div>
+            <table>
+                <thead>
+                    <tr class="thead">
+                        <th class="jogo">JOGO</th>
+                        <th class="esporte">ESPORTE</th>
+                        <th class="placar">PLACAR</th>
+                        <th class="acoes">AÇÕES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="jogos-conteudo">
+                        <td class="flex jogo">
+                            <img src="atividadeflex6/Imagens/imagem-jogos.svg" alt="">
+                            <div class="flex jogos-dados alinhar-coluna">
+                                <strong>Informática x Eletro</strong>
+                                <div>Ginásio | 22/12 | 15:00</div>
+                            </div>
+                        </td>
+                        <td><span class="tag">BASQUETE - MASC</span></td>
+                        <td>123 X 0</td>
+                        <td><a class="tag">DETALHES</a></td>
+                    </tr>
+                    <tr class="jogos-conteudo">
+                        <td class="flex jogo">
+                            <img src="atividadeflex6/Imagens/imagem-jogos.svg" alt="">
+                            <div class="jogos-dados flex alinhar-coluna">
+                                <strong>Informática x Eletro</strong>
+                                <div>Ginásio | 22/12 | 15:00</div>
+                            </div>
+                        </td>
+                        <td><span class="tag">BASQUETE - MASC</span></td>
+                        <td>2 x 5</td>
+                        <td><a class="tag">DETALHES</a></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
-
-    <div class="grupo-card-1 flex">
-        <section class="card-1 flex">
-            <img src="interface3-card1/Imagens/notification-white.svg" alt="">
-            <div class="curso flex alinhar-esquerda">
-                <strong class="azul alinhar-esquerda">Informática</strong>
-                <div class="preto alinhar-esquerda">Agenda</div>
-            </div>
-            <div class="pontos flex centralizar">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
-        </section>
-
-        <section class="card-1 flex">
-            <img class="azul-palido" src="interface3-card1/Imagens/notification-blue.svg" alt="">
-            <div class="curso flex alinhar-esquerda">
-                <strong class="cinza alinhar-esquerda">Comércio</strong>
-                <div class="cinza peso400 alinhar-esquerda">Agenda</div>
-            </div>
-            <div class="pontos flex centralizar">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
-        </section>
-
-        <section class="card-1 flex">
-            <img class="azul-palido" src="interface3-card1/Imagens/notification-blue.svg" alt="">
-            <div class="curso flex alinhar-esquerda">
-                <strong class="cinza alinhar-esquerda">Eletrônica</strong>
-                <div class="cinza peso400 alinhar-esquerda">Agenda</div>
-            </div>
-            <div class="pontos flex centralizar">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
-        </section>
-    </div>
-
-    <div class="grupo-card-2 flex">
-        <section class="card-2 flex">
-            <figure>
-                <img class="coracao" src="interface4-card2/Imagens/heart.svg" alt="">
-                <img class="info" src="interface4-card2/Imagens/natacao.png" alt="">
-            </figure>
-            <small class="flex alinhar-vertical">APRESENTAÇÃO</small>
-            <h1>Apresentação das aberturas dos cursos</h1>
-            <div class="total">
-                <div class="azul"></div>
-            </div>
-        </section>
-
-        <section class="card-2 flex">
-            <figure>
-                <img class="coracao" src="interface4-card2/Imagens/heart.svg" alt="">
-                <img class="info" src="interface4-card2/Imagens/torcida.svg" alt="">
-            </figure>
-            <small class="flex alinhar-vertical">APRESENTAÇÃO</small>
-            <h1>A alcateia não torce. A alcateia inspira, contagia!</h1>
-            <div class="total">
-                <div class="azul"></div>
-            </div>
-        </section>
-
-        <section class="card-2 flex">
-            <figure>
-                <img class="coracao" src="interface4-card2/Imagens/heart.svg" alt="">
-                <img class="info" src="interface4-card2/Imagens/basquete.png" alt="">
-            </figure>
-            <small class="flex alinhar-vertical">ESPORTE</small>
-            <h1>Basquete masculino é de Informática.</h1>
-            <div class="total">
-                <div class="azul"></div>
-            </div>
-        </section>
-    </div>
-
-    <div class="table-jogos flex">
-        <h1 class="flex">Jogos de seu interesse <a href="">Ver tudo</a></h1>
-        <table>
-            <thead>
-                <tr class="flex">
-                    <th class="jogo">JOGO</th>
-                    <th class="esporte">ESPORTE</th>
-                    <th class="placar">PLACAR</th>
-                    <th class="acoes">AÇÕES</th>
-                </tr>
-            </thead>
-            <tbody class="flex">
-                <tr class="flex alinhar-vertical">
-                    <td class="flex jogo">
-                        <img src="atividadeflex6/Imagens/imagem-jogos.svg" alt="">
-                        <div class="jogos-dados flex alinhar-esquerda">
-                            <strong>Informática x Eletro</strong>
-                            <div>Ginásio | 22/12 | 15:00</div>
-                        </div>
-                    </td>
-                    <td class="flex esporte-dados centralizar">BASQUETE - MASC</td>
-                    <td class="placar-dados">123 X 0</td>
-                    <td class="detalhes">DETALHES</td>
-                </tr>
-                <tr class="flex alinhar-vertical">
-                    <td class="flex jogo">
-                        <img src="atividadeflex6/Imagens/imagem-jogos.svg" alt="">
-                        <div class="jogos-dados flex alinhar-esquerda">
-                            <strong>Informática x Eletro</strong>
-                            <div>Ginásio | 22/12 | 15:00</div>
-                        </div>
-                    </td>
-                    <td class="esporte-dados flex centralizar">BASQUETE - MASC</td>
-                    <td class="placar-dados">2 x 5</td>
-                    <td class="detalhes flex centralizar">DETALHES</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
 
 </body>
 </html>

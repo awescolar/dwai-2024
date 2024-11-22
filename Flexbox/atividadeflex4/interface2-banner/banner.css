@@ -32,7 +32,7 @@
 .banner h1 {
     font-size: 24px;
     font-weight: 600;
-    margin-right: 210px;
+    margin: 16px 210px 16px 0;
 }
 
 .banner div img {

@@ -1,15 +1,17 @@
-.table-jogos {
-    flex-direction: column;
-    gap: 20px;
-    height: 217px;
-    width: 840px;
+.table-jogos{
+    width: 100%;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: 20px;
 }
 
 .table-jogos h1 {
     color: #202020;
     font-size: 16px;
     font-weight: 500;
-    gap: 608px;
     margin: 0;
 }
 
@@ -17,63 +19,55 @@
     color: #2667BF;
     font-size: 14px;
     font-weight: 400;
-    text-align: right;
 }
 
 .table-jogos table {
     background: #FFFFFF;
     border-radius: 6px;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
-    flex-direction: column;
     padding: 20px 24px;
+    width: 100%;
 }
 
 .table-jogos table thead tr th {
     color: #3F3F3F;
     font-size: 12px;
     font-weight: 600;
-    width: 100%;
 }
 
 .table-jogos tbody tr, 
 .table-jogos table thead tr {
-    gap: 56px;
     text-align: left;
     width: 100%;
 }
 
-.table-jogos tbody {
-    flex-direction: column;
-    gap: 24px;
+.table-jogos thead {
+    text-align: right;
 }
 
 .table-jogos tbody tr td img {
-    gap: 8px;
-    height: 27.024px;
-    width: 27.024px;
+    height: 27px;
+    width: 27px;
+    padding-right: 8px;
 }
 
-.table-jogos tbody tr .jogo {
-    flex-direction: column;
+.table-jogos tbody tr .jogo .jogos-dados div {
+    color: #5F5F5F;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: capitalize;
 }
 
-.table-jogos tbody tr .jogo .jogos-dados {
-    flex-direction: column;
-    gap: 4px;
-}
-
-.table-jogos tbody tr .esporte-dados,
-.table-jogos tbody tr .detalhes {
+.table-jogos .jogos-conteudo .tag {
     background: var(--Light-Opacity, rgba(191, 218, 255, 0.25));
     border-radius: 8px;
     color: #2F80ED;
     font-size: 10px;
-    height: 15px;
-    padding: 2px 12px;
+    height: 12px;
+    padding: 2px 10px;
 }
 
 .table-jogos tbody tr .placar-dados {
     font-size: 12px;
     text-align: center;
-} 
-
+}
