@@ -1,17 +1,9 @@
 .container-card2{
-    display: flexbox;
+    display: flex;
     gap: 20px;
     width: 1022px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-}
-    
-header a{
-   padding-left: 8px;
-}
 .card2{
     background-color: #fff;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
