@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="CSS/jogos-interesse.css">
 </head>
 <body>
-    <main class="container-principal flex ">
-                        <!-- component 1 - pesquisa -->
+    
+    <main class="container-principal flex  ">
+    <!-- component 1 - pesquisa -->
     <div class="flex">
         <input type="text" class="pesquisa" placeholder="O que você procura?">
     </div>
@@ -30,30 +31,85 @@
             </a>
     </section>
 
-    <!-- component 1 - card 1-->
-    <div class="card1">
-        <span></span>
-        <div>
-            <strong>Informática</strong>
-            <div>Agenda</div>
+    <!-- component 1 - group-card-1-->
+    <section class="group-card-1 flex">
+        <div class="card card1 flex ">
+            <img src="img/btn-sino-blue.png" alt="Sino">
+            <div class="flex alinhar-coluna">
+                <strong class="blue">Informática</strong>
+                <strong>Agenda</strong>
+            </div>
+            <a href="#"><img class="pontinhos" src="img/pontinhos.png" alt="More"></a>
         </div>
-        <a href="#">
 
-        </a>
-    </div>
- 
-    <!-- component 1 - card 2-->
-    <div class="card2">
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <span>Apresentação</span>
-        <p>Apresentação das aberturas dos cursos</p>
-        <div class="load">
-            <div class="load-bar"></div>
+        <div class="card flex ">
+            <img src="img/btn-sino-light.png" alt="Sino">
+            <div class="flex alinhar-coluna">
+                <strong class="gray">Comércio</strong>
+                <strong class="gray">Agenda</strong>
+            </div>
+            <a href="#"><img class="pontinhos" src="img/pontinhos.png" alt="More"></a>
         </div>
-    </div>
-    
+
+        <div class="card card3 flex">
+            <img src="img/btn-sino-light.png" alt="Sino">
+            <div class="flex alinhar-coluna ">
+                <strong class="gray">Eletrônica</strong>
+                <strong class="gray">Agenda</strong>
+            </div>
+            <a href="#"><img class="pontinhos" src="img/pontinhos.png" alt="More"></a>
+        </div>
+    </section>
+ 
+    <!-- component 1 - group-card-2-->
+    <section class="grupo-card-2 ">
+        <div class="flex alinhar-v-center alinhar-h-space">
+            <h2>Novidades pra você</h2>
+            <div class="setas">
+                <a href="#"><img src="img/btn-left.png" alt=""></a>
+                <a href="#"><img src="img/btn-right.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="flex gap-1">
+            <div class="card2 c1 flex ">
+                <figure>
+                    <img src="img/btn-heart.png" alt="" class="heart">
+                    <img src="img/img1.png" alt="">
+                    <div class="tag1">APRESENTAÇÃO</div>
+                </figure>
+                <h3>Apresentação das aberturas dos cursos</h3>
+                <div class="progress">
+                    <div class="barra"></div>
+                </div>
+            </div>
+
+            <div class="card2 c2 flex ">
+                <figure>
+                    <img src="img/btn-heart.png" alt="" class="heart">
+                    <img src="img/img2.png" alt="">
+                    <div class="tag1">APRESENTAÇÃO</div>
+                </figure>
+                <h3>A alcateia não torce. A alcateia inspira, contagia!</h3>
+                <div class="progress">
+                    <div class="barra"></div>
+                </div>
+            </div>
+
+            <div class="card2 c3 flex ">
+                <figure>
+                    <img src="img/btn-heart.png" alt="" class="heart">
+                    <img src="img/img3.png" alt="">
+                    <div class="tag1">APRESENTAÇÃO</div>
+                </figure>
+                <h3>Basquete masculino é de informática.</h3>
+                <div class="progress">
+                    <div class="barra"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- tabela de jogos -->
     <section class="jogos-interesse"> 
          <div class="header flex alinhar-v-center alinhar-h-space">

@@ -7,9 +7,10 @@ body{
 }
 
 .container-principal{
-    padding: 32px;
+    padding: 20px 64px 20px 64px;
     gap: 24px;
     flex-direction: column;
+    width: 835px;
     
 }
 
@@ -27,4 +28,9 @@ body{
 
 .alinhar-coluna{
     flex-direction: column;
+}
+
+.centralizar{
+    justify-content: center;
+    align-items: center;
 }

@@ -1,0 +1,51 @@
+
+.card2 {
+    background-color: #fff;
+    padding: 12px;
+    flex-direction: column;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    
+    border-radius: 20px;
+    width: 246px;
+    height: 230px;
+}
+
+.heart{
+    position: absolute;
+    left:220px ;
+}
+
+.card2 figure {
+    position: relative;
+    margin: 0;
+}
+.tag1{
+    background-color: #BFDAFF40;
+    color: #2667BF;
+    font-size: 9px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.progress {
+    background-color: #D9D9D9;
+    width: 244px;
+    height: 6px;
+    border-radius: 20px;
+}
+
+.barra {
+    background-color: #2667BF;
+    width: 122px;
+    height: 6px;
+    border-radius: 20px;    
+}
+.c1{
+    margin-right: 18px;
+}
+
+.c3{
+    margin-left: 18px;
+}
