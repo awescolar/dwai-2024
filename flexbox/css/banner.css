@@ -1,0 +1,52 @@
+section.banner {
+    background-color: #2a7bf6; 
+    color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    width: 80%; 
+    margin: 20px auto; 
+  }
+  
+  section.banner small {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #e5e5e5;
+  }
+  
+  section.banner h1 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  section.banner a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff; 
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px; 
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  section.banner a span {
+    display: inline-block;
+    margin-left: 10px; 
+    position: relative;
+  }
+
+  section.banner img{
+   
+  }
+  
+  

@@ -2,21 +2,160 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>atividade flex</title>
-
-    <link rel="stylesheet" href=".pesquisa.css" >
-
+    <title>Components</title>
+    <link rel="stylesheet" href="css/pesquisa.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/card1.css">
+    <link rel="stylesheet" href="css/card2.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/tabela.css">
+    <link rel="stylesheet" href="css/jogos.css">
 </head>
-<body>
+<body class="flex centralizar coluna inter">
 
-    <div class="container-pesquisa">
-        
-        <div class="caixa-pesquisa">
-          <input type="text" id="pesquisa" placeholder="O que você procura?" />
+    <img class="lupa" src="imagens-flex/search-normal.png" alt="imagem de lupa">
+
+    <input type="text" class="pesquisa" placeholder="O que você procura?"/>
+
+    <section class="banner centralizar-ver">
+        <img src="imagens-flex/bg-banner.png"/>
+        <small>jogos em tempo real</small>
+        <h1>Aqui você tem a Semadec de um jeito que 
+            você nunca viu: na palma da sua mão e do seu jeito.</h1>
+            <a href="#" class="flex centralizar-vertical">
+                Assista os jogos 
+                <span>
+                  <img src="imagens-flex/btn.png"/>
+                </span>
+            </a>
+          
+    </section>
+
+    <div class="flex espacamento-1">
+        <div class="card1 alinhar-extremidades flex centralizar-vertical">
+            <span></span>
+            <div class="flex coluna">
+                <strong>Informática</strong>
+                <div>Agenda</div>
+            </div>
+            <a href="#">
+
+            </a>
+        </div>
+        <div class="card1 alinhar-extremidades flex centralizar-vertical">
+            <span class="sino"></span>
+            <div class="flex coluna">
+                <strong class="cinza">Comércio</strong>
+                <div>Agenda</div>
+            </div>
+            <a href="#">
+
+            </a>
+        </div>
+        <div class="card1 alinhar-extremidades flex centralizar-vertical margin">
+            <span class="sino"></span>
+            <div class="flex coluna">
+                <strong class="cinza">Eletrónica</strong>
+                <div>Agenda</div>
+            </div>
+            <a href="#">
+
+            </a>
+        </div>
+    </div>
+
+    <section class="flex">
+        <div class="card2 flex coluna centrlaizar-horizontal">
+            <figure class="centrlaizar-horizontal">
+                <img src="imagens/info.png" alt="" class="centrlaizar-horizontal"> <small></small>
+            </figure>
+            <span class="coluna centrlaizar-horizontal">Apresentação</span>
+            <p>Apresentação das aberturas dos cursos</p>
+            <div class="load">
+                <div class="load-bar"></div>
+            </div>
+        </div>
+        <div class="card2 flex coluna centrlaizar-horizontal">
+            <figure class="centrlaizar-horizontal">
+                <img src="imagens/torcida.png" alt="" class="centrlaizar-horizontal"> <small></small>
+            </figure>
+            <span class="coluna centrlaizar-horizontal">Apresentação</span>
+            <p>A alcateia não torce. A alcateia inspira, contagia!</p>
+            <div class="load">
+                <div class="load-bar"></div>
+            </div>
+        </div>
+        <div class="card2 flex coluna centrlaizar-horizontal">
+            <figure class="centrlaizar-horizontal">
+                <img src="imagens/basquete.png" alt="" class="centrlaizar-horizontal"> <small></small>
+            </figure>
+            <span class="coluna centrlaizar-horizonta">Esporte</span>
+            <p>Basquete masculino é de informática.</p>
+            <div class="load">
+                <div class="load-bar"></div>
+            </div>
+        </div>
+    </section>
+    <section class="jogos-interesse">
+        <div class="header flex centralizar-vertical alinhar-extremidades">
+            <h2>Jogos do seu interesse</h2>
+            <a href="#">Ver tudo</a>
+        </div>
+        <div class="container-jogos">
+            <table class="jogos">
+                <tr class="jogos-title">
+                    <th>JOGO</th>
+                    <th>ESPORTE</th>
+                    <th>PLACAR</th>
+                    <th>AÇÕES</th>
+                </tr>
+                <tr class="conteudo">
+                    <td>
+                        <div class="jogo flex">
+                            <img src="imagens/img-jogo.png" alt="">
+                            <div class="flex coluna">
+                                <strong>Informática X Eletro</strong>
+                                <span>Ginásio | 22/12 | 15:00</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="tag">FUTSAL - MASC</span>
+                    </td>
+                    <td>
+                        3 x 0
+                    </td>
+                    <td>
+                        <a href="#" class="tag">DETALHES</a>
+                    </td>
+                </tr>
+                <tr class="conteudo">
+                    <td>
+                        <div class="jogo flex">
+                            <div>
+                                <img src="imagens/img-jogo.png" alt="">
+                            </div>
+                            <div class="flex coluna">
+                                <strong>Informática X Eletro</strong>
+                                <span>Ginásio | 22/12 | 15:00</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="tag">FUTSAL - MASC</span>
+                    </td>
+                    <td>
+                        2 x 5
+                    </td>
+                    <td>
+                        <a href="#" class="tag">DETALHES</a>
+                    </td>
+                </tr>
+            </table>
         </div>
         
-    </div>
-    
+    </section>
 </body>
 </html>

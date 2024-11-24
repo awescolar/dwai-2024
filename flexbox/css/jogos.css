@@ -1,0 +1,11 @@
+.jogos-interesse{}
+.jogos-interesse .header{}
+.jogos-interesse .jogos{
+    width: 100%;
+}
+.jogos-interesse .jogos .jogo-title{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.jogos-interesse .jogo .conteudo{
+}
