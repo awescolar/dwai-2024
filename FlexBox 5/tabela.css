@@ -1,12 +1,12 @@
-
 .container-jogos {
     margin-top: 20px;
     padding: 20px 22px;
-    height: 178px;
-    background-color: #fff;
+    height: 150px;
+    background: #fff;
     border-radius: 8px;
-    box-shadow: 0 14px 42px 0px rgba(8, 15, 52, 0.06);
+    box-shadow: 0 14px 42px rgba(8, 15, 52, 0.06);
 }
+
 .header {
     width: 840px;
     height: 19px;
@@ -15,18 +15,52 @@
     align-items: center;
     margin-bottom: -12px;
 }
-.header a {
-    font-size: 14px;
-    font-weight: 500;
-    color: #2667BF;
+
+.header h2 { font-size: 18px; font-weight: 400;}
+
+ .detalhes-botao, .esporte-tag {
+    font-size: 10px;
+    color: #007bff;
+    text-decoration: none;
+    background: #BFDAFF40;
+    padding: 6px;
+    border-radius: 8px;
 }
+.header a{
+    font-size: 14px;
+    color: #007bff;
+    float: right;
+    font-weight: 500;
+}
+
 .tabela-jogos {
     width: 840px;
     margin-top: 20px;
+    border-collapse: collapse;
 }
+
 .tabela-jogos th, .tabela-jogos td {
     text-align: left;
     font-size: 14px;
     color: #333;
+    padding: 5px 0;
+}
+.jogo{
+    display: flex;
+    align-items: center;
+}
+.jogo span {
+    font-size: 11px;
+    display: block;
+    color: #5F5F5F;
+}
+
+.jogo-info div { display: flex; flex-direction: column; }
+
+.jogo img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
