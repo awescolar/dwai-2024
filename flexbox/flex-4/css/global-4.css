@@ -22,6 +22,32 @@ body {
 .container {
     max-width: 1200px;
 }
+.alinhar-extremidades {
+    justify-content: space-between;
+}
 .arredondar-borda {
     border-radius: 8px;
+}
+.coluna {
+    flex-direction: column;
+}
+
+.gap {
+    gap: 24px;
+} 
+.gap-1 {
+    gap: 18px;
+}
+
+.cinza {
+    color: #5F5F5F;
+}
+
+.azul {
+    color: #2667BF;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
 }
