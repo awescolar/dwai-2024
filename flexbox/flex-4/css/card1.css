@@ -6,7 +6,6 @@
     border-radius: 8px;
 }
 .card div:nth-child(1){
-    color: #2F80ED;
     font-size: 12px;
     font-weight: 700;
 }
@@ -36,4 +35,16 @@
 .card .azul-claro{
     background-color: #BFDAFF40;
 }
-
+.card .cinza{
+    color: #5F5F5F;
+}
+.card .blue{
+    color: #2667BF;
+}
+.card .negrito{
+    font-weight: 600;
+}
+.grupo-card-1 {
+    gap:13px;
+    flex: 1 0 0;
+}
