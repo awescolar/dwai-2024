@@ -2,7 +2,7 @@
 
 body{
     font-family: "Inter", serif;
-    background-color: #F5F5F5;
+    background-color: #fff;
     
 }
 
@@ -11,7 +11,7 @@ body{
     gap: 24px;
     flex-direction: column;
     width: 835px;
-    
+    background-color: #F5F5F5
 }
 
 .flex{

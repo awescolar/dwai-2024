@@ -13,12 +13,14 @@
 .heart{
     position: absolute;
     left:220px ;
+    padding-right: 3px;
 }
 
 .card2 figure {
     position: relative;
     margin: 0;
 }
+
 .tag1{
     background-color: #BFDAFF40;
     color: #2667BF;
