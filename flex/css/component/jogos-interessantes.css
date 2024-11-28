@@ -1,5 +1,7 @@
 .jogos-interesse{
-    width: 840px;
+    min-width: 880px;
+    background-color: white;
+    border-radius: 20px;
 }
 .jogos-interesse .header{
 
