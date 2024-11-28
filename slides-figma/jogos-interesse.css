@@ -8,6 +8,13 @@
 
 }
 
+.jogos-interesse .container-jogos{
+    border-radius: 6px;
+    background: #fff;
+    padding: 20px 40px;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+}
+
 .jogos-interesse .jogos{
     width: 100%;
 }
@@ -20,7 +27,9 @@
      
 }
 
-.jogos-interesse .jogos .jogo{}
+.jogos-interesse .jogos .jogo{
+
+}
 
 .jogos-interesse .jogos .tag{
     font-size: 12px;
