@@ -26,3 +26,5 @@ body {
 .arredondar-borda {
     border-radius: 20px;
 }
+.sidebar.left{}
+.sidebar.rigth{}
