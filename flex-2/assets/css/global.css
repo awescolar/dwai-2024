@@ -12,7 +12,7 @@ body{
     font-family: 'Inter', sans-serif;
     background-color: hsl(0, 0%, 95%);
 
-    max-width: 1300px;
+    max-width: 60%;
 
 }
 
@@ -35,6 +35,14 @@ body{
 .space-around{
     justify-content: space-around;
 
+}
+
+.inline-block{
+    display:inline-block;
+}
+
+.block {
+    display: block;
 }
 
 .grupo-card-1{
@@ -77,66 +85,6 @@ section{
     width:100%;
 }
 
-.col{
-    display:flex;
-    flex:1;
-
-    align-items: center;
-    justify-content: center;
-
-    gap:20px
-}
-
-.col:nth-child(even) p{
-    font-weight:400;
-    color:#2F80ED;
-    background-color: rgba(191, 218, 255, 0.25);
-    padding:10px;
-    border-radius: 20px;
-
-}
-
 .header-eventos{
     width:100%;
-}
-
-.final-section header .col:nth-child(even){
-    font-weight:400;
-    color:black;
-    background-color: white;
-
-}
-
-.final-section header .col:first-child{
-    flex-direction:row;
-    align-items:flex-start;
-
-}
-
-
-
-.final-section{
-    background-color: white;
-
-    padding-top: 30px;
-    padding-bottom:30px;
-    margin-bottom: 30px;
-
-    border-radius: 20px;
-    justify-content: space-between;
-    
-    gap:50px;
-    width: 100%;
-
-}
-
-.final-section .col .background-img{
-    height:38px;
-    width:40px;
-
-    background-image: url('../img/esporte.jpg');
-    background-repeat:no-repeat;
-    background-size:100%;
-
-    border-radius:100%;
 }

@@ -1,18 +1,17 @@
 .banner{
     box-sizing:border-box;
     position:relative;
-    height: 330px;
+    height: 180px;
     width: 100%;
 
-    padding: 60px 40px;
+    padding: 40px 30px; 
 
     background: #2f80ed;
     background-image: url('../img/background.svg');
     background-repeat: no-repeat;
-    background-position-x: 98%;
-    background-position-y: 0px;
-    background-size: 400px;
-
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-size: 32%;
     border-radius:40px;
     color: white;
 
@@ -20,36 +19,36 @@
 }
 
 .banner small {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 400;
     text-transform: uppercase;
 
 }
 
 .banner h1{
-    font-size: 35px;
+    font-size: 15px;
     font-weight: 500;
-    width:830px;
+    width:70%;
 
 }
 
 .banner a{
     text-decoration:none;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
 
     background-color: black;
-    padding: 15px 20px;
+    padding: 10px 20px;
 
-    border-radius: 40px;;
+    border-radius: 40px;
 
 }
 
 .banner a img{
-    height: 30px;
+    height: 20px;
     position:relative;
     top:4%;
     
-    margin-left: 12px;
+    margin-left: 20px;
 
 }
