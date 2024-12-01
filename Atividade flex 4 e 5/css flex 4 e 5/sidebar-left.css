@@ -1,0 +1,161 @@
+.sidebarleft {
+    width: 240px;
+    padding: 32px;
+    background:  #FFF;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    
+}
+.sectiontop {
+    display: flex;
+    width: 146px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+.Principal {
+    flex: 1 0 0;
+    color: #3F3F3F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+.menu ul li{
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    margin-left: -20px;
+}
+.menu ul li a{
+    text-decoration: 0;
+    margin-left: -5px;
+}
+
+.menu ul li a{
+    color: #000000;
+}
+.trocarcor:hover a{
+    color: #2F80ED;
+    font-weight: 700;
+}
+.menu .icon1{
+    background-image: url(../img/home2.png);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding: 10px;
+    margin-left: -20px;
+}
+.trocarcor:hover .icon1{
+    background-image: url(../img/home.svg);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding: 10px;
+    margin-left: -20px;
+}
+.menu .icon2{
+    background-image: url(../img/noti.svg);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding: 10px;
+    margin-left: -20px;
+}
+.trocarcor:hover .icon2{
+    background-image: url(../img/noti2.png);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding: 10px;
+    margin-left: -20px;
+}
+.menu .icon3{
+    background-image: url(../img/esporte.svg);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding: 10px;
+    margin-left: -20px;
+}
+.trocarcor:hover .icon3{
+    background-image: url(../img/esporte2.png);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding: 10px;
+    margin-left: -20px;
+}
+.menu .icon4{
+    background-image: url(../img/tarefa.svg);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding: 10px;
+    margin-left: -20px;
+}
+.trocarcor:hover .icon4{
+    background-image: url(../img/tarefa2.png);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding: 10px;
+    margin-left: -20px;
+}
+.menu .icon5{
+    background-image: url(../img/cursos.svg);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding: 10px;
+    margin-left: -20px;
+}
+.trocarcor:hover .icon5{
+    background-image: url(../img/curso.png);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding: 10px;
+    margin-left: -20px;
+}
+
+.seus-amigos{
+    color: #3F3F3F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+}
+.Frame-16{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 15px;
+}
+.Esporte{
+    color: var(--color-gray-100, #202020);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    align-self: stretch;
+}
+.Local-hora{
+    color: #7E7E7E;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    align-self: stretch;
+}
+.prashant-502-2{
+    background-image: url(../img/daniel.png);
+    background-repeat: no-repeat;
+}

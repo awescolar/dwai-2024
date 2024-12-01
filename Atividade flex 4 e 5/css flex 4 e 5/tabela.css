@@ -109,9 +109,6 @@ section{
     margin-left: 135px;
     width: 320px;
 }
-.equipes td:nth-child(2){
-    
-}
 .equipes td:nth-child(3){
     margin-left: 75px;
     flex: 1 0 0;
