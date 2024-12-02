@@ -12,166 +12,277 @@
     <link rel="stylesheet" href="grupo-card-2.css">
     <link rel="stylesheet" href="tabela.css">
     <link rel="stylesheet" href="container5.css">
+    <link rel="stylesheet" href="intfinal.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="container">
-        <input type="text" class="pesquisa" placeholder="O que você procura?">
-
-        <section class="banner branco">
-            <small>JOGOS EM TEMPO REAL</small>
-            <h1>Aqui você tem a Semadec de um jeito que você nunca viu: na palma da sua mão e do seu jeito!</h1>
-            <a href="#" class="botao-assistir">Assista os jogos</a>
-        </section>
-
-        <div class="cards-categorias">
-            <div class="card card-informatica">
-                <div class="icon-container">
-                    <img src="/dwai-2024/FlexBox 5/img/sino.svg" alt="sino" class="icon">
-                </div>
-                <div class="text-container">
-                    <strong class="title" style="color: #3366FF;">Informática</strong>
-                    <div class="subtitle">Agenda</div>
-                </div>
-                <img src="/dwai-2024/FlexBox 5/img/pontinhos.jpg" alt="Ícone de opções" class="options-icon">
+    <div class="layout">
+        <!-- Sidebar Esquerda -->
+        <aside class="sidebar">
+     <img src="/dwai-2024/FlexBox 7/img/semadec.png" alt="Semadec">
+     <h2>PRINCIPAL</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li> <img src="/dwai-2024/FlexBox 7/img/casinha.png" alt="">
+                    <li><a href="#">Mensagens</a></li> <img src="/dwai-2024/FlexBox 7/img/caixinha.png" alt="">
+                    <li><a href="#">Esportes</a></li> <img src="/dwai-2024/FlexBox 7/img/esporicon.png" alt="">
+                    <li><a href="#">Tarefas</a></li> <img src="/dwai-2024/FlexBox 7/img/tarefasicon.png" alt="">
+                    <li><a href="#">Cursos</a></li> <img src="/dwai-2024/FlexBox 7/img/circulo.png" alt="">
+                </ul>
+            </nav>
+            <div class="friends">
+                <h4>Seus Amigos</h4>
+                <ul>
+                    <li>Daniel Souza - Informática</li> <img src="/dwai-2024/FlexBox 7/img/carinha1.png" alt="">
+                    <li>Dani Cruz - Informática</li> <img src="/dwai-2024/FlexBox 7/img/carinha2.png" alt="">
+                    <li>Lud Félix - Info Web</li> <img src="/dwai-2024/FlexBox 7/img/carinha3.png" alt="">
+                </ul>
             </div>
+            <footer>
+                <ul>
+                    <li><a href="#">Configurações</a></li>
+                    <li><a href="#">Sair</a></li>
+                </ul>
+            </footer>
+        </aside>
 
-            <div class="card card-comercio">
-                <div class="icon-container">
-                    <img src="/dwai-2024/organizaçãocss/img/sino.svg" alt="sino" class="icon">
-                </div>
-                <div class="text-container">
-                    <strong>Comércio</strong>
-                    <div class="subtitle">Agenda</div>
-                </div>
-                <img src="/dwai-2024/FlexBox 5/img/pontinhos.jpg" alt="Ícone de opções" class="options-icon">
-            </div>
+        <main class="container">
+            <input type="text" class="pesquisa" placeholder="O que você procura?">
 
-            <div class="card card-eletronica">
-                <div class="icon-container">
-                    <img src="/dwai-2024/organizaçãocss/img/sino.svg" alt="sino" class="icon">
-                </div>
-                <div class="text-container">
-                    <strong>Eletrônica</strong>
-                    <div class="subtitle">Agenda</div>
-                </div>
-                <img src="/dwai-2024/organizaçãocss/img/pontinhos.jpg" alt="Ícone de opções" class="options-icon">
-            </div>
-        </div>
+            <section class="banner branco">
+                <small>JOGOS EM TEMPO REAL</small>
+                <h1>Aqui você tem a Semadec de um jeito que você nunca viu: na palma da sua mão e do seu jeito!</h1>
+                <a href="#" class="botao-assistir">Assista os jogos</a>
+            </section>
 
-        <!-- Cards de Notícias -->
-        <div class="header">
-            <h2>Novidades pra você</h2>
-            <img src="/dwai-2024/FlexBox 5/img/botoes.png" alt="Botões">
-        </div>
-        <div class="container-cards">
-            <div class="card-2">
-                <figure>
-                    <img src="/dwai-2024/FlexBox 5/img/meninas.png" alt="meninas">
-                    <div class="circle"></div> 
-                    <button>
-                        <img src="/dwai-2024/FlexBox 5/img/heart.png" alt="coração">
-                    </button>
-                </figure>
-                <span>APRESENTAÇÃO</span>
-                <h3>Apresentação das aberturas dos cursos</h3>
-                <div class="load">
-                    <div class="load-bar"></div>
+            <div class="cards-categorias">
+                <div class="card card-informatica">
+                    <div class="icon-container">
+                        <img src="/dwai-2024/FlexBox 7/img/sino.svg" alt="sino" class="icon">
+                    </div>
+                    <div class="text-container">
+                        <strong class="title" style="color: #3366FF;">Informática</strong>
+                        <div class="subtitle">Agenda</div>
+                    </div>
+                    <img src="/dwai-2024/FlexBox 7/img/pontinhos.jpg" alt="Ícone de opções" class="options-icon">
                 </div>
-            </div>
 
-            <div class="card-2">
-                <figure>
-                    <img src="/dwai-2024/FlexBox 5/img/torcida.png" alt="torcida">
-                    <div class="circle"></div> 
-                    <button>
-                        <img src="/dwai-2024/FlexBox 5/img/heart.png" alt="coração">
-                    </button>
-                </figure>
-                <span>APRESENTAÇÃO</span>
-                <h3>A alcatéia não torce. A alcatéia inspira, contagia!</h3>
-                <div class="load">
-                    <div class="load-bar"></div>
+                <div class="card card-comercio">
+                    <div class="icon-container">
+                        <img src="/dwai-2024/organizaçãocss/img/sino.svg" alt="sino" class="icon">
+                    </div>
+                    <div class="text-container">
+                        <strong>Comércio</strong>
+                        <div class="subtitle">Agenda</div>
+                    </div>
+                    <img src="/dwai-2024/FlexBox 7/img/pontinhos.jpg" alt="Ícone de opções" class="options-icon">
+                </div>
+
+                <div class="card card-eletronica">
+                    <div class="icon-container">
+                        <img src="/dwai-2024/organizaçãocss/img/sino.svg" alt="sino" class="icon">
+                    </div>
+                    <div class="text-container">
+                        <strong>Eletrônica</strong>
+                        <div class="subtitle">Agenda</div>
+                    </div>
+                    <img src="/dwai-2024/FlexBox 7/img/pontinhos.jpg" alt="Ícone de opções" class="options-icon">
                 </div>
             </div>
 
-            <div class="card-2">
-                <figure>
-                    <img src="/dwai-2024/FlexBox 5/img/basquete.png" alt="Basquete">
-                    <div class="circle"></div>
-                    <button>
-                        <img src="/dwai-2024/FlexBox 5/img/heart.png" alt="coração">
-                    </button>
-                </figure>
-                <span>ESPORTE</span>
-                <h3>Basquete masculino é de informática.</h3>
-                <div class="load">
-                    <div class="load-bar"></div>
+            <!-- Cards de Notícias -->
+            <div class="header">
+                <h2>Novidades pra você</h2>
+                <img src="/dwai-2024/FlexBox 7/img/botoes.png" alt="Botões">
+            </div>
+            <div class="container-cards">
+                <div class="card-2">
+                    <figure>
+                        <img src="/dwai-2024/FlexBox 7/img/meninas.png" alt="meninas">
+                        <div class="circle"></div> 
+                        <button>
+                            <img src="/dwai-2024/FlexBox 7/img/heart.png" alt="coração">
+                        </button>
+                    </figure>
+                    <span>APRESENTAÇÃO</span>
+                    <h3>Apresentação das aberturas dos cursos</h3>
+                    <div class="load">
+                        <div class="load-bar"></div>
+                    </div>
+                </div>
+
+                <div class="card-2">
+                    <figure>
+                        <img src="/dwai-2024/FlexBox 7/img/torcida.png" alt="torcida">
+                        <div class="circle"></div> 
+                        <button>
+                            <img src="/dwai-2024/FlexBox 7/img/heart.png" alt="coração">
+                        </button>
+                    </figure>
+                    <span>APRESENTAÇÃO</span>
+                    <h3>A alcatéia não torce. A alcatéia inspira, contagia!</h3>
+                    <div class="load">
+                        <div class="load-bar"></div>
+                    </div>
+                </div>
+
+                <div class="card-2">
+                    <figure>
+                        <img src="/dwai-2024/FlexBox 7/img/basquete.png" alt="Basquete">
+                        <div class="circle"></div>
+                        <button>
+                            <img src="/dwai-2024/FlexBox 7/img/heart.png" alt="coração">
+                        </button>
+                    </figure>
+                    <span>ESPORTE</span>
+                    <h3>Basquete masculino é de informática.</h3>
+                    <div class="load">
+                        <div class="load-bar"></div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Parte dos Jogos -->
-        <div class="header">
-            <h2>Jogos do seu interesse</h2>
-            <a href="#" class="ver-tudo">Ver tudo</a>
-        </div>
-        
-        <div class="container-jogos">
-            <table class="tabela-jogos">
-                <thead>
-                    <tr>
-                        <th>Jogo</th>
-                        <th>Esporte</th>
-                        <th>Placar</th>
-                        <th>Ações</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <div class="jogo">
-                                <img src="/dwai-2024/FlexBox 5/img/fut.png" alt="" class="jogo-icon">
-                                <div>
-                                    <strong>Informática X Eletro</strong>
-                                    <span>Ginásio | 22/12 | 15:00</span>
+            <!-- Parte dos Jogos -->
+            <div class="header">
+                <h2>Jogos do seu interesse</h2>
+                <a href="#" class="ver-tudo">Ver tudo</a>
+            </div>
+
+            <div class="container-jogos">
+                <table class="tabela-jogos">
+                    <thead>
+                        <tr>
+                            <th>Jogo</th>
+                            <th>Esporte</th>
+                            <th>Placar</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="jogo">
+                                    <img src="/dwai-2024/FlexBox 7/img/fut.png" alt="" class="jogo-icon">
+                                    <div>
+                                        <strong>Informática X Eletro</strong>
+                                        <span>Ginásio | 22/12 | 15:00</span>
+                                    </div>
                                 </div>
-                            </div>
-                        </td>
-                        <td>
-                            <a href="#" class="esporte-tag">Basquete - Masc</a>
-                        </td>
-                        <td>123 X 0</td>
-                        <td>
-                            <a href="#" class="detalhes-botao">Detalhes</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="jogo">
-                                <img src="/dwai-2024/FlexBox 5/img/fut.png" alt="" class="jogo-icon">
-                                <div>
-                                    <strong>Informática X Eletro</strong>
-                                    <span>Ginásio | 22/12 | 15:00</span>
+                            </td>
+                            <td>
+                                <a href="#" class="esporte-tag">Basquete - Masc</a>
+                            </td>
+                            <td>123 X 0</td>
+                            <td>
+                                <a href="#" class="detalhes-botao">Detalhes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="jogo">
+                                    <img src="/dwai-2024/FlexBox 7/img/fut.png" alt="" class="jogo-icon">
+                                    <div>
+                                        <strong>Informática X Eletro</strong>
+                                        <span>Ginásio | 22/12 | 15:00</span>
+                                    </div>
                                 </div>
-                            </div>
-                        </td>
-                        <td>
-                            <a href="#" class="esporte-tag">Basquete - Masc</a>
-                        </td>
-                        <td>2 X 5</td>
-                        <td>
-                            <a href="#" class="detalhes-botao">Detalhes</a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <!-- Fim -->
+                            </td>
+                            <td>
+                                <a href="#" class="esporte-tag">Basquete - Masc</a>
+                            </td>
+                            <td>2 X 5</td>
+                            <td>
+                                <a href="#" class="detalhes-botao">Detalhes</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
 
+        <aside class="profile-sidebar">
+            <div class="profile-info">
+                
+                <img src="/dwai-2024/FlexBox 7/img/lobo.png" alt="Lobo Cibernético">
+                <h3>Olá, Lobo Cibernético</h3>
+                <p>A alcatéia está animada e os lobos estão com tudo.</p>
+            </div>
+            <div class="">
+                <h4>Parciais por dia</h4>
+                <aside class="profile-sidebar">
+                    <div class="profile-info">
+                        <img src="/dwai-2024/FlexBox 7/img/lobo.png" alt="Lobo Cibernético">
+                        <h3>Olá, Lobo Cibernético</h3>
+                        <p>A alcatéia está animada e os lobos estão com tudo.</p>
+                    </div>
+                
+                    <div>
+                        <h4>Parciais por dia</h4>
+                        <div class="chart">
+                            <img src="/dwai-2024/FlexBox 7/img/graficocolum.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="quick-actions">
+                        <h4>Atalhos rápidos</h4>
+                        <ul>
+                            <li><a href="#">Favoritar</a></li>
+                            <li><a href="#">Histórico</a></li>
+                        </ul>
+                    </div>
+                    <div class="agenda-infoweb">
+                        <h4>Agenda De Infoweb</h4> <img src="/dwai-2024/FlexBox 7/img/calendar.png" alt="">
+                        <ul class="agenda-list">
+                            <li class="agenda-item">
+                                <img src="/dwai-2024/FlexBox 7/img/fut.png" alt="Ícone Futebol Feminino">
+                                <div class="agenda-info">
+                                    <strong>Futebol Feminino</strong>
+                                    <span>Ginásio | 10:00</span>
+                                </div>
+                                <button class="seguir-btn">Seguir</button>
+                            </li>
+                            <li class="agenda-item">
+                                <img src="/dwai-2024/FlexBox 7/img/fut.png" alt="Ícone Futsal Masculino">
+                                <div class="agenda-info">
+                                    <strong>Futsal Masculino</strong>
+                                    <span>Ginásio | 12:00</span>
+                                </div>
+                                <button class="seguir-btn">Seguir</button>
+                            </li>
+                            <li class="agenda-item">
+                                <img src="/dwai-2024/FlexBox 7/img/fut.png" alt="Ícone Natação">
+                                <div class="agenda-info">
+                                    <strong>Natação</strong>
+                                    <span>Piscina | 12:00</span>
+                                </div>
+                                <button class="seguir-btn">Seguir</button>
+                            </li>
+                            <li class="agenda-item">
+                                <img src="/dwai-2024/FlexBox 7/img/fut.png" alt="Ícone Vôlei de Praia">
+                                <div class="agenda-info">
+                                    <strong>Vôlei De Praia - Fem</strong>
+                                    <span>Quadra De Areia | 08:00</span>
+                                </div>
+                                <button class="seguir-btn">Seguir</button>
+                            </li>
+                        </ul>
+                        <a href="#" class="ver-tudo">Ver tudo</a>
+                    </div>
+                </aside>
+                
+                <div class="chart">
+                    <img src="/dwai-2024/FlexBox 7/img/graficocolum.png" alt="">
+                </div>
+            </div>
+            <div class="quick-actions">
+                <h4>Atalhos rápidos</h4>
+                <ul>
+                    <li><a href="#">Favoritar</a></li>
+                    <li><a href="#">Histórico</a></li>
+                </ul>
+            </div>
+        </aside>
     </div>
-    
-
 </body>
 </html>
