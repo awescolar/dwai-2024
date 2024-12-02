@@ -15,24 +15,27 @@
 
     <main class="flex centralizar">
 
-        <!-- Pesquisa -->
-        <section class="search">
+        
+        <section class="container">
+
+            <!-- pesquisa -->
             <div class="flex pesquisa centralizar-vertical arredondar-borda">
-                <img src="img/lupa.svg" alt="">
+                <img src="img/lupa.svg" alt=""> 
                 <input type="text" placeholder="O que você procura?">
             </div>
 
-        <!--Banner-->
-            <section class="banner">
+            <!-- banner -->
+            <div class="banner">
                 <small>JOGOS EM TEMPO REAL</small>
                 <h1>Aqui você tem a Semadec de um jeito que <br>você nunca viu: na palma da sua mão e do seu jeito.</h1>
-                <button class="flex centralizar-horizontal button">Assista os jogos <img class="play" src="img/play.png" alt=""></button> 
+                <a href="#" class="flex centralizar-horizontal button">
+                    Assista os jogos
+                    <img src="img/play.png" alt="">
                 </a>
-                <img class="brilhos" src="img/bg-banner.svg" alt="">
-            </section>
+            </div>
 
-            <!--Card 1-->
-            <div class="flex">
+            <!--card 1-->
+            <div class="flex grupo-card-1">
                 <div class="card flex centralizar-vertical">
                     <img src="img/bell.png" alt="" class="azul-escuro">
                     <div>
@@ -46,25 +49,118 @@
                     </div>
                 </div>
 
-            <!--Card 2-->
-            <div class="card2 flex arredondar-borda centralizar-vertical">
-                <figure>
-                    <img src="img/heart.svg" alt="" class="heart">
-                    <img src="img/semadec.png" alt="Imagem da SEMADEC" class="picture">
-                    <div class="arredondar-borda">APRESENTAÇÃO</div>
-                </figure>
-                <h1>Apresentação das aberturas dos cursos</h1>
-                <img src="img/load-bar.svg" alt="">
+                <div class="card flex centralizar-vertical">
+                    <img src="img/notification.svg" alt="" class="azul-claro">
+                    <div>
+                        <div class="cinza">Comércio</div> 
+                        <span class="cinza">Agenda</span>
+                    </div>
+                    <div class="flex pontos">
+                        <span class="ponto"></span>
+                        <span class="ponto"></span>
+                        <span class="ponto"></span>
+                    </div>
+                </div>
+
+                <div class="card flex centralizar-vertical">
+                    <img src="img/notification.svg" alt="" class="azul-claro">
+                    <div>
+                        <div class="cinza">Eletrônica</div> 
+                        <span class="cinza">Agenda</span>
+                    </div>
+                    <div class="flex pontos">
+                        <span class="ponto"></span>
+                        <span class="ponto"></span>
+                        <span class="ponto"></span>
+                    </div>
+                </div>
             </div>
 
+            <!-- card 2-->
+            <div class="flex grupo-card-2">
+                <div class="card2 flex arredondar-borda centralizar-vertical">
+                    <figure>
+                        <img src="img/heart.svg" alt="" class="like">
+                        <img src="img/semadec.png" alt="Imagem da SEMADEC">
+                        <div class="arredondar-borda">APRESENTAÇÃO</div>
+                    </figure>
+                    <h1>Apresentação das aberturas dos cursos</h1>
+                    <img src="img/load-bar.svg" alt="">
+                </div>
 
+                <div class="card2 flex arredondar-borda centralizar-vertical">
+                    <figure>
+                        <img src="img/heart.svg" alt="" class="like">
+                        <img src="img/torcida.png" alt="Imagem da SEMADEC">
+                        <div class="arredondar-borda">APRESENTAÇÃO</div>
+                    </figure>
+                    <h1>A alcateia não torce. A alcateia inspira, contagia!</h1>
+                    <img src="img/load-bar.svg" alt="">
+                </div>
 
+                <div class="card2 flex arredondar-borda centralizar-vertical">
+                    <figure>
+                        <img src="img/heart.svg" alt="" class="like">
+                        <img src="img/basquete.png" alt="Imagem da SEMADEC">
+                        <div class="arredondar-borda">ESPORTE</div>
+                    </figure>
+                    <h1>Basquete masculino é de informática.</h1>
+                    <img src="img/load-bar.svg" alt="">
+                </div>
             </div>
-        
+            
+            <!-- tabela-->
+            <section class="jogos">
+                <div class="flex alinhar-extremidades centralizar-vertical">
+                    <h3>Jogos do seu interesse</h3>
+                    <a href="#" class="azul">Ver tudo</a>
+                </div>
+                <div class="table-jogos">
+                    <table>
+                        <thead>
+                            <tr class="jogos-title">
+                                <th>JOGO</th>
+                                <th>ESPORTE</th>
+                                <th>PLACAR</th>
+                                <th>AÇÕES</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="jogos-conteudo">
+                                <td>
+                                    <div class="jogo flex centralizar-vertical">
+                                        <img src="img/img-jogo.png">
+                                        <div class="flex coluna">
+                                            <strong>Informática X Eletro</strong>
+                                            <small>Ginásio | 22/12 | 15:00</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="tag">BASQUETE - MASC</td>
+                                <td>123 x 0</td>
+                                <td class="tag"><a href="#">DETALHES</a></td>
+                            </tr>
+                            <tr class="jogos-conteudo">
+                                <td>
+                                    <div class="jogo flex centralizar-vertical">
+                                        <img src="img/img-jogo.png">
+                                        <div class="flex coluna">
+                                            <strong>Informática X Eletro</strong>
+                                            <small>Ginásio | 22/12 | 15:00</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="tag">BASQUETE - MASC</td>
+                                <td>123 x 0</td>
+                                <td class="tag"><a href="#">DETALHES</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
         </section>
 
     </main>
-
  
 </body>
 </html>

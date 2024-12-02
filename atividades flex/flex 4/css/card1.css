@@ -1,27 +1,21 @@
 .card{
-    margin-top: 50px;
+    margin-top: 30px;
     width: 271.333px;
-    height: 64px;
     background-color: #FFF;
     padding: 12px;
-    border-radius: 8px;
-    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    border-radius: 12px;
 }
 .card div:nth-child(1){
-    color: #2F80ED;
     font-size: 12px;
     font-weight: 700;
-    margin-top: 15px;
 }
 .card span{
     font-size: 12px;
     color: #202020;
-    font-weight: 600;
 }
 .card .pontos{
     gap: 5px;
-    margin-left: 114px;
-    margin-top: 20px;
+    margin-left: 150px;
     flex-direction: column; 
 }
 .card .ponto{
@@ -30,17 +24,27 @@
     width: 5px;
     border-radius: 10px;
 }
-.card img{
+.card img {
     padding: 12px;
-    border-radius: 50px;
+    border-radius: 20px;
     margin-right: 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
 }
 .card .azul-escuro{
     background-color: #2F80ED;
 }
 .card .azul-claro{
     background-color: #BFDAFF40;
+}
+.card .cinza{
+    color: #5F5F5F;
+}
+.card .blue{
+    color: #2667BF;
+}
+.card .negrito{
+    font-weight: 600;
+}
+.grupo-card-1 {
+    gap: 13px;
+    flex: 1 0 0;
 }
