@@ -8,7 +8,8 @@ body {
     gap: 32px;
     padding: 0;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
+    margin-right: 180px;
     
 }
 .centralizar-horizontal {
@@ -41,3 +42,7 @@ body {
     align-self: stretch;
 }
 .sidebar.rigth{}
+
+.container-central{
+    margin-left: 40px;
+}

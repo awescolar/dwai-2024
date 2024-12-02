@@ -1,6 +1,7 @@
 .sidebarleft {
     width: 240px;
     padding: 32px;
+    border-radius: 20px;
     background:  #FFF;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
     
@@ -123,7 +124,7 @@
 .seus-amigos{
     color: #3F3F3F;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 .Frame-16{
@@ -139,23 +140,99 @@
     color: var(--color-gray-100, #202020);
     font-family: Inter;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
     align-self: stretch;
 }
 .Local-hora{
     color: #7E7E7E;
     font-family: Inter;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
     align-self: stretch;
 }
-.prashant-502-2{
+.namedestination .prashant-502-2{
     background-image: url(../img/daniel.png);
     background-repeat: no-repeat;
+    padding: 30px;
+    margin-left: -40px;
+    margin-top: 25px;
+}
+.namedestination:nth-child(2) .prashant-502-2{
+    background-image: url(../img/dani.png);
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin-left: -40px;
+    margin-top: 25px;
+}
+.namedestination:nth-child(3) .prashant-502-2{
+    background-image: url(../img/félix.png);
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin-left: -40px;
+    margin-top: 25px;
+}
+.namedestination div:nth-child(2){
+    margin-top: -65px;
+    margin-left: -10px;
+}
+.namedestination{
+    margin-left: 20px;
+}
+.namedestination:nth-child(2){
+    margin-left: -1px;
+}
+.namedestination:nth-child(3){
+    margin-left: -2px;
+}
+
+.sectiondown{
+    display: flex;
+    width: 146px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 240px;
+}
+.text{
+    flex: 1 0 0;
+    color: var(--color-gray-90, #3F3F3F);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 0px;
+    gap: 10px;
+}
+.btn{
+    margin-left: 25px;
+    padding: 8px 0px;
+    gap: 12px;
+}
+.btn:nth-child(2) a{
+    text-decoration: none;
+    flex: 1 0 0;
+    color: var(--color-gray-100, #202020);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn:nth-child(3) a{
+    text-decoration: none;
+    flex: 1 0 0;
+    color: #F13E3E;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn:nth-child(2) div{
+    background-image: url(../img/confi.svg);
+    background-repeat: no-repeat;
+    padding: 8px;
+    margin-left: -25px;
+    margin-top: -18px;
+}
+.btn:nth-child(3) div{
+    background-image: url(../img/sair.svg);
+    background-repeat: no-repeat;
+    padding: 8px;
+    margin-left: -25px;
+    margin-top: -18px;
 }
