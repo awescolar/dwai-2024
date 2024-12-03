@@ -1,0 +1,10 @@
+.right{
+    background-color: #fff;
+    width: 296px;
+    padding: 32px 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+    align-self: stretch;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+}
