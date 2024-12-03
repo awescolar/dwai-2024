@@ -16,10 +16,8 @@
 .Principal {
     flex: 1 0 0;
     color: #3F3F3F;
-    font-family: Inter;
     font-size: 16px;
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 .menu{
@@ -123,7 +121,6 @@
 
 .seus-amigos{
     color: #3F3F3F;
-    font-family: Inter;
     font-size: 18px;
     font-weight: 700;
 }
@@ -138,14 +135,12 @@
 }
 .Esporte{
     color: var(--color-gray-100, #202020);
-    font-family: Inter;
     font-size: 14px;
     font-weight: 600;
     align-self: stretch;
 }
 .Local-hora{
     color: #7E7E7E;
-    font-family: Inter;
     font-size: 12px;
     font-weight: 400;
     align-self: stretch;
@@ -185,7 +180,7 @@
     margin-left: -2px;
 }
 
-.sectiondown{
+.Sectiondown{
     display: flex;
     width: 146px;
     flex-direction: column;
@@ -196,7 +191,6 @@
 .text{
     flex: 1 0 0;
     color: var(--color-gray-90, #3F3F3F);
-    font-family: Inter;
     font-size: 16px;
     font-weight: 600;
     padding: 8px 0px;

@@ -9,8 +9,7 @@ body {
     padding: 0;
     border-radius: 20px;
     background-color: #ffffff;
-    margin-right: 160px;
-    
+
 }
 .centralizar-horizontal {
     justify-content: center;
@@ -41,7 +40,7 @@ body {
     justify-content: space-between;
     align-self: stretch;
 }
-.sidebar.rigth{
+.sidebar-rigth{
     flex-direction: column;
     justify-content: space-between;
     align-self: stretch;
@@ -49,4 +48,5 @@ body {
 
 .container-central{
     margin-left: 40px;
+    margin-top: -25px;
 }
