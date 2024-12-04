@@ -1,139 +1,99 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="./assets/css/global.css">
-    <link rel="stylesheet" href="./assets/css/pesquisa.css">
-    <link rel="stylesheet" href="./assets/css/banner.css">
-    <link rel="stylesheet" href="./assets/css/card-1.css">
-    <link rel="stylesheet" href="./assets/css/card-2.css">
-    <link rel="stylesheet" href="./assets/css/jogos.css">
-    <title>SEMADEC</title>
+    <title>Components</title>
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/pesquisa.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/card-1.css">
+    <link rel="stylesheet" href="assets/css/card-2.css">
+    <link rel="stylesheet" href="assets/css/jogos.css">
 </head>
 <body class="flex">
-    <div class="container flex">
-        <!-- componente 1 - pesquisa -->
+    <div class="barra-lateral flex alinhar-coluna"></div>
+    <div class="container-principal flex alinhar-coluna">
+
+        <!-- component 1 - pesquisa -->
+
         <input type="text" class="pesquisa" placeholder="O que você procura?">
 
-        <!-- componente 1 - banner -->
-        <section class='banner'>
-            <small>Jogos em tempo real</small>
-            <h1> Aqui você tem a Semadec de um jeito que 
-                você nunca viu: na palma da sua mão e do seu jeito.</h1>
+        <br>
+        <!-- component 1 - banner -->
+
+        <section class="banner">
+            <small>jogos em tempo real</small>
+            <h1>Aqui você tem a Semadec de um jeito que você nunca viu: na palma da sua mão e do seu jeito.</h1>
             <a href="#">
-                Assista aos jogos
-                <img src="./assets/img/play.svg" alt="">
+                Assista os jogos
             </a>
-
         </section>
 
-        <!-- componente 1 - card-1 -->
-        <div class="grupo-card-1 flex">
+        <br>
+
+        <!-- component 1 - card-1 -->
+        <div class="cards-1">
             <div class="card-1">
+                <span></span>
                 <div>
-                    <span>
-                        <button>
-                            <img src="./assets/img/notifications.svg" alt="notificação">
-                        </button>
-                    </span>
-                    <div>
-                        <strong>Informática</strong>
-                        <div>Agenda</div>
-                    </div>
+                    <strong>Informática</strong>
+                    <div>Agenda</div>
                 </div>
-                <a href="#">
-                    <img src="./assets/img/vuesax.svg" alt="Opções">
-                </a>
+                <a href="#"></a>
             </div>
             <div class="card-1">
+                <span></span>
                 <div>
-                    <span>
-                        <button>
-                            <img src="./assets/img/notifications-light.svg" alt="notificação">
-                        </button>
-                    </span>
-                    <div>
-                        <strong>Comércio</strong>
-                        <div>Agenda</div>
-                    </div>
+                    <strong>Informática</strong>
+                    <div>Agenda</div>
                 </div>
-                <a href="#">
-                    <img src="./assets/img/vuesax.svg" alt="Opções">
-                </a>
+                <a href="#"></a>
             </div>
             <div class="card-1">
+                <span></span>
                 <div>
-                    <span>
-                        <button>
-                            <img src="./assets/img/notifications-light.svg" alt="notificação">
-                        </button>
-                    </span>
-                    <div>
-                        <strong>Eletrônica</strong>
-                        <div>Agenda</div>
-                    </div>
+                    <strong>Informática</strong>
+                    <div>Agenda</div>
                 </div>
-                <a href="#">
-                    <img src="./assets/img/vuesax.svg" alt="Opções">
-                </a>
+                <a href="#"></a>
             </div>
         </div>
-        
+        <br>
 
-        <!-- componente 1 - card-2 -->
-        <section class="container-card-2 flex">
-            <div class="mini-header flex">
-                <h2>Novidades para você</h2>
-                <figure class='flex'>
-                    <img src="./assets/img/vueax-left.svg" alt="">
-                    <img src="./assets/img/vueax-right.svg" alt="">
+        <!-- component 1 - card-2 -->
+        <section class="cards-2 flex">
+            <div class="card-2">
+                <figure>
+                    <img src="" alt="">
+                    <img src="" alt="">
                 </figure>
+                <span>Apresentação</span>
+                <p>Apresentação das aberturas dos cursos</p>
+                <div class="load">
+                    <div class="load-bar"></div>
+                </div>
             </div>
-            <div class="grupo-card-2 flex">    
-                <div class="card-2">
-                    <figure>
-                        <a href="">
-                            <img src="./assets/img/vuelinearheart.svg" alt="Dê o seu gostei!">
-                        </a>
-                    </figure>
-                    <span>Apresentação</span>
-                    <h3>Apresentação das aberturas dos cursos</h3>
-                    <div class="load">
-                        <div class="load-bar"></div>
-                    </div>
-                </div>
-                <div class="card-2">
-                    <figure>
-                        <a href=""><img src="./assets/img/vuelinearheart.svg" alt="Dê o seu gostei!"></a>
-                    </figure>
-                    <span>Apresentação</span>
-                    <h3>A alcateia não torce. A alcateia inspira, contagia!</h3>
-                    <div class="load">
-                        <div class="load-bar"></div>
-                    </div>
-                </div>
-                <div class="card-2">
-                    <figure>
-                        <a href=""><img src="./assets/img/vuelinearheart.svg" alt="Dê o seu gostei!"></a>
-                    </figure>
-                    <span>Apresentação</span>
-                    <h3>Apresentação das aberturas dos cursos</h3>
-                    <div class="load">
-                        <div class="load-bar"></div>
-                    </div>
+            <div class="card-2">
+                <figure>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </figure>
+                <span>Apresentação</span>
+                <p>Apresentação das aberturas dos cursos</p>
+                <div class="load">
+                    <div class="load-bar"></div>
                 </div>
             </div>
         </section>
-        <div class="flex align-center space-between header-eventos">
-            <h3>Jogos do seu interesse</h3>
-            <a href="#">Ver tudo</a>
-        </div>
-        <div class="jogos-interesse">
+
+        <!-- bloco de tabela-->
+        <section class="jogos-interesse">
+            <div class="header flex alinhar-v-centro alinhar-h-bordas">
+                <h2>Jogos do seu interesse</h2>
+                <a href="#">Ver tudo</a>
+            </div>
             <div class="container-jogos">
                 <table class="jogos">
                     <tr class="jogos-title">
@@ -166,9 +126,9 @@
                         <td>
                             <div class="jogo flex">
                                 <div>
-                                    <img src="./assets/img/esporte.jpg" alt="">
+                                    <img src="assets/img/esporte.jpg" alt="">
                                 </div>
-                                <div class="flex direction-column">
+                                <div class="flex alinhar-coluna">
                                     <strong>Informática X Eletro</strong>
                                     <span>Ginásio | 22/12 | 15:00</span>
                                 </div>
@@ -186,7 +146,11 @@
                     </tr>
                 </table>
             </div>
-        </div>
+            
+        </section>
+        <!-- fim do bloco da tabela -->
+
     </div>
+    
 </body>
 </html>
