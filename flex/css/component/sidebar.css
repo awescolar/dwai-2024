@@ -6,6 +6,14 @@
     gap: 48px;
 }
 
+.topo section:not(:last-child){
+    margin-bottom: 32px;
+}
+
+.links{
+    justify-content: space-between;
+}
+
 menu{
     padding: 0;
     list-style: none;
@@ -22,12 +30,14 @@ menu li a{
 }
 .bloco-barras{
     align-items: end;
+    gap: 12px;
 }
 .bloco-barras .barra{
     width: 40px;
 }
 .azul-claro{
-    background-color: #BFDAFF;
+    border-radius: 4px 4px 0px 0px;
+    background:#BFDAFF;
 }
 .azul-medio{
     background-color: #68A8FF;
