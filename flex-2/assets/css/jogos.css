@@ -1,5 +1,5 @@
 .jogos-interesse{}
-.jogos-interesse .header{}
+.jogos-interesse .header a{ text-decoration: none;}
 
 
 .jogos-interesse .container-jogos{
@@ -11,12 +11,23 @@
 .jogos-interesse .jogos{
     width: 100%;
 }
+
+.jogos-interesse .jogos img{
+    width:40px;
+    margin-right:10px;
+    border-radius: 100%;
+}
+
 .jogos-interesse .jogos .jogos-title{
     text-align: left;
 }
+
+
+
 .jogos-interesse .jogos .conteudo{}
 .jogos-interesse .jogos .jogo{}
 .jogos-interesse .jogos .tag{
+    text-decoration:none;
     font-size: 12px;
     display: inline-block;
     padding: 6px 12px;
