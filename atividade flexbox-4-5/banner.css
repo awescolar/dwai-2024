@@ -1,5 +1,5 @@
 .banner{
-    width: 570px;
+    width: auto;
     height: 155px;
     border-radius: 10px;
     background-color: #2F80ED;
@@ -7,7 +7,7 @@
     padding: 20px 251px 20px 24px;
     background-image: url(imagensflexbox-4-5/estrelas-banner.png);
     background-repeat: no-repeat;
-    background-position: 590px -50px; 
+    background-position: 790px -50px; 
     margin-bottom: 30px;
     
 }
