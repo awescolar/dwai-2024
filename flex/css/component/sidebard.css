@@ -1,0 +1,61 @@
+.rigth{
+    max-width: 200px;
+}
+
+.topo{
+    gap: 48px;
+}
+
+menu{
+    padding: 0;
+    list-style: none;
+    gap: 8px;
+}
+
+menu li a{
+    gap: 12px;
+    padding: 8px;
+}
+
+.logo{
+    margin: 0;
+}
+.bloco-barras{
+    align-items: end;
+}
+.bloco-barras .barra{
+    width: 40px;
+}
+.azul-claro{
+    background-color: #BFDAFF;
+}
+.azul-medio{
+    background-color: #68A8FF;
+}
+.azul-escuro{
+    background-color: #2F80ED;
+}
+.quarenta{
+    height: 40px;
+}
+.cinquenta{
+    height: 50px;
+}
+.quarenta-e-seis{
+    height: 46px;
+}
+.nove{
+    height: 9px;
+}
+.doze{
+    height: 12px;
+}
+.vinte{
+    height: 20px;
+}
+.dezoito{
+    height: 18px;
+}
+.vinte-oito{
+    height: 28px;
+}

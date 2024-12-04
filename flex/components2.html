@@ -13,25 +13,36 @@
     <link rel="stylesheet" href="css/component/tabela.css">
     <link rel="stylesheet" href="css/component/jogos.css">
     <link rel="stylesheet" href="css/component/jogos-interessantes.css">
+    <link rel="stylesheet" href="css/component/sidebard.css">
+
 </head>
-<body class="flex centralizar coluna inter">
+<body class="flex centralizar inter">
     <sidebard class="left">
-        <section class="topo">
+        <section class="topo coluna flex">
             <figure class="logo">
                 <img src="imagens/logo.png" alt="">
             </figure>
             <section class="principal">
                 <h3>PRINCIPAL</h3>
-                <menu>
-                    <li><a href="#"><img src="" alt="" imagens/icon-1.png="">Lorem.</a></li>
-                    <li><a href="#"><img src="" alt="" imagens/icon-2.png="">Perspiciatis.</a></li>
-                    <li><a href="#"><img src="" alt="" imagens/icon-3.png="">Aspernatur.</a></li>
-                    <li><a href="#"><img src="" alt="" imagens/icon-4.png="">Repellendus!</a></li>
-                    <li><a href="#"><img src="" alt="" imagens/icon-5.png="">Reprehenderit!</a></li>
+                <menu class="flex coluna">
+                    <li><a href="#" class="flex textNone"><img src="imagens/icon-1.png" alt=""><span>Lorem.</span></a></li>
+                    <li><a href="#" class="flex textNone"><img src="imagens/icon-2.png" alt=""><span>Perspiciatis.</span></a></li>
+                    <li><a href="#" class="flex textNone"><img src="imagens/icon-3.png" alt=""><span>Aspernatur.</span></a></li>
+                    <li><a href="#" class="flex textNone"><img src="imagens/icon-4.png" alt=""><span>Repellendus!</span></a></li>
+                    <li><a href="#" class="flex textNone"><img src="imagens/icon-5.png" alt=""><span>Reprehenderit!</span></a></li> 
                 </menu>
             </section>
             <section class="seus-amigos">
                 <h3>SEUS AMIGOS</h3>
+                <div>
+                    <div class="flex">
+                        <img src="imagens/img-daniel-souza.png" alt="">
+                        <div class="flex coluna">
+                            <strong>Daniel Souza</strong>
+                            <span>Informática</span>
+                        </div>
+                    </div>
+                </div>
                 <div>
                     <div class="flex">
                         <img src="imagens/img-dani-cruz.png" alt="">
@@ -46,7 +57,7 @@
                         <img src="imagens/img-ludi-felix.png" alt="">
                         <div>
                             <strong>Ludi felix</strong>
-                            <span>Informática</span>
+                            <span>Info web</span>
                         </div>
                     </div>
                 </div>
@@ -54,7 +65,7 @@
         </section>
 
         <section class="baixo">
-            <h3>SISYEMA</h3>
+            <h3>SISTEMA</h3>
             <menu>
                 <li><a href="#"><img src="imaens/icon-config.png" alt="">Configurações</a></li>
                 <li><a href="#"><img src="imaens/icon-sair.png" alt="">Sair</a></li>
@@ -202,7 +213,7 @@
         <section class="topo">
             <header class="flex alinhar-extremidades">
                 <h3>Perfil</h3>
-                <a href="#"><img src="imagens/icon=bolinhas.png" alt=""></a>
+                <a href="#"><img src="imagens/icon-bolinhas.png" alt=""></a>
             </header>
             <section class="perfil">
                 <figure>
@@ -211,37 +222,37 @@
                 <h3>Olá,Lobo cibernético!</h3>
                 <p>A alcateia está tão animada e os lobos estão com tudo.</p>
                 <div class="links">
-                    <a href="" class="link-perfil" herf="#"><img src="imagens/icon-perfil.png" alt=""></a>
-                    <a href="" class="link-perfil" herf="#"><img src="imagens/icon-perfil.png" alt=""></a>
-                    <a href="" class="link-perfil" herf="#"><img src="imagens/icon-perfil.png" alt=""></a>
+                    <a href="" class="link-perfil" herf="#"><img src="imagens/icon-noti.png" alt=""></a>
+                    <a href="" class="link-perfil" herf="#"><img src="imagens/icon-msg.png" alt=""></a>
+                    <a href="" class="link-perfil" herf="#"><img src="imagens/icon-estat.png" alt=""></a>
                 </div>
             </section>
             <segtion class="grafico">
-                <div class="bloco-barras">
-                    <div class="barra barra-1">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                <div class="bloco-barras flex">
+                    <div class="barra barra-1 ">
+                        <div class="azul-claro dezoito"></div>
+                        <div class="azul-medio nove"></div>
+                        <div class="azul-escuro doze"></div>
                     </div>
                     <div class="barra barra-2">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div class="azul-claro quarenta-e-seis"></div>
+                        <div class="azul-medio dezoito"></div>
+                        <div class="azul-escuro nove"></div>
                     </div>
                     <div class="barra barra-3">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div class="azul-claro vinte-oito"></div>
+                        <div class="azul-medio vinte"></div>
+                        <div class="azul-escuro quarenta"></div>
                     </div>
                     <div class="barra barra-4">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div class="azul-claro doze"></div>
+                        <div class="azul-escuro quarenta-e-seis"></div>
+                        <div class="azul-medio cinquenta"></div>
                     </div>
                     <div class="barra barra-5">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div class="azul-claro dezoito"></div>
+                        <div class="azul-escuro cinquenta"></div>
+                        <div class="azul-medio vinte"></div>
                     </div>
                     <p>parciais por dia</p>
                 </div>
@@ -256,7 +267,7 @@
                 <section class="listagem-jogos">
                     <div class="flex alinhar-extremidades centralizar-vertical">
                         <div class="flex">
-                            <img src="imagens/img-dani-cruz.png" alt="">
+                            <img src="imagens/img-exemplo.png" alt="">
                             <div class="flex coluna">
                                 <strong>Futebol Feminino</strong>
                                 <span>Ginásio | 10:00</span>
@@ -267,7 +278,7 @@
 
                     <div class="flex alinhar-extremidades centralizar-vertical">
                         <div class="flex">
-                            <img src="imagens/img-dani-cruz.png" alt="">
+                            <img src="imagens/img-exemplo.png" alt="">
                             <div class="flex coluna">
                                 <strong>Futebol Feminino</strong>
                                 <span>Ginásio | 10:00</span>
@@ -278,7 +289,7 @@
 
                     <div class="flex alinhar-extremidades centralizar-vertical">
                         <div class="flex">
-                            <img src="imagens/img-dani-cruz.png" alt="">
+                            <img src="imagens/img-exemplo.png" alt="">
                             <div class="flex coluna">
                                 <strong>Futebol Feminino</strong>
                                 <span>Ginásio | 10:00</span>
@@ -289,7 +300,7 @@
 
                     <div class="flex alinhar-extremidades centralizar-vertical">
                         <div class="flex">
-                            <img src="imagens/img-dani-cruz.png" alt="">
+                            <img src="imagens/img-exemplo.png" alt="">
                             <div class="flex coluna">
                                 <strong>Futebol Feminino</strong>
                                 <span>Ginásio | 10:00</span>
