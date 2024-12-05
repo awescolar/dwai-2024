@@ -13,124 +13,267 @@
     <link rel="stylesheet" href="css/component/jogos.css">
 </head>
 <body>
-
-    <!-- component 1 - pesquisa -->
-
-    <input type="text" class="pesquisa" placeholder="O que você procura?">
-
-    <br>
-    <!-- component 1 - banner -->
-
-    <section class="banner">
-        <small>jogos em tempo real</small>
-        <h1>Aqui você tem a Semadec de um jeito que você nunca viu: na palma da sua mão e do seu jeito.</h1>
-        <a href="#">
-            Assista os jogos
-        </a>
-    </section>
-
-    <br>
-
-    <!-- component 1 - card-1 -->
-
-    <div class="card-1">
-        <span></span>
-        <div>
-            <strong>Informática</strong>
-            <div>Agenda</div>
-        </div>
-        <a href="#"></a>
-    </div>
-
-    <br>
-
-    <!-- component 1 - card-2 -->
-    <section class="cards-2 flex">
-        <div class="card-2">
-            <figure>
-                <img src="" alt="">
-                <img src="" alt="">
+    <sidebard class="left">
+        <section class="topo">
+            <figure class="logo">
+                <img src="imagens/logo.png" alt="">
             </figure>
-            <span>Apresentação</span>
-            <p>Apresentação das aberturas dos cursos</p>
-            <div class="load">
-                <div class="load-bar"></div>
-            </div>
-        </div>
-        <div class="card-2">
-            <figure>
-                <img src="" alt="">
-                <img src="" alt="">
-            </figure>
-            <span>Apresentação</span>
-            <p>Apresentação das aberturas dos cursos</p>
-            <div class="load">
-                <div class="load-bar"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- bloco de tabela-->
-    <section class="jogos-interesse">
-        <div class="header flex alinhar-v-centro alinhar-h-bordas">
-            <h2>Jogos do seu interesse</h2>
-            <a href="#">Ver tudo</a>
-        </div>
-        <div class="container-jogos">
-            <table class="jogos">
-                <tr class="jogos-title">
-                    <th>JOGO</th>
-                    <th>ESPORTE</th>
-                    <th>PLACAR</th>
-                    <th>AÇÕES</th>
-                </tr>
-                <tr class="jogos-conteudo">
-                    <td>
-                        <div class="jogo flex">
-                            <img src="imagens/img-jogo.png" alt="">
-                            <div class="flex alinhar-coluna">
-                                <strong>Informática X Eletro</strong>
-                                <span>Ginásio | 22/12 | 15:00</span>
-                            </div>
+            <section class="principal">
+                <h3>PRINCIPAL</h3>
+                <menu>
+                    <li><a href="#"><img src="imagens/icon-1.png" alt="">Dashboard</a></li>
+                    <li><a href="#"><img src="imagens/icon-2.png" alt="">Mensagens</a></li>
+                    <li><a href="#"><img src="imagens/icon-3.png" alt="">Esportes</a></li>
+                    <li><a href="#"><img src="imagens/icon-4.png" alt="">Tarefas</a></li>
+                    <li><a href="#"><img src="imagens/icon-5.png" alt="">Cursos</a></li>
+                </menu>
+            </section>
+            <section class="seus-amigos">
+                <h3>SEUS AMIGOS</h3>
+                <div>
+                    <div class="flex">
+                        <img src="imagens/img-daniel.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Daniel Souza</strong>
+                            <span>Informática</span>
                         </div>
-                    </td>
-                    <td>
-                        <span class="tag">FUTSAL - MASC</span>
-                    </td>
-                    <td>
-                        3 x 0
-                    </td>
-                    <td>
-                        <a href="#" class="tag">DETALHES</a>
-                    </td>
-                </tr>
-                <tr class="jogos-conteudo">
-                    <td>
-                        <div class="jogo flex">
-                            <div>
+                    </div>
+                    <div class="flex">
+                        <img src="imagens/img-dani-cruz.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Dani Cruz</strong>
+                            <span>Informática</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <img src="imagens/img-ludi-felix.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Ludi Félix</strong>
+                            <span>Informática</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="baixo">
+            <h3>SISTEMA</h3>
+            <menu>
+                <li><a href="#"><img src="imagens/icon-config.png" alt="">Configurações</a></li>
+                <li><a href="#"><img src="imagens/icon-sair.png" alt="">Sair</a></li>
+            </menu>
+        </section>
+    </sidebard>
+    <main class="area-trabalho">
+        <!-- component 1 - pesquisa -->
+        <input type="text" class="pesquisa" placeholder="O que você procura?">
+        <br>
+        <!-- component 1 - banner -->
+        <section class="banner">
+            <small>jogos em tempo real</small>
+            <h1>Aqui você tem a Semadec de um jeito que você nunca viu: na palma da sua mão e do seu jeito.</h1>
+            <a href="#">
+                Assista os jogos
+            </a>
+        </section>
+        <br>
+        <!-- component 1 - card-1 -->
+        <div class="card-1">
+            <span></span>
+            <div>
+                <strong>Informática</strong>
+                <div>Agenda</div>
+            </div>
+            <a href="#"></a>
+        </div>
+        <br>
+        <!-- component 1 - card-2 -->
+        <section class="cards-2 flex">
+            <div class="card-2">
+                <figure>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </figure>
+                <span>Apresentação</span>
+                <p>Apresentação das aberturas dos cursos</p>
+                <div class="load">
+                    <div class="load-bar"></div>
+                </div>
+            </div>
+            <div class="card-2">
+                <figure>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </figure>
+                <span>Apresentação</span>
+                <p>Apresentação das aberturas dos cursos</p>
+                <div class="load">
+                    <div class="load-bar"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- bloco de tabela-->
+        <section class="jogos-interesse">
+            <div class="header flex alinhar-v-centro alinhar-h-bordas">
+                <h2>Jogos do seu interesse</h2>
+                <a href="#">Ver tudo</a>
+            </div>
+            <div class="container-jogos">
+                <table class="jogos">
+                    <tr class="jogos-title">
+                        <th>JOGO</th>
+                        <th>ESPORTE</th>
+                        <th>PLACAR</th>
+                        <th>AÇÕES</th>
+                    </tr>
+                    <tr class="jogos-conteudo">
+                        <td>
+                            <div class="jogo flex">
                                 <img src="imagens/img-jogo.png" alt="">
+                                <div class="flex alinhar-coluna">
+                                    <strong>Informática X Eletro</strong>
+                                    <span>Ginásio | 22/12 | 15:00</span>
+                                </div>
                             </div>
-                            <div class="flex alinhar-coluna">
-                                <strong>Informática X Eletro</strong>
-                                <span>Ginásio | 22/12 | 15:00</span>
+                        </td>
+                        <td>
+                            <span class="tag">FUTSAL - MASC</span>
+                        </td>
+                        <td>
+                            3 x 0
+                        </td>
+                        <td>
+                            <a href="#" class="tag">DETALHES</a>
+                        </td>
+                    </tr>
+                    <tr class="jogos-conteudo">
+                        <td>
+                            <div class="jogo flex">
+                                <div>
+                                    <img src="imagens/img-jogo.png" alt="">
+                                </div>
+                                <div class="flex alinhar-coluna">
+                                    <strong>Informática X Eletro</strong>
+                                    <span>Ginásio | 22/12 | 15:00</span>
+                                </div>
                             </div>
+                        </td>
+                        <td>
+                            <span class="tag">FUTSAL - MASC</span>
+                        </td>
+                        <td>
+                            2 x 5
+                        </td>
+                        <td>
+                            <a href="#" class="tag">DETALHES</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+        </section>
+        <!-- fim do bloco da tabela -->
+    </main>
+    <sidebard class="right">
+        <header class="flex alinhar-h-extremidades">
+            <h3>Perfil</h3>
+            <a href="#"><img src="imagens/icon-bolinhas.png" alt=""></a>
+        </header>
+        <section class="perfil">
+            <figure>
+                <img src="imagens/foto-perfil.png" alt="">
+            </figure>
+            <h3>Olá, Lobo Cibernético</h3>
+            <p>A alcateia está animada e os lobos estão com tudo.</p>
+            <div class="links">
+                <a href="#" class="link-perfil"><img src="imagens/icon-perfil.png" alt=""></a>
+                <a href="#" class="link-perfil"><img src="imagens/icon-perfil.png" alt=""></a>
+                <a href="#" class="link-perfil"><img src="imagens/icon-perfil.png" alt=""></a>
+            </div>
+        </section>
+        <section class="grafico">
+            <div class="bloco-barras">
+                <div class="barra barra-1">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="barra barra-2">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="barra barra-3">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="barra barra-4">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="barra barra-5">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <p>Parciais por dia</p>
+        </section>
+        <section class="agenda">
+            <header class="flex alinhar-h-extremidades">
+                <h3>Agenda de Infoweb</h3>
+                <a href="#" class="link">
+                    <img src="imagens/icon-calendar.png" alt="">
+                </a>
+            </header>
+            <section class="listagem-jogos">
+                <div class="flex alinhar-h-extremidades alinhar-v-centro">
+                    <div class="flex">
+                        <img src="imagens/img-futebol.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Futebol Feminino</strong>
+                            <span>Ginásio | 10:00</span>
                         </div>
-                    </td>
-                    <td>
-                        <span class="tag">FUTSAL - MASC</span>
-                    </td>
-                    <td>
-                        2 x 5
-                    </td>
-                    <td>
-                        <a href="#" class="tag">DETALHES</a>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        
-    </section>
-    <!-- fim do bloco da tabela -->
-    
+                    </div>
+                    <button class="link-seguir">Seguir</button>
+                </div>
+                <div class="flex alinhar-h-extremidades alinhar-v-centro">
+                    <div class="flex">
+                        <img src="imagens/img-futebol.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Futebol Feminino</strong>
+                            <span>Ginásio | 10:00</span>
+                        </div>
+                    </div>
+                    <button class="link-seguir">Seguir</button>
+                </div>
+                <div class="flex alinhar-h-extremidades alinhar-v-centro">
+                    <div class="flex">
+                        <img src="imagens/img-futebol.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Futebol Feminino</strong>
+                            <span>Ginásio | 10:00</span>
+                        </div>
+                    </div>
+                    <button class="link-seguir">Seguir</button>
+                </div>
+                <div class="flex alinhar-h-extremidades alinhar-v-centro">
+                    <div class="flex">
+                        <img src="imagens/img-futebol.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Futebol Feminino</strong>
+                            <span>Ginásio | 10:00</span>
+                        </div>
+                    </div>
+                    <button class="link-seguir">Seguir</button>
+                </div>
+                <a href="#" class="link-ver-tudo">Ver tudo</a>
+            </section>
+        </section>
+    </sidebard>
+
 </body>
 </html>
