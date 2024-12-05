@@ -1,0 +1,61 @@
+.container1 {
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    height: 869px;
+    padding: 32px;
+    width: 176px;
+}
+
+.container1 .topo {
+    gap: 48px;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.container1 .h2 {
+    color: #3F3F3F;
+    padding: 8px 0;
+}
+
+.container1 h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.container1 .topo .principal .nav {
+    gap: 8px;
+}
+
+.container1 .opcoes {
+    gap: 12px;
+    padding: 8px 0;
+}
+
+.container1 .topo .principal .nav .opcoes strong,
+.container1 .final div .opcoes strong {
+    font-weight: 500;
+}
+
+.container1 .azul {
+    color: #2F80ED;
+}
+
+.container1 .preto {
+    color: #202020;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.container1 .topo .seus-amigos div .opcoes div .curso {
+    color: #7E7E7E;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container1 .vermelho {
+    color: #F13E3E;
+}
