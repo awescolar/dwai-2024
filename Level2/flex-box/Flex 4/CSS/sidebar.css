@@ -1,0 +1,29 @@
+.top{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+menu{
+    padding: 0;
+    list-style: none;
+    gap: 8px;
+}
+
+menu li a{
+    gap: 12px;
+    padding: 8px;
+}
+.logo{
+    margin: 0;
+}
+
+.seus-amigos{
+    gap: 20px;
+}
+.seus-amigos h3{
+    margin: 0;
+}
+.seus-amigos .grupo{
+     gap: 8px;
+}
