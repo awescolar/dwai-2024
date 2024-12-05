@@ -18,7 +18,12 @@
 .jogos-interesse .jogos .jogos-title{
     text-align: left;
 }
-.jogos-interesse .jogos .conteudo{}
+.jogos-interesse .jogos .conteudo span{
+    color: #2667BF;
+    background: #BFDAFF40;
+    border-radius: 8px;
+    background-position: 12%;
+}
 .jogos-interesse .jogos .jogo{
     display: flex;
 }
