@@ -4,4 +4,51 @@
     padding: 32px 24px;
     align-self: stretch;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    color: #202020;
+}
+
+.right .perfil{
+    padding: 10px;
+    width: 248px;
+    height: 20px;
+}
+
+.right .perfil h2{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.right .perfil span{
+    font-size: 26px;
+    transform: rotate(90deg);
+    font: bold;
+}
+
+.right .perfil-menu{
+    padding: 0 16px;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.right .perfil-menu .fotoperfil{
+    height: 135px;
+    justify-content: center;
+}
+
+.right .perfil-menu .texto-perfil{
+    align-self: stretch;
+    gap: 6px;
+    width: 216px 55px;
+}
+
+.right .perfil-menu .texto-perfil strong{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.right .perfil-menu .texto-perfil span{
+    color: #7E7E7E;
+    font-size: 12px;
+    transform: none;
 }
