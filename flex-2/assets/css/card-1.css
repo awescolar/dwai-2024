@@ -13,56 +13,67 @@
     width:30%
 }
 
-.card-1 div:first-child{
+.card-1 .left{
+    height:100%;
+}
+
+.card-1 .left div:first-child{
     display: flex;
     gap:10px;
 }
 
-.card-1 div {
+.card-1 .left div {
     color: #5F5F5F;
     align-items: center;
 
 }
 
-.card-1 span button{
+.card-1 .left span{
+    margin-right:30px;
+    height:100%;
+
+}
+
+.card-1 .left span button{
     border:none;
     border-radius: 100%;
 
     background-color: rgba(191, 218, 255, 0.25);
-    padding : 5px;
-    width:25px;
-}
+    background-image: url(../img/notifications-light.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 13px 13px;
 
-.card-1 span button img{
-    height: 10px;
+    padding : 10px;
+    width:43px;
+    height:100%;
 }
-
-.card-1 div strong{
+.card-1 .left div strong{
     font-size: 15px;
 }
 
-.card-1:first-child div strong{
+.card-1:first-child .left div strong{
     color: #2667BF;
     font-weight:700;
 
 }
 
-.card-1:first-child div{
+.card-1:first-child .left div{
     color:black;
     font-weight: 600;
     font-size:15px;
 
 }
 
-.card-1:first-child span button{
+.card-1:first-child .left span button{
     background-color: #2667BF;
+    background-image: url(../img/notifications.svg);
 
 }
 
 .card-1 a{
-    margin-right: 0;
+    margin-left: 30%;
     text-align:right;
-    width: 80px;
 }
 
 .card-1 a img{

@@ -10,21 +10,23 @@
 }
 .jogos-interesse .jogos{
     width: 100%;
+    border-spacing: 30px;
+    text-align: center;
 }
 
 .jogos-interesse .jogos img{
     width:40px;
-    margin-right:10px;
+    margin-right:20px;
     border-radius: 100%;
 }
 
-.jogos-interesse .jogos .jogos-title{
-    text-align: left;
+.jogos-interesse .jogos .jogos-title th:first-child{
+    text-align:left
 }
 
-
-
-.jogos-interesse .jogos .conteudo{}
+.jogos-interesse .jogos-conteudo td:first-child{
+    text-align:left;
+}
 .jogos-interesse .jogos .jogo{}
 .jogos-interesse .jogos .tag{
     text-decoration:none;

@@ -1,8 +1,21 @@
+.barra-lateral-esquerda img{
+    width:100%;
+
+}
+
 .barra-lateral-esquerda .abas{
     gap:10px;
 }
 
+.barra-lateral-esquerda .abas strong{
+    font-size: 20px;
+    padding-top:8px;
+    padding-bottom:8px;
+    text-transform: uppercase;
+}
+
 .barra-lateral-esquerda .abas a{
+    font-size: 15px;
     text-decoration:none;
     color: black;
     transition: all 0.2s;
@@ -22,3 +35,7 @@
     color:#2F80ED;
 }
 
+.container-amigos h3{
+    text-transform: uppercase;
+
+}
