@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/table-jogos.css">
     <link rel="stylesheet" href="assets/css/sidebar-left.css">
+    <link rel="stylesheet" href="assets/css/sidebar-right.css">
 </head>
 
 <body>
@@ -25,23 +26,23 @@
                 <nav>
                     <menu class="flex coluna">
                         <li class="azul flex">
-                            <img src="assets/img/icon1.png" alt="">
+                            <div><img src="assets/img/icon1.png" alt=""></div>
                             <a href="#">Dashboard</a>
                         </li>
                         <li class="flex">
-                            <img src="assets/img/icon2.png" alt="">
+                            <div><img src="assets/img/icon2.png" alt=""></div>
                             <a href="#">Mensagens</a>
                         </li>
                         <li class="flex">
-                            <img src="assets/img/icon3.png" alt="">
+                            <div><img src="assets/img/icon3.png" alt=""></div>
                             <a href="#">Esportes</a>
                         </li>
                         <li class="flex">
-                            <img src="assets/img/icon4.png" alt="">
+                            <div><img src="assets/img/icon4.png" alt=""></div>
                             <a href="#">Tarefas</a>
                         </li>
                         <li class="flex">
-                            <img src="assets/img/icon5.png" alt="">
+                            <div><img src="assets/img/icon5.png" alt=""></div>
                             <a href="#">Cursos</a>
                         </li>
                     </menu>
@@ -239,51 +240,57 @@
                 </div>
             </section>
         </section>
-        <section class="sidebar-right">
-            <h3>Perfil</h3>
-            <div class="pontos">
-                <span class="ponto"></span>
-                <span class="ponto"></span>
-                <span class="ponto"></span>
+        <section class="sidebar-right flex coluna">
+            <div class="flex alinhar-extremidades centralizar-vertical">
+                <h3>Perfil</h3>
+                <div class="pontos flex coluna">
+                    <span class="ponto"></span>
+                    <span class="ponto"></span>
+                    <span class="ponto"></span>
+                </div>
             </div>
-            <div class="flex coluna">
+            <div class="perfil flex coluna">
                 <figure>
                     <img src="assets/img/lobo.png" alt="">
                 </figure>
-                <strong>Olá, lobo Cibernético</strong>
-                <p>A alcateia está animada e os lobos estão com tudo.</p>
-            </div>
-            <div class="icons">
-                <button><img src="assets/img/Sino-Vector (1).svg" alt=""></button>
-                <button><img src="assets/img/Caixa-Vector (2).svg" alt=""></button>
-                <button><img src="assets/img/Gráfico-Vector (3).svg" alt=""></button>
+                <div class="flex coluna centralizar-vertical">
+                    <strong>Olá, lobo Cibernético</strong>
+                    <p class="cinza">A alcateia está animada e os lobos estão com tudo.</p>
+                </div>
+                <div class="icons flex alinhar-extremidades">
+                    <button><img src="assets/img/Sino-Vector (1).svg" alt=""></button>
+                    <button><img src="assets/img/Caixa-Vector (2).svg" alt=""></button>
+                    <button><img src="assets/img/Gráfico-Vector (3).svg" alt=""></button>
+                </div>
             </div>
 
-            <div class="graficos">
-                <div class="barra1">
-                    <span class="background-azul-claro"></span>
-                    <span class="background-azul"></span>
-                    <span class="background-azul-escuro"></span>
-                </div>
-                <div class="barra2">
-                    <span class="background-azul-claro"></span>
-                    <span class="background-azul"></span>
-                    <span class="background-azul-escuro"></span>
-                </div>
-                <div class="barra3">
-                    <span class="background-azul-claro"></span>
-                    <span class="background-azul"></span>
-                    <span class="background-azul-escuro"></span>
-                </div>
-                <div class="barra4">
-                    <span class="background-azul-claro"></span>
-                    <span class="background-azul-escuro"></span>
-                    <span class="background-azul"></span>
-                </div>
-                <div class="barra5">
-                    <span class="background-azul-claro"></span>
-                    <span class="background-azul-escuro"></span>
-                    <span class="background-azul"></span>
+            <div class="graficos ">
+                <div class="flex">
+                    <div class="barra1 block">
+                        <span class="b1 background-azul-claro"></span>
+                        <span class="b2 background-azul"></span>
+                        <span class="background-azul-escuro"></span>
+                    </div>
+                    <div class="barra2 block">
+                        <span class="background-azul-claro"></span>
+                        <span class="background-azul"></span>
+                        <span class="background-azul-escuro"></span>
+                    </div>
+                    <div class="barra3">
+                        <span class="background-azul-claro"></span>
+                        <span class="background-azul"></span>
+                        <span class="background-azul-escuro"></span>
+                    </div>
+                    <div class="barra4">
+                        <span class="background-azul-claro"></span>
+                        <span class="background-azul-escuro"></span>
+                        <span class="background-azul"></span>
+                    </div>
+                    <div class="barra5">
+                        <span class="background-azul-claro"></span>
+                        <span class="background-azul-escuro"></span>
+                        <span class="background-azul"></span>
+                    </div>
                 </div>
                 <h3>paciais por dia</h3>
             </div>

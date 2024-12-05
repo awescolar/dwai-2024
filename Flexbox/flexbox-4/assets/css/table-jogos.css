@@ -46,3 +46,7 @@
     color: #2F80ED;
     text-decoration: none;
 }
+
+.jogos .table-jogos .jogo div {
+    gap: 3px;
+}

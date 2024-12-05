@@ -32,14 +32,8 @@
     
 }
 
-.sidebar-left menu li .azul a {
+.sidebar-left menu a:hover {
     color: #2F80ED;
-
-}
-
-.sidebar-left menu li img {
-    width: 14px;
-    height: 16px;
 }
 
 .sidebar-left .amigos {
