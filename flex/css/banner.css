@@ -1,26 +1,23 @@
-
 body{
     font-family: inter;
-    
 }
 
 .banner{
     background-color: #2F80ED;
+    background-image:  url(imgs/Vector.png);
+    background-position: right center;
+    background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 20px;
     color: white;
     margin-top: 10px;
     padding: 20px 24px;
-    background-image: url(/semadec/imgs/Vector.png);
-    background-repeat: no-repeat;    
-    background-position: right center;
     width: 840px;
 }
 
 .banner h1{
     font-size: 24px;
-    margin-top: 16px;
     margin-bottom: 16px;
+    margin-top: 16px;
     max-width: 80%;
 }
 
@@ -29,14 +26,14 @@ body{
 }
 
 .banner a{
+    background: #202020 no-repeat center right;
+    background-image: url(imgs/btn\ \(1\).png);
+    border-radius: 40px;
+    color: #ffff;
     display: inline-block;
     font-size: 14px;
     font-weight: 400px;
-    border-radius: 40px;
     padding: 8px 12px;
-    color: #ffffff;
-    text-decoration: none;
-    background: #202020 no-repeat center right;
-    background-image: url(/semadec/imgs/btn\ \(1\).png);
     padding-right: 44px;
+    text-decoration: none;
 }

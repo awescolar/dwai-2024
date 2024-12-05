@@ -1,0 +1,12 @@
+.pesquisa{
+    background-image: url(imgs/search-normal.png);
+    background-position: 20px 16px;
+    background-repeat: no-repeat;
+    border: 1px solid #cccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);    
+    font-size: 14px;
+    padding: 20px 16px;
+    padding-left: 42px;
+    width: 95%;
+}
