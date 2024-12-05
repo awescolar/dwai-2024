@@ -4,18 +4,13 @@
     font-family: "inter", serif;
 }
 
-.flex{
-    display: flex;
+.container{
+    max-width: 1200px;
 }
+.flex{     display: flex; }
 
-.alinhar-h-bordas{
-    justify-content: space-between;
-}
+.alinhar-h-bordas{     justify-content: space-between; }
 
-.alinhar-v-bordas{
-    align-items: center;
-}
+.alinhar-v-bordas{     align-items: center; }
 
-.alinhar-coluna{
-    flex-direction: column;
-}
+.alinhar-coluna{     flex-direction: column; }
