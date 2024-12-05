@@ -2,17 +2,25 @@
 
 body{
     font-family: "Inter", serif;
+    margin:0;
 }
 
 .container-principal{
-    max-width: 55%;
+    max-width: 60%;
     padding:40px;
+    padding-top:30px;
+    background-color: #f7f7f7;
+}
+
+.barra-lateral-direita{
+    width:20%;
+    padding:32px;
 
 }
 
-.barra-lateral{
-    width:15%;
-
+.barra-lateral-esquerda{
+    width:20%;
+    padding:32px;
 }
 
 .flex{
