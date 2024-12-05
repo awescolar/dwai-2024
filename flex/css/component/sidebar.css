@@ -5,7 +5,13 @@
 .topo{
     gap: 48px;
 }
+.listagem-jogos img, .seus-amigos img, .jogo img{
+    width: 24px;
+    height: 24px;
+}
+.listagem-jogos img{
 
+}
 .topo section:not(:last-child){
     margin-bottom: 32px;
 }
@@ -68,4 +74,15 @@ menu li a{
 }
 .vinte-oito{
     height: 28px;
+}
+.link-seguir{
+    color: #ffff;
+    background-color: #2F80ED;
+    padding: 4px 8px;
+    gap: 10px;
+    border: none;
+    border-radius: 2px;
+}
+.listagem-jogos div{
+    column-gap: 8px;
 }
