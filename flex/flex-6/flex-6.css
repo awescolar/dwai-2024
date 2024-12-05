@@ -7,8 +7,77 @@ body {
 
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 250px 0 0 350px;
 }
 
+.bandeira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    width: 260px;
+    border-radius: 20px;
+}
 
+.sub-titulo {
+    font-size: 10px;
+    color: rgba(38, 103, 191, 1);
+    background-color: rgba(191, 218, 255, 0.25);
+    padding: 4px;
+    border-radius: 20px;
+    margin-left: -160px;
+}
 
+.texto {
+    font-size: 15px;
+    margin-left: 9px;
+}
+
+.infoloucura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+.baquete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+.sub-titulo-esporte {
+    font-size: 10px;
+    color: rgba(38, 103, 191, 1);
+    background-color: rgba(191, 218, 255, 0.25);
+    padding: 4px;
+    border-radius: 20px;
+    margin-left: -190px;
+}
+
+.progresso-1 {
+    position: absolute;
+    color: rgba(76, 111, 255, 1);
+    border: 4px solid;
+    border-radius: 6px;
+    width: 130px;
+    margin-top: 210px;
+    margin-left: -110px;
+}
+
+.progresso-2 {
+    color: rgba(228, 236, 247, 1);
+    border: 4px solid;
+    border-radius: 6px;
+    width: 230px;
+}
