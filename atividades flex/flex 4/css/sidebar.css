@@ -1,0 +1,82 @@
+.left{
+    background-color: #fff;
+    width: 200px;
+    height: 900px;
+    padding: 32px;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    justify-content: space-between;
+}
+
+.left h2{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+.left menu{
+    padding: 0;
+    gap: 24px 0;
+}
+
+.left menu li{
+    list-style: none;
+    gap: 15px;
+}
+
+.left a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    
+}
+
+.left li .azul a{
+    color: #2F80ED;
+}
+
+.left li img {
+    width: 14px;
+    height: 16px;
+}
+
+.left .seus-amigos {
+    gap: 20px;
+}
+.left .seus-amigos div {
+    gap: 0 8px;
+}
+
+.left .seus-amigos img {
+    width: 27px;
+    height: 27px;
+}
+
+.left .seus-amigos div strong {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.left .seus-amigos div small {
+    color:#7E7E7E;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #7E7E7E;
+    font-size: 12px;
+}
+
+.left .section-down {
+    gap: 10px;
+}
+
+.left .section-down h2 {
+    padding: 0;
+}
+
+.left .section-down div {
+    gap: 0 12px;
+}
+
+.left .section-down .vermelho a {
+    color: #F13E3E;
+}
