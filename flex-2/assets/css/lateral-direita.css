@@ -1,1 +1,32 @@
+.barra-lateral-direita .perfil-direita p{
+    font-weight: 500;
+
+}
+
+.barra-lateral-direita .calendario{
+    gap:8px;
+
+}
+
+.barra-lateral-direita .calendario .evento .left{
+    gap:10px;
+
+}
+
+.barra-lateral-direita .calendario .evento img{
+    width:24px;
+
+}
+
+.barra-lateral-direita .calendario .evento .info{
+    flex-direction: column;
+    
+
+}
+
+.barra-lateral-direita button{
+    margin-top:50px;
+    width:70%
+
+}
 

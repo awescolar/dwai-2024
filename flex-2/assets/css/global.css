@@ -5,21 +5,25 @@ body{
     margin:0;
 }
 
+a {
+    text-decoration:none;
+}
+
 .container-principal{
-    max-width: 70%;
+    max-width: 60%;
     padding:40px;
     padding-top:30px;
     background-color: #f7f7f7;
 }
 
 .barra-lateral-direita{
-    width:15%;
+    width:20%;
     padding:32px;
 
 }
 
 .barra-lateral-esquerda{
-    width:15%;
+    width:20%;
     padding:32px;
 }
 

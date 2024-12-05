@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="assets/css/lateral-esquerda.css">
 </head>
 <body class="flex">
-    <sideboard class="barra-lateral-esquerda flex alinhar-coluna alinhar-h-bordas">
-        <img src="assets/img/logo-semadec.png" alt="">
+    <sidebar class="barra-lateral-esquerda flex alinhar-coluna alinhar-h-bordas">
+        <img src="assets/img/logo-semadec.svg" alt="">
         <div class="abas flex alinhar-coluna">
             <strong>Principal</strong>        
             <a href="#">
@@ -55,20 +55,49 @@
         </div>
         <div class="container-amigos">
             <h3>Seus amigos</h3>
-            <div class="amigos">
-                <div class="amigo inline-block">
-                    <div class="nome-e-curso"></div>
+            <div class="amigos flex alinhar-coluna">
+                <div class="amigo">
+                    <div class="perfil inline-block"></div>
+                    <div class="nome-e-curso inline-block">
+                        <strong>Daniel Souza</strong>
+                        <br>
+                        <small>Informática</small>
+                    </div>
                 </div>
                 <div class="amigo">
-                    <div class="nome-e-curso"></div>
+                    <div class="perfil inline-block"></div>
+                    <div class="nome-e-curso inline-block">
+                        <strong>Dani Cruz</strong>
+                        <br>
+                        <small>Informática</small>
+                    </div>
                 </div>
                 <div class="amigo">
-                    <div class="nome-e-curso"></div>
+                    <div class="perfil inline-block"></div>
+                    <div class="nome-e-curso inline-block">
+                        <strong>Lud Félix</strong>
+                        <br>
+                        <small>Info Web</small>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div class="container-sistema">
+            <h3>Sistema</h3>
+            <div class="sistema flex alinhar-coluna">
+                <a href="#" class="flex">
+                    <img src="./assets/img/config.svg" alt="">
+                    <p>Configurações</p>
+                </a>
+                <a href="https://google.com" class="flex">
+                    <img src="./assets/img/exit.svg" alt="">
+                    <p>Sair</p>
+                </a>
+            </div>
+        </div>
         
-    </sideboard>
+    </sidebar>
     <div class="container-principal flex alinhar-coluna">
 
         <!-- component 1 - pesquisa -->
@@ -244,7 +273,117 @@
         <!-- fim do bloco da tabela -->
 
     </div>
-    <sideboard class="barra-lateral-direita flex alinhar-coluna"></sideboard>
+    <sidebar class="barra-lateral-direita flex alinhar-coluna">
+        <a class="perfil-direita flex alinhar-h-bordas">
+            <p>Perfil</p>
+            <img src="./assets/img/vuesax.svg" alt="">
+        </a>
+        <br>
+        <div class="mini-dashboard">
+            <img src="./assets/img/lobo.png" alt="">
+            <strong>Olá, Lobo Cibernético</strong>
+            <br>
+            <small>A alcateia está animada e os lobos estão com tudo.</small>
+            <menu class="flex alinhar-h-bordas">
+                <a href="#">
+                    <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="option" d="M8.15333 13.7667C8.03613 13.9688 7.86789 14.1365 7.66548 14.2531C7.46307 14.3697 7.23359 14.431 7 14.431C6.76641 14.431 6.53693 14.3697 6.33452 14.2531C6.1321 14.1365 5.96387 13.9688 5.84667 13.7667M11 5.10005C11 4.03919 10.5786 3.02177 9.82843 2.27162C9.07828 1.52148 8.06087 1.10005 7 1.10005C5.93913 1.10005 4.92172 1.52148 4.17157 2.27162C3.42143 3.02177 3 4.03919 3 5.10005C3 9.76672 1 11.1001 1 11.1001H13C13 11.1001 11 9.76672 11 5.10005Z" stroke="black" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="option" d="M14.6666 6.76554H10.6666L9.33331 8.76554H6.66665L5.33331 6.76554H1.33331M14.6666 6.76554V10.7655C14.6666 11.1192 14.5262 11.4583 14.2761 11.7083C14.0261 11.9584 13.6869 12.0989 13.3333 12.0989H2.66665C2.31302 12.0989 1.97389 11.9584 1.72384 11.7083C1.47379 11.4583 1.33331 11.1192 1.33331 10.7655V6.76554M14.6666 6.76554L12.3666 2.17221C12.2563 1.95006 12.0861 1.76312 11.8753 1.63239C11.6645 1.50166 11.4214 1.43234 11.1733 1.43221H4.82665C4.57859 1.43234 4.33549 1.50166 4.12468 1.63239C3.91386 1.76312 3.7437 1.95006 3.63331 2.17221L1.33331 6.76554" stroke="black" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="option" d="M14.1401 10.3604C13.716 11.3634 13.0526 12.2472 12.208 12.9346C11.3634 13.622 10.3633 14.092 9.29508 14.3036C8.22686 14.5152 7.12307 14.4618 6.08022 14.1483C5.03737 13.8347 4.08721 13.2705 3.31281 12.5049C2.5384 11.7392 1.96334 10.7956 1.63788 9.75638C1.31243 8.71718 1.2465 7.61408 1.44586 6.54351C1.64522 5.47294 2.10379 4.4675 2.78149 3.6151C3.45919 2.76271 4.33538 2.0893 5.33346 1.65375M14.6668 7.76708C14.6668 6.89161 14.4944 6.0247 14.1593 5.21586C13.8243 4.40702 13.3332 3.6721 12.7142 3.05304C12.0951 2.43398 11.3602 1.94292 10.5514 1.60789C9.74251 1.27286 8.87561 1.10042 8.00013 1.10042V7.76708H14.6668Z" stroke="black" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </menu>
+        </div>
+        <div class="charts">
+            <div class="chart">
+                <div class="segments-1"></div>
+                <div class="segments-2"></div>
+                <div class="segments-3"></div>
+            </div>
+            <div class="chart">
+                <div class="segments-1"></div>
+                <div class="segments-2"></div>
+                <div class="segments-3"></div>
+            </div>
+            <div class="chart">
+                <div class="segments-1"></div>
+                <div class="segments-2"></div>
+                <div class="segments-3"></div>
+            </div>
+            <div class="chart">
+                <div class="segments-1"></div>
+                <div class="segments-2"></div>
+                <div class="segments-3"></div>
+            </div>
+            <div class="chart">
+                <div class="segments-1"></div>
+                <div class="segments-2"></div>
+                <div class="segments-3"></div>
+            </div>
+            <strong>Parciais por dia</strong>
+        </div>
+        <div class="calendario flex alinhar-coluna">
+            <header class="flex alinhar-h-bordas">
+                <p>Agenda de Infoweb</p>
+                <img src="./assets/img/calendar.svg" alt="">
+            </header>
+            <div class="evento flex alinhar-h-bordas">
+                <div class="left flex">
+                    <img src="./assets/img/esporte.jpg" alt="">
+                    <div class="info flex">
+                        <strong> Futebol Feminino </strong>
+                        <small> Ginásio | 10:00</small>
+                    </div>
+                </div>
+                <a href="#">Seguir</a>
+            </div>
+            <hr>
+            <div class="evento flex alinhar-h-bordas">
+                <div class="left flex">
+                    <img src="./assets/img/esporte.jpg" alt="">
+                    <div class="info flex">
+                        <strong> Futebol Masculino </strong>
+                        <small> Ginásio | 12:00</small>
+                    </div>
+                </div>
+                <a href="#">Seguir</a>
+                
+            </div>
+            <hr>
+            <div class="evento flex alinhar-h-bordas">
+                <div class="left flex">
+                    <img src="./assets/img/esporte.jpg" alt="">
+                    <div class="info flex">
+                        <strong> Natação </strong>
+                        <small> Piscina | 12:00</small>
+                    </div>
+                </div>
+                <a href="#">Seguir</a>
+            </div>
+            <hr>
+            <div class="evento flex alinhar-h-bordas">
+                <div class="left flex">
+                    <img src="./assets/img/esporte.jpg" alt="">
+                    <div class="info flex">
+                        <strong> Vôlei de Praia - Fem </strong>
+                        <small> Quadra de Areia | 8:00</small>
+                    </div>
+                </div>
+                <a href="#">Seguir</a>
+            </div>
+            <button>
+                Ver Tudo
+            </button>
+        </div>
+    </sidebar>
     
 </body>
 </html>
