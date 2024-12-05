@@ -1,74 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
-body{
-    color: #202020;    
+
+body {
+    color: #202020;
     font-family: Inter;
     gap: 50px;
     width: 100%;
 }
-.container{
+
+.container {
     min-width: 1400px;
 }
-.container2{
+
+.container2 {
     max-width: 1400px;
 }
 
-.block{ 
-    display: block; 
+.block {
+    display: block;
 }
-.inline-block{
+
+.inline-block {
     display: inline-block;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.centralizar-horizontal{
+.centralizar-horizontal {
     justify-content: center;
 }
 
-.centralizar-vertical{
+.centralizar-vertical {
     align-items: center;
 }
 
-.centralizar{
-    justify-content: center;    
+.centralizar {
+    justify-content: center;
     align-items: center;
 }
 
-.alinhar-extremidades{
+.alinhar-extremidades {
     justify-content: space-between;
 }
 
-.textobranco{
+.textobranco {
     color: #fff;
 }
 
-.fundopreto{
+.fundopreto {
     background-color: black;
 }
 
-.removerestilodolink{
+.removerestilodolink {
     text-decoration: none;
 }
 
-.borda{
+.borda {
     border: 1px solid #8A9399;
 }
 
-.flutuar-esquerda{
+.flutuar-esquerda {
     justify-self: start;
 }
 
-.flutuar-direita{
+.flutuar-direita {
     justify-content: end;
 }
 
-.coluna{
+.coluna {
     flex-direction: column;
 }
 
-.textNone{
-    text-decoration: none; 
+.textNone {
+    text-decoration: none;
     color: inherit;
 }

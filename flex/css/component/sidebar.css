@@ -86,3 +86,28 @@ menu li a{
 .listagem-jogos div{
     column-gap: 8px;
 }
+h3, .top .principal span{
+    size: 19px;
+}
+.seus-amigos strong{
+    size: 17px;
+}
+.seus-amigos span{
+    size: 15px;
+    color: #7E7E7E;
+}
+.seus-amigos .flex{
+    column-gap: 8px;
+}
+.seus-amigos{
+    align-items: space-between;
+}
+.baixo menu{
+    column-gap: 12px;
+}
+.listagem-jogos strong{
+    size: 14px;
+}
+.listagem-jogos div .flex span{
+    size: 11px;
+}
