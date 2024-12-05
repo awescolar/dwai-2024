@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table</title>
+
+    <link rel="stylesheet" href="assets/css/table.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+    <!-- Componente Tabela de Jogos-->
+    <section class="container-table">
+        <div class="title">
+            <h2>Jogos do seu interesse</h2>
+            <a href="#">Ver tudo</a>
+        </div>
+        <div class="table-jogos">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">JOGO</th>
+                        <th scope="col">ESPORTE</th>
+                        <th scope="col">PLACAR</th>
+                        <th scope="col">AÇÕES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="confronto">
+                                <img src="assets/img/prashant (502) 2.png" alt="#">
+                                <div>
+                                    <strong>Informática X Eletro</strong>
+                                    <small>Ginásio | 22/12 | 14:00</small>
+                                </div>
+                            </div>
+                        </td>
+                        <td><a href="#">BASQUETE - MASC</a></td>
+                        <td>123 X 0</td>
+                        <td><a href="#">DETALHES</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="confronto">
+                                <img src="assets/img/prashant (502) 2.png" alt="#">
+                                <div>
+                                    <strong>Informática X Eletro</strong>
+                                    <small>Ginásio | 22/12 | 16:00</small>
+                                </div>
+                            </div>
+                        </td>
+                        <td><a href="#">FUTSAL - MASC</a></td>
+                        <td>2 X 5</td>
+                        <td><a href="#">DETALHES</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
     
 </body>
 </html>
