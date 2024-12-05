@@ -1,7 +1,9 @@
 .rigth{
-    max-width: 200px;
+    max-width: 296px;
 }
-
+.left{
+    max-width: 233px;
+}
 .topo{
     gap: 48px;
 }
@@ -9,28 +11,27 @@
     width: 24px;
     height: 24px;
 }
-.listagem-jogos img{
-
-}
 .topo section:not(:last-child){
     margin-bottom: 32px;
 }
-
 .links{
     justify-content: space-between;
 }
-
 menu{
     padding: 0;
     list-style: none;
     gap: 8px;
 }
-
 menu li a{
     gap: 12px;
     padding: 8px;
 }
-
+menu li a img{
+    height: 14px;
+}
+.cor{
+    color: #2F80ED;
+}
 .logo{
     margin: 0;
 }
@@ -99,15 +100,31 @@ h3, .top .principal span{
 .seus-amigos .flex{
     column-gap: 8px;
 }
-.seus-amigos{
-    align-items: space-between;
+.seus-amigos {
+    row-gap: 20px;
 }
 .baixo menu{
     column-gap: 12px;
 }
 .listagem-jogos strong{
-    size: 14px;
+    size: 15px;
 }
 .listagem-jogos div .flex span{
-    size: 11px;
+    size: 10px;
+    color: #7E7E7E;
+}
+.listagem-jogos .centralizar-vertical{
+    border-bottom: 1px solid #D8D8D8;
+    padding: 16px;
+}
+.agenda header img{
+    align-items: end;
+}
+.mais{
+    background-color: rgba(191, 218, 255, 0.25);
+    border: none;
+    color: #2F80ED;
+    width: 100%;
+    padding:  8px 12px 8px 12px;
+    margin-top: 12px;
 }
