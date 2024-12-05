@@ -1,31 +1,84 @@
-main .sidebar-left {
+.sidebar-left {
     background-color: #fff;
-    width: 240px;
+    width: 200px;
     height: 900px;
     padding: 32px;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
-    gap: 48px;
+   justify-content: space-between;
 
 }
 
-main .sidebar-left h2 {
+.sidebar-left h2 {
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
+    padding-bottom: 18px;
 }
 
-main .sidebar-left menu li {
+.sidebar-left menu {
+    padding: 0;
+    gap: 24px 0;
+}
+
+.sidebar-left menu li {
     list-style: none;
-    gap: 12px;
+    gap: 15px;
 }
 
-main .sidebar-left a {
+.sidebar-left a {
     text-decoration: none;
     color: #000000;
-    padding-left: 12px;
+    font-weight: 500;
+    
 }
 
-main .sidebar-left menu li .azul a {
+.sidebar-left menu li .azul a {
     color: #2F80ED;
 
+}
+
+.sidebar-left menu li img {
+    width: 14px;
+    height: 16px;
+}
+
+.sidebar-left .amigos {
+    gap: 20px;
+}
+.sidebar-left .amigos div {
+    gap: 0 8px;
+}
+
+.sidebar-left .amigos img {
+    width: 27px;
+    height: 27px;
+}
+
+.sidebar-left .amigos div strong {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sidebar-left .amigos div small {
+    color:#7E7E7E;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #7E7E7E;
+    font-size: 12px;
+}
+
+.sidebar-left .section-down {
+    gap: 10px;
+}
+
+.sidebar-left .section-down h2 {
+    padding: 0;
+}
+
+.sidebar-left .section-down div {
+    gap: 0 12px;
+}
+
+.sidebar-left .section-down .vermelho a {
+    color: #F13E3E;
 }

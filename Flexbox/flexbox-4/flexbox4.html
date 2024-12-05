@@ -16,38 +16,38 @@
 
 <body>
     <main class="flex centralizar">
-        <section class="sidebar-left flex coluna">
+        <section class="sidebar-left flex coluna centralizar-vertical">
             <figure>
                 <img src="assets/img/logo.png" alt="Logo Semadec">
             </figure>
             <div>
                 <h2>PRINCIPAL</h2>
                 <nav>
-                    <menu>
-                        <li class="azul">
+                    <menu class="flex coluna">
+                        <li class="azul flex">
                             <img src="assets/img/icon1.png" alt="">
                             <a href="#">Dashboard</a>
                         </li>
-                        <li>
+                        <li class="flex">
                             <img src="assets/img/icon2.png" alt="">
                             <a href="#">Mensagens</a>
                         </li>
-                        <li>
+                        <li class="flex">
                             <img src="assets/img/icon3.png" alt="">
                             <a href="#">Esportes</a>
                         </li>
-                        <li>
+                        <li class="flex">
                             <img src="assets/img/icon4.png" alt="">
                             <a href="#">Tarefas</a>
                         </li>
-                        <li>
+                        <li class="flex">
                             <img src="assets/img/icon5.png" alt="">
                             <a href="#">Cursos</a>
                         </li>
                     </menu>
                 </nav>
             </div>
-            <div>
+            <div class="amigos flex coluna">
                 <h2>SEUS AMIGOS</h2>
                 <div class="flex">
                     <img src="assets/img/Mask group1.png" alt="">
@@ -71,14 +71,17 @@
                     </div>
                 </div>
             </div>
-            <div class="section-down">
+            <div class="section-down flex coluna">
                 <h2>SISTEMA</h2>
-                <a href="#"> <img src="assets/img/setting-2.png" alt="">Configurações</a>
-                <div class="vermelho">
-                    <a href="#"><img src="assets/img/logout.png" alt="">Sair</a>
+                <div class="flex">
+                    <img src="assets/img/setting-2.png" alt="">
+                    <a href="#">Configurações</a>
+                </div>
+                <div class="flex vermelho">
+                    <img src="assets/img/logout.png" alt="">
+                    <a href="#">Sair</a>
                 </div>
             </div>
-
         </section>
 
 
@@ -235,6 +238,108 @@
                     </table>
                 </div>
             </section>
+        </section>
+        <section class="sidebar-right">
+            <h3>Perfil</h3>
+            <div class="pontos">
+                <span class="ponto"></span>
+                <span class="ponto"></span>
+                <span class="ponto"></span>
+            </div>
+            <div class="flex coluna">
+                <figure>
+                    <img src="assets/img/lobo.png" alt="">
+                </figure>
+                <strong>Olá, lobo Cibernético</strong>
+                <p>A alcateia está animada e os lobos estão com tudo.</p>
+            </div>
+            <div class="icons">
+                <button><img src="assets/img/Sino-Vector (1).svg" alt=""></button>
+                <button><img src="assets/img/Caixa-Vector (2).svg" alt=""></button>
+                <button><img src="assets/img/Gráfico-Vector (3).svg" alt=""></button>
+            </div>
+
+            <div class="graficos">
+                <div class="barra1">
+                    <span class="background-azul-claro"></span>
+                    <span class="background-azul"></span>
+                    <span class="background-azul-escuro"></span>
+                </div>
+                <div class="barra2">
+                    <span class="background-azul-claro"></span>
+                    <span class="background-azul"></span>
+                    <span class="background-azul-escuro"></span>
+                </div>
+                <div class="barra3">
+                    <span class="background-azul-claro"></span>
+                    <span class="background-azul"></span>
+                    <span class="background-azul-escuro"></span>
+                </div>
+                <div class="barra4">
+                    <span class="background-azul-claro"></span>
+                    <span class="background-azul-escuro"></span>
+                    <span class="background-azul"></span>
+                </div>
+                <div class="barra5">
+                    <span class="background-azul-claro"></span>
+                    <span class="background-azul-escuro"></span>
+                    <span class="background-azul"></span>
+                </div>
+                <h3>paciais por dia</h3>
+            </div>
+            <div class="agenda">
+                <div class="flex alinhar-extremidades">
+                    <h2>Agenda De Infoweb</h2>
+                    <button><img src="assets/img/calendar.svg" alt=""></button>
+                </div>
+                <div class="card-container flex coluna">
+                    <ul>
+                        <li>
+                            <div class="flex">
+                                <img src="assets/img/esporte.png" alt="">
+                                <div class="flex ">
+                                    <strong>Futebol Feminino</strong>
+                                    <small class="cinza">Ginásio | 10:00</small>
+                                </div>
+                                <a href="#">Seguir</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex">
+                                <img src="assets/img/esporte.png" alt="">
+                                <div class="flex coluna">
+                                    <strong>Futebol Masculino</strong>
+                                    <small class="cinza">Ginásio | 12:00</small>
+                                </div>
+                                <a href="#">Seguir</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="flex">
+                                <img src="assets/img/esporte.png" alt="">
+                                <div class="flex coluna">
+                                    <strong>Natação</strong>
+                                    <small class="cinza">Piscina | 12:00</small>
+                                </div>
+                                <a href="#">Seguir</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="flex">
+                                <img src="assets/img/esporte.png" alt="">
+                                <div class="flex coluna">
+                                    <strong>Vôlei de Praia - Fem</strong>
+                                    <small class="cinza">Quadra De Areia | 08:00</small>
+                                    <a href="#">Seguir</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#" class="link">Ver tudo</a>
+                </div>
+            </div>
         </section>
     </main>
 </body>
