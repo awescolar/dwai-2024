@@ -1,0 +1,76 @@
+.container2 {
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06); 
+    height: 869px;
+    padding: 32px 24px;
+}
+
+.container2 h2  {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.container2 .topo .pontos {
+    gap: 6px;
+}
+
+.container2 .topo .pontos span {
+    color: #202020;
+    height: 4px;
+    width: 4px;
+}
+
+.container2 .profile {
+    gap: 24px;
+    padding: 0px 16px;
+}
+
+.container2 .profile .lobo {
+    height: 136px;
+}
+
+.container2 .profile .texto {
+    gap: 6px;
+}
+
+.container2 .profile .texto div {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container2 .profile .btns div {
+    border: 1px solid var(--color-gray-60, #9E9E9E);
+    border-radius: 50px;
+    gap: 10px;
+    height: 36px;
+    padding: 12px;
+}
+
+.container2 .parciais {
+    gap: 10px;
+}
+
+.container2 .parciais .grafico {
+    align-items: flex-end;
+    gap: 12px;
+    height: 116px;
+}
+
+.container2 .parciais div strong {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container2 .agenda-jogos div .calendario {
+    height: 24px;
+    padding: 6px;
+    width: 24px;
+}
+
+.container2 .cards {
+    gap: 16px;
+    padding: 16px 12px;
+}
+
+.container2 .cards div {
+    gap: 8px;
