@@ -28,7 +28,6 @@
 .right .perfil-menu{
     padding: 0 16px;
     gap: 24px;
-    align-self: stretch;
 }
 
 .right .perfil-menu .fotoperfil{
@@ -37,9 +36,7 @@
 }
 
 .right .perfil-menu .texto-perfil{
-    align-self: stretch;
     gap: 6px;
-    width: 216px 55px;
 }
 
 .right .perfil-menu .texto-perfil strong{
@@ -50,5 +47,233 @@
 .right .perfil-menu .texto-perfil span{
     color: #7E7E7E;
     font-size: 12px;
-    transform: none;
+}
+
+.right .perfil-menu .acoes-perfil{
+    width: 216px;
+    height: 38px;
+}
+
+.right .perfil-menu .acoes-perfil{
+    width: 216px;
+    height: 38px;
+}
+
+
+.right .perfil-menu .acoes-perfil div{
+    height: 16px;
+    width: 16px;
+    padding: 12px;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #9E9E9E;
+}
+
+.right .parciais{
+    gap: 10px;
+}
+
+.right .parciais .grafico{
+    height: 116px;
+    width: 248px;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+.right .parciais .grafico .dado{
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1 0 0;
+    width: 40px;
+    
+}
+
+.right .parciais span{
+    font-size: 14px;
+    font-weight: bold;
+    font: 600;
+}
+.azul-escuro{
+    background-color: #2F80ED;
+   
+}
+
+.azul-medio{
+    background-color: #68A8FF;
+   
+}
+
+.azul-claro{
+    background-color: #BFDAFF;
+}
+
+.dado-1 div:nth-child(1) {
+    border-radius: 4px 4px 0px 0px;
+    height: 12px;
+    align-self: stretch;
+}
+.dado-1 div:nth-child(2) {
+    height: 9px;
+    align-self: stretch;
+}
+.dado-1 div:nth-child(3) {
+    height: 18px;
+    align-self: stretch;
+}
+.parciais .dado-2 {
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1 0 0;
+}
+.dado-2 div:nth-child(1) {
+    border-radius: 4px 4px 0px 0px;
+    height: 8px;
+    align-self: stretch;
+}
+.dado-2 div:nth-child(2) {
+    height: 17px;
+    align-self: stretch;
+}
+.dado-2 div:nth-child(3) {
+    height: 46px;
+    align-self: stretch;
+}
+.parciais .dado-3 {
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1 0 0;
+}
+.dado-3 div:nth-child(1) {
+    border-radius: 4px 4px 0px 0px;
+    height: 28px;
+    align-self: stretch;
+}
+.dado-3 div:nth-child(2) {
+    height: 21px;
+    align-self: stretch;
+}
+.dado-3 div:nth-child(3) {
+    height: 40px;
+    align-self: stretch;
+}
+.parciais .dado-4 {
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
+.dado-4 div:nth-child(1) {
+    border-radius: 4px 4px 0px 0px;
+    height: 11px;
+    align-self: stretch;
+}
+.dado-4 div:nth-child(2) {
+    height: 46px;
+    align-self: stretch;
+   
+}
+.dado-4 div:nth-child(3) {
+    height: 50px;
+    align-self: stretch;
+
+}
+.parciais .dado-5 {
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1 0 0;
+}
+.dado-5 div:nth-child(1) {
+    border-radius: 4px 4px 0px 0px;
+    height: 17px;
+    align-self: stretch;
+}
+.dado-5 div:nth-child(2) {
+    height: 50px;
+    align-self: stretch;
+
+}
+.dado-5 div:nth-child(3){
+    height: 20px;
+    align-self: stretch;
+}
+
+
+.right .agenda{
+    gap: 12px;
+    width: 248px;
+}
+
+.right .agenda header{
+    width: 248px;
+    height: 24px;
+    align-self: stretch;
+    font-size: 16px;
+}
+
+.right .agenda header a{
+    display: flex;
+    width: 14px;
+    height: 14px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #9E9E9E;
+}
+
+.right .agenda header a img{
+    width: 14px;
+    height: 14px;
+}
+
+.right .agenda .listagem-jogos{
+    padding: 16px 12px;
+    justify-content: center;
+    gap: 32px;
+}
+
+.right .agenda .listagem-jogos .game{
+    width: 224px;
+    gap: 8px;
+}
+
+.agenda .listagem-jogos .game img{
+    width: 26px;
+    height: 26px;
+}
+.agenda .listagem-jogos .game strong{
+    font-size: 12px;
+}
+
+.agenda .listagem-jogos .game span{
+    font-size: 12px;
+}
+
+
+.right .agenda .listagem-jogos .games{
+    width: 224px;
+    gap: 8px;
+    border-bottom: #D8D8D8 1px solid;
+    padding-bottom: 16px;
+}
+
+.right .agenda .listagem-jogos .link-seguir{
+    padding: 4px 8px;
+    background: #2F80ED;
+    border-radius: 2px ;
+    border-color: #2F80ED;
+    color: #fff;
+}
+
+.right .agenda .link-ver-tudo{
+    width: 224px;
+    height: 15px;
+    text-decoration: none;
+    color: #2F80ED;
+    padding: 8px 12px;
+    gap: 12px;
+    justify-content: center;
+    border-radius: 4px;
+    background:rgba(191, 218, 255, 0.25);
 }

@@ -26,3 +26,7 @@ body{
 .alinhar-coluna{
     flex-direction: column;
 }
+
+.block{
+    display: block;
+}
