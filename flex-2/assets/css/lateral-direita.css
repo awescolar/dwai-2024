@@ -134,8 +134,75 @@
 
 }
 
-.barra-lateral-direita .charts .chart .segments-1{
+.barra-lateral-direita .charts .chart .segments-3{
     background-color:#2f80ed;
     width: 100%;
-    height:40%
+    height:50%
 }
+
+.barra-lateral-direita .charts .chart .segments-2{
+    background-color:#68a8ff;
+    width: 100%;
+    height:30%
+}
+
+.barra-lateral-direita .charts .chart .segments-1{
+    background-color:#bfdaff;
+    width:100%;
+    height:20%;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.barra-lateral-direita .calendario header div img{
+    padding: 5px;
+    height: 15px;
+    border-radius: 100%;
+    border: 1px solid #9e9e9e;
+
+}
+
+.barra-lateral-direita  .calendario .evento img{
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+}
+
+.barra-lateral-direita .calendario .evento .info strong{
+    font-size:13px;
+}
+
+.barra-lateral-direita .calendario .evento .info small{
+    font-size:10px;
+}
+
+.barra-lateral-direita .calendario hr{
+    width: 100%;
+    color: #d8d8d8;
+    border-color: #d8d8d8;
+}
+
+.barra-lateral-direita .calendario .evento a{
+    color: #fff;
+    background-color: #2f80ed;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.1s;
+}
+
+.barra-lateral-direita .calendario .evento a:hover{
+    padding: 15px;
+
+}
+.barra-lateral-direita .calendario button{
+    width:100%;
+    padding:8px 12px;
+    border:none;
+    color: #2f80ed;
+    border-radius: 4px;
+    background: rgba(191, 218, 255, 0.25);
+
+} 
+

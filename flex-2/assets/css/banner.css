@@ -34,4 +34,20 @@
     padding: 8px 12px;
     padding-right: 44px;
     text-decoration: none;
+    transition: all 0.1s;
+}
+
+.banner a:hover{
+    background: #202020 no-repeat;
+    background-image: url(../img/play.svg);
+    background-position: 95% center;
+    border-radius: 40px;
+    color: #FFF;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 24px;
+    padding-right: 68px;
+    text-decoration: none;
+    transition: all 0.1s;
 }
