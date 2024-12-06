@@ -8,14 +8,14 @@
 }
 
 .barra-lateral-esquerda .abas strong{
-    font-size: 25px;
+    font-size: 20px;
     padding-top:8px;
     padding-bottom:8px;
     text-transform: uppercase;
 }
 
 .barra-lateral-esquerda .abas a{
-    font-size: 20px;
+    font-size: 15px;
     text-decoration:none;
     color: black;
     transition: all 0.2s;
@@ -24,6 +24,7 @@
 .barra-lateral-esquerda .abas a svg .icon-hover{
     stroke:black;
     stroke-width:1.333px;
+    width:15px;
     transition: all 0.2s;
 }
 
@@ -37,7 +38,7 @@
 
 .container-amigos h3{
     text-transform: uppercase;
-    font-size:25px;
+    font-size:20px;
 
 }
 
@@ -50,7 +51,7 @@
     width:30px;
     height:30px;
 
-    margin-right: 20px;
+    margin-right: 10px;
     border-radius: 100%;
 
 }
