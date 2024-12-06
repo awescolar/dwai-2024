@@ -1,10 +1,14 @@
 .sidebar-right {
     background-color: #ffff;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);    
-    width: 200px;
+    width: 290px;
     height: 900px;
     padding:32px 24px;
     justify-content: space-between;
+}
+
+.sidebar-right h3 {
+    margin: 0;
 }
 
 .sidebar-right .ponto {
@@ -24,6 +28,7 @@
 
 .sidebar-right .perfil  p {
     margin-top: 6px;
+    max-width: 250px;
 }
 
 .sidebar-right .perfil .icons button {
@@ -37,28 +42,168 @@
     align-items: center;
 }
 
-
-.sidebar-right .graficos .barra1 .b1 {
-    border-radius: 4px 4px 0 0;
-    height: 12px;
-    width: 40px;
-}
-.sidebar-right .graficos .barra1 .b2 {
-    height: 10px;
-    width: 40px;
-}
-.background-azul-claro {
+.sidebar-right .background-azul-claro {
     background-color: #BFDAFF;
 }
 
-.background-azul {
+.sidebar-right .background-azul {
     background-color: #68A8FF;
 }
 
-.background-azul-escuro {
+.sidebar-right .background-azul-escuro {
     background-color: #2F80ED;
 }
 
-.block {
-    display: block;
+.sidebar-right .graficos {
+    gap:20px;
+}
+
+.sidebar-right .graficos span {
+    width: 40px;
+    align-items: flex-end;
+}
+
+.sidebar-right .graficos .barra1 span:nth-child(1) {
+    border-radius: 4px 4px 0px 0px;
+    height: 12px;   
+}
+
+.sidebar-right .graficos .barra1 span:nth-child(2) {
+    height: 10px;
+}
+
+.sidebar-right .graficos .barra1 span:nth-child(3) {
+    height: 18px;
+}
+
+.sidebar-right .graficos .barra2 span:nth-child(1) {
+    height: 8px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.sidebar-right .graficos .barra2 span:nth-child(2) {
+    height: 17px;
+}
+
+.sidebar-right .graficos .barra2 span:nth-child(3) {
+    height: 46px;
+}
+
+.sidebar-right .graficos .barra3 span:nth-child(1) {
+    height: 28px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.sidebar-right .graficos .barra3 span:nth-child(2) {
+    height: 21px;
+}
+
+.sidebar-right .graficos .barra3 span:nth-child(3) {
+    height: 40px;
+}
+
+.sidebar-right .graficos .barra4 span:nth-child(1) {
+    border-radius: 4px 4px 0px 0px;
+    height: 11px;
+}
+
+.sidebar-right .graficos .barra4 span:nth-child(2) {
+    height: 46px;
+}
+
+.sidebar-right .graficos .barra4 span:nth-child(3) {
+    height: 50px;
+}
+
+.sidebar-right .graficos .barra5 span:nth-child(1) {
+    border-radius: 4px 4px 0px 0px;
+    height: 31px;
+}
+
+.sidebar-right .graficos .barra5 span:nth-child(2) {
+    height: 50px;
+}
+
+.sidebar-right .graficos .barra5 span:nth-child(3) {
+    height: 20px;
+}
+
+.sidebar-right .bloco-grafico h3 {
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.sidebar-right .calendar {
+    margin:0 0 15px 0;
+}
+.sidebar-right .calendar h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.sidebar-right .calendar button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #9E9E9E;
+}
+
+.sidebar-right .card-container {
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-right .card-container div {
+    gap: 4px 8px;
+}
+
+.sidebar-right .card-container img {
+    border-radius: 30px;
+    height: 30px;
+}
+
+.sidebar-right .card-container strong {
+    font-size: 12px;
+}
+
+.sidebar-right .card-container small {
+    font-size: 10px;
+} 
+
+hr {
+    height: 1px;
+}
+
+.sidebar-right .card-container .jogo {
+    width: 137px;
+}
+
+.sidebar-right .card-container a {
+    background-color: #2F80ED;
+    padding: 4px 8px;
+    color: #ffff;
+    border-radius: 2px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.sidebar-right .link {
+    color: #2F80ED;
+    text-decoration: none;
+    background-color: rgba(191, 218, 255, 0.25);
+    padding: 8px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
 }
