@@ -17,167 +17,200 @@
     <link rel="stylesheet" href="jogos-interesse.css">
     <link rel="stylesheet" href="siderbar-left.css">
     <link rel="stylesheet" href="siderbar-right.css">
+    <link rel="stylesheet" href="dasbord.css">
 
 </head>
 <body>
-    <input  type="text" class="pesquisa" placeholder="O que você procura?">    
-
-    <br>
-
-    <section class="banner">
-        <small>JOGOS EM TEMPO REAL</small>
-        <h1>
-            Aqui você tem a Semadec de um jeito que 
-            você nunca viu: na palma da sua mão e do seu jeito.
-        </h1>
-        <a href="">
-            Assista os jogos
-        </a>
-    </section>
-
-    <br>
-
-    <div class="card-1">
-        <span>
-            <img src="img/notific.png" alt="">
-        </span>
-        <div>
-            <strong>Informática</strong>
-            <div>Agenda</div>
-        </div>
-    </div>
-    <a href="">
-        <img src="img/tres-pontos.png" alt="">
-    </a>
-    
-    <br>
-
-    <div class="card-2">
-        <figure>
-            <img src="img/info.png" alt="">
-            <img src="img/like.png" alt="">
-        </figure>
-        <span>Apresentação</span>
-        <p>Apresentação das aberturas dos cursos</p>
-        <div class="load">
-            <div class="load-bar">
-                <img src="img/barra.png" alt="">
-            </div>
-        </div>
-    </div>
-
-    <section class="jogos-interesse">
-        <div class="header">
-            <h2>Jogos do seu interesse</h2>
-            <a href="#">Ver tudo</a>
-        </div>
-        <div class="container-jogos">
-            <table class="jogos">
-                <tr class="jogos-title">
-                    <th>JOGO</th>
-                    <th>ESPORTE</th>
-                    <th>PLACAR</th>
-                    <th>AÇÕES</th>
-                </tr>
-                <tr class="jogos-conteudo">
-                    <td>
-                        <div class="jogo">
-                            <div>
-                                <img src="img/img-jogo.png" alt="">
-                            </div>
-                            <div class="info">
-                                <strong>Informática X Eletro</strong>
-                                <span>Ginásio | 22/12 | 15:00</span>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <span class="tag">FUTSAL - MASC</span>
-                    </td>
-                    <td>
-                        3 x 0
-                    </td>
-                    <td>
-                        <a href="#" class="tag">DETALHES</a>
-                    </td>
-                </tr>
-                <tr class="jogos-conteudo">
-                    <td>
-                        <div class="jogo">
-                            <div>
-                                <img src="img/img-jogo.png" alt="">
-                            </div>
-                            <div class="info">
-                                <strong>Informática X Eletro</strong>
-                                <span>Ginásio | 22/12 | 15:00</span>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <span class="tag">FUTSAL - MASC</span>
-                    </td>
-                    <td>
-                        2 x 5
-                    </td>
-                    <td>
-                        <a href="#" class="tag">DETALHES</a>
-                    </td>
-                </tr>
-            </table>
-        </div>
 
         <sidebard class="left">
-            <section class="topo">
-                <figure class="logo">
-                    <img src="img/logo-semadec.png" alt="">
-                </figure>
-                <section class="principal">
-                <h3>PRINCIPAL</h3>
-                <menu>
-                    <li><a><img src="img/dashboard.png" alt="">Dashboard</a></li>
-                    <li><a><img src="img/mensagens.png" alt="">Mensagens</a></li>
-                    <li><a><img src="img/esportes.png" alt="">Esportes</a></li>
-                    <li><a><img src="img/tarefas.png" alt="">Tarefas</a></li>
-                    <li><a><img src="img/cursos.png" alt="">Cursos</a></li>
-                </menu>
-                <section class="seus-amigos">
-                <h3>SEUS AMIGOS</h3>
-                <div class="amigo">
-                    <div class="flex">
-                        <img src="img/daniel.png" alt="">
-                    <div>
-                    <strong>Daniel Souza</strong>
-                    <span>Informática</span>
-                </div>
-                <div class="amigo">
-                    <div class="flex">
-                        <img src="img/dani.png" alt="">
-                    <div>
-                    <strong>Dani Cruz</strong>
-                    <span>Informática</span>
-                </div>
-                <div class="amigo">
-                    <div class="flex">
-                        <img src="img/Lud.png" alt="">
-                    <div>
-                    <strong>Lud Félix</strong>
-                    <span>Info web</span>
-                </div>
-            </section>
-            <section class="baixo">
-                <h3>SISTEMA</h3>
-                <menu>
-                    <li><a href=""><img src="img/config.png" alt="">Configurações</a></li>
-                    <li><a href=""><img src="img/sair.png" alt="">Sair</a></li>
-                    <li><a href=""><img src="" alt=""></a></li>
-                </menu>
-            </section>
+            <header class="flex alinhar-h-estremidades">
+                <section class="topo">
+                    <figure class="logo">
+                        <img src="img/logo-semadec.png" alt="">
+                    </figure>
+                    <section class="principal">
+                    <h3>PRINCIPAL</h3>
+                    <menu>
+                        <li><a><img src="img/dashboard.png" alt="">Dashboard</a></li>
+                        <li><a><img src="img/mensagens.png" alt="">Mensagens</a></li>
+                        <li><a><img src="img/esportes.png" alt="">Esportes</a></li>
+                        <li><a><img src="img/tarefas.png" alt="">Tarefas</a></li>
+                        <li><a><img src="img/cursos.png" alt="">Cursos</a></li>
+                    </menu>
+                    <section class="seus-amigos">
+                    <h3>SEUS AMIGOS</h3>
+                    <div class="amigo">
+                        <div class="flex">
+                            <img src="img/daniel.png" alt="">
+                        <div>
+                        <strong>Daniel Souza</strong>
+                        <span>Informática</span>
+                    </div>
+                    <div class="amigo">
+                        <div class="flex">
+                            <img src="img/dani.png" alt="">
+                        <div>
+                        <strong>Dani Cruz</strong>
+                        <span>Informática</span>
+                    </div>
+                    <div class="amigo">
+                        <div class="flex">
+                            <img src="img/Lud.png" alt="">
+                        <div>
+                        <strong>Lud Félix</strong>
+                        <span>Info web</span>
+                    </div>
+                </section>
+                <section class="baixo">
+                    <h3>SISTEMA</h3>
+                    <menu>
+                        <li><a href=""><img src="img/config.png" alt="">Configurações</a></li>
+                        <li><a href=""><img src="img/sair.png" alt="">Sair</a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                    </menu>
+                </section>
+            </header>
         </sidebard>
 
         <main class="area-trabalho">
            
-            
+            <input  type="text" class="pesquisa" placeholder="O que você procura?">    
 
+            <br>
+        
+            <section class="banner">
+                <small>JOGOS EM TEMPO REAL</small>
+                <h1>
+                    Aqui você tem a Semadec de um jeito que 
+                    você nunca viu: na palma da sua mão e do seu jeito.
+                </h1>
+                <a href="">
+                    Assista os jogos
+                </a>
+            </section>
+        
+            <br>
+        
+            <div class="card-1">
+                <span>
+                    <img src="img/notific.png" alt="">
+                </span>
+                <div class="cursos">
+                    <strong class="especial">Informática</strong>
+                    <div class="agenda">Agenda</div>
+                </div>
+                <div class="pontos">
+                    <a href="">
+                        <img src="img/tres-pontos.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-1">
+                <span>
+                    <img src="img/notific-claro.png" alt="">
+                </span>
+                <div class="cursos">
+                    <strong>Comércio</strong>
+                    <div class="agenda">Agenda</div>
+                </div>
+                <div class="pontos">
+                    <a href="">
+                        <img src="img/tres-pontos.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-1">
+                <span>
+                    <img src="img/notific-claro.png" alt="">
+                </span>
+                <div class="cursos">
+                    <strong>Eletrônica</strong>
+                    <div class="agenda">Agenda</div>
+                </div>
+                <div class="pontos">
+                    <a href="">
+                        <img src="img/tres-pontos.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <br>
+        
+            <div class="card-2">
+                <figure>
+                    <img class="foto-info" src="img/info.png" alt="">
+                    <img class="like" src="img/like.png" alt="">
+                </figure>
+                <small>APRESENTAÇÃO</small>
+                <p>Apresentação das aberturas dos cursos</p>
+                <div class="load">
+                    <div class="load-bar">
+                        <img src="img/barra.png" alt="">
+                    </div>
+                </div>
+            </div>
+        
+            <section class="jogos-interesse">
+                <div class="header">
+                    <h2>Jogos do seu interesse</h2>
+                    <a href="#">Ver tudo</a>
+                </div>
+                <div class="container-jogos">
+                    <table class="jogos">
+                        <tr class="jogos-title">
+                            <th>JOGO</th>
+                            <th>ESPORTE</th>
+                            <th>PLACAR</th>
+                            <th>AÇÕES</th>
+                        </tr>
+                        <tr class="jogos-conteudo">
+                            <td>
+                                <div class="jogo">
+                                    <div>
+                                        <img src="img/img-jogo.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <strong>Informática X Eletro</strong>
+                                        <span>Ginásio | 22/12 | 15:00</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <span class="tag">BASQUETE - MASC</span>
+                            </td>
+                            <td>
+                                123 x 0
+                            </td>
+                            <td>
+                                <a href="#" class="tag">DETALHES</a>
+                            </td>
+                        </tr>
+                        <tr class="jogos-conteudo">
+                            <td>
+                                <div class="jogo">
+                                    <div>
+                                        <img src="img/img-jogo.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <strong>Informática X Eletro</strong>
+                                        <span>Ginásio | 22/12 | 15:00</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <span class="tag">FUTSAL - MASC</span>
+                            </td>
+                            <td>
+                                2 x 5
+                            </td>
+                            <td>
+                                <a href="#" class="tag">DETALHES</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
 
         </main>
 
@@ -198,32 +231,10 @@
                     </div>
                 </section>
                 <section class="grafico">
-                    <div class="bloco-barras"></div>
-                    <div class="barra barra-1">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                    <div>
+                        <img src="img/grafico.png" alt="">
                     </div>
-                    <div class="barra barra-2">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div class="barra barra-3">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div class="barra barra-4">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div class="barra barra-5">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
+                    <img src="img/grafico.png" alt="">
                     <strong>Parciais por dia</strong>
                 </section>
                 <section class="agenda">

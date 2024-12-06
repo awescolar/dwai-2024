@@ -1,6 +1,30 @@
-.card-2 span{
+.card-2{
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    padding: 14px;
+    width: 240px;
+}
+.card-2 small{
     color: #2667BF;
     background: #BFDAFF40;
-    border-radius: 8px;
-    background-position: 12%;
+    border-radius: 14px;
+    padding: 5px;
+}
+.card-2 figure{
+    height: 113px;
+    margin: 0;
+    position: relative;
+}
+.card-2 .foto-info{
+    border-radius: 12px;
+    height: 113px;
+    width: 244px;
+}
+.card-2 .like{
+    position: absolute;
+    right: 1px;
+    top: 5px;
+    padding: 1px;
+    width: 20px;
+    height: 20px;
 }

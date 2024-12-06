@@ -1,3 +1,9 @@
+.left{
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    height: 869px;
+    padding: 32px;
+    width: 176px;
+}
 .principal li{
     list-style: none;
 }

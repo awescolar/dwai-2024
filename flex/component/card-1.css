@@ -1,6 +1,22 @@
 .card-1{
     display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+
+    gap: 8px;
+    padding: 12px;
+    width: 247px;
 }
-.card-1 strong{
+.card-1 .especial{
     color: #2667BF;
+}
+.card-1 .pontos img{}
+.card-1 .cursos{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.card-1 .agenda{
+    justify-content: flex-start;
 }

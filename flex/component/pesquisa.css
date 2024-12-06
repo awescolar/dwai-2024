@@ -1,5 +1,6 @@
 body{
     font-family: "Inter", serif;
+    display: flex;
 }
 .pesquisa{
     background-image: url(img/pesquisa.png);

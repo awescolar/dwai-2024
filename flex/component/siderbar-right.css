@@ -1,0 +1,21 @@
+.right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    padding: 22px;
+    width: 240px;
+    background-color: #fff;
+}
+.right .perfil .lincks{
+    display: flex;
+    justify-content: space-around;
+}
+.agenda{
+    display: flex;
+    flex-direction: column;
+}
+.listagem-jogos{
+    display: flex;
+}
