@@ -2,6 +2,7 @@
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06); 
     height: 869px;
     padding: 32px 24px;
+    width: 248px;
 }
 
 .container2 h2  {
@@ -11,13 +12,17 @@
 }
 
 .container2 .topo .pontos {
-    gap: 6px;
+    gap: 3px;
+    height: 20px;
+    width: 20px;
 }
 
 .container2 .topo .pontos span {
-    color: #202020;
-    height: 4px;
-    width: 4px;
+    background-color: #202020;
+    border-radius: 3px;
+    height: 3px;
+    transform: rotate(90deg);
+    width: 3px;
 }
 
 .container2 .profile {
@@ -34,6 +39,7 @@
 }
 
 .container2 .profile .texto div {
+    color: #7E7E7E;
     font-size: 12px;
     font-weight: 500;
 }
@@ -42,7 +48,6 @@
     border: 1px solid var(--color-gray-60, #9E9E9E);
     border-radius: 50px;
     gap: 10px;
-    height: 36px;
     padding: 12px;
 }
 
@@ -51,9 +56,89 @@
 }
 
 .container2 .parciais .grafico {
-    align-items: flex-end;
     gap: 12px;
     height: 116px;
+    align-items: flex-end;
+}
+
+.barra {
+    width: 40px;
+}
+
+.azul-claro {
+    background: var(--Light-Extra, #BFDAFF);
+    border-radius: 4px 4px 0px 0px;
+    display: block;
+}
+
+.azul-medio {
+    background: var(--Light, #68A8FF);
+    display: block;
+}
+
+.azul-escuro {
+    background: var(--Default, #2F80ED);
+    display: block;
+}
+
+.primret {
+    height: 12px;
+}
+
+.segret {
+    height: 9.278px;
+}
+
+.teret {
+    height: 18.557px;
+}
+
+.quaret {
+    height: 8.276px;
+}
+
+.quintret {
+    height: 17.152px;
+}
+
+.sextret {
+    height: 46px;
+}
+
+.setret {
+    height: 28px;
+}
+
+.oitret {
+    height: 21.01px;
+}
+
+.nonoret {
+    height: 40.206px;
+}
+
+.decret {
+    height: 11.392px;
+}
+
+.decprimret {
+    height: 46.745px;
+}
+
+.decsegret {
+    height: 50px;
+}
+
+.decteret {
+    height: 17px;
+}
+
+.decquaret {
+    height: 50px;
+}
+
+.decquintret {
+    height: 20.294px;
 }
 
 .container2 .parciais div strong {
@@ -61,16 +146,76 @@
     font-weight: 600;
 }
 
+.container2 .agenda-jogos {
+    gap: 12px;
+}
+
 .container2 .agenda-jogos div .calendario {
-    height: 24px;
+    border: 1px solid #9E9E9E;
+    border-radius: 50px;
+    height: 12px;
     padding: 6px;
-    width: 24px;
+    width: 12px;
 }
 
 .container2 .cards {
     gap: 16px;
+    margin: 0;
     padding: 16px 12px;
 }
 
-.container2 .cards div {
+.container2 .cards .card {
     gap: 8px;
+}
+
+.container2 .cards .card div img {
+    border-radius: 24px;
+    height: 24px;
+    width: 24px;
+}
+
+.container2 .cards .descricao {
+    gap: 4px;
+    width: 137px;
+}
+
+.container2 .cards .descricao strong,
+.container2 .agenda-jogos .ver-tudo a {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container2 .cards .descricao div {
+    color: var(--color-gray-80, #5F5F5F);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.container2 .cards span {
+    height: 0.5px;
+    background-color: var(--color-gray-30, #D8D8D8);
+}
+
+.container2 .agenda-jogos .cards .card .seguir {
+    background: var(--Default, #2F80ED);
+    border-radius: 2px;
+    padding: 4px 8px;
+}
+
+.container2 .agenda-jogos .cards .card .seguir a {
+    color: var(--color-gray-10, #FFF);
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.container2 .agenda-jogos .ver-tudo {
+    background: var(--Light-Opacity, rgba(191, 218, 255, 0.25));   
+    border-radius: 4px; 
+    padding: 8px 12px;
+}
+
+.container2 .agenda-jogos .ver-tudo a {
+    color: #2F80ED;
+    text-decoration: none;
+}
