@@ -6,57 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agrupamento Flex</title>
 
+    <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/pesquisa.css">
     <link rel="stylesheet" href="assets/css/banner.css">
     <link rel="stylesheet" href="assets/css/group-card1.css">
     <link rel="stylesheet" href="assets/css/group-card2.css">
     <link rel="stylesheet" href="assets/css/table.css">
-
+    <link rel="stylesheet" href="assets/css/sidebar.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <div class="side-left">
-        <div class="section-top">
+    <sidebar class="left">
+        <section class="topo coluna flex">
             <figure class="logo">
-
+                <img src="assets/img/logo.svg" alt="">
             </figure>
-            <div class="principal">
-                <div class="title">
-                    <h3></h3>
-                </div>
-                <nav>
-                    <menu>
-                        <li>
-                            <a href="#"><img src="" alt=""></a>
-                        </li>
-                    </menu>
-                </nav>
-            </div>
-            <div class="seus-amigos">
-                <div class="title">
-                    <h3></h3>
+            <section class="principal">
+                <h3>PRINCIPAL</h3>
+                <menu class="flex coluna">
+                    <li><a href="#" class="flex textNone cor"><img src="assets/img/icon-1.png"
+                                alt=""><span>Dashboard</span></a></li>
+                    <li><a href="#" class="flex textNone"><img src="assets/img/icon-2.png"
+                                alt=""><span>Mensagens</span></a></li>
+                    <li><a href="#" class="flex textNone"><img src="assets/img/icon-3.png" alt=""><span>Esportes</span></a>
+                    </li>
+                    <li><a href="#" class="flex textNone"><img src="assets/img/icon-4.png" alt=""><span>Tarefas</span></a>
+                    </li>
+                    <li><a href="#" class="flex textNone"><img src="assets/img/icon-5.png" alt=""><span>Cursos</span></a>
+                    </li>
+                </menu>
+            </section>
+            <section class="seus-amigos">
+                <h3>SEUS AMIGOS</h3>
+                <div>
+                    <div class="flex">
+                        <img src="assets/img/prashant (502) 2.png" alt="">
+                        <div class="flex coluna">
+                            <strong>Daniel Souza</strong>
+                            <span>Informática</span>
+                        </div>
+                    </div>
+
+
+                    <div class="flex">
+                        <img src="assets/img/prashant (502) 2.png" alt="">
+                        <div class="flex coluna">
+                            <strong>Dani Cruz</strong>
+                            <span>Informática</span>
+                        </div>
+                    </div>
+
                     <div>
-                        <div>
-                            <figure><img src="" alt=""></figure>
-                            <div>
-                                <h4></h4>
-                                <span></span>
+                        <div class="flex">
+                            <img src="assets/img/prashant (502) 2.png" alt="">
+                            <div class="flex coluna">
+                                <strong>Ludi felix</strong>
+                                <span>Info web</span>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="section-down">
-            <div class="title">
-                <h3></h3>
-            </div>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-        </div>
-    </div>
+
+            </section>
+        </section>
+
+        <section class="baixo">
+            <h3>SISTEMA</h3>
+            <menu>
+                <li><a href="#" class="textNone"><img src="assets/img/icon-config.png" alt="">Configurações</a></li>
+                <li><a href="#" class="textNone"><img src="assets/img/icon-sair.svg" alt="">Sair</a></li>
+            </menu>
+        </section>
+    </sidebar>
 
     <main>
         <input type="text" class="pesquisa" placeholder="O que você procura?">
@@ -188,6 +210,112 @@
             </div>
         </section>
     </main>
+
+    <sidebar class="right">
+        <section class="topo">
+            <header class="flex alinhar-extremidades">
+                <h3>Perfil</h3>
+                <a href="#"><img src="assets/img/more.png" alt=""></a>
+            </header>
+            <section class="perfil">
+                <figure>
+                    <img src="assets/img/lobo.svg" alt="">
+                </figure>
+                <h3>Olá,Lobo cibernético!</h3>
+                <p>A alcateia está tão animada e os lobos estão com tudo.</p>
+                <div class="links flex">
+                    <a href="" class="link-perfil" herf="#"><img src="assets/img/icon-noti.png" alt=""></a>
+                    <a href="" class="link-perfil" herf="#"><img src="assets/img/icon-msg.png" alt=""></a>
+                    <a href="" class="link-perfil" herf="#"><img src="assets/img/icon-estat.png" alt=""></a>
+                </div>
+            </section>
+            <section class="grafico">
+                <div class="bloco-barras flex">
+                    <div class="barra barra-1 ">
+                        <div class="azul-claro dezoito"></div>
+                        <div class="azul-medio nove"></div>
+                        <div class="azul-escuro doze"></div>
+                    </div>
+                    <div class="barra barra-2">
+                        <div class="azul-claro quarenta-e-seis"></div>
+                        <div class="azul-medio dezoito"></div>
+                        <div class="azul-escuro nove"></div>
+                    </div>
+                    <div class="barra barra-3">
+                        <div class="azul-claro vinte-oito"></div>
+                        <div class="azul-medio vinte"></div>
+                        <div class="azul-escuro quarenta"></div>
+                    </div>
+                    <div class="barra barra-4">
+                        <div class="azul-claro doze"></div>
+                        <div class="azul-escuro quarenta-e-seis"></div>
+                        <div class="azul-medio cinquenta"></div>
+                    </div>
+                    <div class="barra barra-5">
+                        <div class="azul-claro dezoito"></div>
+                        <div class="azul-escuro cinquenta"></div>
+                        <div class="azul-medio vinte"></div>
+                    </div>
+                </div>
+                <p><strong>Parciais por dia</strong></p>
+            </section>
+            <section class="agenda">
+                <header class="flex alinhar-extremidades">
+                    <h3>Agenda de Infoweb</h3>
+                    <a href="#" class="link">
+                        <img src="assets/img/icon-calendar.png" alt="">
+                    </a>
+                </header>
+                <section class="listagem-jogos">
+                    <div class="flex alinhar-extremidades centralizar-vertical">
+                        <div class="flex">
+                            <img src="assets/img/img-exemplo.png" alt="">
+                            <div class="flex coluna">
+                                <strong>Futebol Feminino</strong>
+                                <span>Ginásio | 10:00</span>
+                            </div>
+                        </div>
+                        <button class="link-seguir">Seguir</button>
+                    </div>
+
+                    <div class="flex alinhar-extremidades centralizar-vertical">
+                        <div class="flex">
+                            <img src="assets/img/img-exemplo.png" alt="">
+                            <div class="flex coluna">
+                                <strong>Futebol Feminino</strong>
+                                <span>Ginásio | 10:00</span>
+                            </div>
+                        </div>
+                        <button class="link-seguir">Seguir</button>
+                    </div>
+
+                    <div class="flex alinhar-extremidades centralizar-vertical">
+                        <div class="flex">
+                            <img src="assets/img/img-exemplo.png" alt="">
+                            <div class="flex coluna">
+                                <strong>Futebol Feminino</strong>
+                                <span>Ginásio | 10:00</span>
+                            </div>
+                        </div>
+                        <button class="link-seguir">Seguir</button>
+                    </div>
+
+                    <div class="flex alinhar-extremidades centralizar-vertical">
+                        <div class="flex">
+                            <img src="assets/img/img-exemplo.png" alt="">
+                            <div class="flex coluna">
+                                <strong>Futebol Feminino</strong>
+                                <span>Ginásio | 10:00</span>
+                            </div>
+                        </div>
+                        <button class="link-seguir">Seguir</button>
+                    </div>
+                    <button class="mais">Ver tudo</button>
+
+                </section>
+            </section>
+        </section>
+    </sidebar>
 
 </body>
 
