@@ -10,3 +10,13 @@
 .baixo{
     text-decoration: none;
 }
+menu a{
+    text-decoration: none;
+    color: black;
+}
+.dash{
+    color: #2667BF;
+}
+.sair{
+    color: red;
+}

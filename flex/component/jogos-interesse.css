@@ -1,4 +1,6 @@
-.jogos-interesse{}
+.jogos-interesse{
+    width: 100%;
+}
 .jogos-interesse .header{
     display: flex;
     align-items: center;
@@ -30,4 +32,24 @@
 .jogos-interesse .jogos .info{
     display: flex;
     flex-direction: column;
+}
+.tag{
+    color: #2667BF;
+    background: #BFDAFF40;
+    border-radius: 14px;
+    padding: 5px;
+    text-decoration: none;
+}
+.tag-diferent{
+    color: #2667BF;  
+}
+.jogos-conteudo .seguir a{
+    color: #fff;
+    background: #2F80ED;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+.info span{
+    font-size: 13px;
 }

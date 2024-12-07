@@ -18,4 +18,18 @@
 }
 .listagem-jogos{
     display: flex;
+    max-width: max-content;
+}
+.right h3{
+    float: left;
+}
+.right .pontos{
+    float: right;
+}
+.ver a{
+    color: #2667BF;
+    background: #BFDAFF40;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
 }

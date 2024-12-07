@@ -28,3 +28,7 @@
     width: 20px;
     height: 20px;
 }
+.cards-2{
+    display: flex;
+    justify-content: space-around;
+}
