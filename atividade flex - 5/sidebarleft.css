@@ -1,0 +1,74 @@
+body{
+    display: flex;
+}
+
+.sidebar-left {
+    background:#FFF;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    padding: 32px;
+    position: relative;
+}
+
+.title{
+    color: #3F3F3F;
+    font-size: 16px;  
+}
+
+.semadec{
+    margin: 0;
+    padding-top: 32px;
+}
+
+.semadec figure, .semadec img {
+    margin: 0;
+}
+
+.amigos .jogo{
+    margin-top: 20px;
+}
+
+.navegation {
+    list-style: none;
+    padding: 0;
+}
+
+.principal {
+    padding: 48px 0; 
+}
+
+
+.navegation img{
+    padding-right: 12px;
+}
+
+.sidebar-left a {
+    text-decoration: none;
+    color: #202020;
+    font-size: 16px;
+    display: block;
+    padding: 10px 5px;
+  
+}
+
+.sidebar-left .amigos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sistema img{
+    margin-right: 10px;
+}
+
+.sistema a {
+    color:  #202020;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.sistema {
+    position: absolute;
+    bottom: 0;
+}
+
+

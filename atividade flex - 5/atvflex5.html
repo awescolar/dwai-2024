@@ -11,12 +11,62 @@
     <link rel="stylesheet" href="banner.css">
     <link rel="stylesheet" href="container.css">
     <link rel="stylesheet" href="tabela.css">
+    <link rel="stylesheet" href="sidebarleft.css">
+    <link rel="stylesheet" href="sidebarright.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="main-container">
+    <aside class="sidebar-left">
+        <figure class="semadec"><img src="imagens/logo.png" alt="logo azul escrito 'SEMADEC'">
+           
+        <nav class="principal">
+            <h3 class="title">PRINCIPAL</h3> 
+            <ul class="navegation">
+                <li><a href="#"><img src="imagens/mensagens.svg" alt="">Mensagens</a></li>
+                <li><a href="#"><img src="imagens/esportes.svg" alt="">Esportes</a></li>
+                <li><a href="#"><img src="imagens/tarefas.svg" alt="">Tarefas</a></li>
+                <li><a href="#"><img src="imagens/img.svg" alt="">Cursos</a></li>
+            </ul>
+        </nav>
+
+        <div class="amigos">
+            <h3 class="title">SEUS AMIGOS</h3>
+            <ul>
+                <li class="jogo flex">
+                            <span><img src="imagens/daniel.png" alt="imagem pé masculino chutando bola"></span>
+                            <div>
+                                <strong class="cursos">Daniel Souza</strong>
+                                <div class="information">Informática</div>
+                            </div>
+                </li>
+                <li class="jogo flex">
+                            <span><img src="imagens/dani.png" alt="imagem pé masculino chutando bola"></span>
+                            <div>
+                                <strong class="cursos">Dani Cruz</strong>
+                                <div class="information">Informática</div>
+                            </div>
+                </li>
+                <li class="jogo flex">
+                            <span><img src="imagens/lud.png" alt="imagem pé masculino chutando bola"></span>
+                            <div>
+                                <strong class="cursos">Lud Félix</strong>
+                                <div class="information">Info Web</div>
+                            </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sistema">
+            <h3 class="title">SISTEMA</h3>
+            <a href="#"><img src="imagens/setting-2.svg" alt="">Configurações</a>
+            <a href="#"><img src="imagens/logout.svg" alt="">Sair</a>
+        </div>
+    </aside>
+
+    <main>
+        <div class="main-container">
         <input type="text" class="pesquisa" placeholder="o que você procura?">
-    
+
         <section class="banner branco">
             <small>JOGOS EM TEMPO REAL</small>
             <h1>Aqui você tem a Semadec de um jeito que você nunca viu: na palma da sua mão e do seu jeito.</h1>
@@ -155,7 +205,37 @@
                 </tbody>
             </table>
         </div>
+    </main>
+    <div class="container">
+
+        <aside class="sidebar-right">
+            <div class="perfil">
+                <img src="imagens/profile.png" alt="Perfil" class="perfil-img">
+                <h3>Olá, Lobo Cibernético</h3>
+                <p>A alcateia está animada e os lobos estão com tudo.</p>
+            </div>
+            <div class="graficos">
+                <h3>Parciais por dia</h3>
+                <div class="barras">
+                    <div class="barra" style="height: 50%;"></div>
+                    <div class="barra" style="height: 70%;"></div>
+                    <div class="barra" style="height: 90%;"></div>
+                    <div class="barra" style="height: 60%;"></div>
+                </div>
+            </div>
+            <div class="agenda">
+                <h3>Agenda De Infoweb</h3>
+                <ul>
+                    <li>Futebol Feminino | Ginásio | 10:00</li>
+                    <li>Futsal Masculino | Ginásio | 12:00</li>
+                    <li>Natação | Piscina | 14:00</li>
+                    <li>Vôlei De Praia - Fem | Quadra de Areia | 16:00</li>
+                </ul>
+            </div>
+        </aside>
     </div>
+    
+
 </body>
 
 </body>
