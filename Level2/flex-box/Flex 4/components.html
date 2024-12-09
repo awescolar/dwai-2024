@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="CSS/sidebar.css">
 </head>
 <body class="flex centralizar">
-    
+    <!--Sidebar left-->
     <sidebar class="left flex alinhar-coluna">
         <section class="top flex">
             <figure class="logo">
@@ -71,6 +71,7 @@
         </section>
         </section>
     </sidebar>
+
     <main class="container-principal flex ">
     <!-- component 1 - pesquisa -->
     <div class="flex">
@@ -231,5 +232,98 @@
     <!-- fim da tabela -->
     </main>
     
+    <!--Sidebar Right-->
+    <sidebar class="direita flex">
+        <section class="topo flex alinhar-coluna ">
+            <header class="flex alinhar-h-space">
+                <h3>Perfil</h3>
+                <a href="#"><img src="img/pontinhos.png" alt=""></a>
+            </header>
+
+            <section class="perfil flex alinhar-coluna ">
+                <figure class=" flex centralizar">
+                    <img src="img/profile.png" alt="">
+                </figure>
+                <div class="flex alinhar-coluna centralizar">
+                    <h3>Olá,Lobo cibernético!</h3>
+                    <p style="color: gray;">A alcateia está tão animada e os lobos estão com tudo.</p>
+                </div>
+                <div class="links flex">
+                    <a href="" class="link-perfil" herf="#"><img src="img/sino.png" alt=""></a>
+                    <a href="" class="link-perfil" herf="#"><img src="img/btn_mensagem.png" alt=""></a>
+                    <a href="" class="link-perfil" herf="#"><img src="img/btn_grafico.png" alt=""></a>
+                </div>
+            </section>
+
+            <section class="grafico">
+                <figure>
+                    <img src="img/graph.png" alt="grafico">
+                </figure>
+                <p><strong>Parciais por dia</strong></p>
+            </section>
+
+            <section class="agenda">
+                <header class="flex alinhar-h-space">
+                    <h3>Agenda de Infoweb</h3>
+                    <a href="#" class="link">
+                        <img src="img/btn_calendario.png" alt="">
+                    </a>
+                </header>
+                <section class="horarios flex alinhar-coluna">
+                    <div class="flex alinhar-h-space alinhar-v-center">
+                        <div class="categoria flex">
+                            <img src="img/img-jogo.jpg" alt="">
+                            <div class="flex alinhar-coluna">
+                                <strong>Futebol Feminino</strong>
+                                <span>Ginásio | 10:00</span>
+                            </div>
+                        </div>
+                        <button class="seguir">Seguir</button>
+                    </div>
+
+                    <span class="border"></span>
+
+                    <div class="flex alinhar-h-space alinhar-v-center">
+                        <div class=" categoria flex">
+                            <img src="img/img-jogo.jpg" alt="">
+                            <div class="flex alinhar-coluna">
+                                <strong>Futsal masculino</strong>
+                                <span>Ginásio | 12:00</span>
+                            </div>
+                        </div>
+                        <button class="seguir">Seguir</button>
+                    </div>
+
+                    <span class="border"></span>
+
+                    <div class="flex alinhar-h-space alinhar-v-center">
+                        <div class=" categoria flex">
+                            <img src="img/img-jogo.jpg" alt="">
+                            <div class="flex alinhar-coluna">
+                                <strong>Natação</strong>
+                                <span>Piscina | 12:00</span>
+                            </div>
+                        </div>
+                        <button class="seguir">Seguir</button>
+                    </div>
+                    
+                    <span class="border"></span>
+                    
+                    <div class="flex alinhar-h-space alinhar-v-center">
+                        <div class=" categoria flex">
+                            <img src="img/img-jogo.jpg" alt="">
+                            <div class="flex alinhar-coluna">
+                                <strong>Voley de praia - Fem</strong>
+                                <span>Quadra de Areia | 08:00</span>
+                            </div>
+                        </div>
+                        <button class="seguir">Seguir</button>
+                    </div>
+                    <button class="mais">Ver tudo</button>
+
+                </section>
+            </section>
+        </section>
+    </sidebar>
 </body>
 </html>
