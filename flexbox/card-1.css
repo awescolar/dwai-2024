@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    padding: 12px;
+    border-radius: 12px;
+    width: 271px;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+.icon-container {
+    width: 40px;
+    height: 40px;
+    background: #2F80ED;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+.cards-categorias {
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+}
+.card {
+    flex: 1;
+    max-width: 200px;
+}
