@@ -6,9 +6,6 @@
     background-color: #fff;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
 }
-.sidebar-rigth .pontos{
-
-}
 .sidebar-right h3{
     color: var(--color-gray-100, #202020);
     font-family: Inter;
@@ -85,9 +82,12 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 40px;
 }
+.sidebar-right .card-container img{
+    width: 27.024px;
+    padding: 8px;
 
+}
 .sidebar-right .link {
     color: #2F80ED;
     text-decoration: none;
@@ -97,4 +97,14 @@ hr {
     justify-content: center;
     align-items: center;
     margin-top: 12px;
+}
+.sidebar-right .perfil .icons button {
+    background-color: #ffff ;
+    border-radius: 50px;
+    border: 1px solid var(--color-gray-60, #9E9E9E);
+    padding: 12px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
