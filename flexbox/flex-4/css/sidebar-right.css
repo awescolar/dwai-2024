@@ -1,12 +1,9 @@
 .sidebar-right{
-    display: flex;
     width: 240px;
     padding: 32px;
     flex-direction: column;
-    justify-content: space-between;
     align-self: stretch;
     background-color: #FFF;
-
 }
 .sidebar-right h2{
     font-size: 16px;
@@ -15,7 +12,7 @@
     padding-bottom: 18px;
 }
 .azul{
-    color: 2F80ED;
+    color: #2F80ED;
 }
 .sidebar-right .amigos img{
     width: 27px;
