@@ -3,74 +3,98 @@
     padding: 32px;
     flex-direction: column;
     align-self: stretch;
-    background-color: #FFF;
+    background-color: #fff;
     box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
 }
-.sidebar-right .principal {
-    gap: 48px;
+.sidebar-rigth .pontos{
+
 }
-.sidebar-right h2{
+.sidebar-right h3{
+    color: var(--color-gray-100, #202020);
+    font-family: Inter;
     font-size: 16px;
     font-style: normal;
-    font-weight: 600;
-    padding-bottom: 18px;
-}
-
-.azul{
-    color: #2F80ED;
-}
-.sidebar-right .amigos img{
-    width: 27px;
-    height: 27px;
-    border-radius: 20px;
-}
-.sidebar-right menu{
-    padding: 0;
-    gap: 24px 0;
-}
-
-.sidebar-right a{
-    text-decoration: none;
-    color: #000000;
     font-weight: 500;
-}
-.sidebar-right menu li{
-    list-style: none;
-    gap: 15px;
-}
-.sidebar-right menu a:hover{
-    color: #2F80ED;
-}
-.sidebar-right .amigos {
-    gap: 20px;
-}
-.sidebar-right .amigos div small{
-    color:#7E7E7E;
-    font-size: 12px;
+    line-height: normal;
     text-transform: capitalize;
-    color: #7E7E7E;
-    font-size: 12px;
 }
-.sidebar-right .amigos div strong{
-    font-weight: 600;
-    font-size: 14px;
-}
-.sidebar-right .amigos div{
-    gap: 0 8px;
+.sidebar-right .ponto {
+    background-color: black;
+    width: 4px;
+    height: 4px;
+    border-radius: 10px;
 }
 
-.sidebar-right .sistema{
+.sidebar-right .pontos {
+    gap:2px;
+}
+.sidebar-right .perfil {
+    gap: 24px;
+}
+.sidebar-right .perfil  p {
+    margin-top: 6px;
+    max-width: 250px;
+}
+.sidebar-right .calendario {
+    margin:0 0 15px 0;
+}
+.sidebar-right .calendario h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.sidebar-right .calendario button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #9E9E9E;
 }
-
-.sidebar-right .sistema h2{
+.sidebar-right .card-container {
+    gap: 20px;
+    list-style: none;
+    margin: 0;
     padding: 0;
 }
 
-.sidebar-right .sistema div{
-    gap: 0 12px;
+.sidebar-right .card-container strong {
+    font-size: 12px;
 }
 
-.sidebar-right .sistema .vermelho a{
-    color: #F13E3E;
+.sidebar-right .card-container small {
+    font-size: 10px;
+} 
+
+hr {
+    height: 1px;
+}
+
+.sidebar-right .card-container .jogo {
+    width: 137px;
+}
+
+.sidebar-right .card-container a {
+    background-color: #2F80ED;
+    padding: 4px 8px;
+    color: #ffff;
+    border-radius: 2px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.sidebar-right .link {
+    color: #2F80ED;
+    text-decoration: none;
+    background-color: rgba(191, 218, 255, 0.25);
+    padding: 8px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
 }
