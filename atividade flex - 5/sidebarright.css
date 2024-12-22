@@ -1,0 +1,85 @@
+.sidebar-right {
+    background-color: #fff;
+    padding: 32px 24px;
+    max-width: 296px;
+    height: 100vh;
+}
+
+.profile{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil h3 {
+    font-size: 16px;
+    color:#202020;
+}
+
+.perfil p {
+    font-size: 14px;
+    color: #7E7E7E;
+}
+
+.information{
+    justify-content: space-between;
+}
+ 
+.alinhar{
+    justify-content: center;
+}
+
+.information img{
+    width: 30px;
+}
+
+.graficos h3 {
+    color: #202020;
+    font-size: 14px;
+}
+
+.barras img {
+    width: 100%;
+    height: auto;
+}
+
+.agenda{
+    justify-content: space-between;
+}
+
+.agenda h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.agenda img{
+    width: 30px;
+}
+
+.agenda ul {
+    padding: 0;
+    margin: 0;
+}
+
+.agenda li {
+    margin-bottom: 15px;
+}
+
+.seguir {
+    background-color:#2F80ED;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 4px 8px;
+    font-size: 10px;
+}
+
+.ver{
+    width: 100%;
+    padding: 10px;
+    background: var(--Light-Opacity, rgba(191, 218, 255, 0.25));
+    color: #2F80ED;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
