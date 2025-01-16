@@ -7,7 +7,9 @@
 .container{
     max-width: 1200px;
 }
+.flex{     display: flex; }
 
+<<<<<<< HEAD
 .flex{     display: flex; }
 
 .alinhar-h-bordas{     justify-content: space-between; }
@@ -15,3 +17,10 @@
 .alinhar-v-bordas{    align-items: center; }
 
 .alinhar-coluna{     flex-direction: column; }
+=======
+.alinhar-h-bordas{     justify-content: space-between; }
+
+.alinhar-v-bordas{     align-items: center; }
+
+.alinhar-coluna{     flex-direction: column; }
+>>>>>>> 029097199ea88303645be4945a7294d7c49bbe36
