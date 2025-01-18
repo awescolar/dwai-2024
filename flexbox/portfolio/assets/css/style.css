@@ -1,0 +1,94 @@
+.body{
+    font-family: Inter;
+    width: 1853px;
+    height: 1325px;
+    margin-top: -243px;
+    margin-left: 153px
+  }
+  
+  .div1{
+    width: 369px;
+    height: 344px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #f0efef;
+  }
+  
+  .div1 img{ 
+   border-radius: 10px 10px 0 0;
+  }
+  
+  .div1 p{
+    color: #6C757D;
+    margin-top: -18px;
+  }
+  
+  .div12{
+    margin-left: 15px;
+    margin-top: -10px;
+  }
+  
+  .div2{
+    width: 769px;
+    height: 344px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px #f0efef;
+    margin-left: 15px;
+  }
+  
+  .div2 h1{
+    margin-left: 15px;
+  }
+  
+  .div2 p{
+    margin-left: 15px;
+    color:grey;
+  }
+  
+  .dados{
+    width: 1170px;
+    height: 344px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+  
+  .projetos{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    flex-wrap: wrap;
+  }
+  
+  .itens{
+    width: 270px;
+    height: 288px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px #f0efef;
+  }
+  
+  .itens img{
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .itens p{
+    margin-left: 15px;
+    color: #6C757D;
+  }
+  
+  .itens h3{
+    margin-left:15px;
+  }
+  
+  .itens a{
+    margin-left: 15px;
+    color:#0D6EFD;
+  }
+  .final{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .final p{
+    color:#6C757D;
+  }
