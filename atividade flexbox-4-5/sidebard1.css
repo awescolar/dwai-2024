@@ -1,0 +1,113 @@
+.left{
+    background-color: #fff;
+    width: 240px;
+    padding: 32px;
+    align-self: stretch;
+    justify-content: space-between;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+}
+
+.left .top{
+    gap: 48px; 
+}
+
+
+.left .top .menu-principal h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 8px 0;
+}
+
+
+
+.top .menu-principal menu{
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+.top .menu-principal menu li{
+    list-style: none;
+    color: #202020;
+    gap: 12px;
+    padding: 8px 0;
+}
+
+.top .menu-principal menu a{
+    text-decoration: none;
+    color: #202020;
+    
+}
+
+.top .menu-principal menu li:first-child a{
+    text-decoration: none;
+    color: #2F80ED;
+    
+}
+
+.top .menu-principal menu a:hover{
+ color: #2F80ED;
+    
+}
+
+.left .top .seus-amigos{
+    row-gap: 20px;
+}
+
+.left .top .seus-amigos h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.left .top .seus-amigos img{
+    width: 30px;
+    height: 30px;
+}
+
+.left .top .seus-amigos .amigo{
+    gap: 8px;
+}
+
+.top .seus-amigos .amigo-info a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #202020;
+}
+
+.top .seus-amigos .amigo-info span{
+    color: #7E7E7E;
+    font-size: 12px;
+}
+    
+.left .down{
+    gap: 10px;
+}
+
+.left .down h2{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.left .down .menu-sistema menu{
+    margin: 0;
+    padding: 0;
+}
+
+.down .menu-sistema menu li{
+    list-style: none;
+    padding-bottom: 14px;
+}
+
+.down .menu-sistema menu li a{
+    font-size: 16px;
+    font: 500;
+    text-decoration: none;
+    color: #202020;
+}
+
+.menu-sistema menu li:last-child a{
+    color: red;
+}
+
+

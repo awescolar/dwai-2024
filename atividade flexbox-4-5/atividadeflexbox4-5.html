@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade FlexBox 4 e 5</title>
+
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="card1.css">
+    <link rel="stylesheet" href="card2.css">
+    <link rel="stylesheet" href="pesquisa.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="tabela.css">
+    <link rel="stylesheet" href="sidebard1.css">
+    <link rel="stylesheet" href="sidebard2.css">
+
+</head>
+<body>
+
+    <sidebard class="left flex alinhar-coluna alinhar-horizontal-bordas alinhar-vertical-centro">
+        <section class="top alinhar-coluna flex">
+            <div class="logo">
+                <img src="imagensflexbox-4-5/logo-semadec.png" alt="">
+            </div>
+
+            <div class="menu-principal flex alinhar-coluna">
+                <h2>principal</h2>
+                <menu class="flex alinhar-coluna">
+                    <li class="flex">
+                        <img src="imagensflexbox-4-5/casinha - home.svg" alt="Logo home">
+                        <a href="#">Dasboard</a>
+                    </li>
+                    <li class="flex">
+                        <img src="imagensflexbox-4-5/mensagens.svg" alt="Logo home">
+                        <a href="#">Mensagens</a>
+                    </li>
+                    <li class="flex">
+                        <img src="imagensflexbox-4-5/medalha - esportes.svg "alt="Logo home">
+                        <a href="#">Esportes</a>
+                    </li>
+                    <li class="flex">
+                        <img src="imagensflexbox-4-5/tarefas - menu.svg" alt="Logo home">
+                        <a href="#">Tarefas</a>
+                    </li>
+                    <li class="flex">
+                        <img src="imagensflexbox-4-5/alvo - cursos.svg" alt="Logo home">
+                        <a href="#">Cursos</a>
+                    </li>
+                </menu>
+            </div>
+
+            <div class="seus-amigos flex alinhar-coluna">
+                <h2>Seus amigos</h2>
+                <div class="amigo flex">
+                    <img src="imagensflexbox-4-5/amigo1.png" alt="">
+                    <div class="amigo-info flex alinhar-coluna">
+                        <a href="#">Daniel Souza</a>
+                        <span>Informática</span>
+                    </div>
+                </div>
+                <div class="amigo flex">
+                    <img src="imagensflexbox-4-5/amigo2.png" alt="">
+                    <div class="amigo-info flex alinhar-coluna">
+                        <a href="#">Dani Cruz</a>
+                        <span>Informática</span>
+                    </div>
+                </div>
+                <div class="amigo flex">
+                    <img src="imagensflexbox-4-5/amigo3.png" alt="">
+                    <div class="amigo-info flex alinhar-coluna">
+                        <a href="#">Lud Félix</a>
+                        <span>Info Web</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="down flex alinhar-coluna">
+            <h2>
+                Sistema
+            </h2>
+            <div class="menu-sistema flex alinhar-coluna">
+                <menu>
+                    <li>
+                        <img src="imagensflexbox-4-5/engrenagem - configuração.svg" alt="">
+                        <a href="#">Configurações</a>
+                    </li>
+                    <li>
+                        <img src="imagensflexbox-4-5/sair.svg" alt="">
+                        <a href="#">Sair</a>
+                    </li>
+                </menu>
+            </div>
+        </section>
+
+    </sidebard>
+
+    <main class="container">
+        <form class="flex">
+            <input type="text" placeholder="O que você procura?" class="pesquisa">
+        </form>
+    
+        <section class="banner">
+            <small>jogos em tempo real</small>
+            <h1>Aqui você tem a Semadec de um jeito que <br>
+                você nunca viu: na palma da sua mão e do seu jeito.</h1>
+            <a href="#">
+                Assista os jogos <img src="imagensflexbox-4-5/btn.png" alt="">
+            </a>
+        </section>
+    
+        <div class="container-card1 flex">
+            <div class="card1 flex ">
+                <a href="#">
+                    <img src="imagensflexbox-4-5/Sino.png" alt="">
+                </a>
+                
+                <div>
+                    <strong>Informática</strong>
+                    <div>Agenda</div>
+                </div>
+                <span>...</span>
+            </div>
+    
+            <div class="card1 flex">
+                <a href="#">
+                    <img src="imagensflexbox-4-5/Sininho Claro.png" alt="">
+                </a>
+                
+                <div>
+                    <strong class="cinzapeso600">Comércio</strong>
+                    <div class="cinzapeso400">Agenda</div>
+                </div>
+                <span>...</span>
+            </div>
+    
+            <div class="card1 flex">
+                <a href="#">
+                    <img src="imagensflexbox-4-5/Sininho Claro.png" alt="">
+                </a>
+                
+                <div>
+                    <strong class="cinzapeso600">Eletrônica</strong>
+                    <div class="cinzapeso400">Agenda</div>
+                </div>
+                <span>...</span>
+            </div>
+        </div>
+        
+        <header class="flex alinhar-horizontal-bordas alinhar-vertical-centro">
+            <h2>Novidades para você</h2>
+            <nav>
+                <a href="#"><img src="imagensflexbox-4-5/seta-esquerda.png" alt=""></a> <a href="#"><img src="imagensflexbox-4-5/seta-direita.png" alt=""></a>
+            </nav>  
+        </header>
+        
+        <div class="container-card2 flex">
+            <div class="card2 flex">
+                <figure>
+                    <div> <img src="imagensflexbox-4-5/coracao.png" alt=""></div>
+                    <img src="imagensflexbox-4-5/card 2 imagem 1.png" alt="">
+                        
+                </figure>
+                <span>Apresentação</span>
+                <p>Apresentação das aberturas dos cursos</p>
+                <div class="load-bar-container">
+                    <div class="load-bar"></div>
+                </div>
+            </div>
+                
+            <div class="card2 flex">
+                <figure>
+                    <div> <img src="imagensflexbox-4-5/coracao.png" alt=""></div>
+                    <img src="imagensflexbox-4-5/card 2 imagem 2.png" alt="">
+                         
+                </figure>
+                <span>Apresentação</span>
+                <p>A alcateia não torce. A alcateia inspira, contagia!</p>
+                <div class="load-bar-container">
+                    <div class="load-bar"></div>
+                </div>
+            </div>
+
+            <div class="card2 flex">
+                <figure>
+                    <div> <img src="imagensflexbox-4-5/coracao.png" alt=""></div>
+                    <img src="imagensflexbox-4-5/card 2 imagem 3.png" alt="">
+                        
+                </figure>
+                <span>Esporte</span>
+                <p>Basquete masculino é de <br> informática.</p>
+                <div class="load-bar-container">
+                    <div class="load-bar"></div>
+                </div>
+            </div>
+        </div>
+       
+
+        <section class="jogos-interesse">
+            <div class="header flex alinhar-vertical-centro alinhar-horizontal-bordas">
+                <h2>Jogos do seu interesse</h2>
+                <a href="#">Ver tudo</a>
+            </div>
+            <div class="container-jogos">
+                <table class="jogos">
+                    <tr class="jogos-title">
+                        <th>JOGO</th>
+                        <th>ESPORTE</th>
+                        <th>PLACAR</th>
+                        <th>AÇÕES</th>
+                    </tr>
+                    <tr class="jogos-conteudo">
+                        <td>
+                            <div class="jogo flex">
+                                <img src="imagensflexbox-4-5/esporte.png" alt="">
+                                <div class="flex alinhar-coluna">
+                                    <strong>Informática X Eletro</strong>
+                                    <span>Ginásio | 22/12 | 15:00</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="tag">FUTSAL - MASC</span>
+                        </td>
+                        <td>
+                            3 x 0
+                        </td>
+                        <td>
+                            <a href="#" class="tag">DETALHES</a>
+                        </td>
+                    </tr>
+                    <tr class="jogos-conteudo">
+                        <td>
+                            <div class="jogo flex">
+                                <img src="imagensflexbox-4-5/esporte.png" alt="">
+                                <div class="flex alinhar-coluna">
+                                    <strong>Informática X Eletro</strong>
+                                    <span>Ginásio | 22/12 | 15:00</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="tag">FUTSAL - MASC</span>
+                        </td>
+                        <td>
+                            2 x 5
+                        </td>
+                        <td>
+                            <a href="#" class="tag">DETALHES</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <sidebard class="right flex alinhar-coluna alinhar-horizontal-bordas alinhar-vertical-centro">
+        <div class="perfil flex alinhar-horizontal-bordas alinhar-vertical-centro">
+            <h2>Perfil</h2>
+            <span class="flex">...</span>
+        </div>
+
+        <section class="perfil-menu flex alinhar-coluna alinhar-vertical-centro">
+            <div class="foto-perfil">
+                <img src="imagensflexbox-4-5/lobo.png" alt="foto de perfil lobo">
+            </div>
+            <div class="texto-perfil flex alinhar-coluna alinhar-vertical-centro">
+                <strong>Olá, Lobo Cibernético</strong>
+                <span>A alcateia está animada e os lobos estão com tudo.</span>
+            </div>
+            <div class="acoes-perfil flex alinhar-horizontal-bordas">
+                <div class="flex"><a href="#"><img src="imagensflexbox-4-5/sino - icon.svg" alt=""></a></div>
+                <div class="flex"><a href="#"><img src="imagensflexbox-4-5/mensagens.svg" alt=""></a></div>
+                <div class="flex"><a href="#"><img src="imagensflexbox-4-5/circulo-cortado.svg" alt=""></a></div>
+            </div>
+        </section>
+        
+        <section class="parciais flex alinhar-coluna">
+            <div class="grafico flex">
+                <div class="dado dado-1 flex alinhar-coluna">
+                    <div class="block azul-claro"></div>
+                    <div class="block azul-medio"></div>
+                    <div class="block azul-escuro"></div>
+                </div>
+                <div class="dado dado-2 flex alinhar-coluna">
+                    <div class="block azul-claro"></div>
+                    <div class="block azul-medio"></div>
+                    <div class="block azul-escuro"></div>
+                </div>
+                <div class="dado dado-3 flex alinhar-coluna">
+                    <div class="block azul-claro"></div>
+                    <div class="block azul-medio"></div>
+                    <div class="block azul-escuro"></div>
+                </div>
+                <div class="dado dado-4 flex alinhar-coluna">
+                    <div class="block azul-claro"></div>
+                    <div class="block azul-escuro"></div>
+                    <div class="block azul-medio"></div>
+                </div>
+                <div class="dado dado-5 flex alinhar-coluna">
+                    <div class="block azul-claro"></div>
+                    <div class="block azul-escuro"></div>
+                    <div class="block azul-medio"></div>
+                </div>
+            </div>
+            <span>Parciais por dia</span>
+        </section>
+
+        <section class="agenda flex alinhar-coluna ">
+            <header class="flex alinhar-horizontal-bordas alinhar-vertical-centro">
+                <h3>Agenda de Infoweb</h3>
+                <a href="">
+                    <img src="imagensflexbox-4-5/calendario.svg" alt="">
+                </a>
+            </header>
+            <section class="listagem-jogos flex alinhar-coluna alinhar-vertical-centro">
+                <div class="flex games alinhar-horizontal-bordas alinhar-vertical-centro">
+                    <div class="flex game">
+                        <img src="imagensflexbox-4-5/esporte.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Futebol Feminino</strong>
+                            <span>Ginásio | 10:00</span>
+                        </div>
+                    </div>
+                    <button class="link-seguir">Seguir</button>
+                </div>
+                <div class="flex games alinhar-horizontal-bordas alinhar-vertical-centro">
+                    <div class="flex game">
+                        <img src="imagensflexbox-4-5/esporte.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Futebol Feminino</strong>
+                            <span>Ginásio | 10:00</span>
+                        </div>
+                    </div>
+                    <button class="link-seguir">Seguir</button>
+                </div>
+                <div class="flex games alinhar-horizontal-bordas alinhar-vertical-centro">
+                    <div class="flex game">
+                        <img src="imagensflexbox-4-5/esporte.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Futebol Feminino</strong>
+                            <span>Ginásio | 10:00</span>
+                        </div>
+                    </div>
+                    <button class="link-seguir">Seguir</button>
+                </div>
+                <div class="flex games alinhar-horizontal-bordas alinhar-vertical-centro">
+                    <div class="flex game">
+                        <img src="imagensflexbox-4-5/esporte.png" alt="">
+                        <div class="flex alinhar-coluna">
+                            <strong>Futebol Feminino</strong>
+                            <span>Ginásio | 10:00</span>
+                        </div>
+                    </div>
+                    <button class="link-seguir">Seguir</button>
+                </div>
+                <a href="#" class="link-ver-tudo flex alinhar-vertical-centro">Ver tudo</a>
+            </section>
+        </section>
+
+    </sidebard>
+
+</body>
+</html>

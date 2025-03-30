@@ -1,0 +1,14 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.card{
+    display: flex;
+    width: 30%;
+    float: left;
+}
+
+.text{
+    margin: 10px;
+}
+
